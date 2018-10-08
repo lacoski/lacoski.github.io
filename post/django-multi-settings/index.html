@@ -23,8 +23,8 @@
 <meta property="og:image:height" content="" />
 <meta property="og:url" content="https://lacoski.github.io/post/django-multi-settings/">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2009-12-22"/>
-<meta property="article:modified_time" content="2009-12-22"/>
+<meta property="article:published_time" content="0001-01-01"/>
+<meta property="article:modified_time" content="0001-01-01"/>
 
 
 
@@ -134,102 +134,261 @@
         <article itemprop="articleBody" id="content">
            
 
+<h1 id="cách-sử-dụng-nhiều-môi-trường-khác-nhau-trên-django">Cách sử dụng nhiều môi trường khác nhau trên Django</h1>
 
-<figure class="half right">
-    
-        <img src="/media/usbkey.jpg"  />
-    
-    
-</figure>
+<hr />
 
+<h2 id="cấu-trúc-cũ-của-project">Cấu trúc cũ của project:</h2>
 
+<pre><code>project/
+ |-- project/
+ |    |-- __init__.py
+ |    |-- settings.py
+ |    |-- urls.py
+ |    +-- wsgi.py
+ +-- manage.py
+</code></pre>
 
-<p>Some of this may seem like a broken record, yet every single time you
-hear about a bank losing millions of customer data, or a company having
-a <a href="http://en.wikipedia.org/wiki/Computer_security" title="Computer security">security
-breach</a>
-they consistently have failed to implement and enforce the most basic
-security practices. Here are 7 simple security practices that you cannot
-afford to not follow.</p>
+<h2 id="cấu-trúc-multi-setting-django">Cấu trúc multi setting django</h2>
 
-<h3 id="1-secure-pass-phrases">1. Secure pass phrases</h3>
+<h3 id="chỉnh-sửa-cấu-trúc-thư-mục">Chỉnh sửa cấu trúc thư mục</h3>
 
-<p>Throw away the notion of
-a <a href="http://en.wikipedia.org/wiki/Password" title="Password">password</a>. Pass
-phrases consisting of multiple words and symbols are considerably more
-secure and easy to remember. Most people use the same password for
-everything and it’s almost always a word or a word+#. A good <a href="http://en.wikipedia.org/wiki/Passphrase" title="Passphrase">pass
-phrase</a> can be
-something like “Mary.had.@.little.Lamb”. It’s really easy to remember
-and nearly impossible to guess or brute force. Using a password
-management system like One Password for Mac is also a good idea.</p>
-
-<h3 id="2-educate-your-users">2. Educate your users</h3>
-
-<p>All too often policies are put into place but lacking training necessary
-to ensure that policies are understood and followed. Quarterly web casts
-can go a long way to ensuring that the most critical policies are
-complied with without adding unnecessary disruptions to the business.</p>
-
-<h3 id="3-perform-regulatory-compliance-http-en-wikipedia-org-wiki-regulatory-compliance-regulatory-compliance-self-audits">3. Perform <a href="http://en.wikipedia.org/wiki/Regulatory_compliance" title="Regulatory compliance">regulatory compliance</a> self audits</h3>
-
-<p>Hackers are attempting to break into your systems right now. If you
-aren’t holding self audits than the only ones auditing your systems are
-the hackers. It’s critical that this practice takes place routinely to
-ensure that your data and systems are as safe as possible. It only takes
-one small mistake to make you vulnerable. Routine system checking means
-there is a chance you will find it before someone else does.</p>
-
-<h3 id="4-access-provided-on-a-needs-to-have-basis">4. Access provided on a needs to have basis</h3>
-
-<p>Yes this is inconvenient. Yes you need to do it. Firewalls, ACL, fine
-grained permissions. Properly setup roles. In every system you do use,
-in every level. This also means that root/admin permission should always
-be behind sudo and never logged in.</p>
-
-<h3 id="5-encrypt-all-sensitive-data">5. Encrypt all sensitive data</h3>
-
-<p>All sensitive data should be encrypted. Hard drives should be encrypted;
-Tunnels should be encrypted using
-SSH, <a href="http://en.wikipedia.org/wiki/Virtual_private_network" title="Virtual private network">VPN</a>
-or SSL; Wireless networks and even wireless keyboards. Passwords should
-be stored via a one
-way <a href="http://en.wikipedia.org/wiki/Encryption" title="Encryption">encryption</a>
-like md5.</p>
-
-<h3 id="6-never-take-data-off-site-flash-drives-laptops-etc">6. Never take data off site (flash drives, laptops, etc)</h3>
-
-<p>It seems every time you hear about a bank or government agency losing
-millions of critical identity information a portable drive or laptop is
-involved. While encryption is part of the solution here, it could
-entirely be avoided if sensitive data is not permitted off site. Data
-should reside on servers sitting behind properly established ACL and not
-be available to be copied or transferred onto a laptop or portable
-drive.</p>
-
-<h3 id="7-use-common-sense">7. Use common sense</h3>
-
-<p>Lastly, the most important security principle is to use common sense. If
-it seems wrong, it probably is. Common sense is your best defense. Use
-it wisely.</p>
-
-<h2 id="related-articles">Related articles</h2>
+<pre><code>project/
+ |-- project/
+ |    |-- __init__.py
+ |    |-- settings/         &lt;--
+ |    |    |-- __init__.py  &lt;-- Khởi tạo thư mục
+ |    |    +-- base.py      &lt;-- Khởi tại file base settings
+ |    |-- urls.py
+ |    +-- wsgi.py
+ +-- manage.py
+</code></pre>
 
 <ul>
-<li><a href="http://abusiveviews.wordpress.com/2009/11/01/data-security-in-simple-terms/">Data Security in Simple
-Terms</a>
-(abusiveviews.wordpress.com)</li>
-<li><a href="http://techie-buzz.com/tips-and-tricks/protect-your-important-and-personal-data.html?utm_source=subscriber&amp;utm_medium=rss&amp;utm_campaign=rss">Protect Your Important and Personal
-Data</a>
-(techie-buzz.com)</li>
-<li><a href="http://www.crunchgear.com/2009/10/08/secure-your-data-with-encrypted-usb-drives/">Secure your data with encrypted USB
-drives</a>
-(crunchgear.com)</li>
-<li><a href="http://www.socialmediatoday.com/SMC/122938">Lawyers should leave their laptops at home when traveling
-abroad</a>(socialmediatoday.com)</li>
-<li><a href="http://owencutajar.com/protect-your-data/">Protect your data</a>
-(owencutajar.com)</li>
+<li><code>base.py</code>: Cung cấp các setting thông thường cho tất cả môi trường</li>
 </ul>
+
+<h3 id="thêm-mới-các-env">Thêm mới các env</h3>
+
+<p>Các file setting thông dụng
+- development.py
+- production.py
+- staging.py</p>
+
+<pre><code>project/
+ |-- project/
+ |    |-- __init__.py
+ |    |-- settings/
+ |    |    |-- __init__.py
+ |    |    |-- base.py
+ |    |    |-- development.py
+ |    |    |-- production.py
+ |    |    +-- staging.py
+ |    |-- urls.py
+ |    +-- wsgi.py
+ +-- manage.py
+</code></pre>
+
+<h3 id="tổ-chức-cấu-hình">Tổ chức cấu hình</h3>
+
+<h4 id="settings-base-py">settings/base.py</h4>
+
+<pre><code>&quot;&quot;&quot;
+Django settings for project project.
+
+Generated by 'django-admin startproject' using Django 2.1.1.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/2.1/topics/settings/
+
+For the full list of settings and their values, see
+https://docs.djangoproject.com/en/2.1/ref/settings/
+&quot;&quot;&quot;
+
+import os
+
+# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+# Quick-start development settings - unsuitable for production
+# See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
+
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = '8%f@_cwa_w_ol_b5g7y44-=hc@76he@jzb^1)^^ahv%v4#3jj0'
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+ALLOWED_HOSTS = []
+
+
+# Application definition
+
+INSTALLED_APPS = [    
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'authen.apps.AuthenConfig',
+]
+
+.....
+
+STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'authen.User'
+</code></pre>
+
+<h4 id="settings-development-py">settings/development.py</h4>
+
+<pre><code>from .base import *
+
+DEBUG = True
+
+INSTALLED_APPS += [
+    'debug_toolbar',
+]
+
+MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+DEBUG_TOOLBAR_CONFIG = {
+    'JQUERY_URL': '',
+}
+</code></pre>
+
+<h4 id="settings-development-py-1">settings/development.py</h4>
+
+<pre><code>from .base import *
+
+DEBUG = False
+
+ALLOWED_HOSTS = ['mysite.com', ]
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.mailgun.org'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_USE_TLS = True
+</code></pre>
+
+<h3 id="chạy-project-lựa-chọn-env">Chạy project lựa chọn env</h3>
+
+<pre><code>python manage.py runserver --settings=mysite.settings.development
+
+python manage.py migrate --settings=mysite.settings.production
+</code></pre>
+
+<h3 id="chạy-manager-py-mặc-định">Chạy <code>manager.py</code> mặc định</h3>
+
+<p>Với yêu cầu chạy env theo dạng:</p>
+
+<pre><code>python manage.py migrate
+python manage.py runserver
+</code></pre>
+
+<p>Truy cập <code>manage.py</code></p>
+
+<pre><code>#!/usr/bin/env python
+import os
+import sys
+
+if __name__ == '__main__':
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project.settings') # &lt;-- Change here!
+    try:
+        from django.core.management import execute_from_command_line
+    except ImportError as exc:
+        raise ImportError(
+            &quot;Couldn't import Django. Are you sure it's installed and &quot;
+            &quot;available on your PYTHONPATH environment variable? Did you &quot;
+            &quot;forget to activate a virtual environment?&quot;
+        ) from exc
+    execute_from_command_line(sys.argv)
+</code></pre>
+
+<p>Sửa lại</p>
+
+<pre><code>#!/usr/bin/env python
+import os
+import sys
+
+if __name__ == '__main__':
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project.settings.production') # &lt;-- Change here!
+    try:
+        from django.core.management import execute_from_command_line
+    except ImportError as exc:
+        raise ImportError(
+            &quot;Couldn't import Django. Are you sure it's installed and &quot;
+            &quot;available on your PYTHONPATH environment variable? Did you &quot;
+            &quot;forget to activate a virtual environment?&quot;
+        ) from exc
+    execute_from_command_line(sys.argv)
+</code></pre>
+
+<h3 id="xử-lý-bài-toán-mỗi-env-có-sự-khác-biệt-về-venv-python">Xử lý bài toán mỗi env có sự khác biệt về venv python</h3>
+
+<p>Tách file requirements.txt thành thư mục, khi sử dụng env nào pip install lại venv tương tự</p>
+
+<pre><code>└── requirements
+    ├── base.txt
+    ├── local.txt
+    ├── production.txt
+    └── test.txt
+</code></pre>
+
+<h2 id="debug-in-vscode">Debug in vscode</h2>
+
+<pre><code>{
+    &quot;name&quot;: &quot;Python: Django Production&quot;,
+    &quot;type&quot;: &quot;python&quot;,
+    &quot;request&quot;: &quot;launch&quot;,
+    &quot;pythonPath&quot;: &quot;${workspaceFolder}/src/env/bin/python&quot;,
+    &quot;program&quot;: &quot;${workspaceFolder}/src/project/manage.py&quot;,
+    &quot;console&quot;: &quot;integratedTerminal&quot;,
+    &quot;args&quot;: [
+        &quot;runserver&quot;,
+        &quot;--noreload&quot;,
+        &quot;--nothreading&quot;,
+        &quot;--settings=project.settings.production&quot;
+    ],
+    &quot;django&quot;: true
+},
+{
+    &quot;name&quot;: &quot;Python: Django Test&quot;,
+    &quot;type&quot;: &quot;python&quot;,
+    &quot;request&quot;: &quot;launch&quot;,
+    &quot;pythonPath&quot;: &quot;${workspaceFolder}/src/env/bin/python&quot;,
+    &quot;program&quot;: &quot;${workspaceFolder}/src/project/manage.py&quot;,
+    &quot;console&quot;: &quot;integratedTerminal&quot;,
+    &quot;args&quot;: [
+        &quot;runserver&quot;,
+        &quot;--noreload&quot;,
+        &quot;--nothreading&quot;,
+        &quot;--settings=project.settings.testing&quot;
+    ],
+    &quot;django&quot;: true
+},
+</code></pre>
+
+<h1 id="nguồn">Nguồn</h1>
+
+<p><a href="https://blog.apptension.com/2017/11/09/django-settings-for-multiple-environments/">https://blog.apptension.com/2017/11/09/django-settings-for-multiple-environments/</a></p>
+
+<p><a href="https://simpleisbetterthancomplex.com/tips/2017/07/03/django-tip-20-working-with-multiple-settings-modules.html">https://simpleisbetterthancomplex.com/tips/2017/07/03/django-tip-20-working-with-multiple-settings-modules.html</a></p>
+
+<p><a href="https://medium.com/@ayarshabeer/django-best-practice-settings-file-for-multiple-environments-6d71c6966ee2">https://medium.com/@ayarshabeer/django-best-practice-settings-file-for-multiple-environments-6d71c6966ee2</a></p>
 
         </article>
   </div>
@@ -241,7 +400,7 @@ abroad</a>(socialmediatoday.com)</li>
 
     <div>
         <section id="datecount">
-          <h4 id="date"> Tue Dec 22, 2009 </h4>
+          <h4 id="date"> Mon Jan 1, 0001 </h4>
           <h5 id="wc"> 600 Words </h5>
           <h5 id="readtime"> Read in about 3 Min </h5>
         </section>
@@ -309,8 +468,8 @@ abroad</a>(socialmediatoday.com)</li>
 
 </aside>
 
-<meta itemprop="wordCount" content="506">
-<meta itemprop="datePublished" content="2009-12-22">
+<meta itemprop="wordCount" content="571">
+<meta itemprop="datePublished" content="0001-01-01">
 <meta itemprop="url" content="https://lacoski.github.io/post/django-multi-settings/">
 
 
