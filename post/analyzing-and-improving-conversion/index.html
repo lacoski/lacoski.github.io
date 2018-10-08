@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="analytics, conversion, ecommerce, marketing, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Analyzing and Improving Conversion : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/analyzing-and-improving-conversion/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2009-10-02"/>
+<meta property="article:modified_time" content="2009-10-02"/>
+
+
+
+<meta property="article:tag" content="analytics">
+<meta property="article:tag" content="conversion">
+<meta property="article:tag" content="ecommerce">
+<meta property="article:tag" content="marketing">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Analyzing and Improving Conversion : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Analyzing and Improving Conversion - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/analyzing-and-improving-conversion/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Analyzing%20and%20Improving%20Conversion-http%3a%2f%2flacoski.github.io%2fpost%2fanalyzing-and-improving-conversion%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fanalyzing-and-improving-conversion%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fanalyzing-and-improving-conversion%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fanalyzing-and-improving-conversion%2f&title=Analyzing%20and%20Improving%20Conversion&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fanalyzing-and-improving-conversion%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fanalyzing-and-improving-conversion%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fanalyzing-and-improving-conversion%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Analyzing and Improving Conversion</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure class="third right">
+    <a href="http://www.flickr.com/photos/96466040@N00/2418911012">
+        <img src="/media/google-analytics.jpg" alt="Image by LollyKnit via Flickr" />
+    </a>
+    
+    <figcaption>
+        <p>
+        Image by LollyKnit via Flickr
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+
+<p>Conversion is one of those core metrics that every business depends on
+and strives to improve. Improving your conversion rate
+(while maintaining a consistent traffic level) is the single most
+important goal any business should have. Not only will your sales
+increase without adding additional load but your marketing will be more
+efficient so you can spend more money driving more sales. All to often
+people get caught up with improving conversion rates. It is important to
+recognize that <strong>improving conversion is not the goal, increasing sales
+is</strong>. Improving conversion is one method of increasing sales only when
+it isn’t the result of lower traffic (lower traffic / same sales =
+improved conversion).</p>
+
+<h1 id="the-key-to-conversion">The key to conversion</h1>
+
+<p>Improving conversion is largely an exercise of taking an honest
+evaluation of your marketing, messaging
+and merchandising. The following questions will help you to do so.</p>
+
+<ul>
+<li><h4 id="are-you-bringing-the-right-visitors-to-your-site-that-are-interested-in-purchasing-the-inventory-that-you-are-selling">Are you bringing the right visitors to your site that are interested in purchasing the inventory that you are selling?</h4></li>
+
+<li><h4 id="are-you-selling-the-right-inventory-that-people-would-come-to-your-site-to-purchase">Are you selling the right inventory that people would come to your site to purchase?</h4></li>
+</ul>
+
+<p>For an ecommerce business conversion means sales per visitors to the
+site. It is important to look at a few different key components when
+analyzing conversion.</p>
+
+<h2 id="merchandise">Merchandise</h2>
+
+<ul>
+<li>Is your inventory compelling and priced at the right level to
+facilitate sales?</li>
+<li>Do you have a good mix?</li>
+<li>Since we are on the internet and all of your competitors are a mouse
+click away, is your inventory either unique or your prices
+unbeatable?</li>
+</ul>
+
+<h2 id="onsite-conversion">Onsite Conversion</h2>
+
+<ul>
+<li>Is your site enticing?</li>
+<li>What exciting differentiators does you site have that make it
+unique?
+ This is especially important when selling commodity products.</li>
+<li>Does your site add unnecessary friction?</li>
+<li>How easy is it for a user to find what they are looking for?</li>
+<li>Is the checkout process easy and seamless?</li>
+</ul>
+
+<h3 id="user-testing">User Testing</h3>
+
+<p>There is nothing quite as valuable as watching actual users stumble
+their way around your site. Live testing can quickly help you identify
+where the friction areas on your site are. It is a critical exercise
+which will either result in confirming your site is functioning well and
+you should turn your attention elsewhere, or it will identify the
+problem areas. Either way it will quickly pay for
+itself.  <a href="http://www.usertesting.com/">UserTesting.com</a> is an excellent
+resource for doing this.</p>
+
+<h2 id="offsite-conversion">Offsite conversion</h2>
+
+<p>Strive for qualified traffic.
+ All traffic isn’t equal. Analyze your traffic by acquisition sources.
+Segment the traffic and figure out where your quality traffic is coming
+from. Invest more into those sources.</p>
+
+<h1 id="3-key-metrics-to-look-at">3 key metrics to look at..</h1>
+
+<p>There are 3 metrics that can provide insight into how successful your
+site is. While it is important to compare your metrics against
+themselves to demonstrate progress, it is also important to see how well
+you match up against industry averages. These three metrics will help to
+demonstrate how engaging your site is. The more engaging a site is the
+higher the conversion rate will be.</p>
+
+<h2 id="visitor-loyalty">Visitor Loyalty</h2>
+
+<p>How many visits a given user has to your site in a given amount of time.
+Another related metric could be <strong>return visitors</strong> which is what
+percent of your visitors have been to your site before.</p>
+
+<h2 id="depth-of-visit">Depth of Visit</h2>
+
+<p>How many pages the average user views before leaving your site.</p>
+
+<h2 id="bounce-rate">Bounce Rate</h2>
+
+<p>A bounce is defined as a visitor that only viewed one page and then
+left. A high <a href="http://en.wikipedia.org/wiki/Bounce_rate">bounce
+rate</a>could indicate that you
+don’t have the right message on the <a href="http://en.wikipedia.org/wiki/Landing_page" title="Landing page">landing
+page</a>. It’s
+important to understand which pages are your top landing pages as well.
+It’s very common that most of your users never see the home page. Are
+your internal pages (which are also landing pages) inviting and
+compelling. While bounce rates vary dramatically industry to industry,
+one should know that a bounce rate of 50% isn’t uncommon. Anything much
+higher than that should investigated further.</p>
+
+<h1 id="industry-comparison">Industry Comparison</h1>
+
+<p>Lastly it is important to have realistic expectations. If you are in
+electronics, don’t expect to have a conversion rate of 10%. Compare
+yourself with others in the same industry.</p>
+
+<p><a href="http://index.fireclick.com/">The Fireclick Index</a> is a great resource
+for site conversion rate data. I was very happy to find it! Use it to
+benchmark your site’s conversion rate.</p>
+
+<h2 id="related-articles">Related articles</h2>
+
+<ul>
+<li><a href="http://inchoo.net/online-marketing/conversion-rate-optimizations-measurement-issues/">Conversion Rate Optimization’s Measurement
+Issues</a>
+(inchoo.com)</li>
+<li><a href="http://www.alistapart.com/articles/internal-site-search-analysis-simple-effective-life-altering/">Internal Site Search Analysis: Simple, Effective, Life
+Altering!</a>
+(alistapart.com)</li>
+<li><a href="http://myventurepad.com/MVP/76946">23 Reasons Why Content Marketing
+Fails</a> (myventurepad.com)</li>
+<li><a href="http://www.smtusa.com/blog/posts/High-Bounce-Rates-Mean-Its-Time-To-Revise-Your-Website-Content.html">High Bounce Rates Mean Its Time To Revise Your Website
+Content</a>
+(smtusa.com)</li>
+<li><a href="http://adwords.blogspot.com/2009/07/7-deadly-sins-of-landing-page-design.html">7 deadly sins of landing page
+design</a>
+(adwords.blogspot.com)</li>
+<li><a href="http://www.slideshare.net/JeremyGislason/how-to-increase-membership-sales-7-ways-to-gain-more-members-to-your-membership-site">How To Increase Membership Sales: 7 Ways To Gain More Members To
+Your Membership
+Site</a>
+(slideshare.net)</li>
+<li><a href="http://www.bruceclay.com.au/blog/archives/2009/08/google-analytic.html">Google Analytics-The Good, The Bad and The
+Hidden</a>
+(bruceclay.com.au)</li>
+<li><a href="http://netwala.blogspot.com/2009/06/top-ten-myths-about-google-analytics.html">Top ten myths about Google
+Analytics!</a>
+(netwala.blogspot.com)</li>
+<li><a href="http://www.killerstartups.com/Marketing/w3roi-com-measure-the-efficacy-of-marketing-campaigns">w3roi.com – Measure The Efficacy Of Marketing
+Campaigns</a>
+(killerstartups.com)</li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Fri Oct 2, 2009 </h4>
+          <h5 id="wc"> 800 Words </h5>
+          <h5 id="readtime"> Read in about 4 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/ecommerce">Ecommerce</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/analytics">analytics</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/conversion">conversion</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/ecommerce">ecommerce</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/marketing">marketing</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/how-i-blog/"><i class="icon-arrow-left"></i> How I Blog</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/ranking-social-media/">Ranking Social Media <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="785">
+<meta itemprop="datePublished" content="2009-10-02">
+<meta itemprop="url" content="http://lacoski.github.io/post/analyzing-and-improving-conversion/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

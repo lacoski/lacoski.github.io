@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nyc on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/nyc/</link>
+    <description>Recent content in Nyc on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Oct 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/nyc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
+      <link>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
+    </item>
+    
+    <item>
+      <title>The most productive 20 minutes of my day</title>
+      <link>http://lacoski.github.io/post/the-most-productive-20-minutes-of-my-day/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/the-most-productive-20-minutes-of-my-day/</guid>
+      <description>As part of my new years resolution to get in shape and spend less dough I decided that I’d be better of walking from Grand Central to my office on 18th St. I save ~$5 a day not taking the subway and get all the extra benefit of walking the 1.5 miles.
+A few days into this something wonderful and unexpected happened. Instead of spending 20 minutes riding in a cattle car, I was able to take 25 minutes where I was able to think about everything I had to do for the day.</description>
+    </item>
+    
+  </channel>
+</rss>

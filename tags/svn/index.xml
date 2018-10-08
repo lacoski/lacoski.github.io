@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Svn on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/svn/</link>
+    <description>Recent content in Svn on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 05 May 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/svn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting up Subversion with multiple access methods</title>
+      <link>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
+      <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
+      <description>One thing that makes subversion such a powerful revision system is it’s ability to permit multiple methods of access. Https, WebDAV, SSH and svnserve. In spite of svn’s ability to support multiple access methods, doing so simultaniously can be quite challenging. Typically one will run into permission issues as the http(s) access will all be written to the filesystem as the user running the webserver. The SSH access will all write to the filesystem under each users given account.</description>
+    </item>
+    
+    <item>
+      <title>Using SVK to Increase Productivity</title>
+      <link>http://lacoski.github.io/post/using-svk-to-increase-productivity/</link>
+      <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/using-svk-to-increase-productivity/</guid>
+      <description>SVK is a client for SVN built using perl. It makes a number of improvements over the standard svn client, while retaining much of the same feel. It works with the standard Subversion server and works perfectly in an environment with some users using svn and some using svk on the client side. It provides a number of sizable advantages over the standard svn client and is a must have for any development project.</description>
+    </item>
+    
+  </channel>
+</rss>

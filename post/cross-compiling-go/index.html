@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="go, golang, development, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Cross Compiling with Go : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/cross-compiling-go/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2014-02-28"/>
+<meta property="article:modified_time" content="2014-02-28"/>
+
+
+
+<meta property="article:tag" content="go">
+<meta property="article:tag" content="golang">
+<meta property="article:tag" content="development">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Cross Compiling with Go : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Cross Compiling with Go - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/cross-compiling-go/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Cross%20Compiling%20with%20Go-http%3a%2f%2flacoski.github.io%2fpost%2fcross-compiling-go%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fcross-compiling-go%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fcross-compiling-go%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fcross-compiling-go%2f&title=Cross%20Compiling%20with%20Go&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fcross-compiling-go%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fcross-compiling-go%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fcross-compiling-go%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Cross Compiling with Go</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+<p>One of the great features of golang is that you can compile executables
+for many different platforms and architectures from a single machine. It’s
+really nice to be able to provide executables of
+<a href="http://hugo.spf13.com">Hugo</a> for a bunch of different platforms and
+architectures without having to have all these different machines in
+a build cluster.</p>
+
+<p>As I’ve been working with Hugo, I’ve wanted to make the experience of
+cross compiling as easy and painless as possible. My first attempt was
+following the <a href="http://dave.cheney.net/2013/07/09/an-introduction-to-cross-compilation-with-go-1-1">excellent guide by Dave
+Cheney</a>.
+It provides a bash script that automated the process, but wasn’t very
+customizable. I started writing another script to adjust the behavior to
+what I needed when I came across <a href="https://github.com/laher/goxc">goxc</a>. Inspired by Dave’s script,
+<a href="https://github.com/laher/goxc">goxc</a> is a go application that not only cross compiles, but also
+can compress the different binaries and package them with the readme and
+license. It’s customizable and easy to use.</p>
+
+<p>Here are the necessary steps to be able to cross compile including the
+gotchas that are important.</p>
+
+<h2 id="step-1-prep-go-to-be-able-to-cross-compile">Step 1. Prep Go to be able to cross compile</h2>
+
+<p>We need to compile go from source to be able to cross compile. While any
+host can be used, I use OSX as the host.  If you are on a different
+platform or prefer to build go yourself follow the excellent
+<a href="http://golang.org/doc/install/source">documentation on building Go from
+source</a>. The following instructions
+are how I prepare go for cross compilation on OSX.</p>
+
+<pre><code>brew update
+brew install go --cross-compile-all
+</code></pre>
+
+<p>If you already have go installed, use</p>
+
+<pre><code>brew reinstall go --cross-compile-all
+</code></pre>
+
+<p>After this step please check your $PATH and make sure it’s setup
+correctly.</p>
+
+<p>I also check that <code>go version</code> returns the version I’m expecting.</p>
+
+<pre><code>go version
+go version go1.2 darwin/amd64
+</code></pre>
+
+<p>I also check that the build happened properly and the system has all the
+right file it needs to be able to cross compile. You should see a lot of
+platforms and architectures under the /pkg/ directory inside GOROOT.</p>
+
+<pre><code>ls `go env GOROOT`/pkg
+darwin_386    freebsd_386   freebsd_arm   linux_amd64   netbsd_386    netbsd_arm    openbsd_386   plan9_386     windows_386
+darwin_amd64  freebsd_amd64 linux_386     linux_arm     netbsd_amd64  obj           openbsd_amd64 tool          windows_amd64
+</code></pre>
+
+<p>If any of these checks return unexpected results then don’t continue.
+Please check your steps and make sure that you didn’t miss anything. As
+a last resource, carefully building manually from source should resolve
+any issues.</p>
+
+<h2 id="step-2-get-goxc">Step 2. Get goxc</h2>
+
+<pre><code>go get github.com/laher/goxc
+</code></pre>
+
+<p>Then prepare goxc to be able to cross compile.</p>
+
+<pre><code>goxc -t
+</code></pre>
+
+<h2 id="step-3-prep-the-source-and-dependencies">Step 3. Prep the source and dependencies</h2>
+
+<p>I like to start with a clean GOPATH so I have the latest of all dependencies.</p>
+
+<pre><code>rm -rf ~/.gopath
+mkdir ~/.gopath
+GOPATH=$HOME/.gopath
+go get github.com/spf13/hugo
+go test github.com/spf13/hugo/...
+</code></pre>
+
+<p>Note, this is not the gopath I use to develop with. I use a temporary
+gopath when building to ensure that I have the latest versions of each
+library and dependency.</p>
+
+<h2 id="step-4-configuring-goxc">Step 4. Configuring goxc</h2>
+
+<p>For many people the defaults will work. I customize goxc slightly to fit
+my situation. I prefer to provide the version and include that in the
+build package. I also like to format the built packages a bit differently.
+We also don’t want to build the plan9 binary due to lack of watcher support for the OS.</p>
+
+<p>We could use the following command to build each time.</p>
+
+<pre><code>goxc -d=&quot;$HOME/Code/GoBuilds/&quot; -bc=&quot;linux windows darwin freebsd netbsd&quot; -pv=0.10 -o=&quot;{{.Dest}}{{.PS}}{{.AppName}}{{.PS}}{{.Version}}{{.PS}}{{.AppName}}_{{.Version}}_{{.Os}}_{{.Arch}}{{.Ext}}&quot;
+</code></pre>
+
+<p>Instead of typing this each and every time, I prefer to use the support
+goxc has for a config file.  Creating a configuration file is very
+straightforward since goxc does it for you. Type the same line but append
+‘-wc’ at the end and it will create a config file with these settings
+specific to your project. For me I prefer to leave out the packageversion
+setting in the config file. Since I will provide that each time.</p>
+
+<pre><code>goxc -d=&quot;$HOME/Code/GoBuilds/&quot; -bc=&quot;linux windows darwin freebsd netbsd&quot; -o=&quot;{{.Dest}}{{.PS}}{{.AppName}}{{.PS}}{{.Version}}{{.PS}}{{.AppName}}_{{.Version}}_{{.Os}}_{{.Arch}}{{.Ext}}&quot;
+
+cat .goxc.json
+{
+    &quot;ArtifactsDest&quot;: &quot;/Users/spf13/Code/GoBuilds/&quot;,
+    &quot;OutPath&quot;: &quot;{{.Dest}}{{.PS}}{{.AppName}}{{.PS}}{{.Version}}{{.PS}}{{.AppName}}_{{.Version}}_{{.Os}}_{{.Arch}}{{.Ext}}&quot;,
+    &quot;BuildConstraints&quot;: &quot;linux windows darwin freebsd netbsd&quot;,
+    &quot;ConfigVersion&quot;: &quot;0.9&quot;
+}%
+</code></pre>
+
+<h2 id="step-5-cross-compiling">Step 5. Cross Compiling</h2>
+
+<p>With the config file in place, building is as simple as</p>
+
+<pre><code>goxc -pv=”0.10”
+</code></pre>
+
+<p>The goxc program will run for a while first building all dependencies for
+each architecture and platform. This will take most of the time. At the
+end it will build your application for each arch and os.</p>
+
+<p>If all goes well the output should resemble the following:</p>
+
+<div class='scrollable'><pre><code>
+    [goxc:xc] 2014/03/01 11:11:55 Parallelizing xc for 13 platforms, using max 7 of 8 processors
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {linux 386}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {linux amd64}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {linux arm}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {windows 386}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {windows amd64}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {darwin 386}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {darwin amd64}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {freebsd 386}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {freebsd amd64}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {freebsd arm}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {netbsd 386}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {netbsd amd64}.
+    [goxc:xc] 2014/03/01 11:11:55 mainDirs : [/Users/spf13/Code/hugo]
+    [goxc:xc] 2014/03/01 11:11:55 building hugo for platform {netbsd arm}.
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=linux GOARCH=386]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_386 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=linux GOARCH=amd64]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_amd64 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=windows GOARCH=386]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_windows_386.exe .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=windows GOARCH=amd64]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_windows_amd64.exe .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=darwin GOARCH=386]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_darwin_386 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=darwin GOARCH=amd64]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_darwin_amd64 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=freebsd GOARCH=386]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_386 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=freebsd GOARCH=amd64]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_amd64 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=freebsd GOARCH=arm]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_arm .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=netbsd GOARCH=386]
+    [goxc:xc] 2014/03/01 11:11:55 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_386 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=netbsd GOARCH=arm]
+    [goxc:xc] 2014/03/01 11:11:59 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_arm .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=linux GOARCH=arm]
+    [goxc:xc] 2014/03/01 11:11:59 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_arm .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:11:55 specified env vars for 'go': [GOOS=netbsd GOARCH=amd64]
+    [goxc:xc] 2014/03/01 11:11:59 invoking '/usr/local/Cellar/go/1.2/libexec/bin/go build -ldflags " -X main.BUILD_DATE '2014-03-01T11:11:55-05:00' -X main.VERSION '0.10' " -o /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_amd64 .' from '/Users/spf13/Code/hugo'
+    [goxc:xc] 2014/03/01 11:12:04 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_386' is an ELF file (arch: EM_386, osabi: ELFOSABI_NONE)
+    [goxc:xc] 2014/03/01 11:12:04 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_386' is an ELF file (arch: EM_386, osabi: ELFOSABI_FREEBSD)
+    [goxc:xc] 2014/03/01 11:12:04 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_darwin_386' is a Mach-O file (arch: Cpu386)
+    [goxc:xc] 2014/03/01 11:12:04 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_windows_386.exe' is a PE file, arch: 332 (332='X86' and 34404='AMD64')
+    [goxc:xc] 2014/03/01 11:12:04 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_amd64' is an ELF file (arch: EM_X86_64, osabi: ELFOSABI_NONE)
+    [goxc:xc] 2014/03/01 11:12:04 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_windows_amd64.exe' is a PE file, arch: 34404 (332='X86' and 34404='AMD64')
+    [goxc:xc] 2014/03/01 11:12:04 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_amd64' is an ELF file (arch: EM_X86_64, osabi: ELFOSABI_FREEBSD)
+    [goxc:xc] 2014/03/01 11:12:05 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_darwin_amd64' is a Mach-O file (arch: CpuAmd64)
+    [goxc:xc] 2014/03/01 11:12:05 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_arm' is an ELF file (arch: EM_ARM, osabi: ELFOSABI_FREEBSD)
+    [goxc:xc] 2014/03/01 11:12:05 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_386' is an ELF file (arch: EM_386, osabi: ELFOSABI_NETBSD)
+    [goxc:xc] 2014/03/01 11:12:05 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_amd64' is an ELF file (arch: EM_X86_64, osabi: ELFOSABI_NETBSD)
+    [goxc:xc] 2014/03/01 11:12:05 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_arm' is an ELF file (arch: EM_ARM, osabi: ELFOSABI_NETBSD)
+    [goxc:xc] 2014/03/01 11:12:05 File '/Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_arm' is an ELF file (arch: EM_ARM, osabi: ELFOSABI_NONE)
+    [goxc:xc] 2014/03/01 11:12:05 Task xc succeeded
+    [goxc:codesign] 2014/03/01 11:12:05 Task codesign succeeded
+    [goxc:copy-resources] 2014/03/01 11:12:05 resources: [README.md LICENSE.md]
+    [goxc:copy-resources] 2014/03/01 11:12:05 Copying file /Users/spf13/Code/hugo/README.md to /Users/spf13/Code/GoBuilds/hugo/0.10/README.md
+    [goxc:copy-resources] 2014/03/01 11:12:05 Copying file /Users/spf13/Code/hugo/LICENSE.md to /Users/spf13/Code/GoBuilds/hugo/0.10/LICENSE.md
+    [goxc:copy-resources] 2014/03/01 11:12:05 Task copy-resources succeeded
+    [goxc:archive-zip] 2014/03/01 11:12:05 Parallelizing archive-zip for 10 platforms, using max 7 of 8 processors
+    [goxc:archive-zip] 2014/03/01 11:12:11 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_windows_386.zip
+    [goxc:archive-zip] 2014/03/01 11:12:11 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_windows_amd64.zip
+    [goxc:archive-zip] 2014/03/01 11:12:11 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_darwin_386.zip
+    [goxc:archive-zip] 2014/03/01 11:12:11 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_386.zip
+    [goxc:archive-zip] 2014/03/01 11:12:11 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_386.zip
+    [goxc:archive-zip] 2014/03/01 11:12:11 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_arm.zip
+    [goxc:archive-zip] 2014/03/01 11:12:11 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_darwin_amd64.zip
+    [goxc:archive-zip] 2014/03/01 11:12:12 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_freebsd_amd64.zip
+    [goxc:archive-zip] 2014/03/01 11:12:12 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_arm.zip
+    [goxc:archive-zip] 2014/03/01 11:12:12 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_netbsd_amd64.zip
+    [goxc:archive-zip] 2014/03/01 11:12:12 Task archive-zip succeeded
+    [goxc:archive-tar-gz] 2014/03/01 11:12:12 Parallelizing archive-tar-gz for 3 platforms, using max 7 of 8 processors
+    [goxc:archive-tar-gz] 2014/03/01 11:12:14 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_386.tar.gz
+    [goxc:archive-tar-gz] 2014/03/01 11:12:14 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_arm.tar.gz
+    [goxc:archive-tar-gz] 2014/03/01 11:12:15 Artifact(s) archived to /Users/spf13/Code/GoBuilds/hugo/0.10/hugo_0.10_linux_amd64.tar.gz
+    [goxc:archive-tar-gz] 2014/03/01 11:12:15 Task archive-tar-gz succeeded
+    [goxc:pkg-build] 2014/03/01 11:12:18 Task pkg-build succeeded
+    [goxc:rmbin] 2014/03/01 11:12:18 Task rmbin succeeded
+    [goxc:downloads-page] 2014/03/01 11:12:18 Task downloads-page succeeded
+</code></pre></div>
+
+<h2 id="addendum">Addendum</h2>
+
+<p>A few people have commented on <a href="http://www.reddit.com/r/golang/comments/1zjg2r/cross_compiling_with_go/">reddit</a> with additional information.</p>
+
+<p>Some have reported success using <a href="https://github.com/mitchellh/gox">gox</a>. I have yet to play with it
+but <a href="http://mitchellh.com">Mitchell</a> is known for writing excellent
+software so I would expect nothing less here. <a href="https://github.com/mitchellh/gox">Gox</a> does less than
+<a href="https://github.com/laher/goxc">goxc</a>, but that’s the point.</p>
+
+<p>Cgo has issues when cross compiling. If you depend on cgo then you’re
+probably going to be better off building on the native platforms. The go
+tool will disable cgo support by default. To explicitly enable cgo, set CGO_ENABLED=1.</p>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Fri Feb 28, 2014 </h4>
+          <h5 id="wc"> 1800 Words </h5>
+          <h5 id="readtime"> Read in about 9 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/development">Development</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/golang">golang</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/go">go</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/golang">golang</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/development">development</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/mongodb2-6-drivers-released/"><i class="icon-arrow-left"></i> 9 MongoDB 2.6 Drivers Released</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/why-i-use-spf13-vim/">Why I use spf13-vim <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="1755">
+<meta itemprop="datePublished" content="2014-02-28">
+<meta itemprop="url" content="http://lacoski.github.io/post/cross-compiling-go/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

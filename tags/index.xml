@@ -1,0 +1,2473 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/</link>
+    <description>Recent content in Tags on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 17 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>.Vimrc</title>
+      <link>http://lacoski.github.io/tags/.vimrc/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/.vimrc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>10gen</title>
+      <link>http://lacoski.github.io/tags/10gen/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/10gen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1and1</title>
+      <link>http://lacoski.github.io/tags/1and1/</link>
+      <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/1and1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advocacy</title>
+      <link>http://lacoski.github.io/tags/advocacy/</link>
+      <pubDate>Wed, 24 Sep 2014 13:17:48 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/advocacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon</title>
+      <link>http://lacoski.github.io/tags/amazon/</link>
+      <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/amazon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon Web Services</title>
+      <link>http://lacoski.github.io/tags/amazon-web-services/</link>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/amazon-web-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytics</title>
+      <link>http://lacoski.github.io/tags/analytics/</link>
+      <pubDate>Fri, 02 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Announcement</title>
+      <link>http://lacoski.github.io/tags/announcement/</link>
+      <pubDate>Tue, 23 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/announcement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache</title>
+      <link>http://lacoski.github.io/tags/apache/</link>
+      <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache Cassandra</title>
+      <link>http://lacoski.github.io/tags/apache-cassandra/</link>
+      <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/apache-cassandra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache Hadoop</title>
+      <link>http://lacoski.github.io/tags/apache-hadoop/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/apache-hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>http://lacoski.github.io/tags/api/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apple</title>
+      <link>http://lacoski.github.io/tags/apple/</link>
+      <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>http://lacoski.github.io/tags/architecture/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>http://lacoski.github.io/tags/archive/</link>
+      <pubDate>Fri, 12 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Availability</title>
+      <link>http://lacoski.github.io/tags/availability/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/availability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aws</title>
+      <link>http://lacoski.github.io/tags/aws/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backup</title>
+      <link>http://lacoski.github.io/tags/backup/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backups</title>
+      <link>http://lacoski.github.io/tags/backups/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/backups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>http://lacoski.github.io/tags/bash/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Better Backups</title>
+      <link>http://lacoski.github.io/tags/better-backups/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/better-backups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Data</title>
+      <link>http://lacoski.github.io/tags/big-data/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bill Gates</title>
+      <link>http://lacoski.github.io/tags/bill-gates/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/bill-gates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blackberry</title>
+      <link>http://lacoski.github.io/tags/blackberry/</link>
+      <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/blackberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://lacoski.github.io/tags/blog/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog Software</title>
+      <link>http://lacoski.github.io/tags/blog-software/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/blog-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogging</title>
+      <link>http://lacoski.github.io/tags/blogging/</link>
+      <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Book</title>
+      <link>http://lacoski.github.io/tags/book/</link>
+      <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bubble</title>
+      <link>http://lacoski.github.io/tags/bubble/</link>
+      <pubDate>Thu, 16 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/bubble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business Continuity Planning</title>
+      <link>http://lacoski.github.io/tags/business-continuity-planning/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/business-continuity-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>http://lacoski.github.io/tags/c/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://lacoski.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cake</title>
+      <link>http://lacoski.github.io/tags/cake/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capital</title>
+      <link>http://lacoski.github.io/tags/capital/</link>
+      <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/capital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Career</title>
+      <link>http://lacoski.github.io/tags/career/</link>
+      <pubDate>Thu, 28 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cassandra</title>
+      <link>http://lacoski.github.io/tags/cassandra/</link>
+      <pubDate>Thu, 08 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cassandra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cio</title>
+      <link>http://lacoski.github.io/tags/cio/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cisco</title>
+      <link>http://lacoski.github.io/tags/cisco/</link>
+      <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cli</title>
+      <link>http://lacoski.github.io/tags/cli/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing</title>
+      <link>http://lacoski.github.io/tags/cloud-computing/</link>
+      <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Storage</title>
+      <link>http://lacoski.github.io/tags/cloud-storage/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cloud-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudfront</title>
+      <link>http://lacoski.github.io/tags/cloudfront/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cloudfront/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cobra</title>
+      <link>http://lacoski.github.io/tags/cobra/</link>
+      <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/cobra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command Line</title>
+      <link>http://lacoski.github.io/tags/command-line/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command Line Interface</title>
+      <link>http://lacoski.github.io/tags/command-line-interface/</link>
+      <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/command-line-interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common Myths</title>
+      <link>http://lacoski.github.io/tags/common-myths/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/common-myths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://lacoski.github.io/tags/community/</link>
+      <pubDate>Tue, 17 Mar 2015 15:24:07 -0500</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Data</title>
+      <link>http://lacoski.github.io/tags/computer-data/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/computer-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Storage</title>
+      <link>http://lacoski.github.io/tags/computer-storage/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/computer-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing</title>
+      <link>http://lacoski.github.io/tags/computing/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Platform</title>
+      <link>http://lacoski.github.io/tags/computing-platform/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/computing-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content Management</title>
+      <link>http://lacoski.github.io/tags/content-management/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/content-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content Management Systems</title>
+      <link>http://lacoski.github.io/tags/content-management-systems/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/content-management-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversion</title>
+      <link>http://lacoski.github.io/tags/conversion/</link>
+      <pubDate>Fri, 02 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/conversion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css3</title>
+      <link>http://lacoski.github.io/tags/css3/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/css3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>http://lacoski.github.io/tags/data/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Analysis</title>
+      <link>http://lacoski.github.io/tags/data-analysis/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Center</title>
+      <link>http://lacoski.github.io/tags/data-center/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-center/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Loss</title>
+      <link>http://lacoski.github.io/tags/data-loss/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-loss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Management</title>
+      <link>http://lacoski.github.io/tags/data-management/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Processing</title>
+      <link>http://lacoski.github.io/tags/data-processing/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Processor</title>
+      <link>http://lacoski.github.io/tags/data-processor/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-processor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Storage</title>
+      <link>http://lacoski.github.io/tags/data-storage/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Tools</title>
+      <link>http://lacoski.github.io/tags/data-tools/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/data-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>http://lacoski.github.io/tags/database/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database Management Systems</title>
+      <link>http://lacoski.github.io/tags/database-management-systems/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/database-management-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      <link>http://lacoski.github.io/tags/databases/</link>
+      <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://lacoski.github.io/tags/development/</link>
+      <pubDate>Thu, 17 Aug 2017 10:09:53 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disaster Recovery</title>
+      <link>http://lacoski.github.io/tags/disaster-recovery/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/disaster-recovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disaster Recovery Plan</title>
+      <link>http://lacoski.github.io/tags/disaster-recovery-plan/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/disaster-recovery-plan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disaster Recovery Process</title>
+      <link>http://lacoski.github.io/tags/disaster-recovery-process/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/disaster-recovery-process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disaster Recovery Solutions</title>
+      <link>http://lacoski.github.io/tags/disaster-recovery-solutions/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/disaster-recovery-solutions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disaster Recovery Strategy</title>
+      <link>http://lacoski.github.io/tags/disaster-recovery-strategy/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/disaster-recovery-strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Data Processing</title>
+      <link>http://lacoski.github.io/tags/distributed-data-processing/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/distributed-data-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distribution</title>
+      <link>http://lacoski.github.io/tags/distribution/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/distribution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://lacoski.github.io/tags/docker/</link>
+      <pubDate>Fri, 05 Jun 2015 10:43:50 +0900</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doctrine</title>
+      <link>http://lacoski.github.io/tags/doctrine/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/doctrine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Driver Team</title>
+      <link>http://lacoski.github.io/tags/driver-team/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/driver-team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drivers</title>
+      <link>http://lacoski.github.io/tags/drivers/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/drivers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drupal</title>
+      <link>http://lacoski.github.io/tags/drupal/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/drupal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drupal Core</title>
+      <link>http://lacoski.github.io/tags/drupal-core/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/drupal-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Du</title>
+      <link>http://lacoski.github.io/tags/du/</link>
+      <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/du/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Durability</title>
+      <link>http://lacoski.github.io/tags/durability/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/durability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Content</title>
+      <link>http://lacoski.github.io/tags/dynamic-content/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/dynamic-content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ebay</title>
+      <link>http://lacoski.github.io/tags/ebay/</link>
+      <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/ebay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ecommerce</title>
+      <link>http://lacoski.github.io/tags/ecommerce/</link>
+      <pubDate>Tue, 27 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/ecommerce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economy</title>
+      <link>http://lacoski.github.io/tags/economy/</link>
+      <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/economy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editor</title>
+      <link>http://lacoski.github.io/tags/editor/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editors</title>
+      <link>http://lacoski.github.io/tags/editors/</link>
+      <pubDate>Thu, 27 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/editors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emacs</title>
+      <link>http://lacoski.github.io/tags/emacs/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergency Management</title>
+      <link>http://lacoski.github.io/tags/emergency-management/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/emergency-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Employment</title>
+      <link>http://lacoski.github.io/tags/employment/</link>
+      <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/employment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enable</title>
+      <link>http://lacoski.github.io/tags/enable/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/enable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evangelism</title>
+      <link>http://lacoski.github.io/tags/evangelism/</link>
+      <pubDate>Wed, 24 Sep 2014 13:17:48 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/evangelism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facebook</title>
+      <link>http://lacoski.github.io/tags/facebook/</link>
+      <pubDate>Sun, 11 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feed</title>
+      <link>http://lacoski.github.io/tags/feed/</link>
+      <pubDate>Mon, 12 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/feed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedburner</title>
+      <link>http://lacoski.github.io/tags/feedburner/</link>
+      <pubDate>Mon, 12 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/feedburner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>http://lacoski.github.io/tags/firefox/</link>
+      <pubDate>Wed, 27 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flickr</title>
+      <link>http://lacoski.github.io/tags/flickr/</link>
+      <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/flickr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Focus</title>
+      <link>http://lacoski.github.io/tags/focus/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/focus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Follow Friday</title>
+      <link>http://lacoski.github.io/tags/follow-friday/</link>
+      <pubDate>Mon, 07 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/follow-friday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Framework</title>
+      <link>http://lacoski.github.io/tags/framework/</link>
+      <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frameworks</title>
+      <link>http://lacoski.github.io/tags/frameworks/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/frameworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Friendfeed</title>
+      <link>http://lacoski.github.io/tags/friendfeed/</link>
+      <pubDate>Fri, 27 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/friendfeed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genealogy</title>
+      <link>http://lacoski.github.io/tags/genealogy/</link>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/genealogy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://lacoski.github.io/tags/git/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>http://lacoski.github.io/tags/github/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giving a Presentation</title>
+      <link>http://lacoski.github.io/tags/giving-a-presentation/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/giving-a-presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gnu</title>
+      <link>http://lacoski.github.io/tags/gnu/</link>
+      <pubDate>Thu, 03 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/gnu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>http://lacoski.github.io/tags/go/</link>
+      <pubDate>Thu, 17 Aug 2017 10:09:53 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Godaddy</title>
+      <link>http://lacoski.github.io/tags/godaddy/</link>
+      <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/godaddy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://lacoski.github.io/tags/golang/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>http://lacoski.github.io/tags/google/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph</title>
+      <link>http://lacoski.github.io/tags/graph/</link>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gvim</title>
+      <link>http://lacoski.github.io/tags/gvim/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/gvim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hack</title>
+      <link>http://lacoski.github.io/tags/hack/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hack Day</title>
+      <link>http://lacoski.github.io/tags/hack-day/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/hack-day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hadoop</title>
+      <link>http://lacoski.github.io/tags/hadoop/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/hadoop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help</title>
+      <link>http://lacoski.github.io/tags/help/</link>
+      <pubDate>Thu, 22 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/help/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High Availability</title>
+      <link>http://lacoski.github.io/tags/high-availability/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/high-availability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hiring</title>
+      <link>http://lacoski.github.io/tags/hiring/</link>
+      <pubDate>Mon, 22 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/hiring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hosting</title>
+      <link>http://lacoski.github.io/tags/hosting/</link>
+      <pubDate>Tue, 25 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hp</title>
+      <link>http://lacoski.github.io/tags/hp/</link>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/hp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>http://lacoski.github.io/tags/html/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html5</title>
+      <link>http://lacoski.github.io/tags/html5/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://lacoski.github.io/tags/hugo/</link>
+      <pubDate>Fri, 07 Oct 2016 10:56:02 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Risk Management</title>
+      <link>http://lacoski.github.io/tags/information-risk-management/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/information-risk-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Technology</title>
+      <link>http://lacoski.github.io/tags/information-technology/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/information-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure</title>
+      <link>http://lacoski.github.io/tags/infrastructure/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intellectual Property</title>
+      <link>http://lacoski.github.io/tags/intellectual-property/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/intellectual-property/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intellectual Property Protection</title>
+      <link>http://lacoski.github.io/tags/intellectual-property-protection/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/intellectual-property-protection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iphone</title>
+      <link>http://lacoski.github.io/tags/iphone/</link>
+      <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/iphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipo</title>
+      <link>http://lacoski.github.io/tags/ipo/</link>
+      <pubDate>Thu, 16 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/ipo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It</title>
+      <link>http://lacoski.github.io/tags/it/</link>
+      <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/it/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://lacoski.github.io/tags/java/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://lacoski.github.io/tags/javascript/</link>
+      <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jquery</title>
+      <link>http://lacoski.github.io/tags/jquery/</link>
+      <pubDate>Tue, 12 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karma</title>
+      <link>http://lacoski.github.io/tags/karma/</link>
+      <pubDate>Thu, 22 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/karma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keychain</title>
+      <link>http://lacoski.github.io/tags/keychain/</link>
+      <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/keychain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Scale Distributed</title>
+      <link>http://lacoski.github.io/tags/large-scale-distributed/</link>
+      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/large-scale-distributed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leadership</title>
+      <link>http://lacoski.github.io/tags/leadership/</link>
+      <pubDate>Mon, 22 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>http://lacoski.github.io/tags/learning/</link>
+      <pubDate>Fri, 10 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lessons</title>
+      <link>http://lacoski.github.io/tags/lessons/</link>
+      <pubDate>Fri, 10 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/lessons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linkedin</title>
+      <link>http://lacoski.github.io/tags/linkedin/</link>
+      <pubDate>Fri, 16 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://lacoski.github.io/tags/linux/</link>
+      <pubDate>Fri, 05 Jun 2015 10:43:50 +0900</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lithium</title>
+      <link>http://lacoski.github.io/tags/lithium/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/lithium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luxury</title>
+      <link>http://lacoski.github.io/tags/luxury/</link>
+      <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/luxury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>http://lacoski.github.io/tags/mac/</link>
+      <pubDate>Wed, 27 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management</title>
+      <link>http://lacoski.github.io/tags/management/</link>
+      <pubDate>Thu, 28 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapreduce</title>
+      <link>http://lacoski.github.io/tags/mapreduce/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/mapreduce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>http://lacoski.github.io/tags/marketing/</link>
+      <pubDate>Fri, 02 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketplace</title>
+      <link>http://lacoski.github.io/tags/marketplace/</link>
+      <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/marketplace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mgo</title>
+      <link>http://lacoski.github.io/tags/mgo/</link>
+      <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/mgo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>http://lacoski.github.io/tags/microsoft/</link>
+      <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>http://lacoski.github.io/tags/mongodb/</link>
+      <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Myspace</title>
+      <link>http://lacoski.github.io/tags/myspace/</link>
+      <pubDate>Fri, 03 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/myspace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>http://lacoski.github.io/tags/mysql/</link>
+      <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Years Resolution</title>
+      <link>http://lacoski.github.io/tags/new-years-resolution/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/new-years-resolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>http://lacoski.github.io/tags/nginx/</link>
+      <pubDate>Thu, 24 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nintendo</title>
+      <link>http://lacoski.github.io/tags/nintendo/</link>
+      <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/nintendo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>http://lacoski.github.io/tags/node.js/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nosql</title>
+      <link>http://lacoski.github.io/tags/nosql/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/nosql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nyc</title>
+      <link>http://lacoski.github.io/tags/nyc/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/nyc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Object Oriented</title>
+      <link>http://lacoski.github.io/tags/object-oriented/</link>
+      <pubDate>Mon, 09 Jun 2014 01:18:04 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/object-oriented/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>http://lacoski.github.io/tags/open-source/</link>
+      <pubDate>Fri, 20 Mar 2015 18:00:02 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensky</title>
+      <link>http://lacoski.github.io/tags/opensky/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/opensky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operating Systems</title>
+      <link>http://lacoski.github.io/tags/operating-systems/</link>
+      <pubDate>Fri, 05 Jun 2015 10:43:50 +0900</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/operating-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orbitz</title>
+      <link>http://lacoski.github.io/tags/orbitz/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/orbitz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Os X</title>
+      <link>http://lacoski.github.io/tags/os-x/</link>
+      <pubDate>Wed, 27 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/os-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oscon</title>
+      <link>http://lacoski.github.io/tags/oscon/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/oscon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pandora</title>
+      <link>http://lacoski.github.io/tags/pandora/</link>
+      <pubDate>Thu, 16 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/pandora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Password</title>
+      <link>http://lacoski.github.io/tags/password/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/password/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pear</title>
+      <link>http://lacoski.github.io/tags/pear/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/pear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perl</title>
+      <link>http://lacoski.github.io/tags/perl/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/perl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>http://lacoski.github.io/tags/personal/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>http://lacoski.github.io/tags/photography/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photoshop</title>
+      <link>http://lacoski.github.io/tags/photoshop/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/photoshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>http://lacoski.github.io/tags/php/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Picasa</title>
+      <link>http://lacoski.github.io/tags/picasa/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/picasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plugins</title>
+      <link>http://lacoski.github.io/tags/plugins/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portero</title>
+      <link>http://lacoski.github.io/tags/portero/</link>
+      <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/portero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgresql</title>
+      <link>http://lacoski.github.io/tags/postgresql/</link>
+      <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation Software</title>
+      <link>http://lacoski.github.io/tags/presentation-software/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/presentation-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>http://lacoski.github.io/tags/presentations/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/presentations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>http://lacoski.github.io/tags/productivity/</link>
+      <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profile</title>
+      <link>http://lacoski.github.io/tags/profile/</link>
+      <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/profile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profiling</title>
+      <link>http://lacoski.github.io/tags/profiling/</link>
+      <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/profiling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>http://lacoski.github.io/tags/programming/</link>
+      <pubDate>Tue, 24 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Management</title>
+      <link>http://lacoski.github.io/tags/project-management/</link>
+      <pubDate>Tue, 06 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/project-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pushups</title>
+      <link>http://lacoski.github.io/tags/pushups/</link>
+      <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/pushups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://lacoski.github.io/tags/python/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rackspace</title>
+      <link>http://lacoski.github.io/tags/rackspace/</link>
+      <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/rackspace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raid</title>
+      <link>http://lacoski.github.io/tags/raid/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/raid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real Time Recovery</title>
+      <link>http://lacoski.github.io/tags/real-time-recovery/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/real-time-recovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recovery</title>
+      <link>http://lacoski.github.io/tags/recovery/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/recovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recovery Plan</title>
+      <link>http://lacoski.github.io/tags/recovery-plan/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/recovery-plan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recovery Strategies</title>
+      <link>http://lacoski.github.io/tags/recovery-strategies/</link>
+      <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/recovery-strategies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recruiting</title>
+      <link>http://lacoski.github.io/tags/recruiting/</link>
+      <pubDate>Mon, 22 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/recruiting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Redis</title>
+      <link>http://lacoski.github.io/tags/redis/</link>
+      <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote Procedure Call</title>
+      <link>http://lacoski.github.io/tags/remote-procedure-call/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/remote-procedure-call/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Replication</title>
+      <link>http://lacoski.github.io/tags/replication/</link>
+      <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/replication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representational State Transfer</title>
+      <link>http://lacoski.github.io/tags/representational-state-transfer/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/representational-state-transfer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://lacoski.github.io/tags/resources/</link>
+      <pubDate>Thu, 08 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Responsive</title>
+      <link>http://lacoski.github.io/tags/responsive/</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/responsive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest</title>
+      <link>http://lacoski.github.io/tags/rest/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rim</title>
+      <link>http://lacoski.github.io/tags/rim/</link>
+      <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/rim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rpc</title>
+      <link>http://lacoski.github.io/tags/rpc/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/rpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rsa</title>
+      <link>http://lacoski.github.io/tags/rsa/</link>
+      <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/rsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>http://lacoski.github.io/tags/ruby/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S3</title>
+      <link>http://lacoski.github.io/tags/s3/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scala</title>
+      <link>http://lacoski.github.io/tags/scala/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/scala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scaling</title>
+      <link>http://lacoski.github.io/tags/scaling/</link>
+      <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/scaling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Screen</title>
+      <link>http://lacoski.github.io/tags/screen/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/screen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Script</title>
+      <link>http://lacoski.github.io/tags/script/</link>
+      <pubDate>Wed, 27 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>http://lacoski.github.io/tags/search/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://lacoski.github.io/tags/security/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Web</title>
+      <link>http://lacoski.github.io/tags/semantic-web/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/semantic-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>http://lacoski.github.io/tags/shell/</link>
+      <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell Script</title>
+      <link>http://lacoski.github.io/tags/shell-script/</link>
+      <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/shell-script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shop</title>
+      <link>http://lacoski.github.io/tags/shop/</link>
+      <pubDate>Thu, 26 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/shop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shopping</title>
+      <link>http://lacoski.github.io/tags/shopping/</link>
+      <pubDate>Thu, 26 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/shopping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slideshare</title>
+      <link>http://lacoski.github.io/tags/slideshare/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/slideshare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapshot</title>
+      <link>http://lacoski.github.io/tags/snapshot/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/snapshot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snipmate</title>
+      <link>http://lacoski.github.io/tags/snipmate/</link>
+      <pubDate>Sat, 12 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/snipmate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soap</title>
+      <link>http://lacoski.github.io/tags/soap/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/soap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Media</title>
+      <link>http://lacoski.github.io/tags/social-media/</link>
+      <pubDate>Sun, 11 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/social-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Web</title>
+      <link>http://lacoski.github.io/tags/social-web/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/social-web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>http://lacoski.github.io/tags/software/</link>
+      <pubDate>Thu, 05 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Architecture</title>
+      <link>http://lacoski.github.io/tags/software-architecture/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/software-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spf13 Vim</title>
+      <link>http://lacoski.github.io/tags/spf13-vim/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/spf13-vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>http://lacoski.github.io/tags/ssh/</link>
+      <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh Agent</title>
+      <link>http://lacoski.github.io/tags/ssh-agent/</link>
+      <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/ssh-agent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steve Jobs</title>
+      <link>http://lacoski.github.io/tags/steve-jobs/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/steve-jobs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strata</title>
+      <link>http://lacoski.github.io/tags/strata/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/strata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strata Nyc</title>
+      <link>http://lacoski.github.io/tags/strata-nyc/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/strata-nyc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structured Storage</title>
+      <link>http://lacoski.github.io/tags/structured-storage/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/structured-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subversion</title>
+      <link>http://lacoski.github.io/tags/subversion/</link>
+      <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/subversion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Success</title>
+      <link>http://lacoski.github.io/tags/success/</link>
+      <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/success/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Svk</title>
+      <link>http://lacoski.github.io/tags/svk/</link>
+      <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/svk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Svn</title>
+      <link>http://lacoski.github.io/tags/svn/</link>
+      <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/svn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symfony</title>
+      <link>http://lacoski.github.io/tags/symfony/</link>
+      <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/symfony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symfony2</title>
+      <link>http://lacoski.github.io/tags/symfony2/</link>
+      <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/symfony2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sysadmin</title>
+      <link>http://lacoski.github.io/tags/sysadmin/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems</title>
+      <link>http://lacoski.github.io/tags/systems/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>http://lacoski.github.io/tags/terminal/</link>
+      <pubDate>Thu, 03 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Editor</title>
+      <link>http://lacoski.github.io/tags/text-editor/</link>
+      <pubDate>Fri, 25 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/text-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Presentation</title>
+      <link>http://lacoski.github.io/tags/the-presentation/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/the-presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thon</title>
+      <link>http://lacoski.github.io/tags/thon/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/thon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree</title>
+      <link>http://lacoski.github.io/tags/tree/</link>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://lacoski.github.io/tags/tutorial/</link>
+      <pubDate>Wed, 05 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>http://lacoski.github.io/tags/twitter/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>http://lacoski.github.io/tags/unix/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vc</title>
+      <link>http://lacoski.github.io/tags/vc/</link>
+      <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/vc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vcard</title>
+      <link>http://lacoski.github.io/tags/vcard/</link>
+      <pubDate>Tue, 12 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/vcard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vendor</title>
+      <link>http://lacoski.github.io/tags/vendor/</link>
+      <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/vendor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vi</title>
+      <link>http://lacoski.github.io/tags/vi/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/vi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>View</title>
+      <link>http://lacoski.github.io/tags/view/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/view/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>View Presentation</title>
+      <link>http://lacoski.github.io/tags/view-presentation/</link>
+      <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/view-presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>http://lacoski.github.io/tags/vim/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim Text Editor</title>
+      <link>http://lacoski.github.io/tags/vim-text-editor/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/vim-text-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vimscript</title>
+      <link>http://lacoski.github.io/tags/vimscript/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/vimscript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>http://lacoski.github.io/tags/web/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Browser</title>
+      <link>http://lacoski.github.io/tags/web-browser/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/web-browser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Service</title>
+      <link>http://lacoski.github.io/tags/web-service/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/web-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Services</title>
+      <link>http://lacoski.github.io/tags/web-services/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/web-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Standards</title>
+      <link>http://lacoski.github.io/tags/web-standards/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/web-standards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wiki</title>
+      <link>http://lacoski.github.io/tags/wiki/</link>
+      <pubDate>Fri, 25 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/wiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Win 7</title>
+      <link>http://lacoski.github.io/tags/win-7/</link>
+      <pubDate>Tue, 20 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/win-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://lacoski.github.io/tags/windows/</link>
+      <pubDate>Tue, 20 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>http://lacoski.github.io/tags/wordpress/</link>
+      <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress 3.0</title>
+      <link>http://lacoski.github.io/tags/wordpress-3.0/</link>
+      <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/wordpress-3.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ws Security</title>
+      <link>http://lacoski.github.io/tags/ws-security/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/ws-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zoop</title>
+      <link>http://lacoski.github.io/tags/zoop/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/tags/zoop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

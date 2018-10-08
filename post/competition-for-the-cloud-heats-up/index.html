@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Architecture, Tech Industry, Amazon Web Services, Cloud computing, HP, rackspace, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Competition for the Cloud Heats Up : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/competition-for-the-cloud-heats-up/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2011-06-30"/>
+<meta property="article:modified_time" content="2011-06-30"/>
+
+
+
+<meta property="article:tag" content="Architecture">
+<meta property="article:tag" content="Tech Industry">
+<meta property="article:tag" content="Amazon Web Services">
+<meta property="article:tag" content="Cloud computing">
+<meta property="article:tag" content="HP">
+<meta property="article:tag" content="rackspace">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Competition for the Cloud Heats Up : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Competition for the Cloud Heats Up - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/competition-for-the-cloud-heats-up/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Competition%20for%20the%20Cloud%20Heats%20Up-http%3a%2f%2flacoski.github.io%2fpost%2fcompetition-for-the-cloud-heats-up%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fcompetition-for-the-cloud-heats-up%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fcompetition-for-the-cloud-heats-up%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fcompetition-for-the-cloud-heats-up%2f&title=Competition%20for%20the%20Cloud%20Heats%20Up&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fcompetition-for-the-cloud-heats-up%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fcompetition-for-the-cloud-heats-up%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fcompetition-for-the-cloud-heats-up%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Competition for the Cloud Heats Up</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure class="hid">
+    
+        <img src="/media/clouds.jpg" alt="cloud" />
+    
+    
+    <figcaption>
+        <p>
+        
+        <a href="http://www.flickr.com/photos/52859023@N00/644335254"> 
+            karindalziel
+        </a> 
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+
+<p>Cloud no longer a single vendor game. For years cloud computing has been
+synonymous with Amazon whose <a href="http://aws.amazon.com/" title="Amazon Web Services">Amazon Web
+Services</a> really created
+and defined the space. In the past year other providers have matured and
+in some areas even surpassing Amazon.</p>
+
+<p>In a conversation with Scott White, the VP of Sales from
+<a href="http://www.rackspace.com" title="Rackspace">Rackspace</a>, he related to me
+their approach on the cloud and how customers are utilizing their cloud
+offering. Their current growth rate is pretty staggering. It’s a
+magnitude higher than their managed hosting offering. Rackspace somewhat
+trepidatiously entered the cloud market. It did so with Mosso, a subsidy
+of Rackspace that operated for two years under a separate brand,
+seemingly to distance the initiative from the Rackspace name in the
+event it was a failure. It succeeded and has been rebranded as the
+Rackspace Cloud. What is interesting about this offering is, in part
+thanks to their background and existing infrastructure, they provide
+hybrid computing offerings. Where all on the same subnet you can have
+some nodes utilizing their traditional managed hosting offering where
+other nodes are in the cloud elastically growing to meet demand.</p>
+
+<p>The lack of cloud computing standards has lead to a vendor-lock. Every
+cloud vendor has proprietary cloud. OpenServer is the bold initiative by
+Rackspace to change that. Rackspace has always been about service as
+their competitive advantage. Figuring they (and everyone else) couldn’t
+compete with the lead amazon has, they turned the tables by open
+sourcing their technology and defining standards along with a group of
+other cloud providers to form OpenServer.</p>
+
+<p>Also entering the field are many of the tech giants
+including <a href="http://www.hp.com/go/instant-on">HP</a>, who has really invested
+in their cloud offering with their Instant On service.
+<a href="http://www.vmware.com/" title="VMware">VMware</a> bringing their decades of
+virtualization experience to their offering.
+<a href="http://www.ibm.com" title="IBM">IBM</a> is all in, competing on the Paas, SaaS
+and IaaS fronts. Rounding out the compelling offerings are
+<a href="http://www.GoGrid.com" title="GoGrid">GoGrid</a>, <a href="http://cloud.com">Cloud.com</a>
+and <a href="http://joyent.com">Joyent</a>.</p>
+
+<p>While not Cloud in the Amazon sense, Microsoft and Google are both
+providing cloud like services. Microsoft is in the ring with Azure,
+their Windows Platform as a service offering. Google offers Google Apps
+and <a href="http://code.google.com/appengine/" title="Google App Engine">AppEngine</a>
+as offerings in the SaaS and PaaS markets.</p>
+
+<p>Words and Ideas are my own.<br> This post is sponsored by <a href="http://bit.ly/l2GOwA">Enterprise CIO
+Forum</a> and <a href="http://www.hp.com/go/instant-on">HP</a></p>
+
+<h2 id="related-articles">Related articles</h2>
+
+<ul>
+<li><a href="http://news.cnet.com/8301-13846_3-20073160-62/a-field-guide-to-the-cloud/?part=rss&amp;subj=news">A field guide to the
+cloud</a>
+(news.cnet.com)</li>
+<li><a href="http://www.enterprisecioforum.com/en/blogs/jdodge/cloud-computing-takes-another-hit-amazon-server-outage?utm_source=B5&amp;utm_medium=USBLOG&amp;utm_content=post&amp;utm_campaign=ecf">Cloud computing takes another hit from Amazon server
+outage</a>
+(CIO Enterprise Forum)</li>
+<li><a href="http://www.businessinsider.com/vmware-disrupts-with-open-source-paas-play-2011-5">VMware disrupts with open source PaaS
+play</a>
+(businessinsider.com)</li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Thu Jun 30, 2011 </h4>
+          <h5 id="wc"> 500 Words </h5>
+          <h5 id="readtime"> Read in about 2 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/architecture">Architecture</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/tech-industry">Tech Industry</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/amazon-web-services">Amazon Web Services</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/cloud-computing">Cloud computing</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/hp">HP</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/rackspace">rackspace</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/easy-bash-scripting-with-shflags/"><i class="icon-arrow-left"></i> Easy bash scripting with shflags</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/creating-a-symfony2-console-command/">Creating a Symfony2 Console Command <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="406">
+<meta itemprop="datePublished" content="2011-06-30">
+<meta itemprop="url" content="http://lacoski.github.io/post/competition-for-the-cloud-heats-up/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

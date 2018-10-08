@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Friendfeed on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/friendfeed/</link>
+    <description>Recent content in Friendfeed on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 27 Mar 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/friendfeed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Facebook Meets Twitter &amp; FriendFeed</title>
+      <link>http://lacoski.github.io/post/facebook-meets-twitter-friendfeed/</link>
+      <pubDate>Fri, 27 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/facebook-meets-twitter-friendfeed/</guid>
+      <description>Image via CrunchBase   For the past few months Facebook has been obsessed with Twitter. It’s easy to see why. Twitter is addicitve. Many twitter users are constantly on twitter. Whenever you goto twitter there is always something new happening. Facebook obviously wants this experience on facebook. Why not copy twitter. I think Facebook could do it and do it better. Last week Facebook unveiled their new home page layout.</description>
+    </item>
+    
+  </channel>
+</rss>

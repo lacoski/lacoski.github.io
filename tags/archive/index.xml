@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archive on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/archive/</link>
+    <description>Recent content in Archive on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 12 Dec 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backing up MySQL</title>
+      <link>http://lacoski.github.io/post/backing-up-mysql/</link>
+      <pubDate>Fri, 12 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/backing-up-mysql/</guid>
+      <description>Image via Wikipedia   I don’t know very many people that haven’t been devastated by the loss of data… Yet I am baffled that millions of professional IT workers still ignore backing up their data. Since computers are great at doing repetitive things like backups.. why not spend 20 minutes setting up your machine to backup your files for you. This guide will be specific to mysql to create a local copy of the backup.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Symfony2 is the latest brainchild of Fabien Potencier. Essentially he took the excellent advancements brought by PHP 5.3 and combined all the learnings he took away from building Symfony2 as well as established design patterns and best practices often from the Java world and created a modern web framework. Fully utilizing things like namespaces, closures and late static binding Symfony2 is an extremely full featured, modular, and crazy fast framework.">
+<meta name="keywords" content="Development, php, development, Framework, PHP, Symfony2, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Symfony2 is the latest brainchild of Fabien Potencier. Essentially he took the excellent advancements brought by PHP 5.3 and combined all the learnings he took away from building Symfony2 as well as established design patterns and best practices often from the Java world and created a modern web framework. Fully utilizing things like namespaces, closures and late static binding Symfony2 is an extremely full featured, modular, and crazy fast framework."/>
+<meta property="og:title" content="On Symfony2 : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/symfony2/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2011-02-01"/>
+<meta property="article:modified_time" content="2011-02-01"/>
+
+
+
+<meta property="article:tag" content="Development">
+<meta property="article:tag" content="php">
+<meta property="article:tag" content="development">
+<meta property="article:tag" content="Framework">
+<meta property="article:tag" content="PHP">
+<meta property="article:tag" content="Symfony2">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="On Symfony2 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="Symfony2 is the latest brainchild of Fabien Potencier. Essentially he took the excellent advancements brought by PHP 5.3 and combined all the learnings he took away from building Symfony2 as well as established design patterns and best practices often from the Java world and created a modern web framework. Fully utilizing things like namespaces, closures and late static binding Symfony2 is an extremely full featured, modular, and crazy fast framework.">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> On Symfony2 - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/symfony2/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=On%20Symfony2-http%3a%2f%2flacoski.github.io%2fpost%2fsymfony2%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fsymfony2%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fsymfony2%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fsymfony2%2f&title=On%20Symfony2&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fsymfony2%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fsymfony2%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fsymfony2%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">On Symfony2</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure >
+    
+        <img src="/media/symfony_ss.png" alt="symfony" />
+    
+    
+</figure>
+
+
+
+<h3 id="disclaimer">Disclaimer</h3>
+
+<p><em>I’ve got a couple disclaimers in writing this. 1. I’m one of the
+primary authors of the <a href="http://zoopframework.com">Zoop Framework for
+PHP</a>. It’s pretty much the first web framework
+for PHP dating back to 2001. In spite of it’s age it’s still quite
+relevant and in use by thousands worldwide. 2. I run engineering for
+<a href="http://shopopensky.com">OpenSky</a> where we elected to build our
+ecommerce platform on the <a href="http://symfony-reloaded.org">Symfony2
+framework</a> and have since become the 2nd
+largest contributors to it. You may wonder why given my background I
+chose to use a different framework. This post should answer that well…</em></p>
+
+<h2 id="introduction-to-symfony2">Introduction to Symfony2</h2>
+
+<h3 id="related-posts">Related Posts</h3>
+
+<ul>
+<li><a href="http://spf13.com/post/next-gen-php-frameworks/">Next Gen PHP
+Frameworks</a></li>
+<li><a href="http://spf13.com/post/getting-started-with-symfony2/">Getting Started with
+Symfony2</a></li>
+<li><a href="http://spf13.com/post/creating-your-own-symfony2-bundle/">Creating your own Symfony2
+Bundle</a></li>
+<li><a href="http://spf13.com/post/creating-a-symfony2-console-command/">Creating a Symfony2 Console
+Command</a></li>
+</ul>
+
+<p>Symfony2 is the latest brainchild of Fabien Potencier. Essentially he
+took the excellent advancements brought by PHP 5.3 and combined all the
+learnings he took away from building Symfony as well as established
+design patterns and best practices often from the Java world and created
+a modern web framework. Fully utilizing things like namespaces, closures
+and late static binding, Symfony2 is an extremely full featured,
+modular, and crazy fast framework.</p>
+
+<h1 id="why-symfony2">Why Symfony2?</h1>
+
+<p>Symfony2 has a lot going for it. I’m going to highlight some of what I
+consider some of the most impressive features, but recognize it goes
+quite a bit deeper than what I’ll cover.</p>
+
+<h2 id="highly-customizable">Highly Customizable</h2>
+
+<p>Symfony2 brings new definition to the word customizable. As Fabien
+writes</p>
+
+<blockquote>
+<p>Symfony2 is probably one of the most flexible PHP frameworks ever
+created. You can literally change everything. To allow such a level of
+customization and still keep things simple for the developer, Symfony2
+relies on well-know design patterns, and best practices coming from
+the Java world. Of course, we have adapted those techniques to the PHP
+way of doing things, and the result is amazingly powerful.</p>
+</blockquote>
+
+<p>Really everything about the framework can be configured and changed. It
+makes no decisions on what you should use or how you should do it. Even
+the configuration is configurable allowing you to choose from XML, YAML,
+PHP or any combination of the three.</p>
+
+<h2 id="blazing-fast">Blazing Fast</h2>
+
+<p>At OpenSky our standard is that every single page on our website needs
+to load in under 200 ms. With Symfony2 many pages load in <sup>1</sup>&frasl;<sub>10</sub> that.
+Symfony2 uses intelligent caching to eliminate the need for most parsing
+resulting in an extremely fast and efficient framework. Symfony2
+performed their own benchmarks it what appears to be a fairly honest and
+impartial way and found that Symfony2 is a magnitude faster than pretty
+much every other framework out there. See
+<a href="http://symfony-reloaded.org/fast">http://symfony-reloaded.org/fast</a>.</p>
+
+<p>On a personal note, they didn’t evaluate Zoop, but in my performing
+similar benchmarks with Zoop my findings were similar across the
+frameworks. Zend and Cake are slow dogs and really shouldn’t be used,
+Symfony and Solar were in the middle of the pack and Zoop and CI were
+the quickest.</p>
+
+<p>That said, just about every framework (except Zend and Cake) can perform
+well in an isolated test, the real challenge is with a full fledged
+application with loads of files, routes and configurations. As one who
+has a Symfony2 based application in production with many tens of
+thousands of lines of code Symfony2 handles it like a champ. No real
+measurable degredation because of application size.</p>
+
+<h2 id="modular-and-compatible-with-everything">Modular and compatible with everything</h2>
+
+<p>Symfony2 is the most modular framework I’ve ever seen. Symfony2 calls a
+module a bundle as Fabien explains:</p>
+
+<blockquote>
+<p>A bundle is a structured set of files that implements a single feature
+and can be easily shared with other developers. In Symfony2,
+everything is a bundle, from the application you develop, to the
+features provided by the framework itself. Bundles easily hook into
+the configuration system to give to the developer a clean way to
+semantically configure and customize them.</p>
+</blockquote>
+
+<p>So in Symfony2 everything is a first class citizen. All core bundles are
+treated the exact same as your bundles and everything is a bundle.
+Bundles are easily portable and configurable. They are really the key to
+Symfony2’s real power. A bundle can extend another bundle. It can be
+distributed independently from it’s application. Just checkout
+<a href="http://symfony2bundles.org">http://symfony2bundles.org</a> to see all the
+great bundles already written for Symfony2 (and it hasn’t even been
+released yet). Want to integrate with Twitter, include the bundle. Want
+to incorporate a forum, include the bundle.</p>
+
+<p>Symfony2 also easily works with many 3rd party libraries. All that is
+required is a simple bundle to provide an interface between Symfony2 and
+the library. Symfony2 is Symfony2 comes with support for Doctrine, a
+number of Zend classes, and …..</p>
+
+<h2 id="very-testable">Very Testable</h2>
+
+<p>Symfony2 is built with testing in mind from the ground up. Due to it’s
+lightweight and robust Dependency Injection Container, which was
+inspired by the Spring one, virtually everything in Symfony2 is
+testable. PHP Unit is fully supported as are many different approaches
+including mocking, stubbing, unit and functional tests. Symfony2
+provides it’s own library for functional tests where it can simulate
+requests and test output without the browser.</p>
+
+<p>Symfony2 also provides four different environments so that it can be
+fully used within the dev, test, staging, production lifecycle.</p>
+
+<h2 id="engineering-excellence">Engineering Excellence</h2>
+
+<p>As the framework is the foundation it’s critical that it is engineered
+properly, efficiently and bug free. Symfony2 is extremely well written
+code. Speaking from experience in developing a framework, there are some
+rather challenging pieces to get right (eg CLI, modularity, efficient
+routing). Fabien and friends have done an amazing job in writing a well
+crafted framework suitable for building anything on. In spite of being
+inspired by a number of java patterns, it’s a PHP framework. Other’s
+have tried building a java framework in PHP with rather poor results
+(Zend ahem).</p>
+
+<h2 id="useful-tools">Useful Tools</h2>
+
+<p>Symfony2 provides a set of extremely useful tools. The Web Debug toolbar
+and profiler simplify development and give real time feedback on how
+well your application is performing. The CLI integration is second to
+none. It’s rather easy to develop your own console commands for just
+about anything in Symfony2. Read more about these tools for yourself
+<a href="http://symfony-reloaded.org/tools">http://symfony-reloaded.org/tools</a></p>
+
+<h1 id="what-doesn-t-work-yet">What doesn’t work… yet</h1>
+
+<p>It can’t all be good, right? So here’s the list of things that aren’t
+working well in Symfony2. I say yet, as I believe that all will be
+addressed in time. It’s a rather young framework and still pre-release.</p>
+
+<h2 id="too-customizable">Too customizable</h2>
+
+<p>Probably my biggest complaint is that there are literally dozens of ways
+to do anything. It’s also unclear what the best practices are so it’s
+even harder to know if you are doing something the right way. This
+either makes for a very scattered application or for a development team
+to establish clear standards for their application. My approach here has
+always been one of extreme customizability but with sane defaults. I
+feel that this is the best of both worlds as you can change anything you
+want, but don’t need to, things just work the way you’d expect them to.
+Symfony2’s approach is everything needs to be explicitly defined,
+resulting in the next criticism…</p>
+
+<h2 id="lots-of-typing">Lots of Typing</h2>
+
+<p>The Symfony2 team is taking the right approach. Get the foundation
+perfect before moving up to making things automated and easier for the
+developer. As it is now though, there’s lots of tedious work. Loads of
+typing to do even simple things. I know there are efforts to build
+scaffolding and other automations, but as it stands now, be ready to
+type a lot. This dovetails into my first criticism well as without sane
+defaults it’s rather hard to build scaffolding etc. This also isn’t to
+say that there isn’t some of this.. for instance there’s a great console
+command for initializing a bundle and another for bootstrapping an
+application, but it’s pretty limited now.</p>
+
+<h2 id="work-in-progress">Work in Progress</h2>
+
+<p>Symfony2 is slated for release in March 2011.. in two months. So all the
+things that come with a pre-release piece of software come along with
+it. This means this is beta code, the API isn’t fixed yet and changes
+pretty frequently. At OpenSky we dedicate time to catching up to HEAD
+every week or two. Additionally the approach to bundles will make an
+amazing pool of includable community modules to facilitate rapid
+building. However these are in their infancy. There are handful of them
+and some of excellent quality, but with a frequently changing API, not
+all are up to date. It’s reasonable to assume that once released, this
+will be an amazing resource, but until then it just hints of one.</p>
+
+<p><a href="http://symfony.com">Get Started with Symfony2</a></p>
+
+<p>Check out my follow up article..<a href="http://spf13.com/post/getting-started-with-symfony2" title="Getting Started with Symfony2">Getting Started with
+Symfony2</a>.</p>
+
+<p>Agree / Disagree? Share your experiences in the comments below.</p>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Tue Feb 1, 2011 </h4>
+          <h5 id="wc"> 1500 Words </h5>
+          <h5 id="readtime"> Read in about 7 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/development">Development</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/php">php</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/development">development</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/framework">Framework</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/php">PHP</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/symfony2">Symfony2</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/getting-started-with-symfony2/"><i class="icon-arrow-left"></i> Getting Started with Symfony2</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/perfect-vimrc-vim-config-file/">The perfect .vimrc vim config file <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="1437">
+<meta itemprop="datePublished" content="2011-02-01">
+<meta itemprop="url" content="http://lacoski.github.io/post/symfony2/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

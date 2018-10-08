@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Hacking Management</title>
+    <link>http://lacoski.github.io/topics/development/</link>
+    <description>Recent content in Development on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 17 Aug 2017 10:09:53 -0400</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/topics/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>State Of The Gopher Nation - Aug 17</title>
+      <link>http://lacoski.github.io/presentation/stateofthegophernation-aug17/</link>
+      <pubDate>Thu, 17 Aug 2017 10:09:53 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/stateofthegophernation-aug17/</guid>
+      <description>I am at GolangUK in London, having just finished giving the opening keynote.
+I was a bit more nervous than usual, in part, due to the length of time since my last talk, and in part I was representing the entire Go project for the first time in a keynote.
+This talk is an overview of the entire Go project. It covers &amp;ldquo;what we&amp;rsquo;ve done&amp;rdquo;, &amp;ldquo;why we did it&amp;rdquo; and &amp;ldquo;where we are going&amp;rdquo; as a project.</description>
+    </item>
+    
+    <item>
+      <title>Hugo goes global</title>
+      <link>http://lacoski.github.io/post/hugo-goes-global/</link>
+      <pubDate>Fri, 07 Oct 2016 10:56:02 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/post/hugo-goes-global/</guid>
+      <description>&lt;p&gt;Hugo is going Global! Hugo 0.17, released today, is our best and fastest
+release ever! &lt;strong&gt;Hugo 0.17 is nearly twice as fast as Hugo 0.16&lt;/strong&gt; and adds
+&lt;strong&gt;full support for multilingual websites&lt;/strong&gt; with i18n support throughout all
+of Hugo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>I’m joining the Go team at Google</title>
+      <link>http://lacoski.github.io/post/joining-go-team-at-google/</link>
+      <pubDate>Thu, 15 Sep 2016 12:15:03 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/post/joining-go-team-at-google/</guid>
+      <description>&lt;p&gt;I am honored to share that I have joined Google as a member of the Go team and will be primarily based in NYC.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>7 common mistakes in Go (2015)</title>
+      <link>http://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</link>
+      <pubDate>Wed, 27 May 2015 12:28:12 -0700</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</guid>
+      <description>Given at GopherFest 2015. This is an updated version of the talk I gave in NYC Nov 14 at GothamGo.
+“We need to think about failure differently. Most people think mistakes are a necessary evil. Mistakes aren&amp;rsquo;t a necessary evil, they aren&amp;rsquo;t evil at all. They are an inevitable consequence of doing something new and as such should be seen as valuable. “ - Ed Catmull
+As Go is a &amp;ldquo;new&amp;rdquo; programming language we are all experimenting and learning how to write better Go.</description>
+    </item>
+    
+    <item>
+      <title>What Every Open Source Project Needs</title>
+      <link>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</link>
+      <pubDate>Fri, 20 Mar 2015 18:00:02 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</guid>
+      <description>In the last few years open source has transformed the software industry. From Android to Wikipedia, open source is everywhere, but how does one succeed in it? While open source projects come in all shapes and sizes and all forms of governance, no matter what kind of project you’re a part of, there are a set of fundamentals that lead to success. I’d like to share some of the lessons I’ve learned from running two of the largest commercial open source projects, Docker &amp;amp; MongoDB , as well as some very successful community based projects (Hugo, spf13-vim, Cobra, Viper, Zoop).</description>
+    </item>
+    
+    <item>
+      <title>How To Be A Good Open Source Community Member</title>
+      <link>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</link>
+      <pubDate>Tue, 17 Mar 2015 15:24:07 -0500</pubDate>
+      
+      <guid>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</guid>
+      <description>A friend of mine who is a very talented writer recently became intrigued with open source and asked me to help her to understand how to be a good open source community member.
+Open source is one of the most unusual things in the world. Is there any other profession where highly skilled professionals donate their free time to give their work away for free? Many spend long hours at their day jobs, just to spend their nights and weekends doing the same thing.</description>
+    </item>
+    
+    <item>
+      <title>7 Common mistakes in Go and when to avoid them</title>
+      <link>http://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</link>
+      <pubDate>Tue, 18 Nov 2014 14:06:00 -0500</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</guid>
+      <description>Not a generic list of programming mistakes, these are the lessons I wish I learned earlier while developing Go. I&amp;rsquo;ve spent the past two years developing some of the most popular libraries and applications written in Go. I&amp;rsquo;ve also made a lot of mistakes along the way. Recognizing that &amp;ldquo;The only real mistake is the one from which we learn nothing. -John Powell&amp;rdquo;, I would like to share with you the mistakes that I have made over my journey with Go and when you can avoid them.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Summer 2014 Update</title>
+      <link>http://lacoski.github.io/post/hugo-summer2014-update/</link>
+      <pubDate>Thu, 02 Oct 2014 13:28:42 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/post/hugo-summer2014-update/</guid>
+      <description>Hugo, the fast and flexible static site generator, is really coming of age. I wanted to give a quick update about the progress Hugo has been making over the past couple months.
+New Website Hugo can now be found at http://gohugo.io. Update your bookmarks.
+New Team Members I want to formally welcome our newest team members.
+Tatsushi Demachi has been making excellent contributions hugo, particularly with extensions to the template capabilities.</description>
+    </item>
+    
+    <item>
+      <title>Evangelism is NOT Sales</title>
+      <link>http://lacoski.github.io/post/evangelism-is-not-sales/</link>
+      <pubDate>Wed, 24 Sep 2014 13:17:48 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/post/evangelism-is-not-sales/</guid>
+      <description>I recently had a discussion with a CFO of a technology company. We were meeting because he is trying to better understand the role technical evangelism could play within his company. Ten minutes into our conversation he said, &amp;ldquo;so evangelism is pretty much rogue sales&amp;rdquo;. Internally I cringed. I politely corrected him that the two could not be further apart.
+Allow me to be a bit philosophical or rather, etymological here.</description>
+    </item>
+    
+    <item>
+      <title>Go for Object Oriented Programmers</title>
+      <link>http://lacoski.github.io/presentation/go-for-object-oriented-programmers/</link>
+      <pubDate>Thu, 31 Jul 2014 04:20:08 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/go-for-object-oriented-programmers/</guid>
+      <description>This presentation was given at OSCON 2014.
+  Object Oriented (OO) programming has dominated software engineering for the last two decades. The paradigm built on powerful concepts such as Encapsulation, Inheritance, and Polymoprhism has been internalized by the majority of software engineers. Although Go is not OO in the strict sense, we can continue to leverage the skills we’ve honed as OO engineers to come up with simple and solid designs.</description>
+    </item>
+    
+    <item>
+      <title>Using MongoDB with Go and mgo</title>
+      <link>http://lacoski.github.io/presentation/mongodb-and-go/</link>
+      <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/mongodb-and-go/</guid>
+      <description>This presentation was given at OSCON 2014.
+  This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp;amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.
+As an emerging language Go is able to start fresh without years of relational database dependencies. Application and library developers are able to build applications using the excellent Mgo MongoDB driver and the reliable go sql package for relational database.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Go</title>
+      <link>http://lacoski.github.io/presentation/first-go-app/</link>
+      <pubDate>Sun, 20 Jul 2014 08:51:33 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/first-go-app/</guid>
+      <description>This presentation was given as a Workshop at OSCON 2014.
+  Description New to Go? This tutorial will give developers an introduction and practical experience in building applications with the Go language. Gopher Steve Francia, Author of Hugo, Cobra, and many other popular Go packages breaks it down step by step as you build your own full featured Go application.
+Starting with an introduction to the Go language. He then reviews the fantastic go tools available.</description>
+    </item>
+    
+    <item>
+      <title>Pointers vs References</title>
+      <link>http://lacoski.github.io/post/go-pointers-vs-references/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/go-pointers-vs-references/</guid>
+      <description>Some languages including C, C++ support pointers. Other languages including C++, Java, Python, Ruby, Perl and PHP all support references. On the surface both references and pointers are very similar, both are used to have one variable provide access to another. With both providing a lot of the same capabilities, it’s often unclear what is different between these different mechanisms. In this article I will illustrate the difference between pointers and references.</description>
+    </item>
+    
+    <item>
+      <title>Is Go an Object Oriented language?</title>
+      <link>http://lacoski.github.io/post/is-go-object-oriented/</link>
+      <pubDate>Mon, 09 Jun 2014 01:18:04 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/is-go-object-oriented/</guid>
+      <description>To truly understand what it means to be ‘object-oriented’ you need to look back at the origination of the concept. The first object oriented language, simula, emerged in the 1960s. It introduced objects, classes, inheritance and subclasses, virtual methods, coroutines, and a lot more. Perhaps most importantly, it introduced a paradigm shift of thinking of data and logic as completely independent.
+While you many not be familiar with Simula, you are no doubt familiar with languages that refer to it as their inspiration including Java, C++, C# &amp;amp; Smalltalk, which in turn have been the inspiration for Objective C, Python, Ruby, Javascript, Scala, PHP, Perl&amp;hellip; a veritable list of nearly all popular languages in use today.</description>
+    </item>
+    
+    <item>
+      <title>9 MongoDB 2.6 Drivers Released</title>
+      <link>http://lacoski.github.io/post/mongodb2-6-drivers-released/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/mongodb2-6-drivers-released/</guid>
+      <description>I’m pleased to announce the coordinated release of drivers in 9 languages in preparation for the release of MongoDB 2.6. This is the largest driver release in the history of MongoDB, both in terms of code changes as well as in terms of drivers released. Official Drivers for C, C++, C# (.net), Java, Node.js, PHP, Python, Ruby and Scala were all released with Perl following shortly. In the upcoming weeks community drivers will be updated to take advantage of the new features present in MongoDB 2.</description>
+    </item>
+    
+    <item>
+      <title>Cross Compiling with Go</title>
+      <link>http://lacoski.github.io/post/cross-compiling-go/</link>
+      <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/cross-compiling-go/</guid>
+      <description>One of the great features of golang is that you can compile executables for many different platforms and architectures from a single machine. It’s really nice to be able to provide executables of Hugo for a bunch of different platforms and architectures without having to have all these different machines in a build cluster.
+As I’ve been working with Hugo, I’ve wanted to make the experience of cross compiling as easy and painless as possible.</description>
+    </item>
+    
+    <item>
+      <title>Why I use spf13-vim</title>
+      <link>http://lacoski.github.io/post/why-i-use-spf13-vim/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/why-i-use-spf13-vim/</guid>
+      <description>spf13-vim, a completely cross platform distribution of vim plugins and resources for Vim, GVim and MacVim stays true to it&amp;rsquo;s vim roots while adding modern features including a plugin management system, a curated plugin set with customized configuration, advanced autocomplete, tags, support for dozens of languages and much more.
+I recently read a thread where the author asked for feedback on whether or not to use spf13-vim. Responses varied greatly with some people loving it to others claiming it was bloated and overkill.</description>
+    </item>
+    
+    <item>
+      <title>A modern CLI Commander for go</title>
+      <link>http://lacoski.github.io/post/announcing-cobra/</link>
+      <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/announcing-cobra/</guid>
+      <description>While developing Hugo I became disappointed with the interface limitations flags alone provide. A quick look at virtually any command line application (ls, grep, less, etc) reveals that most applications overuse flags to do everything and often allow conflicting flags to be applied.
+Even though hugo is relatively simple, we already had the ability to stack flags that didn&amp;rsquo;t make sense. You can set the port using &amp;ndash;port but this only has an effect if you also specified &amp;ndash;server.</description>
+    </item>
+    
+    <item>
+      <title>Refactoring with go fmt</title>
+      <link>http://lacoski.github.io/post/go-fmt/</link>
+      <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/go-fmt/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently been getting into go. I&amp;rsquo;ve built a &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;few
+packages&lt;/a&gt; &lt;a href=&#34;http://lacoski.github.io/post/announcing-cobra&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://spf13.com/project/nitro&#34;&gt;libraries&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For this post, let&amp;rsquo;s explore the &amp;lsquo;gofmt&amp;rsquo; or &amp;lsquo;go fmt&amp;rsquo; tool further.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Building Modern Web Applications</title>
+      <link>http://lacoski.github.io/presentation/building-modern-web-applications/</link>
+      <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/building-modern-web-applications/</guid>
+      <description>I gave this presentation to a packed house at DevCon5 in NYC July 24th. DevCon5 is a web developers conference and this year it focused on HTML5. This was one of the hardest presentations I&amp;rsquo;ve worked on for the simple fact that the audience had name recognition, but not familiarity with the database industry. Typically I&amp;rsquo;ve leaned on the fact that most participants were familiar with at least one database prior to my presentation, I had no such luxury here.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and PHP Webinar</title>
+      <link>http://lacoski.github.io/presentation/mongodb-and-php/</link>
+      <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/mongodb-and-php/</guid>
+      <description>This is a 90 minute MongoDB tutorial on using MongoDB in PHP which I gave as a webcast for O&amp;rsquo;Reilly last year.. The tutorial covers everything from Installing MongoDB along with installing and configuring the MongoDB PHP driver. You will learn how to work with MongoDB from within PHP as well as within the MongoDB shell.
+What would happen if you optimized a data store for the operations application developers to actually use?</description>
+    </item>
+    
+    <item>
+      <title>Hugo: A fast and flexible static site generator built in GoLang</title>
+      <link>http://lacoski.github.io/project/hugo/</link>
+      <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/project/hugo/</guid>
+      <description>Hugo Website   Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
+Hugo makes use of markdown files with front matter for meta data.
+Written in GoLang for speed, Hugo is significantly faster than most other static site generators.
+A typical website of moderate size can be rendered in a fraction of a second.</description>
+    </item>
+    
+    <item>
+      <title>Nitro : A quick and simple profiler for golang</title>
+      <link>http://lacoski.github.io/project/nitro/</link>
+      <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/project/nitro/</guid>
+      <description>&lt;p&gt;
+&lt;figure class=&#34;third right&#34;&gt;
+    
+        &lt;img src=&#34;http://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+Nitro is a quick and easy performance analyzer library for golang.
+It is useful for comparing A/B against different drafts of functions
+or different functions. Building on the standard pprof library, Nitro
+provides a very high level view of your application performance to help
+identify areas to investigate further. It also provides an easy metric
+to compare as you revise and improve each part of your application.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MongoDB Driver days hackathon round up</title>
+      <link>http://lacoski.github.io/post/10gen-driver-days-mongodb-hack-a-thon/</link>
+      <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/10gen-driver-days-mongodb-hack-a-thon/</guid>
+      <description>Two times a year the drivers team at 10gen gathers together for a face to face meeting to spend time together working on issues and setting forth our goals for the upcoming six months. In September 2012 we all converged on New York City for the second ever driver days. This time we split up into teams for a hack-a-thon. As maintainers of drivers &amp;amp; integrations in over a dozen different languages while we are on the same team, it isn’t often that we actually work together on the same codebase.</description>
+    </item>
+    
+    <item>
+      <title>How to deliver a great conference tutorial</title>
+      <link>http://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</link>
+      <pubDate>Wed, 05 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</guid>
+      <description>OSCON 2012   I recently returned from OSCON where I was able to give one of the more popular presentations at the conference. I presented on the morning of the first day and throughout the entire week people kept coming up to me telling me how much they enjoyed my tutorial and how bored they were at the sessions they attended since. Here are the secrets of how I gave such a compelling presentation.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with MongoDB and PHP</title>
+      <link>http://lacoski.github.io/post/getting-started-with-mongodb-and-php/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/getting-started-with-mongodb-and-php/</guid>
+      <description>Nearly 3 years ago I discovered a new database that literally changed my life. I know, that’s a pretty bold claim, but it’s true. While leading the engineering team at OpenSky I faced a problem I was well familiar with. How to build a e-commerce product that: 1. Provided performance and scale 2. Handled many verticals and 3. Provided proper indexing on key attributes. In search for a better solution to this problem I encountered MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>NoSQL databases and Managing Big Data</title>
+      <link>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</link>
+      <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</guid>
+      <description>I had the unique opportunity to present at the annual technology forum Insight Venture Partners holds for their portfolio companies. Over 100 CTOs gathered in NYC to hear from great presenters from companies like 10gen, Tumblr, Shutterstock and Buddy Media.
+I’ve included a slightly longer version of the presentation given which includes a few slides that I cut out for brevity to fit in the allocated time while still allowing time for questions.</description>
+    </item>
+    
+    <item>
+      <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
+      <link>http://lacoski.github.io/project/spf13-vim/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/project/spf13-vim/</guid>
+      <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
+It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
+The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.
+Unlike traditional VIM plugin structure, which similar to UNIX throws all files into common directories, making updating or disabling plugins a real mess, spf13-vim 3 uses the Vundle plugin management system to have a well organized vim directory (Similar to mac&amp;rsquo;s app folders).</description>
+    </item>
+    
+    <item>
+      <title>spf13-vim 3.0 release and new website</title>
+      <link>http://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/</guid>
+      <description>This post is a bit behind the actual releases, but should be announced here nevertheless. Announcing the 3rd major release of spf13-vim. spf13-vim is a distribution of vim plugins and resources for Vim, GVim and MacVim. It is a completely cross platform distribution that stays true to the feel of vim while providing modern features like a plugin management system, autocomplete, tags and tons more. It grew out of my vim configuration which I put on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with Drupal and MongoDB</title>
+      <link>http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</guid>
+      <description>MongoDB is the most full featured scalable database taking the tech world by storm. Drupal is the standard in content management powering magazines, blogs online newspapers and much more. It’s only natural that they would get together to provide a fast dynamic scalable CMS system. Whenever a Drupal site needs to scale dynamic content they turn to MongoDB to be able to deliver. The Examiner.com was the pioneer in this approach and many Drupal sites have followed suit.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and Hadoop</title>
+      <link>http://lacoski.github.io/presentation/mongodb-and-hadoop/</link>
+      <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/mongodb-and-hadoop/</guid>
+      <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB. Programmers of all kinds will find a new way to work with ETL using Pig to extract and analyze large datasets and persist the results to MongoDB.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Code Viewer 2 for WordPress</title>
+      <link>http://lacoski.github.io/project/github-code-viewer/</link>
+      <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/project/github-code-viewer/</guid>
+      <description>GitHub Code Viewer 2 automatically pulls a file from github and places into any post using a shortcode [github_cv url=&amp;lsquo;$url&amp;rsquo;] Caches locally (in db), so there isn&amp;rsquo;t a performance hit. Heavily Modified from original plugin by Matt Curry http://www.pseudocoder.com
+Installation  Upload GitHub_Code_Viewer.php to the /wp-content/plugins/ directory Activate the plugin through the &amp;lsquo;Plugins&amp;rsquo; menu in WordPress Use the shortcode [github_cv url=&amp;rsquo;&amp;rsquo;] in your post.  Changelog 2.0  Rewrote as a static class as only one instance is needed.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB and PHP, The Book</title>
+      <link>http://lacoski.github.io/post/mongodb-and-php-the-book/</link>
+      <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/mongodb-and-php-the-book/</guid>
+      <description>I wrote a book. It is published by O’Reilly, and available now on Amazon, O’Reilly Media and a bunch of other sites, available in both print and as an ebook.
+From the introduction:
+ What would happen if you optimized a data store for the operations application developers actually use? You’d arrive at MongoDB, the reliable document-oriented database. With this concise guide, you’ll learn how to build elegant database applications with MongoDB and PHP.</description>
+    </item>
+    
+    <item>
+      <title>PIV : PHP Integration for VIM</title>
+      <link>http://lacoski.github.io/project/piv/</link>
+      <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/project/piv/</guid>
+      <description>This project contains the most feature complete and up to date PHP Integration for Vim. It began as a fork of the largely outdated VIP (formerly PDV), but has morphed into it’s own project.
+It is intended to include the best PHP specific plugins, configurations and resources for editing PHP. Special care has been taken to include the best, keep them up to date and make sure everything plays well together.</description>
+    </item>
+    
+    <item>
+      <title>MongoDB for Genealogy at RootsTech 2012</title>
+      <link>http://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</link>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</guid>
+      <description>After an enjoyable time at the SORT conference in 2011 I was invited to come back to SLC to present at the RootsTech Genealogy conference.
+The two hardest data types to model are e-commerce and genealogy. There really just isn’t any good way to do it in a relational database. MongoDB is the answer Genealogy developers have been looking for for a very long time. A flexible schema that allows adhoc searching, horizontal scale and full data integrity.</description>
+    </item>
+    
+    <item>
+      <title>Backup, Replication and Disaster Recovery</title>
+      <link>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</guid>
+      <description>One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
+The principles explained apply equally well in RDBMSs, MongoDB and other databases.
+Potential scenarios to protect against  Drive failure Machine failure Switch failure Power circuit failure Data center failure Intrusion Fat fingers Programmer error  Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>
+    </item>
+    
+    <item>
+      <title>Hybrid MongoDB / SQL Applications</title>
+      <link>http://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</link>
+      <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</guid>
+      <description>MongoDB is often used alongside a relational database such as Oracle or MySQL. It is often unclear when one should use one or the other, or if a combination is really ideal. During this online presentation, we will discuss the ideal use cases for each, and how they can be used in conjunction. We’ll make sure to touch on several real world examples.
+The full recording can be found at 10gen’s site at http://www.</description>
+    </item>
+    
+    <item>
+      <title>Building your First app with MongoDB at MongoSV 2011</title>
+      <link>http://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</link>
+      <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</guid>
+      <description>10gen had our flagship conference in Silicon Valley. I gave an introductory presentation at the first session on building an application in MongoDB. This talk will introduce the features of MongoDB by walking through how one can building a simple location-based application using MongoDB. It covers the basics of MongoDB’s document model, query language, map-reduce framework and deployment architecture.
+Building your first application w/mongoDB MongoSV2011   View more presentations from Steve Francia</description>
+    </item>
+    
+    <item>
+      <title>E-commerce in LA</title>
+      <link>http://lacoski.github.io/presentation/ecommerce-in-la/</link>
+      <pubDate>Thu, 08 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/ecommerce-in-la/</guid>
+      <description>This week I joined a few of my co-workers down in LA. We met with a few companies and ran the MongoDB LA Users Group. Notably I met with Magento about the possibility of Magento 2.0 being built on MongoDB. On my final night in LA I presented on MongoDB, E-commerce and Transactions.
+I really enjoyed my time in LA and am looking forward to returning. I was impressed by how many companies are using MongoDB in LA and how great the interaction was at the Meetup.</description>
+    </item>
+    
+    <item>
+      <title>Easy bash scripting with shflags</title>
+      <link>http://lacoski.github.io/post/easy-bash-scripting-with-shflags/</link>
+      <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/easy-bash-scripting-with-shflags/</guid>
+      <description>One of the most frustrating things about bash scripts is how challenging it is to create unix style executables. You know, the ones where you can pass in -h or –help and see the set of options for the program. Up until now this has been a very manual process in bash, but no longer. Enter the shflags project from Kate Ward where a bash library takes care of all the nasty work and producing an elegant way to add option (or argument) support to your scripts.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Symfony2 Console Command</title>
+      <link>http://lacoski.github.io/post/creating-a-symfony2-console-command/</link>
+      <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/creating-a-symfony2-console-command/</guid>
+      <description>One of the weaknesses of PHP as a languages has always been it’s ability to write proper command line utilities. Yes PHP is pretty much built to drive the web, and it does that rather well, but there are plenty of reasons to want to be able to write a program that is callable from the command line that interfaces with your web app. Symfony2 does a rather good job at providing a nice toolset to build command line applications in php.</description>
+    </item>
+    
+    <item>
+      <title>Blending Mongo and RDBMS for ecommerce</title>
+      <link>http://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
+      <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
+      <description>Justin Hileman and I presented at MongoNYC 2011 to a packed house. Our presentation outlines both why someone would want to use MongoDB for ecommerce and how we overcame some of it’s limitations by incorporating mysql into our infrastructure.
+ Presenting at MongoNYC 2011     Blending MongoDB and RDBMS for ecommerce
+View more presentations from Steve Francia.</description>
+    </item>
+    
+    <item>
+      <title>The Browser as an application platform</title>
+      <link>http://lacoski.github.io/post/the-browser-as-a-application-platform/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/the-browser-as-a-application-platform/</guid>
+      <description>With Google launching their chrome book is significant as it reflects a substantial shift in the world of computing. For the first time ever, the application platform isn’t the operating system, nor is it adobe air, .net or java, it’s the browser. The browser once, a simple tool for fetching and rendering content is now the most important application platform in the world.
+Ultimately the reason we are converging on the browser being the platform is because java failed.</description>
+    </item>
+    
+    <item>
+      <title>Creating your own Symfony2 Bundle</title>
+      <link>http://lacoski.github.io/post/creating-your-own-symfony2-bundle/</link>
+      <pubDate>Tue, 24 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/creating-your-own-symfony2-bundle/</guid>
+      <description>Symfony2 is a great web framework. OpenSky is built on this framework and we are one of the largest contributors to it. The primary building block for Symfony2 is a bundle. Through it’s bundle system Symfony 2.0 achieves a level of modularity I haven’t seen in other web frameworks. A bundle permits a developer to add functionality to the framework and is the best way to develop applications with Symfony2.</description>
+    </item>
+    
+    <item>
+      <title>Release early, release often to minimize risk</title>
+      <link>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</link>
+      <pubDate>Thu, 05 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</guid>
+      <description>Release Cycles have been debated for the last 30 years and will certainly be for the next 30. Arguments for longer release cycles with larger releases usually focus on how risky these rapid releases are and the stability and polish these larger releases with their longer cycles bring. These arguments are absolute rubbish. To add to the discussion I’ll put a different emphasis than I’ve heard before. Release early and release often to minimize risk.</description>
+    </item>
+    
+    <item>
+      <title>My Favorite Rands Posts</title>
+      <link>http://lacoski.github.io/post/my-favorite-rands-posts/</link>
+      <pubDate>Thu, 28 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/my-favorite-rands-posts/</guid>
+      <description>If you don’t know Rands (real name Michael Lopp), you should. His blog is full of excellent content from someone who successfully figured out how to transition from managing bits to Managing Humans (also the title of his first book). Whether you are a developer, a tech manager, or manage something else, you’ll find value in his posts. I’ve been reading his blog for years and it’s influenced my decisions greatly.</description>
+    </item>
+    
+    <item>
+      <title>Augmenting RDBMS with NoSQL for e-commerce</title>
+      <link>http://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</guid>
+      <description>Justin Hileman and I gave a presentation on “Augmenting RDBMS with NoSQL for e-commerce” at the PgEast 2011 conference. This presentation is really the sequel (no pun intended) to my presentation, MongoDB &amp;amp; Ecommerce : A Perfect Combination. This presentation takes you through how we created a hybrid solution blending both sql and nosql to achieve an optimal solution.
+Augmenting RDBMS with MongoDB for ecommerce   View more presentations from Steve Francia</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Symfony2</title>
+      <link>http://lacoski.github.io/post/getting-started-with-symfony2/</link>
+      <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/getting-started-with-symfony2/</guid>
+      <description>In a follow up to my popular post on Symfony2, the open source PHP framework we use at OpenSky, I’m providing an easy guide to getting started using Symfony2. This isn’t your basic “Hello World”, but a practical guide to beginning a project with Symfony2.
+Requirements To get started with Symfony2 you should have a working install of Git as well as a well made install of PHP version 5.</description>
+    </item>
+    
+    <item>
+      <title>On Symfony2</title>
+      <link>http://lacoski.github.io/post/symfony2/</link>
+      <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/symfony2/</guid>
+      <description>Disclaimer I’ve got a couple disclaimers in writing this. 1. I’m one of the primary authors of the Zoop Framework for PHP. It’s pretty much the first web framework for PHP dating back to 2001. In spite of it’s age it’s still quite relevant and in use by thousands worldwide. 2. I run engineering for OpenSky where we elected to build our ecommerce platform on the Symfony2 framework and have since become the 2nd largest contributors to it.</description>
+    </item>
+    
+    <item>
+      <title>The perfect .vimrc vim config file</title>
+      <link>http://lacoski.github.io/post/perfect-vimrc-vim-config-file/</link>
+      <pubDate>Thu, 27 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/perfect-vimrc-vim-config-file/</guid>
+      <description>I have spent the last few years tweaking and refining my VIM configuration. This is the ultimate VIM configuration .vimrc file. It is well organized and documented. It is on GitHub so you can always grab the latest. It works well alone, but is intended to be paired with the plugins and configuration found in my complete .vim configuration also hosted on GitHub.
+The Perfect .vimrc file Last updated May 26th 2011</description>
+    </item>
+    
+    <item>
+      <title>Software Development&#39;s Magic Triangle</title>
+      <link>http://lacoski.github.io/post/software-developments-magic-triangle/</link>
+      <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/software-developments-magic-triangle/</guid>
+      <description>There’s an old adage “Fast, Cheap, Good; Pick Two”. This situation is called a magic triangle. You can have two and only two, if you try for all three you will compromise all three. Fools often try, losing everything.
+In the world of software development, another magic triangle exists. You can pick any two of the three, but not all three, so figure out what’s truly important.
+Fixed Schedules Fixed Features High Quality Unfortunately business owners rarely have visibility into the last one (Quality).</description>
+    </item>
+    
+    <item>
+      <title>MongoDB &amp; Ecommerce : A Perfect Combination</title>
+      <link>http://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</link>
+      <pubDate>Wed, 20 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</guid>
+      <description>Last night I gave a presentation on MongoDB &amp;amp; Ecommerce. OpenSky is the first company to use MongoDB in production for ecommerce. I shared why we went this route, and why it’s an obvious and powerful combination. At OpenSky we use MongoDB to develop the next ecommerce platform. OpenSky also uses Symfony 2, Doctrine 2, PHP 5.3, PHPUnit 3.5, jQuery, node.js, Git&amp;rdquo;) (with gitflow) and a touch of Java&amp;rdquo;) and Python&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>16 lessons from 16 years</title>
+      <link>http://lacoski.github.io/post/16-lessons-from-16-years/</link>
+      <pubDate>Fri, 10 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/16-lessons-from-16-years/</guid>
+      <description>I’ve been working in the technology industry for the last 16 years. I’ve learned a lot. I wanted to share the lessons I’ve learned over the past 16 years, I figured one for each year seemed nice. It’s harder to make a short list than a long one and I had to cut out some helpful things, perhaps I’ll follow this up with another one with the things that didn’t make the list.</description>
+    </item>
+    
+    <item>
+      <title>My take on open source licenses</title>
+      <link>http://lacoski.github.io/post/my-take-on-open-source-licenses/</link>
+      <pubDate>Wed, 21 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/my-take-on-open-source-licenses/</guid>
+      <description>Open Source licensing can be a confusing and daunting task. Most developers simply adopt licenses of other popular projects. I wanted to shed some light on the most popular licenses and provide some guidance on which one should be used and when.
+Disclaimer: I’m not a lawyer, I am not qualified to nor am I imparting sound legal advice.
+BSD &amp;amp; MIT Both licenses are very similar. They are very liberal and allow for sub-licensing meaning that any derived works may be released under a different (commercial or otherwise) license.</description>
+    </item>
+    
+    <item>
+      <title>Ultimate Vim Config</title>
+      <link>http://lacoski.github.io/post/ultimate-vim-config/</link>
+      <pubDate>Fri, 25 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/ultimate-vim-config/</guid>
+      <description>I have spent the last few years tweaking and refining my VIM configuration until I had the Ultimate Vim Config. It is well organized and documented taking full advantage of Tpope’s pathogen for a excellent clean and modular configuration. The Ultimate vim config contains the perfect .vimrc file combined with an excellent set of plugins all easily managed thanks to pathogen and git. It is on GitHub so you can always grab the latest.</description>
+    </item>
+    
+    <item>
+      <title>The Golden Hammer</title>
+      <link>http://lacoski.github.io/post/the-golden-hammer/</link>
+      <pubDate>Wed, 21 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/the-golden-hammer/</guid>
+      <description>kyle may    Every so often a “new” technology catches on. Right now it’s nosql databases. A couple years ago it was Ruby, before that it was java. Each arise because they propose a solution to an existing problem, or in other words a better way of doing something.. something, but not everything.
+Unfortunately knowing when to use the technology requires actual experience with it, which never seems to catch up to the hype engine quickly enough, so consequently the technology transforms into a “golden hammer”.</description>
+    </item>
+    
+    <item>
+      <title>NoSQL Databases</title>
+      <link>http://lacoski.github.io/post/nosql-databases/</link>
+      <pubDate>Thu, 08 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/nosql-databases/</guid>
+      <description>langalex    Amazon, Digg, Facebook, LinkedIn, Twitter all started on sql databases (all but Amazon on MySQL) and have transitioned to incorporated nosql databases into their infrastructure, though many utilize both relational databases as well as non-relational ones.
+I’ve compiled a few resources to help bring you up to speed on nosql databases.
+Major sites using NoSQL  Amazon : (Dynamo) http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html LinkedIn : (Voldemort) http://blog.</description>
+    </item>
+    
+    <item>
+      <title>Human readable du sorted by size</title>
+      <link>http://lacoski.github.io/post/human-readable-du-sorted-by-size/</link>
+      <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/human-readable-du-sorted-by-size/</guid>
+      <description>du is the *nix command for disk usage&amp;rdquo;). It tells you how much space everything in the given directory is taking up. GNU du introduced a handy option -h making it human readable, or showing sizes using K, M, G rather than bytes. Unfortunately this makes it not sortable numerically. Here’s how to sort du by size and keep it as human readable.
+Insert the following function into your .</description>
+    </item>
+    
+    <item>
+      <title>Using the right keys</title>
+      <link>http://lacoski.github.io/post/using-the-right-keys/</link>
+      <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/using-the-right-keys/</guid>
+      <description>HeyThereSpaceman    Today I was visiting a friends office and like many offices in NYC they have a shared bathroom in the hall for the entire floor. In this building it had five buttons on the door that when pressed in the correct order unlocked the door. A simple password.
+In our office we have a similarly shared bathroom, but instead of a password, we have a physical key required to unlock the door.</description>
+    </item>
+    
+    <item>
+      <title>REST vs SOAP, the difference between soap and rest</title>
+      <link>http://lacoski.github.io/post/soap-vs-rest/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/soap-vs-rest/</guid>
+      <description>Someone asked me a question today “Why would anyone choose SOAP (Simple Object Access Protocol) instead of REST (Representational State Transfer)?” My response: “The general rule of thumb I’ve always heard is ‘Unless you have a definitive reason to use SOAP use REST’”. He asked “what’s one reason?” I thought about it for a minute and honestly answered that I haven’t ever come across a reason. My background is building great internet companies.</description>
+    </item>
+    
+    <item>
+      <title>My Online Business Card (Vcard)</title>
+      <link>http://lacoski.github.io/post/my-online-business-card-vcard/</link>
+      <pubDate>Tue, 12 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/my-online-business-card-vcard/</guid>
+      <description>I wanted to polish up my javascript coding so I decided that the best way to do that was with a project that I’ve been wanted to do for a while anyway, my own identity site, or my online business card, or my online vcard. The idea was inspired by Tim Van Damme’s website.
+To accomplish this I wrote a jquery plugin to handle the navigation, animation etc.. The site itself is rather simple, a single html page and a few images.</description>
+    </item>
+    
+    <item>
+      <title>7 security practices you need to follow</title>
+      <link>http://lacoski.github.io/post/7-security-practices-you-need-to-follow/</link>
+      <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/7-security-practices-you-need-to-follow/</guid>
+      <description>Some of this may seem like a broken record, yet every single time you hear about a bank losing millions of customer data, or a company having a security breach they consistently have failed to implement and enforce the most basic security practices. Here are 7 simple security practices that you cannot afford to not follow.
+1. Secure pass phrases Throw away the notion of a password. Pass phrases consisting of multiple words and symbols are considerably more secure and easy to remember.</description>
+    </item>
+    
+    <item>
+      <title>Top Sites Running Drupal</title>
+      <link>http://lacoski.github.io/post/top-sites-running-drupal/</link>
+      <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/top-sites-running-drupal/</guid>
+      <description>Image via Wikipedia
+Drupal is a very powerful Content Management Solution. Many other organizations both large and small have found it to be a perfect platform for managing their website including some Fortune 100 companies. I decided to compile a list of some of the more notable organizations running drupal. This list is not exhaustive, but intended to demonstrate top site powered by drupal. If you know other top sites also powered by drupal, please list them in the comments below.</description>
+    </item>
+    
+    <item>
+      <title>Secure Automated, Key Based SSH</title>
+      <link>http://lacoski.github.io/post/secure-automated-key-based-ssh/</link>
+      <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/secure-automated-key-based-ssh/</guid>
+      <description>SSH is great and secure… Unless you need to automate it. Then it sucks because your only options are to create a passwordless key, or login add your key to ssh-agent, stay logged in forever. Here’s a quick guide to having the best of both worlds. A Secure SSH Connection that can be used in automated scripts. ( with the single catch, that upon reboot you need to re-enter your key’s password ) Create and Distribute your Key</description>
+    </item>
+    
+    <item>
+      <title>Installing Git on a Shared Host</title>
+      <link>http://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
+      <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
+      <description>Git is a fantastic tool and is very useful for deployment. If you can’t install git system wide or don’t want to mess with installing it on the entire system here is an easy way to install it for a single user. This also works well on Mac OS X where installing git is more challenging than necessary. Script included
+I used this script to install git on 1and1.</description>
+    </item>
+    
+    <item>
+      <title>Vim Plugins: NERD Commenter</title>
+      <link>http://lacoski.github.io/post/vim-plugins-nerd-commenter/</link>
+      <pubDate>Mon, 09 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/vim-plugins-nerd-commenter/</guid>
+      <description>The NERD Commenter is an indispensable tool when programming in VIM. It understands like a zillion different file types and properly comments each. It can handle single line, multi line, partial line commenting as well as nesting. If you’re programming in VIM you really should be using it.
+It is simple enough to use. Most commands are mapped to ,c[character]. The command you are probably going to use the most is ,c&amp;lt;space&amp;gt; which intelligently toggles a comment on or off.</description>
+    </item>
+    
+    <item>
+      <title>Mastering the Command Line</title>
+      <link>http://lacoski.github.io/post/mastering-the-command-line/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/mastering-the-command-line/</guid>
+      <description>If you use *nix, no doubt you’ve spent some time on the command line. Here are a few of the most helpful tricks you can use in the bash shell to really optimize your time, impress your friends, and make everyone else feel inferior… not to mention become more productive. People familar with the command line can usually work considerably faster (for most tasks) than you can through a gui.</description>
+    </item>
+    
+    <item>
+      <title>Setting up Subversion with multiple access methods</title>
+      <link>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
+      <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
+      <description>One thing that makes subversion such a powerful revision system is it’s ability to permit multiple methods of access. Https, WebDAV, SSH and svnserve. In spite of svn’s ability to support multiple access methods, doing so simultaniously can be quite challenging. Typically one will run into permission issues as the http(s) access will all be written to the filesystem as the user running the webserver. The SSH access will all write to the filesystem under each users given account.</description>
+    </item>
+    
+    <item>
+      <title>How RIM handed the mobile market over to Apple</title>
+      <link>http://lacoski.github.io/post/how-rim-handed-the-mobile-market-over-to-apple/</link>
+      <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/how-rim-handed-the-mobile-market-over-to-apple/</guid>
+      <description>Image representing iPhone 3G as depicted in Crunchbase   Hint: It has nothing to do with touch screens.
+While RIM scrambles to create the next greatest device, or their “iPhone killer” it needs to recognize that it’s no longer about the device. RIM don’t you remember that touchscreens aren’t new.. Palm had them back in the 90′s … before you crushed them.
+When RIM ruled the world RIM knows what it takes to dethrone the current market leader.</description>
+    </item>
+    
+    <item>
+      <title>Using SVK to Increase Productivity</title>
+      <link>http://lacoski.github.io/post/using-svk-to-increase-productivity/</link>
+      <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/using-svk-to-increase-productivity/</guid>
+      <description>SVK is a client for SVN built using perl. It makes a number of improvements over the standard svn client, while retaining much of the same feel. It works with the standard Subversion server and works perfectly in an environment with some users using svn and some using svk on the client side. It provides a number of sizable advantages over the standard svn client and is a must have for any development project.</description>
+    </item>
+    
+  </channel>
+</rss>

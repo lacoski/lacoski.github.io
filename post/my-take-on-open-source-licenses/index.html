@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Development, Leadership, Tech Industry, Open source, Programming, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="My take on open source licenses : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/my-take-on-open-source-licenses/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2010-07-21"/>
+<meta property="article:modified_time" content="2010-07-21"/>
+
+
+
+<meta property="article:tag" content="Development">
+<meta property="article:tag" content="Leadership">
+<meta property="article:tag" content="Tech Industry">
+<meta property="article:tag" content="Open source">
+<meta property="article:tag" content="Programming">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="My take on open source licenses : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> My take on open source licenses - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/my-take-on-open-source-licenses/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=My%20take%20on%20open%20source%20licenses-http%3a%2f%2flacoski.github.io%2fpost%2fmy-take-on-open-source-licenses%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fmy-take-on-open-source-licenses%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fmy-take-on-open-source-licenses%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fmy-take-on-open-source-licenses%2f&title=My%20take%20on%20open%20source%20licenses&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fmy-take-on-open-source-licenses%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fmy-take-on-open-source-licenses%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fmy-take-on-open-source-licenses%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">My take on open source licenses</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure class="right third">
+    
+        <img src="/media/opensource.png" alt="open source" />
+    
+    
+</figure>
+
+
+
+<p>Open Source licensing can be a confusing and daunting task. Most
+developers simply adopt licenses of other popular projects. I wanted to
+shed some light on the most popular licenses and provide some guidance
+on which one should be used and when.</p>
+
+<p><em>Disclaimer: I’m not a lawyer, I am not qualified to nor am I imparting
+sound legal advice.</em></p>
+
+<h2 id="bsd-mit-http-en-wikipedia-org-wiki-mit-license-mit-license">BSD &amp; <a href="http://en.wikipedia.org/wiki/MIT_License" title="MIT License">MIT</a></h2>
+
+<p>Both licenses are very similar. They are very liberal and allow for
+sub-licensing meaning that any derived works may be released under a
+different (commercial or otherwise) license.</p>
+
+<p>What they primarily accomplish is mandating that the <a href="http://en.wikipedia.org/wiki/Copyright" title="Copyright">copyright
+notice</a> remains in
+place and the disclaimer that the software is without warranty.</p>
+
+<p>The <a href="http://en.wikipedia.org/wiki/BSD_licenses" title="BSD licenses">BSD
+license</a> is a
+bit more specific on how the copyright notice needs to be displayed.</p>
+
+<h2 id="gpl">GPL</h2>
+
+<p>This is the most popular Open Source license. Without a full description
+of what the GPL does, as there are many places to find this, the GPL is
+a true Open Source license in the sense that it enforces that derivitave
+works must retain same license. In doing so it ensures that Open Sourced
+items remain open source. It does this by enforcing this based on
+distribution of binaries.</p>
+
+<h2 id="lgpl">LGPL</h2>
+
+<p>The LGPL is substantly the same as the GPL with one major difference. It
+permits for inclusion within other projects with different (including
+propriatary) licenses. A good read explaining when to use this vs the
+GPL is located here. 
+<a href="http://www.gnu.org/licenses/why-not-lgpl.html">http://www.gnu.org/licenses/why-not-lgpl.html</a></p>
+
+<h2 id="agpl">AGPL</h2>
+
+<p>The AGPL is again substantly the same as the GPL but addressing the fact
+that today distributing binaries is becoming less common, falling to
+providing access on a server. The AGPL address this by requiring
+enforcement based on if it is accessible from a network (ala a web
+site).</p>
+
+<h2 id="related-articles">Related articles</h2>
+
+<ul>
+<li><a href="http://itexpertvoice.com/home/a-cio%25e2%2580%2599s-quick-guide-to-open-source-licenses/">A CIO’s Quick Guide To Open Source
+Licenses</a>
+(itexpertvoice.com)</li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Wed Jul 21, 2010 </h4>
+          <h5 id="wc"> 400 Words </h5>
+          <h5 id="readtime"> Read in about 2 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/development">Development</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/leadership">Leadership</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/tech-industry">Tech Industry</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/open-source">Open source</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/programming">Programming</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/selling-on-opensky/"><i class="icon-arrow-left"></i> Selling on OpenSky</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/watch-what-you-say/">Watch what you say <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="301">
+<meta itemprop="datePublished" content="2010-07-21">
+<meta itemprop="url" content="http://lacoski.github.io/post/my-take-on-open-source-licenses/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

@@ -1,0 +1,2571 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/stateofthegophernation-aug17/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/hugo-goes-global/</loc>
+    <lastmod>2016-10-07T10:56:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/joining-go-team-at-google/</loc>
+    <lastmod>2016-09-15T12:15:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/the-future-of-the-os-linuxcon-2015-keynote/</loc>
+    <lastmod>2015-06-05T10:43:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</loc>
+    <lastmod>2015-05-27T12:28:12-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</loc>
+    <lastmod>2015-03-20T18:00:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</loc>
+    <lastmod>2015-03-17T15:24:07-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</loc>
+    <lastmod>2014-11-18T14:06:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/hugo-summer2014-update/</loc>
+    <lastmod>2014-10-02T13:28:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/evangelism-is-not-sales/</loc>
+    <lastmod>2014-09-24T13:17:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/go-for-object-oriented-programmers/</loc>
+    <lastmod>2014-07-31T04:20:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-and-go/</loc>
+    <lastmod>2014-07-23T09:48:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/first-go-app/</loc>
+    <lastmod>2014-07-20T08:51:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/go-pointers-vs-references/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/is-go-object-oriented/</loc>
+    <lastmod>2014-06-09T01:18:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/mongodb2-6-drivers-released/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/cross-compiling-go/</loc>
+    <lastmod>2014-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/why-i-use-spf13-vim/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/announcing-cobra/</loc>
+    <lastmod>2013-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/go-fmt/</loc>
+    <lastmod>2013-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</loc>
+    <lastmod>2013-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/building-modern-web-applications/</loc>
+    <lastmod>2013-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-and-php/</loc>
+    <lastmod>2013-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/project/hugo/</loc>
+    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/project/nitro/</loc>
+    <lastmod>2013-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/go-go-hugo-blog/</loc>
+    <lastmod>2013-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/10gen-driver-days-mongodb-hack-a-thon/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</loc>
+    <lastmod>2012-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/adding-photoshopcs5-support-to-picasa/</loc>
+    <lastmod>2012-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</loc>
+    <lastmod>2012-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</loc>
+    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/multi-data-center-strategies/</loc>
+    <lastmod>2012-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/getting-started-with-mongodb-and-php/</loc>
+    <lastmod>2012-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</loc>
+    <lastmod>2012-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</loc>
+    <lastmod>2012-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/dont-look-now-im-on-dzone/</loc>
+    <lastmod>2012-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/project/spf13-vim/</loc>
+    <lastmod>2012-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/new-personal-site-powered-by-github-pages/</loc>
+    <lastmod>2012-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/</loc>
+    <lastmod>2012-04-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-and-hadoop/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/project/github-code-viewer/</loc>
+    <lastmod>2012-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/mongodb-and-php-the-book/</loc>
+    <lastmod>2012-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/project/piv/</loc>
+    <lastmod>2012-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</loc>
+    <lastmod>2012-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</loc>
+    <lastmod>2012-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/windows-power-user-tools/</loc>
+    <lastmod>2011-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</loc>
+    <lastmod>2011-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/ecommerce-in-la/</loc>
+    <lastmod>2011-12-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</loc>
+    <lastmod>2011-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/lds-sort-tech-conference-2011/</loc>
+    <lastmod>2011-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</loc>
+    <lastmod>2011-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-sort-conference-2011/</loc>
+    <lastmod>2011-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/hybrid-cloud-computing/</loc>
+    <lastmod>2011-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</loc>
+    <lastmod>2011-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/where-have-all-the-good-databases-gone/</loc>
+    <lastmod>2011-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/easy-bash-scripting-with-shflags/</loc>
+    <lastmod>2011-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/competition-for-the-cloud-heats-up/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/creating-a-symfony2-console-command/</loc>
+    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/pandoras-ipo-a-sign-of-the-times/</loc>
+    <lastmod>2011-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</loc>
+    <lastmod>2011-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/the-browser-as-a-application-platform/</loc>
+    <lastmod>2011-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/creating-your-own-symfony2-bundle/</loc>
+    <lastmod>2011-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</loc>
+    <lastmod>2011-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/my-favorite-rands-posts/</loc>
+    <lastmod>2011-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/announcing-projects-presentations/</loc>
+    <lastmod>2011-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</loc>
+    <lastmod>2011-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/getting-started-with-symfony2/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/symfony2/</loc>
+    <lastmod>2011-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/perfect-vimrc-vim-config-file/</loc>
+    <lastmod>2011-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/a-new-page-for-google/</loc>
+    <lastmod>2011-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/the-most-productive-20-minutes-of-my-day/</loc>
+    <lastmod>2011-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/software-developments-magic-triangle/</loc>
+    <lastmod>2010-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/wp-github-code-viewer/</loc>
+    <lastmod>2010-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</loc>
+    <lastmod>2010-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/16-lessons-from-16-years/</loc>
+    <lastmod>2010-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/selling-on-opensky/</loc>
+    <lastmod>2010-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/my-take-on-open-source-licenses/</loc>
+    <lastmod>2010-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/watch-what-you-say/</loc>
+    <lastmod>2010-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/why-projects-fail/</loc>
+    <lastmod>2010-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/ultimate-vim-config/</loc>
+    <lastmod>2010-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/moving-to-wordpress/</loc>
+    <lastmod>2010-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/the-golden-hammer/</loc>
+    <lastmod>2010-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/nosql-databases/</loc>
+    <lastmod>2010-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/next-gen-php-frameworks/</loc>
+    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/finding-the-right-people/</loc>
+    <lastmod>2010-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/transitions/</loc>
+    <lastmod>2010-03-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/vim-crash-course/</loc>
+    <lastmod>2010-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/unix-jobs-management/</loc>
+    <lastmod>2010-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/human-readable-du-sorted-by-size/</loc>
+    <lastmod>2010-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</loc>
+    <lastmod>2010-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/using-the-right-keys/</loc>
+    <lastmod>2010-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/soap-vs-rest/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/my-online-business-card-vcard/</loc>
+    <lastmod>2010-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/7-security-practices-you-need-to-follow/</loc>
+    <lastmod>2009-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/top-sites-running-drupal/</loc>
+    <lastmod>2009-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/secure-automated-key-based-ssh/</loc>
+    <lastmod>2009-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/fascinating-interview-with-steve-jobs-and-bill-gates/</loc>
+    <lastmod>2009-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/the-importance-of-focus/</loc>
+    <lastmod>2009-12-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/getting-started-with-drupal/</loc>
+    <lastmod>2009-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/vim-plugins-snipmate/</loc>
+    <lastmod>2009-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/checking-vendor-references/</loc>
+    <lastmod>2009-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/a-better-follow-friday/</loc>
+    <lastmod>2009-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/engaging-employees/</loc>
+    <lastmod>2009-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/does-seth-godin-get-it/</loc>
+    <lastmod>2009-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/installing-git-on-a-shared-host/</loc>
+    <lastmod>2009-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/apples-iconic-presentations/</loc>
+    <lastmod>2009-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/vim-plugins-nerd-commenter/</loc>
+    <lastmod>2009-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/mastering-the-command-line/</loc>
+    <lastmod>2009-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/everything-is-amazing-and-nobodys-happy/</loc>
+    <lastmod>2009-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/conclusion-of-the-blog-a-thon/</loc>
+    <lastmod>2009-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/take-time-to-help-others/</loc>
+    <lastmod>2009-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/windows-7-launch-notes/</loc>
+    <lastmod>2009-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/54-us-companies-ban-social-media-and-thats-fine/</loc>
+    <lastmod>2009-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/managing-your-social-media-presence/</loc>
+    <lastmod>2009-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/migrating-to-feedburner/</loc>
+    <lastmod>2009-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/the-death-of-search/</loc>
+    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/how-i-blog/</loc>
+    <lastmod>2009-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/analyzing-and-improving-conversion/</loc>
+    <lastmod>2009-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/ranking-social-media/</loc>
+    <lastmod>2009-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/my-own-private-blogathon/</loc>
+    <lastmod>2009-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/using-nginx-as-a-load-balancer/</loc>
+    <lastmod>2009-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/featured-in-cio-magazine/</loc>
+    <lastmod>2009-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/choosing-a-hosting-partner/</loc>
+    <lastmod>2009-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/social-media-recognition/</loc>
+    <lastmod>2009-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/new-facebook-in-depth-review/</loc>
+    <lastmod>2009-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</loc>
+    <lastmod>2009-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</loc>
+    <lastmod>2009-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/how-to-fix-a-broken-marketplace-ebay/</loc>
+    <lastmod>2009-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/stop-twitter-from-becoming-the-next-myspace/</loc>
+    <lastmod>2009-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/facebook-meets-twitter-friendfeed/</loc>
+    <lastmod>2009-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/growing-in-the-down-economy/</loc>
+    <lastmod>2009-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/backup-your-files/</loc>
+    <lastmod>2008-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/portero-raises-6-6-million/</loc>
+    <lastmod>2008-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/backing-up-mysql/</loc>
+    <lastmod>2008-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/one-hundred-pushups/</loc>
+    <lastmod>2008-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/how-rim-handed-the-mobile-market-over-to-apple/</loc>
+    <lastmod>2008-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/hire-your-next-consultant-using-twitter/</loc>
+    <lastmod>2008-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/promotion/</loc>
+    <lastmod>2008-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/why-are-you-still-shopping-offline/</loc>
+    <lastmod>2008-09-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/managing-multiple-firefox-profiles-in-os-x/</loc>
+    <lastmod>2008-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/using-svk-to-increase-productivity/</loc>
+    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/the-15-best-vim-plugins/</loc>
+    <lastmod>2008-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/implementing-a-corporate-wiki/</loc>
+    <lastmod>2008-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/why-are-you-not-on-twitter/</loc>
+    <lastmod>2008-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/be-more-productive-using-gnu-screen/</loc>
+    <lastmod>2008-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/.vimrc/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/10gen/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/1and1/</loc>
+    <lastmod>2009-11-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/advocacy/</loc>
+    <lastmod>2014-09-24T13:17:48-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/amazon/</loc>
+    <lastmod>2010-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/amazon-web-services/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/analytics/</loc>
+    <lastmod>2009-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/announcement/</loc>
+    <lastmod>2008-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/apache/</loc>
+    <lastmod>2009-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/apache-cassandra/</loc>
+    <lastmod>2012-05-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/apache-hadoop/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/api/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/apple/</loc>
+    <lastmod>2010-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/architecture/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/architecture/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/archive/</loc>
+    <lastmod>2008-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/availability/</loc>
+    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/aws/</loc>
+    <lastmod>2010-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/backup/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/backups/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/bash/</loc>
+    <lastmod>2012-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/better-backups/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/big-data/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/bill-gates/</loc>
+    <lastmod>2009-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/blackberry/</loc>
+    <lastmod>2008-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/blog/</loc>
+    <lastmod>2013-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/blog-software/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/blogging/</loc>
+    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/blogging/</loc>
+    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/book/</loc>
+    <lastmod>2012-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/bubble/</loc>
+    <lastmod>2011-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/business-continuity-planning/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/c/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/c&#43;&#43;/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cake/</loc>
+    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/capital/</loc>
+    <lastmod>2008-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/career/</loc>
+    <lastmod>2011-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cassandra/</loc>
+    <lastmod>2010-04-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cio/</loc>
+    <lastmod>2009-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cisco/</loc>
+    <lastmod>2008-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cli/</loc>
+    <lastmod>2009-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cloud-computing/</loc>
+    <lastmod>2011-11-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cloud-storage/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cloudfront/</loc>
+    <lastmod>2010-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/cobra/</loc>
+    <lastmod>2013-11-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/command-line/</loc>
+    <lastmod>2009-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/command-line-interface/</loc>
+    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/common-myths/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/community/</loc>
+    <lastmod>2015-03-17T15:24:07-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/community/</loc>
+    <lastmod>2015-03-17T15:24:07-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/computer-data/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/computer-storage/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/computing/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/computing-platform/</loc>
+    <lastmod>2011-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/content-management/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/content-management-systems/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/conversion/</loc>
+    <lastmod>2009-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/css3/</loc>
+    <lastmod>2013-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-analysis/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-center/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-loss/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-management/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-processing/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-processor/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-storage/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/data-tools/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/database/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/database-management-systems/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/databases/</loc>
+    <lastmod>2012-05-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/developer-advocacy/</loc>
+    <lastmod>2014-09-24T13:17:48-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/development/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/development/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/disaster-recovery/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/disaster-recovery-plan/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/disaster-recovery-process/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/disaster-recovery-solutions/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/disaster-recovery-strategy/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/distributed-data-processing/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/distribution/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/docker/</loc>
+    <lastmod>2015-06-05T10:43:50+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/docker/</loc>
+    <lastmod>2015-06-05T10:43:50+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/doctrine/</loc>
+    <lastmod>2011-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/driver-team/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/drivers/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/drupal/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/drupal-core/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/du/</loc>
+    <lastmod>2010-01-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/durability/</loc>
+    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/dynamic-content/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/ebay/</loc>
+    <lastmod>2009-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/ecommerce/</loc>
+    <lastmod>2011-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/ecommerce/</loc>
+    <lastmod>2012-01-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/economy/</loc>
+    <lastmod>2009-01-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/editor/</loc>
+    <lastmod>2012-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/editors/</loc>
+    <lastmod>2011-01-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/emacs/</loc>
+    <lastmod>2009-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/emergency-management/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/employment/</loc>
+    <lastmod>2009-01-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/enable/</loc>
+    <lastmod>2012-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/evangelism/</loc>
+    <lastmod>2014-09-24T13:17:48-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/facebook/</loc>
+    <lastmod>2010-07-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/feed/</loc>
+    <lastmod>2009-10-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/feedburner/</loc>
+    <lastmod>2009-10-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/firefox/</loc>
+    <lastmod>2008-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/flickr/</loc>
+    <lastmod>2009-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/focus/</loc>
+    <lastmod>2009-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/follow-friday/</loc>
+    <lastmod>2009-12-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/framework/</loc>
+    <lastmod>2011-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/frameworks/</loc>
+    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/friendfeed/</loc>
+    <lastmod>2009-03-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/genealogy/</loc>
+    <lastmod>2012-02-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/git/</loc>
+    <lastmod>2012-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/github/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/giving-a-presentation/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/gnu/</loc>
+    <lastmod>2008-07-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/go/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/godaddy/</loc>
+    <lastmod>2009-11-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/golang/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/golang/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/google/</loc>
+    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/graph/</loc>
+    <lastmod>2012-02-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/gvim/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/hack/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/hack-day/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/hadoop/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/help/</loc>
+    <lastmod>2009-10-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/high-availability/</loc>
+    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/hiring/</loc>
+    <lastmod>2010-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/hosting/</loc>
+    <lastmod>2009-08-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/hp/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/html/</loc>
+    <lastmod>2011-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/html5/</loc>
+    <lastmod>2013-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/hugo/</loc>
+    <lastmod>2016-10-07T10:56:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/information-risk-management/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/information-technology/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/infrastructure/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/intellectual-property/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/intellectual-property-protection/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/iphone/</loc>
+    <lastmod>2008-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/ipo/</loc>
+    <lastmod>2011-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/it/</loc>
+    <lastmod>2009-12-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/java/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/javascript/</loc>
+    <lastmod>2013-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/jquery/</loc>
+    <lastmod>2010-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/karma/</loc>
+    <lastmod>2009-10-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/keychain/</loc>
+    <lastmod>2009-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/large-scale-distributed/</loc>
+    <lastmod>2012-05-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/leadership/</loc>
+    <lastmod>2010-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/leadership/</loc>
+    <lastmod>2011-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/learning/</loc>
+    <lastmod>2010-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/lessons/</loc>
+    <lastmod>2010-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/linkedin/</loc>
+    <lastmod>2009-10-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/linux/</loc>
+    <lastmod>2015-06-05T10:43:50+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/linux/</loc>
+    <lastmod>2015-06-05T10:43:50+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/lithium/</loc>
+    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/luxury/</loc>
+    <lastmod>2008-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/mac/</loc>
+    <lastmod>2008-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/management/</loc>
+    <lastmod>2011-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/mapreduce/</loc>
+    <lastmod>2012-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/marketing/</loc>
+    <lastmod>2009-10-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/marketplace/</loc>
+    <lastmod>2009-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/mgo/</loc>
+    <lastmod>2014-07-23T09:48:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/microsoft/</loc>
+    <lastmod>2010-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/mongodb/</loc>
+    <lastmod>2014-07-23T09:48:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/mongodb/</loc>
+    <lastmod>2014-07-23T09:48:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/myspace/</loc>
+    <lastmod>2009-04-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/mysql/</loc>
+    <lastmod>2012-01-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/new-years-resolution/</loc>
+    <lastmod>2011-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/nginx/</loc>
+    <lastmod>2009-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/nintendo/</loc>
+    <lastmod>2010-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/node.js/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/nosql/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/nyc/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/object-oriented/</loc>
+    <lastmod>2014-06-09T01:18:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/open-source/</loc>
+    <lastmod>2015-03-20T18:00:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/open-source/</loc>
+    <lastmod>2015-03-20T18:00:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/opensky/</loc>
+    <lastmod>2011-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/operating-systems/</loc>
+    <lastmod>2015-06-05T10:43:50+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/orbitz/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/os-x/</loc>
+    <lastmod>2008-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/oscon/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/pandora/</loc>
+    <lastmod>2011-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/password/</loc>
+    <lastmod>2010-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/pear/</loc>
+    <lastmod>2012-05-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/perl/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/personal/</loc>
+    <lastmod>2013-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/personal/</loc>
+    <lastmod>2013-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/photography/</loc>
+    <lastmod>2012-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/photoshop/</loc>
+    <lastmod>2012-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/php/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/php/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/picasa/</loc>
+    <lastmod>2012-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/plugins/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/portero/</loc>
+    <lastmod>2008-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/postgresql/</loc>
+    <lastmod>2012-01-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/post/</loc>
+    <lastmod>2016-10-07T10:56:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/presentation-software/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/presentation/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/presentations/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/presentations/</loc>
+    <lastmod>2013-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/productivity/</loc>
+    <lastmod>2011-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/profile/</loc>
+    <lastmod>2010-01-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/profiling/</loc>
+    <lastmod>2013-06-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/programming/</loc>
+    <lastmod>2011-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/project-management/</loc>
+    <lastmod>2010-07-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/project/</loc>
+    <lastmod>2013-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/pushups/</loc>
+    <lastmod>2008-12-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/python/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/python/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/rackspace/</loc>
+    <lastmod>2011-06-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/raid/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/real-time-recovery/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/recovery/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/recovery-plan/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/recovery-strategies/</loc>
+    <lastmod>2012-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/recruiting/</loc>
+    <lastmod>2010-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/redis/</loc>
+    <lastmod>2012-05-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/remote-procedure-call/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/replication/</loc>
+    <lastmod>2012-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/representational-state-transfer/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/resources/</loc>
+    <lastmod>2010-04-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/responsive/</loc>
+    <lastmod>2013-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/rest/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/rim/</loc>
+    <lastmod>2008-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/rpc/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/rsa/</loc>
+    <lastmod>2009-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/ruby/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/ruby/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/s3/</loc>
+    <lastmod>2010-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/scala/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/scalability/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/scaling/</loc>
+    <lastmod>2009-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/screen/</loc>
+    <lastmod>2010-02-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/script/</loc>
+    <lastmod>2008-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/search/</loc>
+    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/security/</loc>
+    <lastmod>2010-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/semantic-web/</loc>
+    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/shell/</loc>
+    <lastmod>2011-07-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/shell-script/</loc>
+    <lastmod>2011-07-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/shop/</loc>
+    <lastmod>2010-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/shopping/</loc>
+    <lastmod>2010-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/slideshare/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/snapshot/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/snipmate/</loc>
+    <lastmod>2009-12-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/soap/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/social-media/</loc>
+    <lastmod>2010-07-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/social-media/</loc>
+    <lastmod>2010-07-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/social-web/</loc>
+    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/software/</loc>
+    <lastmod>2011-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/software-architecture/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/spf13-vim/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/ssh/</loc>
+    <lastmod>2009-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/ssh-agent/</loc>
+    <lastmod>2009-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/steve-jobs/</loc>
+    <lastmod>2009-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/strata/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/strata-nyc/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/structured-storage/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/subversion/</loc>
+    <lastmod>2009-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/success/</loc>
+    <lastmod>2009-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/svk/</loc>
+    <lastmod>2008-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/svn/</loc>
+    <lastmod>2009-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/symfony/</loc>
+    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/symfony2/</loc>
+    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/sysadmin/</loc>
+    <lastmod>2010-02-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/systems/</loc>
+    <lastmod>2010-02-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/systems/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/tech-industry/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/terminal/</loc>
+    <lastmod>2008-07-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/text-editor/</loc>
+    <lastmod>2010-06-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/the-presentation/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/thon/</loc>
+    <lastmod>2012-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/tree/</loc>
+    <lastmod>2012-02-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/tutorial/</loc>
+    <lastmod>2012-09-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/twitter/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/unix/</loc>
+    <lastmod>2010-02-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/vc/</loc>
+    <lastmod>2008-12-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/vcard/</loc>
+    <lastmod>2010-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/vendor/</loc>
+    <lastmod>2009-12-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/vi/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/view/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/view-presentation/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/vim/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/topics/vim/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/vim-text-editor/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/vimscript/</loc>
+    <lastmod>2014-01-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/web/</loc>
+    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/web-browser/</loc>
+    <lastmod>2011-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/web-service/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/web-services/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/web-standards/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/wiki/</loc>
+    <lastmod>2008-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/win-7/</loc>
+    <lastmod>2009-10-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/windows/</loc>
+    <lastmod>2009-10-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/wordpress/</loc>
+    <lastmod>2012-02-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/wordpress-3.0/</loc>
+    <lastmod>2010-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/ws-security/</loc>
+    <lastmod>2010-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lacoski.github.io/tags/zoop/</loc>
+    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

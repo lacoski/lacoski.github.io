@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Drupal is the standard in content management systems. MongoDB enables high performance Drupal. Get started with a MongoDB backed Drupal.">
+<meta name="keywords" content="Development, MongoDB, php, Blog Software, Content Management, Content Management Systems, Drupal, Drupal Core, Dynamic Content, Enable, mongodb, nosql, PHP, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Drupal is the standard in content management systems. MongoDB enables high performance Drupal. Get started with a MongoDB backed Drupal."/>
+<meta property="og:title" content="Getting started with Drupal and MongoDB : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2012-03-14"/>
+<meta property="article:modified_time" content="2012-03-14"/>
+
+
+
+<meta property="article:tag" content="Development">
+<meta property="article:tag" content="MongoDB">
+<meta property="article:tag" content="php">
+<meta property="article:tag" content="Blog Software">
+<meta property="article:tag" content="Content Management">
+<meta property="article:tag" content="Content Management Systems">
+<meta property="article:tag" content="Drupal">
+<meta property="article:tag" content="Drupal Core">
+<meta property="article:tag" content="Dynamic Content">
+<meta property="article:tag" content="Enable">
+<meta property="article:tag" content="mongodb">
+<meta property="article:tag" content="nosql">
+<meta property="article:tag" content="PHP">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Getting started with Drupal and MongoDB : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="Drupal is the standard in content management systems. MongoDB enables high performance Drupal. Get started with a MongoDB backed Drupal.">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Getting started with Drupal and MongoDB - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Getting%20started%20with%20Drupal%20and%20MongoDB-http%3a%2f%2flacoski.github.io%2fpost%2fgetting-started-with-drupal-and-mongodb%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fgetting-started-with-drupal-and-mongodb%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fgetting-started-with-drupal-and-mongodb%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fgetting-started-with-drupal-and-mongodb%2f&title=Getting%20started%20with%20Drupal%20and%20MongoDB&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fgetting-started-with-drupal-and-mongodb%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fgetting-started-with-drupal-and-mongodb%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fgetting-started-with-drupal-and-mongodb%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Getting started with Drupal and MongoDB</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure class="right half">
+    
+        <img src="/media/Drupal-Admin.png" alt="Drupal" />
+    
+    
+</figure>
+
+
+
+<p>MongoDB is the most full featured scalable database taking the tech
+world by storm. Drupal is the standard in content management powering
+magazines, blogs online newspapers and much more. It’s only natural that
+they would get together to provide a fast dynamic scalable CMS system.
+Whenever a Drupal site needs to scale dynamic content they turn to
+MongoDB to be able to deliver. The <a href="http://examiner.com">Examiner.com</a>
+was the pioneer in this approach and many Drupal sites have followed
+suit.</p>
+
+<p>Here’s how to get started with a MongoDB backed Drupal.</p>
+
+<h2 id="disclaimer">Disclaimer</h2>
+
+<p><em>As it currently stands it is not possible for Drupal to run a pure
+MongoDB installation with Drupal. Drupal has made a lot of progress
+towards abstracting out database connectivity into a central model layer
+with Drupal 7 and Drupal 8 promises even more. However it is still a
+work in progress and while a majority of the functionality is available
+as MongoDB backed, as it stands today a few of the components remain
+dependant on SQL.</em></p>
+
+<p><em>As most of the work to port Drupal to MongoDB has been towards
+scalability and performance, it is possible to have a site where public
+page views are 100% on MongoDB. Performance benchmarks on a MongoDB
+backed Drupal instance are quite impressive.</em></p>
+
+<h1 id="installing-mongodb">Installing MongoDB</h1>
+
+<p>These are the very brief instructions and make some assumptions. For
+more complete installation instructions please see the
+<a href="http://www.mongodb.org/display/DOCS">documentation</a>.</p>
+
+<h3 id="installing-on-linux">Installing on linux</h3>
+
+<pre><code>apt-get install mongodb-10gen or yum install mongodb
+</code></pre>
+
+<h3 id="installing-on-windows">Installing on windows</h3>
+
+<p>Follow the install directions on the <a href="http://www.mongodb.org/display/DOCS/Quickstart+Windows">MongoDB
+site</a>.</p>
+
+<h3 id="installing-on-mac">Installing on mac</h3>
+
+<pre><code>brew install mongodb
+</code></pre>
+
+<h1 id="installing-the-mongodb-php-driver">Installing the MongoDB PHP driver</h1>
+
+<p>The complete directions can be found in the <a href="http://www.php.net/manual/en/mongo.installation.php">MongoDB PHP
+documentation</a>.</p>
+
+<h3 id="using-pecl-to-install-the-driver">Using Pecl to install the driver</h3>
+
+<p>Pecl is the preferred way to install the MongoDB driver. If you haven’t
+used pecl before, you may need to install some prerequisites first.</p>
+
+<pre><code>pecl install mongo
+</code></pre>
+
+<h3 id="configuring-php-to-use-the-driver">Configuring PHP to use the driver</h3>
+
+<p>Using your <a href="http://vim.spf13.com">favorite editor</a> add the following
+line to your php.ini file.</p>
+
+<pre><code>extension=mongo.so
+</code></pre>
+
+<h1 id="installing-drupal">Installing Drupal</h1>
+
+<p>This is the most complicated part and I will simply provide the
+excellent directions already given in the Drupal install.txt file with a
+few clarifications.</p>
+
+<h3 id="1-download-and-extract-drupal">1. Download and extract Drupal.</h3>
+
+<p>You can obtain the latest Drupal release from <a href="http://drupal.org">http://drupal.org</a> — the
+files<br>
+ are available in .tar.gz and .zip formats and can be extracted using
+most<br>
+ compression tools.</p>
+
+<p>To download and extract the files, on a typical Unix/Linux command line,
+use<br>
+ the following commands (assuming you want version x.y of Drupal in
+.tar.gz<br>
+ format):</p>
+
+<pre><code>wget http://drupal.org/files/projects/drupal-x.y.tar.gz tar -zxvf drupal-x.y.tar.gz
+</code></pre>
+
+<p>This will create a new directory drupal-x.y/ containing all Drupal files
+and<br>
+ directories. Then, to move the contents of that directory into a
+directory<br>
+ within your web server’s document root or your public HTML directory,<br>
+ continue with this command:</p>
+
+<pre><code> mv drupal-x.y/* drupal-x.y/.htaccess /path/to/your/installation
+</code></pre>
+
+<h3 id="2-create-the-drupal-database">2. Create the Drupal database.</h3>
+
+<p>Because Drupal stores all site information in a database, you must
+create this database in order to install Drupal, and grant Drupal certain
+database privileges (such as the ability to create tables). Currently this needs
+to be a relational database. Drupal supports SQLite, PostgreSQL and
+MySQL. For details, consult INSTALL.mysql.txt, INSTALL.pgsql.txt, or
+INSTALL.sqlite.txt. You may also
+ need to consult your web hosting provider for instructions specific to
+your web host.</p>
+
+<p>Take note of the username, password, database name, and hostname as you
+ create the database. You will enter this information during the
+install.</p>
+
+<h3 id="3-run-the-install-script">3. Run the install script.</h3>
+
+<p>To run the install script, point your browser to the base URL of your
+ website (e.g., <a href="http://www.example.com">http://www.example.com</a>).</p>
+
+<p>You will be guided through several screens to set up the database, add
+the site maintenance account (the first user, also known as user/1), and
+provide basic web site settings.</p>
+
+<p>During installation, several files and directories need to be created,
+which the install script will try to do automatically. However, on some
+hosting environments, manual steps are required, and the install script will
+tell you that it cannot proceed until you fix certain issues. This is normal
+and does not indicate a problem with your server.</p>
+
+<h1 id="integrating-mongodb-and-drupal">Integrating MongoDB and Drupal</h1>
+
+<h3 id="installing-the-drupal-mongodb-plugin">Installing the Drupal MongoDB plugin</h3>
+
+<p>The MongoDB Drupal plugin installs like any drupal plugin. Either
+install via the administration screen, or simply download the module at
+<a href="http://drupal.org/project/mongodb">http://drupal.org/project/mongodb</a> and uncompress it into the
+sites/all/modules/ directory.</p>
+
+<h3 id="configure-drupal-to-use-the-mongodb-plugin">Configure Drupal to use the MongoDB plugin</h3>
+
+<p>Currently there isn’t an admin interface to configure MongoDB, luckily
+it’s easy enough to configure manually.</p>
+
+<p>First create a file called local.settings.php (it should be in the same
+directory as settings.php).</p>
+
+<p>Populate the file with the following contents. Make sure to replace the
+placeholders [YOURDATABASENAME] and [SITENAME].</p>
+
+<p>YOURDATABASENAME name can be anything doesn’t need to be created prior
+to use.  SITENAME will either be your sitename as it is named in Drupal. It may
+be called ‘Default’ if this is the primary site for the Drupal
+installation.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">&lt;<span style="color:#f92672">p</span>&gt;&amp;lt;?php
+#MongoDB $conf[&amp;lsquo;mongodb_connections&amp;rsquo;] = array(
+    &amp;lsquo;default&amp;rsquo; =&amp;gt; array(
+    &amp;lsquo;host&amp;rsquo; =&amp;gt; &amp;lsquo;localhost&amp;rsquo;, // Connection name/alias
+    // Omit USER:PASS@ if Mongo isn&amp;rsquo;t configured to use authentication.
+    &amp;lsquo;db&amp;rsquo; =&amp;gt; &amp;lsquo;[YOURDATABASENAME]&amp;rsquo; // Database name. Make something up, mongodb will automatically create the database.
+    ), );&lt;/<span style="color:#f92672">p</span>&gt;
+
+&lt;<span style="color:#f92672">p</span>&gt;include_once(&amp;lsquo;./includes/cache.inc&amp;rsquo;);&lt;/<span style="color:#f92672">p</span>&gt;
+
+&lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;configure-cache&#34;</span>&gt;&amp;ndash; Configure Cache&lt;/<span style="color:#f92672">h1</span>&gt;
+
+&lt;<span style="color:#f92672">p</span>&gt;$conf[&amp;lsquo;cache_backends&amp;rsquo;][] = &amp;lsquo;sites/[SITENAME]/modules/mongodb/mongodb_cache/mongodb_cache.inc&amp;rsquo;;
+$conf[&amp;lsquo;cache_class_cache&amp;rsquo;] = &amp;lsquo;DrupalMongoDBCache&amp;rsquo;;
+$conf[&amp;lsquo;cache_class_cache_bootstrap&amp;rsquo;] = &amp;lsquo;DrupalMongoDBCache&amp;rsquo;;
+$conf[&amp;lsquo;cache_default_class&amp;rsquo;] = &amp;lsquo;DrupalMongoDBCache&amp;rsquo;;&lt;/<span style="color:#f92672">p</span>&gt;
+
+&lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;don-t-touch-sql-if-in-cache&#34;</span>&gt;&amp;ndash; Don&amp;rsquo;t touch SQL if in Cache&lt;/<span style="color:#f92672">h1</span>&gt;
+
+&lt;<span style="color:#f92672">p</span>&gt;$conf[&amp;lsquo;page_cache_without_database&amp;rsquo;] = TRUE;
+$conf[&amp;lsquo;page_cache_invoke_hooks&amp;rsquo;] = FALSE;&lt;/<span style="color:#f92672">p</span>&gt;
+
+&lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;session-caching-conf-session-inc-sites-sitename-modules-mongodb-mongodb-session-mongodb-session-inc&#34;</span>&gt;Session Caching $conf[&amp;lsquo;session_inc&amp;rsquo;] = &amp;lsquo;sites/[SITENAME]/modules/mongodb/mongodb_session/mongodb_session.inc&amp;rsquo;;&lt;/<span style="color:#f92672">h1</span>&gt;
+
+&lt;<span style="color:#f92672">p</span>&gt;$conf[&amp;lsquo;cache_session&amp;rsquo;] = &amp;lsquo;DrupalMongoDBCache&amp;rsquo;;&lt;/<span style="color:#f92672">p</span>&gt;
+
+&lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;field-storage-conf-field-storage-default-mongodb-field-storage&#34;</span>&gt;Field Storage $conf[&amp;lsquo;field_storage_default&amp;rsquo;] = &amp;lsquo;mongodb_field_storage&amp;rsquo;;&lt;/<span style="color:#f92672">h1</span>&gt;
+
+&lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;message-queue-conf-queue-default-class-mongodbqueue&#34;</span>&gt;Message Queue $conf[&amp;lsquo;queue_default_class&amp;rsquo;] = &amp;lsquo;MongoDBQueue&amp;rsquo;;&lt;/<span style="color:#f92672">h1</span>&gt;
+
+&lt;<span style="color:#f92672">p</span>&gt;?&amp;gt;&lt;/<span style="color:#f92672">p</span>&gt;</code></pre></div>
+
+<h3 id="enabling-the-mongodb-module">Enabling the MongoDB Module</h3>
+
+<p>Login to your drupal administration screen.</p>
+
+<p>Navigate to the modules management screen.</p>
+
+<p>First we need to disable the block module from Drupal Core. This will
+conflict with the MongoDB Block module and Drupal won’t let you enable
+the MongoDB plugin with this enabled. Uncheck Block and click save.</p>
+
+<p>Now as the screenshot below demonstrates scroll to the bottom of the
+modules adminstration screen to the MongoDB section and enable all the
+modules.</p>
+
+
+<figure >
+    
+        <img src="/media/Drupal-Admin.png" alt="Drupal" />
+    
+    
+</figure>
+
+
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+<li><a href="http://chicago2011.drupal.org/sessions/practical-mongodb-and-drupal">http://chicago2011.drupal.org/sessions/practical-mongodb-and-drupal</a></li>
+<li><a href="http://cyrve.com/mongodb">http://cyrve.com/mongodb</a></li>
+<li><a href="http://www.slideshare.net/ForestMars/mongo-drupal">http://www.slideshare.net/ForestMars/mongo-drupal</a></li>
+<li><a href="http://www.mongodb.org/display/DOCS">http://www.mongodb.org/display/DOCS</a></li>
+<li><a href="http://www.mongodb.org/display/DOCS/Quickstart+Windows">http://www.mongodb.org/display/DOCS/Quickstart+Windows</a></li>
+<li><a href="http://www.php.net/manual/en/mongo.installation.php">http://www.php.net/manual/en/mongo.installation.php</a></li>
+<li><a href="http://vim.spf13.com">http://vim.spf13.com</a></li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Wed Mar 14, 2012 </h4>
+          <h5 id="wc"> 1000 Words </h5>
+          <h5 id="readtime"> Read in about 5 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/development">Development</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/mongodb">MongoDB</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/php">php</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/blog-software">Blog Software</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/content-management">Content Management</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/content-management-systems">Content Management Systems</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/drupal">Drupal</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/drupal-core">Drupal Core</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/dynamic-content">Dynamic Content</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/enable">Enable</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/mongodb">mongodb</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/nosql">nosql</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/php">PHP</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/"><i class="icon-arrow-left"></i> spf13-vim 3.0 release and new website</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/presentation/mongodb-and-hadoop/">MongoDB and Hadoop <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="973">
+<meta itemprop="datePublished" content="2012-03-14">
+<meta itemprop="url" content="http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

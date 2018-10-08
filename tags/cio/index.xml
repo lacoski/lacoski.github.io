@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cio on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/cio/</link>
+    <description>Recent content in Cio on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 10 Sep 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/cio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Featured in CIO Magazine!</title>
+      <link>http://lacoski.github.io/post/featured-in-cio-magazine/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/featured-in-cio-magazine/</guid>
+      <description>Steve Francia in CIO Magazine   I don’t know what could be more shocking that opening this month’s edition of CIO magazine and discovering that my blog, this very blog that you are currently reading is one of two blogs featured this month. I am humbled and honored to be mentioned and included with such great peers. To all my new readers I look forward to connecting with you via Twitter or LinkedIn.</description>
+    </item>
+    
+    <item>
+      <title>Promotion</title>
+      <link>http://lacoski.github.io/post/promotion/</link>
+      <pubDate>Tue, 23 Sep 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/promotion/</guid>
+      <description>Permit me to shamelesly announce my promotion to Chief Information Officer at Portero Inc.
+Here is the Press Release on the wire this week. Portero, Inc., is pleased to announce the promotion of Steve P. Francia to the position of Chief Information Officer (CIO), effective immediately. He will continue to report to Michael Sheldon, the company’s chairman and CEO, and will be responsible for operations and technology for the company.</description>
+    </item>
+    
+  </channel>
+</rss>

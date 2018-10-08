@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="The 15 most useful plugins for VIM. This post is a bit dated but kept intact to reflect the best plugins at the time">
+<meta name="keywords" content="plugins, vim, Vim (text editor), ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="The 15 most useful plugins for VIM. This post is a bit dated but kept intact to reflect the best plugins at the time"/>
+<meta property="og:title" content="The 15 Best Vim Plugins : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/the-15-best-vim-plugins/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2008-07-30"/>
+<meta property="article:modified_time" content="2008-07-30"/>
+
+
+
+<meta property="article:tag" content="plugins">
+<meta property="article:tag" content="vim">
+<meta property="article:tag" content="Vim (text editor)">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="The 15 Best Vim Plugins : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="The 15 most useful plugins for VIM. This post is a bit dated but kept intact to reflect the best plugins at the time">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> The 15 Best Vim Plugins - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/the-15-best-vim-plugins/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=The%2015%20Best%20Vim%20Plugins-http%3a%2f%2flacoski.github.io%2fpost%2fthe-15-best-vim-plugins%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fthe-15-best-vim-plugins%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fthe-15-best-vim-plugins%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fthe-15-best-vim-plugins%2f&title=The%2015%20Best%20Vim%20Plugins&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fthe-15-best-vim-plugins%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fthe-15-best-vim-plugins%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fthe-15-best-vim-plugins%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">The 15 Best Vim Plugins</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure class="third right">
+    
+        <img src="/media/vim_logo.png" alt="vim" />
+    
+    
+</figure>
+
+
+
+<p>One of the things that makes vim great is that it can be extended
+through plugins. There are plugins for more than you would expect. I
+have gathered together the 15 best plugins. I’ve included these plugins
+as part of my <a href="http://spf13.com/post/ultimate-vim-config">ultimate VIM
+configuration</a> which has been
+featured on many sites and is hosted on
+<a href="https://github.com/spf13/spf13-vim">github</a>.  I’ve also begun a series
+of posts on some of these plugins including
+<a href="http://spf13.com/post/vim-plugins-snipmate">snipmate</a> and
+<a href="http://spf13.com/post/vim-plugins-nerd-commenter">NerdCommenter</a>.</p>
+
+<h2 id="general">General</h2>
+
+<h3 id="related-posts">Related Posts</h3>
+
+<ul>
+<li><a href="http://spf13.com/post/vim-plugins-nerd-commenter/">Vim Plugins: NERD
+Commenter</a></li>
+<li><a href="http://spf13.com/post/spf13-vim-3-0-release-and-new-website/">spf13-vim 3.0 release and new
+website</a></li>
+<li><a href="http://spf13.com/post/perfect-vimrc-vim-config-file/">The perfect .vimrc vim config
+file</a></li>
+<li><a href="http://spf13.com/post/vim-crash-course/">VIM Crash Course</a></li>
+<li><a href="http://spf13.com/post/vim-plugins-snipmate/">Vim Plugins: snipMate</a></li>
+<li><a href="http://spf13.com/post/ultimate-vim-config/">Ultimate Vim Config</a></li>
+</ul>
+
+<h3 id="supertab-http-www-vim-org-scripts-script-php-script-id-1643"><a href="http://www.vim.org/scripts/script.php?script_id=1643">SuperTab</a></h3>
+
+<p>Do all your insert-mode completion with Tab.</p>
+
+<h3 id="showmarks-http-www-vim-org-scripts-script-php-script-id-152"><a href="http://www.vim.org/scripts/script.php?script_id=152">ShowMarks</a></h3>
+
+<p>Visually shows the location of marks.<br>
+ Marks are useful for jumping back and forth between interesting points
+in a buffer, but can be hard to keep track of without any way to see
+where you have placed them.  ShowMarks hopefully makes life easier by
+placing a sign in the leftmost column of the buffer.  The sign indicates
+the label of the mark and its location.<br>
+ It can be toggled on and off and individual marks can be
+hidden(effectively removing them).</p>
+
+<h3 id="searchcomplete-http-www-vim-org-scripts-script-php-script-id-474"><a href="http://www.vim.org/scripts/script.php?script_id=474">SearchComplete</a></h3>
+
+<p>Provides tab completion while inside the “/” search</p>
+
+<h2 id="programmer">Programmer</h2>
+
+<h3 id="tag-list-http-vim-taglist-sourceforge-net"><a href="http://vim-taglist.sourceforge.net/">Tag List</a></h3>
+
+<p>taglist.vim : Source code browser (supports C/C++, java, perl, python,
+tcl, sql, php, etc).<br>
+ <em>Requires the <a href="http://en.wikipedia.org/wiki/Ctags" title="Ctags">exuberant
+ctags</a> utility.</em></p>
+
+<h3 id="sqlcomplete-http-www-vim-org-scripts-script-php-script-id-1572"><a href="http://www.vim.org/scripts/script.php?script_id=1572">SQLComplete</a></h3>
+
+<p>Completion for the SQL language includes statements, functions,
+keywords, operators and database options which it draws from the current
+SQL syntax file in use.  Vim ships with 9 different SQL syntax files
+(Oracle, Informix, MySQL, SQL Anywhere, …).  You can choose different
+SQL dialects using the command  (see :h sql-dialects):</p>
+
+<h3 id="the-nerd-commenter-http-www-vim-org-scripts-script-php-script-id-1218"><a href="http://www.vim.org/scripts/script.php?script_id=1218">The NERD Commenter</a></h3>
+
+<p>A plugin that allows for easy commenting of code for many (nearly all)
+filetypes.</p>
+
+<h3 id="vcscommand-http-www-vim-org-scripts-script-php-script-id-90"><a href="http://www.vim.org/scripts/script.php?script_id=90">VCSCommand</a></h3>
+
+<p>VIM 7 plugin useful for manipulating files controlled by CVS, SVN, SVK
+and git within VIM, including committing changes and performing diffs
+using the vimdiff system.</p>
+
+<h3 id="surround-http-www-vim-org-scripts-script-php-script-id-1697"><a href="http://www.vim.org/scripts/script.php?script_id=1697">Surround</a></h3>
+
+<p>All about “surroundings”: parentheses, brackets,
+quotes, <a href="http://en.wikipedia.org/wiki/XML" title="XML">XML</a> tags, and more.
+The plugin provides mappings to easily delete, change and add such
+surroundings in pairs.</p>
+
+<h3 id="matchit-http-www-vim-org-scripts-script-php-script-id-39"><a href="http://www.vim.org/scripts/script.php?script_id=39">MatchIT</a></h3>
+
+<p>The matchit.vim script allows you to configure % to match more than just
+single characters. You can match words and even <a href="http://en.wikipedia.org/wiki/Regular_expression" title="Regular expression">regular
+expressions</a>.
+Also, matching treats strings and comments (as recognized by the <a href="http://en.wikipedia.org/wiki/Syntax_highlighting" title="Syntax highlighting">syntax
+highlighting</a>
+mechanism) intelligently.</p>
+
+<h3 id="snippetsemu-http-www-vim-org-scripts-script-php-script-id-1318"><a href="http://www.vim.org/scripts/script.php?script_id=1318">snippetsEMU</a></h3>
+
+<p>Attempts to emulate some of the behaviour of ‘Snippets’ from the OS X
+editor <a href="http://www.macromates.com/" title="TextMate">TextMate</a>, in particular
+the variable bouncing and replacement behaviour.</p>
+
+<h2 id="php-http-php-net-php"><a href="http://php.net/" title="PHP">PHP</a></h2>
+
+<h3 id="smarty-syntax-file-http-www-vim-org-scripts-script-php-script-id-1798"><a href="http://www.vim.org/scripts/script.php?script_id=1798">Smarty Syntax File</a></h3>
+
+<p>Syntax file for <a href="http://smarty.php.net">Smarty</a>, the template engine for
+PHP.</p>
+
+<h3 id="php-syntax-file-http-www-vim-org-scripts-script-php-script-id-1571"><a href="http://www.vim.org/scripts/script.php?script_id=1571">PHP Syntax File</a></h3>
+
+<p>Syntax file for  PHP.</p>
+
+<h3 id="php-folding-http-www-vim-org-scripts-script-php-script-id-1623"><a href="http://www.vim.org/scripts/script.php?script_id=1623">PHP Folding</a></h3>
+
+<p>This script can fold PHP functions and/or classes, properties with
+their <a href="http://en.wikipedia.org/wiki/PHPDoc" title="PHPDoc">PhpDoc</a>,<br>
+ without manually adding marker style folds ({{{ and }}}).</p>
+
+<h3 id="checksyntax-http-www-vim-org-scripts-script-php-script-id-1431"><a href="http://www.vim.org/scripts/script.php?script_id=1431">CheckSyntax</a></h3>
+
+<p>Check syntax when saving a file (PHP). Also supports ruby, tex, etc.</p>
+
+<h3 id="pdv-phpdocumentor-for-vim-http-www-vim-org-scripts-script-php-script-id-1355"><a href="http://www.vim.org/scripts/script.php?script_id=1355">PDV- phpDocumentor for Vim</a></h3>
+
+<p>Provides really comfortable generation of phpDocumentor doc blocks for
+PHP</p>
+
+<h3 id="external-resources">External Resources</h3>
+
+<ul>
+<li><a href="http://dotfiles.org/.vimrc">A collection of .vimrc files</a></li>
+<li><a href="http://newbiedoc.sourceforge.net/text_editing/vim.html.en">Text editing with
+Vim</a></li>
+<li><a href="http://www.scribd.com/doc/263139/VIM-for-PHP-Programmers">Vim for
+Programmers</a></li>
+<li><a href="http://realm3.com/articles/getting_started_with_vim_and_php">Getting Started with VIM and
+PHP</a></li>
+<li><a href="http://schlitt.info/applications/blog/index.php?/archives/283-Comfortable-PHP-editing-with-VIM-5.html">Comfortable PHP editing with
+VIM</a></li>
+<li><a href="http://port25.technet.com/archive/2008/05/29/technical-analysis-vim-powershell-and-signed-code.aspx">Technical Analysis: VIM, PowerShell and Signed
+Code</a></li>
+<li><a href="http://www.moolenaar.net/vim.html">Author of VIM</a></li>
+<li><a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">Graphical vi-vim Cheat Sheet and
+Tutorial</a></li>
+<li><a href="http://www.vi-improved.org/tutorial.php">Great plain english tutorial for
+vim</a></li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Wed Jul 30, 2008 </h4>
+          <h5 id="wc"> 600 Words </h5>
+          <h5 id="readtime"> Read in about 3 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/vim">VIM</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/plugins">plugins</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/vim">vim</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/vim-text-editor">Vim (text editor)</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/using-svk-to-increase-productivity/"><i class="icon-arrow-left"></i> Using SVK to Increase Productivity</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/implementing-a-corporate-wiki/">Implementing a Corporate Wiki <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="519">
+<meta itemprop="datePublished" content="2008-07-30">
+<meta itemprop="url" content="http://lacoski.github.io/post/the-15-best-vim-plugins/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

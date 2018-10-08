@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Hacking Management</title>
+    <link>http://lacoski.github.io/topics/open-source/</link>
+    <description>Recent content in Open Source on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 20 Mar 2015 18:00:02 -0400</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/topics/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What Every Open Source Project Needs</title>
+      <link>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</link>
+      <pubDate>Fri, 20 Mar 2015 18:00:02 -0400</pubDate>
+      
+      <guid>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</guid>
+      <description>In the last few years open source has transformed the software industry. From Android to Wikipedia, open source is everywhere, but how does one succeed in it? While open source projects come in all shapes and sizes and all forms of governance, no matter what kind of project you’re a part of, there are a set of fundamentals that lead to success. I’d like to share some of the lessons I’ve learned from running two of the largest commercial open source projects, Docker &amp;amp; MongoDB , as well as some very successful community based projects (Hugo, spf13-vim, Cobra, Viper, Zoop).</description>
+    </item>
+    
+    <item>
+      <title>How To Be A Good Open Source Community Member</title>
+      <link>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</link>
+      <pubDate>Tue, 17 Mar 2015 15:24:07 -0500</pubDate>
+      
+      <guid>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</guid>
+      <description>A friend of mine who is a very talented writer recently became intrigued with open source and asked me to help her to understand how to be a good open source community member.
+Open source is one of the most unusual things in the world. Is there any other profession where highly skilled professionals donate their free time to give their work away for free? Many spend long hours at their day jobs, just to spend their nights and weekends doing the same thing.</description>
+    </item>
+    
+  </channel>
+</rss>

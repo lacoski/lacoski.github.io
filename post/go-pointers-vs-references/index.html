@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="go, golang, php, ruby, python, perl, C, C&#43;&#43;, development, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Pointers vs References : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/go-pointers-vs-references/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2014-07-01"/>
+<meta property="article:modified_time" content="2014-07-01"/>
+
+
+
+<meta property="article:tag" content="go">
+<meta property="article:tag" content="golang">
+<meta property="article:tag" content="php">
+<meta property="article:tag" content="ruby">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="perl">
+<meta property="article:tag" content="C">
+<meta property="article:tag" content="C&#43;&#43;">
+<meta property="article:tag" content="development">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Pointers vs References : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Pointers vs References - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/go-pointers-vs-references/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Pointers%20vs%20References-http%3a%2f%2flacoski.github.io%2fpost%2fgo-pointers-vs-references%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fgo-pointers-vs-references%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fgo-pointers-vs-references%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fgo-pointers-vs-references%2f&title=Pointers%20vs%20References&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fgo-pointers-vs-references%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fgo-pointers-vs-references%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fgo-pointers-vs-references%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Pointers vs References</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+<p>Some languages including C, C++ support pointers. Other languages including
+C++, Java, Python, Ruby, Perl and PHP all support references. On the surface
+both references and pointers are very similar, both are used to have one
+variable provide access to another. With both providing a lot of the same
+capabilities, it’s often unclear what is different between these different
+mechanisms. In this article I will illustrate the difference between
+pointers and references.</p>
+
+<h2 id="why-does-this-matter">Why does this matter</h2>
+
+<p>Pointers are at the very core of effective Go. Most programmers are learning Go
+with a foundation in one of the languages mentioned above. Consequently
+understanding the difference between pointers and references is critical to
+understanding Go. Even if you are coming from a language that uses pointers,
+Go’s implementation of pointers differs from C and C++ in that it retains some
+of the nice properties of references while retaining the power of pointers.</p>
+
+<p>The remainder of this article is written with the intent of speaking
+broadly about the concept of references rather than about a specific
+implementation. We will be using Go as the reference implementation for
+pointers.</p>
+
+<h2 id="what-is-the-difference">What is the difference?</h2>
+
+<p>A pointer is a variable which stores the address of another variable.</p>
+
+<p>A reference is a variable which refers to another variable.</p>
+
+<p>To illustrate our point, use the following example in C++ which supports
+both pointers and references.</p>
+
+<pre><code>int i = 3;
+int *ptr = &amp;i;
+int &amp;ref = i;
+</code></pre>
+
+<p>The first line simply defines a variable. The second defines a pointer
+to that variable’s memory address. The third defines a reference to the
+first variable.</p>
+
+<p>Not only are the operators different, but you use the differently as
+well. With pointers must use the * operator to dereference it. With a
+reference no operator is required. It is understood that you are
+intending to work with the referred variable.</p>
+
+<p>Continuing with our example, the following two lines will both change
+the value of i to 13.</p>
+
+<pre><code>*ptr = 13;
+ref = 13;
+</code></pre>
+
+<p>You may be asking, what happens if I try to access the ptr directly
+without dereferencing first. This takes us to our second critical
+difference between pointers and references. Pointers can be reassigned
+while references cannot. In other words, a pointer can be assigned to a
+different address.</p>
+
+<p>Consider the following example in Go:</p>
+
+<pre><code>package main
+
+import &quot;fmt&quot;
+
+var ap *int
+
+func main() {
+    a := 1          // define int
+    b := 2          // define int
+
+    ap = &amp;a
+     // set ap to address of a (&amp;a)
+     //   ap address: 0x2101f1018
+     //   ap value  : 1
+
+    *ap = 3
+     // change the value at address &amp;a to 3
+     //   ap address: 0x2101f1018
+     //   ap value  : 3
+
+    a = 4
+     // change the value of a to 4
+     //   ap address: 0x2101f1018
+     //   ap value  : 4
+
+    ap = &amp;b
+     // set ap to the address of b (&amp;b)
+     //   ap address: 0x2101f1020
+     //   ap value  : 2
+}
+</code></pre>
+
+<p>So far you could do all of the above in a reasonably similar manner
+using references, and often with a simpler syntax.</p>
+
+<p>Stay with me, the following example will illustrate why pointers are
+more powerful than references.</p>
+
+<p>Extending the function above:</p>
+
+<pre><code>    ...
+
+    ap2 := ap
+     // set ap2 to the address in ap
+     //   ap  address: 0x2101f1020
+     //   ap  value  : 2
+     //   ap2 address: 0x2101f1020
+     //   ap2 value  : 2
+
+    *ap = 5
+     // change the value at the address &amp;b to 5
+     //   ap  address: 0x2101f1020
+     //   ap  value  : 5
+     //   ap2 address: 0x2101f1020
+     //   ap2 value  : 5
+    // If this was a reference ap &amp; ap2 would now
+    // have different values
+
+    ap = &amp;a
+     // change ap to address of a (&amp;a)
+     //   ap  address: 0x2101f1018
+     //   ap  value  : 4
+     //   ap2 address: 0x2101f1020
+     //   ap2 value  : 5
+    // Since we've changed the address of ap, it now
+    // has a different value then ap2
+}
+</code></pre>
+
+<p>You can experiment and play yourself at go play:
+<a href="http://play.golang.org/p/XJtdLxFoeO">http://play.golang.org/p/XJtdLxFoeO</a></p>
+
+<p>The key to understanding the difference is in the second example.</p>
+
+<p>If we were working with references we would not be able to change the
+value of b through *ap and have that reflected in *ap2. This is
+because once you make a copy of a reference they are now independent.
+While they may be referring to the same variable, when you manipulate
+the reference it will change what it refers to, rather than the
+referring value.</p>
+
+<p>The final example demonstrates the behavior when you change the
+assignment of one of the pointers to point to a new address. Due to the
+limitations of references this is the only operation available.</p>
+
+<p>Stay tuned&hellip; Next post will feature another property exclusively available to
+pointers, the pointer pointer.</p>
+
+<p>For more information on pointers I’ve found the following resources helpful</p>
+
+<ul>
+<li><a href="http://www.goinggo.net/2013/07/understanding-pointers-and-memory.html">understanding pointers and memory allocation</a></li>
+<li><a href="http://dave.cheney.net/2014/03/17/pointers-in-go">Pointers in Go</a></li>
+<li><a href="http://www.golang-book.com/8">Pointers</a></li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Tue Jul 1, 2014 </h4>
+          <h5 id="wc"> 900 Words </h5>
+          <h5 id="readtime"> Read in about 4 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/development">Development</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/golang">golang</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/php">php</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/ruby">ruby</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/python">python</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/go">go</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/golang">golang</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/php">php</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/ruby">ruby</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/python">python</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/perl">perl</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/c">C</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/c&#43;&#43;">C&#43;&#43;</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/development">development</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/presentation/first-go-app/"><i class="icon-arrow-left"></i> Getting Started with Go</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/is-go-object-oriented/">Is Go an Object Oriented language? <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="810">
+<meta itemprop="datePublished" content="2014-07-01">
+<meta itemprop="url" content="http://lacoski.github.io/post/go-pointers-vs-references/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

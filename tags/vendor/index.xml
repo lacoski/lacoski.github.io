@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vendor on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/vendor/</link>
+    <description>Recent content in Vendor on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 11 Dec 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/vendor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Checking Vendor References</title>
+      <link>http://lacoski.github.io/post/checking-vendor-references/</link>
+      <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/checking-vendor-references/</guid>
+      <description>One task that should be part of every IT managers is performing reference checks on potential vendors. A vendor reference check goes beyond the sales pitch to reveal the true nature of a product or company. If you’re not performing reference checks you are susceptible of falling prey to a slick sales pitch with nothing but trouble behind it.
+Vendors only provide the customers they are certain will give a glowing endorsement.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/git/</link>
+    <description>Recent content in Git on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 10 Apr 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
+      <link>http://lacoski.github.io/project/spf13-vim/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/project/spf13-vim/</guid>
+      <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
+It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
+The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.
+Unlike traditional VIM plugin structure, which similar to UNIX throws all files into common directories, making updating or disabling plugins a real mess, spf13-vim 3 uses the Vundle plugin management system to have a well organized vim directory (Similar to mac&amp;rsquo;s app folders).</description>
+    </item>
+    
+    <item>
+      <title>Installing Git on a Shared Host</title>
+      <link>http://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
+      <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
+      <description>Git is a fantastic tool and is very useful for deployment. If you can’t install git system wide or don’t want to mess with installing it on the entire system here is an easy way to install it for a single user. This also works well on Mac OS X where installing git is more challenging than necessary. Script included
+I used this script to install git on 1and1.</description>
+    </item>
+    
+    <item>
+      <title>Using SVK to Increase Productivity</title>
+      <link>http://lacoski.github.io/post/using-svk-to-increase-productivity/</link>
+      <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/using-svk-to-increase-productivity/</guid>
+      <description>SVK is a client for SVN built using perl. It makes a number of improvements over the standard svn client, while retaining much of the same feel. It works with the standard Subversion server and works perfectly in an environment with some users using svn and some using svk on the client side. It provides a number of sizable advantages over the standard svn client and is a must have for any development project.</description>
+    </item>
+    
+  </channel>
+</rss>

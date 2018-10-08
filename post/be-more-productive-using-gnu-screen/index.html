@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Tips, Techniques and Tricks for using GNU Screen to increase your productivity.">
+<meta name="keywords" content="cli, gnu, screen, terminal, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Tips, Techniques and Tricks for using GNU Screen to increase your productivity."/>
+<meta property="og:title" content="Be more productive using GNU Screen : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/be-more-productive-using-gnu-screen/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2008-07-03"/>
+<meta property="article:modified_time" content="2008-07-03"/>
+
+
+
+<meta property="article:tag" content="cli">
+<meta property="article:tag" content="gnu">
+<meta property="article:tag" content="screen">
+<meta property="article:tag" content="terminal">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Be more productive using GNU Screen : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="Tips, Techniques and Tricks for using GNU Screen to increase your productivity.">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Be more productive using GNU Screen - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/be-more-productive-using-gnu-screen/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Be%20more%20productive%20using%20GNU%20Screen-http%3a%2f%2flacoski.github.io%2fpost%2fbe-more-productive-using-gnu-screen%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fbe-more-productive-using-gnu-screen%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fbe-more-productive-using-gnu-screen%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fbe-more-productive-using-gnu-screen%2f&title=Be%20more%20productive%20using%20GNU%20Screen&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fbe-more-productive-using-gnu-screen%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fbe-more-productive-using-gnu-screen%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fbe-more-productive-using-gnu-screen%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Be more productive using GNU Screen</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure class="half right">
+    
+        <img src="/media/300px-GNU_Screen.png" alt="Image via Wikipedia" />
+    
+    
+    <figcaption>
+        <h4>GNU Screen</h4>
+        <p>
+        Image via Wikipedia
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+
+<p>Despite living in the age of multicore
+processors, <a href="http://en.wikipedia.org/wiki/Graphical_user_interface" title="Graphical user interface">GUI</a>
+everything and mountains of ram, I continually find myself more
+productive with a terminal open. Especially when that terminal is
+running <a href="http://www.gnu.org/software/screen" title="GNU Screen">GNU Screen</a>.</p>
+
+<h1 id="about-gnu-screen-http-www-gnu-org-software-screen-gnu-screen">About <a href="http://www.gnu.org/software/screen" title="GNU Screen">GNU Screen</a></h1>
+
+<p><a href="http://en.wikipedia.org/wiki/GNU_Screen" title="GNU Screen">GNU Screen</a> is a
+free terminal multiplexer developed by <a href="http://en.wikipedia.org/wiki/GNU_Project" title="GNU Project">the GNU
+Project</a>. It
+allows a user to access multiple separate terminal sessions inside a
+single <a href="http://en.wikipedia.org/wiki/Terminal_emulator" title="Terminal emulator">terminal
+window</a>
+or remote terminal session. It is useful for dealing with multiple
+programs from the <a href="http://en.wikipedia.org/wiki/Command_line_interface" title="Command line interface">command
+line</a>,
+and for separating programs from the shell that started the program.<br>
+ -courtesy of wikipedia</p>
+
+<h1 id="my-screenrc-file">My .screenrc file</h1>
+
+<pre><code class="language-.brush:">vbell off
+escape ~~
+autodetach on
+altscreen on
+defflow auto
+defscrollback 5000
+screen -t bash 1
+#change the hardstatus settings to give an window list at the bottom of the
+#screen, with the time and date and with the current window highlighted
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+</code></pre>
+
+<h1 id="using-gnu-screen">Using GNU Screen</h1>
+
+<p>Launching screen creates a new window and launches a <a href="http://en.wikipedia.org/wiki/Shell_%28computing%29 &quot;Shell (computing">command
+shell</a>&rdquo;)
+in that window. In screen every window is identified by a unique number.
+When screen made a new window, it numbered it 0. This all happens
+somewhat invisibly, at least without knowing the right commands to type.</p>
+
+<p>My .screenrc file makes screen more visible and usable. It effectively
+does 3 things.</p>
+
+<ol>
+<li>Adding a visual taskbar at the bottom of the console</li>
+<li>Remap Ctrl-a to the backtick character (to the left of the ’1′
+key).. you’ll see why in a bit</li>
+<li>Launch a few programs in their own windows (please customize)</li>
+</ol>
+
+<h2 id="shortcuts">Shortcuts</h2>
+
+<p><em>Keys to be typed in succession, not simultaneously</em></p>
+
+<ul>
+<li><strong>` c</strong>: Create Window</li>
+<li><strong>` A</strong>: Rename Window</li>
+<li><strong>` 0 – 9</strong> : Switch to Window with that number</li>
+<li><strong>` backspace</strong> : Previous Window</li>
+<li><strong>` space</strong> : Next Window</li>
+<li><strong>` ”</strong>: Bring up a list of all the windows</li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Thu Jul 3, 2008 </h4>
+          <h5 id="wc"> 400 Words </h5>
+          <h5 id="readtime"> Read in about 2 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/systems">Systems</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/cli">cli</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/gnu">gnu</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/screen">screen</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/terminal">terminal</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/why-are-you-not-on-twitter/"><i class="icon-arrow-left"></i> Why are you not on Twitter</a><br>
+        </section><section id="next">
+            &nbsp;
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="308">
+<meta itemprop="datePublished" content="2008-07-03">
+<meta itemprop="url" content="http://lacoski.github.io/post/be-more-productive-using-gnu-screen/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

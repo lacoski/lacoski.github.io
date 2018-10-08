@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/emacs/</link>
+    <description>Recent content in Emacs on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 05 Nov 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mastering the Command Line</title>
+      <link>http://lacoski.github.io/post/mastering-the-command-line/</link>
+      <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/mastering-the-command-line/</guid>
+      <description>If you use *nix, no doubt you’ve spent some time on the command line. Here are a few of the most helpful tricks you can use in the bash shell to really optimize your time, impress your friends, and make everyone else feel inferior… not to mention become more productive. People familar with the command line can usually work considerably faster (for most tasks) than you can through a gui.</description>
+    </item>
+    
+  </channel>
+</rss>

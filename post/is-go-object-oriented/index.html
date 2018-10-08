@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="go, golang, development, object-oriented, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Is Go an Object Oriented language? : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/post/is-go-object-oriented/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2014-06-09"/>
+<meta property="article:modified_time" content="2014-06-09"/>
+
+
+
+<meta property="article:tag" content="go">
+<meta property="article:tag" content="golang">
+<meta property="article:tag" content="development">
+<meta property="article:tag" content="object-oriented">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Is Go an Object Oriented language? : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Is Go an Object Oriented language? - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/post/is-go-object-oriented/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Is%20Go%20an%20Object%20Oriented%20language%3f-http%3a%2f%2flacoski.github.io%2fpost%2fis-go-object-oriented%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpost%2fis-go-object-oriented%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpost%2fis-go-object-oriented%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpost%2fis-go-object-oriented%2f&title=Is%20Go%20an%20Object%20Oriented%20language%3f&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpost%2fis-go-object-oriented%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fis-go-object-oriented%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpost%2fis-go-object-oriented%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Is Go an Object Oriented language?</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+<p>To truly understand what it means to be ‘object-oriented’ you need to look back
+at the origination of the concept. The first object oriented language, simula,
+emerged in the 1960s. It introduced objects, classes, inheritance and
+subclasses, virtual methods, coroutines, and a lot more. Perhaps most
+importantly, it introduced a paradigm shift of thinking of data and logic as
+completely independent.</p>
+
+<p>While you many not be familiar with Simula, you are no doubt familiar with
+languages that refer to it as their inspiration including Java, C++, C# &amp;
+Smalltalk, which in turn have been the inspiration for Objective C, Python,
+Ruby, Javascript, Scala, PHP, Perl&hellip; a veritable list of nearly all popular
+languages in use today. This shift in thinking has taken over, so much so that
+most programmers alive today have never written code any other
+way.</p>
+
+<p>Since a standard definition doesn’t exist, for the purpose of our
+discussion we will provide one.</p>
+
+<p>Rather than structure programs as code and data, an object-oriented
+system integrates the two using the concept of an &ldquo;object&rdquo;. An object is
+an abstract data type that has state (data) and behavior (code).</p>
+
+<p>Perhaps as a consequence of the initial implementation having inheritance and
+polymorphism, a feature virtually all of the derivatives also adopted,
+definitions of object oriented programming typically also include those
+features as requirements.</p>
+
+<p>We will look at how Go does objects, polymorphism and inheritance and allow you
+to make your own conclusion.</p>
+
+<h1 id="objects-in-go">Objects in Go</h1>
+
+<p>Go doesn’t have a something called &lsquo;object&rsquo;, but &lsquo;object&rsquo; is only a word that
+connotes a meaning. It’s the meaning that matters, not the term itself.</p>
+
+<p>While Go doesn’t have a type called ‘object’ it does have a type that
+matches the same definition of a data structure that integrates both
+code and behavior. In Go this is called a &lsquo;struct&rsquo;.</p>
+
+<p>A &lsquo;struct&rsquo; is a kind of type which contains named fields and methods.</p>
+
+<p>Let’s use an example to illustrate this:</p>
+
+<pre><code>type rect struct {
+    width int
+    height int
+}
+
+func (r *rect) area() int {
+    return r.width * r.height
+}
+
+func main() {
+    r := rect{width: 10, height: 5}
+    fmt.Println(&quot;area: &quot;, r.area())
+}
+</code></pre>
+
+<p>There’s a lot we could talk about here. It’s probably best to walk
+through the code line by line and explain what is happening.</p>
+
+<p>The first block is defining a new type called a &lsquo;rect&rsquo;. This is a struct
+type. The struct has two fields, both of which are type int.</p>
+
+<p>The next block is defining a method bound to this struct. This is
+accomplished by defining a function and attaching (binding) it to a
+rect. Technically, in our example it is really attached to a pointer to
+a rect. While the method is bound to the type, Go requires us to have a
+value of that type to make the call, even if the value is the zero value
+for that type (in the case of a struct the zero value is nil).</p>
+
+<p>The final block is our main function. The first line creates a value of type
+rect. There are other syntaxes we could use to do this, but this is the most
+idiomatic way. The second line prints to the output the result of calling the
+area function on our rect ‘r’.</p>
+
+<p>To me this feels very much like an object. I am able to create a
+structured data type and then define methods that interact with that
+specific data.</p>
+
+<p>What haven&rsquo;t we done? In most object oriented languages we would be using the
+&lsquo;class&rsquo; keyword to define our objects. When using inheritance it is a good
+practice to define interfaces for those classes. In doing so we would be
+defining an inheritance hierarchy tree (in the case of single inheritance).</p>
+
+<p>An additional thing worth noting is that in Go any named type can have
+methods, not only structs. For example I can define a new type ‘Counter’
+which is of type int and define methods on it. See an example at
+<a href="http://play.golang.org/p/LGB-2j707c">http://play.golang.org/p/LGB-2j707c</a></p>
+
+<h1 id="inheritance-and-polymorphism">Inheritance and polymorphism</h1>
+
+<p>There are a few different approaches to defining the relationships
+between objects. While they differ quite a bit from each other, all
+share a common purpose as a mechanism for code reuse.</p>
+
+<ul>
+<li>Inheritance</li>
+<li>Multiple Inheritance</li>
+<li>Subtyping</li>
+<li>Object composition</li>
+</ul>
+
+<h2 id="single-multiple-inheritance">Single &amp; Multiple Inheritance</h2>
+
+<p>Inheritance is when an object is based on another object, using the same
+implementation. Two different implementations of inheritance exist. The
+fundamental distinction between them is whether an object can inherit from a
+single object or from multiple objects. This is a seemingly small distinction,
+but with large implications. The hierarchy in single inheritance is a tree,
+while in multiple inheritance it is a lattice. Single inheritance languages
+include PHP, C#, Java and Ruby. Multiple inheritance languages include Perl,
+Python and C++.</p>
+
+<h2 id="subtyping-polymorphism">Subtyping (polymorphism)</h2>
+
+<p>In some languages subtyping and inheritance are so interwoven that this
+may seem redundant to the previous section if your particular
+perspective comes from a language where they are tightly coupled.
+Subtyping establishes an is-a relationship, while inheritance only
+reuses implementation. Subtyping defines a semantic relationship between
+two (or more) objects. Inheritance only defines a syntactic
+relationship.</p>
+
+<h2 id="object-composition">Object Composition</h2>
+
+<p>Object composition is where one object is defined by including other objects. Rather
+than inheriting from them, the object contains them. Unlike the is-a
+relationship of subtyping, object composition defines a has-a relationship.</p>
+
+<h2 id="inheritance-in-go">Inheritance in Go</h2>
+
+<p>Go is intentionally designed without any inheritance at all. This does not mean
+that objects (struct values) do not have relationships, instead the Go authors have
+chosen to use a alternative mechanism to connote relationships. To many
+encountering Go for the first time this decision may appear as if it cripples
+Go. In reality it is one of the nicest properties of Go and it resolves decade
+old issues and arguments around inheritance.</p>
+
+<h2 id="inheritance-is-best-left-out">Inheritance is best left out</h2>
+
+<p>The following really drives home this point. It comes from a JavaWorld
+article titled <a href="http://www.javaworld.com/article/2073649/core-java/why-extends-is-evil.html">why extends is
+evil</a>
+:</p>
+
+<blockquote>
+<p>The Gang of Four Design Patterns book discusses at length replacing
+implementation inheritance (extends) with interface inheritance
+(implements).</p>
+
+<p>I once attended a Java user group meeting where James Gosling (Java&rsquo;s
+inventor) was the featured speaker. During the memorable Q&amp;A session,
+someone asked him: &ldquo;If you could do Java over again, what would you
+change?&rdquo; &ldquo;I&rsquo;d leave out classes,&rdquo; he replied. After the laughter died
+down, he explained that the real problem wasn&rsquo;t classes per se, but
+rather implementation inheritance (the extends relationship). Interface
+inheritance (the implements relationship) is preferable. You should
+avoid implementation inheritance whenever possible.</p>
+</blockquote>
+
+<h1 id="polymorphism-composition-in-go">Polymorphism &amp; Composition in Go</h1>
+
+<p>Instead of inheritance Go strictly follows the <a href="http://en.wikipedia.org/wiki/Composition_over_inheritance">composition over
+inheritance principle</a>.
+Go accomplishes this through both subtyping (is-a) and object
+composition (has-a) relationships between structs and interfaces.</p>
+
+<h2 id="object-composition-in-go">Object Composition in Go</h2>
+
+<p>The mechanism Go uses to implement the principle of object composition
+is called embedded types. Go permits you to embed a struct within a
+struct giving them a has-a relationship.</p>
+
+<p>An good example of this would be the relationship between a Person and
+an Address.</p>
+
+<pre><code>type Person struct {
+   Name string
+   Address Address
+}
+
+type Address struct {
+   Number string
+   Street string
+   City   string
+   State  string
+   Zip    string
+}
+
+func (p *Person) Talk() {
+    fmt.Println(&quot;Hi, my name is&quot;, p.Name)
+}
+
+func (p *Person) Location() {
+    fmt.Println(&quot;I’m at&quot;, p.Address.Number, p.Address.Street, p.Address.City, p.Address.State, p.Address.Zip)
+}
+
+func main() {
+    p := Person{
+        Name: &quot;Steve&quot;,
+        Address: Address{
+            Number: &quot;13&quot;,
+            Street: &quot;Main&quot;,
+            City:   &quot;Gotham&quot;,
+            State:  &quot;NY&quot;,
+            Zip:    &quot;01313&quot;,
+        },
+    }
+
+    p.Talk()
+    p.Location()
+}
+</code></pre>
+
+<h3 id="output">Output</h3>
+
+<pre><code>&gt;  Hi, my name is Steve
+&gt;  I’m at 13 Main Gotham NY 01313
+</code></pre>
+
+<p><a href="http://play.golang.org/p/LigPIVT2mf">http://play.golang.org/p/LigPIVT2mf</a></p>
+
+<p>Important things to realize from this example is that Address remains a
+distinct entity, while existing within the Person. In the main function
+we demonstrate that you can set the p.Address field to an address, or
+simply set the fields by accessing them via dot notation.</p>
+
+<h2 id="pseudo-subtyping-in-go">Pseudo Subtyping in Go</h2>
+
+<p><strong>AUTHORS NOTE:</strong><br> <em>In the first version of this post it made the
+incorrect claim that Go supports the is-a relationship via Anonymous
+fields. In reality Anonymous fields appear to be an is-a relationship by
+exposing embedded methods and properties as if they existed on the outer
+struct. This falls short of being an is-a relationship for reasons now
+provided below. Go does have support for is-a relationships via
+interfaces, covered below. The current version of this post refers to
+Anonymous fields as a pseudo is-a relationship because it looks and
+behaves in some ways like subtyping, but isn’t.</em></p>
+
+<p>The pseudo is-a relationship works in a similar and intuitive way. To extend
+our example above. Let’s use the following statement. A Person can talk. A
+Citizen is a Person therefore a citizen can Talk.</p>
+
+<p>This code depends on and adds to the code in the example above.</p>
+
+<pre><code>type Citizen struct {
+   Country string
+   Person
+}
+
+func (c *Citizen) Nationality() {
+    fmt.Println(c.Name, &quot;is a citizen of&quot;, c.Country)
+}
+
+func main() {
+    c := Citizen{}
+    c.Name = &quot;Steve&quot;
+    c.Country = &quot;America&quot;
+    c.Talk()
+    c.Nationality()
+}
+</code></pre>
+
+<h3 id="output-1">Output</h3>
+
+<pre><code>&gt;  Hi, my name is Steve
+&gt;  Steve is a citizen of America
+</code></pre>
+
+<p><a href="http://play.golang.org/p/eCEpLkQPR3">http://play.golang.org/p/eCEpLkQPR3</a></p>
+
+<p>We accomplish this pseudo is-a relationship in go using what is called an
+Anonymous field. In our example Person is an anonymous field of Citizen.
+Only the type is given, not the field name. It assumes all of the
+properties and methods of a Person and is free to use them or promote
+it’s own.</p>
+
+<h3 id="promoting-methods-of-anonymous-fields">Promoting Methods of anonymous fields</h3>
+
+<p>An example of this would be that citizens Talk just as People do, but in
+a different way.</p>
+
+<p>For this we simply define Talk for *Citizen, and run the same main
+function as defined above. Now instead of calling *Person.Talk(),
+*Citizen.Talk() will be called instead.</p>
+
+<pre><code>func (c *Citizen) Talk() {
+    fmt.Println(&quot;Hello, my name is&quot;, c.Name, &quot;and I'm from&quot;, c.Country)
+}
+</code></pre>
+
+<h3 id="output-2">Output</h3>
+
+<pre><code>&gt;  Hello, my name is Steve and I'm from America
+&gt;  Steve is a citizen of America
+</code></pre>
+
+<p><a href="http://play.golang.org/p/jafbVPv5H9">http://play.golang.org/p/jafbVPv5H9</a></p>
+
+<h2 id="why-anonymous-fields-are-not-proper-subtyping">Why Anonymous Fields are not proper Subtyping</h2>
+
+<p>There are two distinct reasons why this cannot be considered proper subtyping.</p>
+
+<h3 id="1-the-anonymous-fields-are-still-accessible-as-if-they-were-embedded">1. The anonymous fields are still accessible as if they were embedded.</h3>
+
+<p>This isn’t necessarily a bad thing. One of the issues with multiple inheritance
+is that languages are often non obvious and sometimes even ambiguous as to which
+methods are used when identical methods exist on more than one parent class.</p>
+
+<p>With Go you can always access the individual methods through a property which
+has the same name as the type.</p>
+
+<p>In reality when you are using Anonymous fields, Go is creating an accessor with
+the same name as your type.</p>
+
+<p>In our example from above the following code would work:</p>
+
+<pre><code>func main() {
+    c := Citizen{}
+    c.Name = &quot;Steve&quot;
+    c.Country = &quot;America&quot;
+    c.Talk()         // &lt;- Notice both are accessible
+    c.Person.Talk()  // &lt;- Notice both are accessible
+    c.Nationality()
+}
+</code></pre>
+
+<h4 id="output-3">Output</h4>
+
+<pre><code>&gt;  Hello, my name is Steve and I'm from America
+&gt;  Hi, my name is Steve
+&gt;  Steve is a citizen of America
+</code></pre>
+
+<h3 id="2-true-subtyping-becomes-the-parent">2. True subtyping becomes the parent</h3>
+
+<p>If this was truly subtyping then the anonymous field would cause the outer
+type to become the inner type. In Go this is simply not the case. The two
+types remain distinct. The following example illustrates this:</p>
+
+<pre><code>package main
+
+type A struct{
+}
+
+type B struct {
+    A  //B is-a A
+}
+
+func save(A) {
+    //do something
+}
+
+func main() {
+    b := B
+    save(&amp;b);  //OOOPS! b IS NOT A
+}
+</code></pre>
+
+<h4 id="output-4">Output:</h4>
+
+<pre><code>&gt;  prog.go:17: cannot use b (type *B) as type A in function argument
+&gt;   [process exited with non-zero status]
+</code></pre>
+
+<p><a href="http://play.golang.org/p/dt1mTXW-BH">http://play.golang.org/p/dt1mTXW-BH</a></p>
+
+<p><em>The previous example came directly from a <a href="https://news.ycombinator.com/item?id=7868870">response to this
+post</a> on Hacker News. Thanks
+Optymizer!</em></p>
+
+<h2 id="true-subtyping-in-go">True Subtyping in Go</h2>
+
+<p><em>Go interfaces are pretty unique in how they work. This section
+focuses only on how they pertain to subtyping which will not do them
+proper justice. See the further reading section at the end of the post
+to learn more.</em></p>
+
+<p>As we wrote above, subtyping is the is-a relationship. In Go each type
+is distinct and nothing can act as another type, but both can adhere to
+the same interface. Interfaces can be used as input and output of
+functions (and methods) and consequently establish an is-a relationship
+between types.</p>
+
+<p>Adherence to an interface in Go is defined not through a keyword like
+‘using’ but through the actual methods declared on a type. In <a href="http://golang.org/doc/effective_go.html#interfaces_and_types">Efficient
+Go</a> it
+refers to this relationship as ‘if something can do this, then it can be
+used here.’ This is very important because it enables one to create an
+interface that types defined in external packages can adhere to.</p>
+
+<p>Continuing with the example from above, we add a new function, SpeakTo
+and modify the main function to try to SpeakTo a Citizen and a Person.</p>
+
+<pre><code>func SpeakTo(p *Person) {
+    p.Talk()
+}
+
+func main() {
+    p := Person{Name: &quot;Dave&quot;}
+    c := Citizen{Person: Person{Name: &quot;Steve&quot;}, Country: &quot;America&quot;}
+
+    SpeakTo(&amp;p)
+    SpeakTo(&amp;c)
+}
+</code></pre>
+
+<h3 id="output-5">Output</h3>
+
+<pre><code>&gt;  Running it will result in
+&gt;  prog.go:48: cannot use c (type *Citizen) as type *Person in function argument
+&gt;  [process exited with non-zero status]
+</code></pre>
+
+<p><a href="http://play.golang.org/p/lvEjaMQ25D">http://play.golang.org/p/lvEjaMQ25D</a></p>
+
+<p>As expected, this fails. In our code a Citizen isn’t a Person, even
+though they share many of the same properties, they are viewed as
+distinct types.</p>
+
+<p>However if we add an interface called Human and use that as the input
+for our SpeakTo function it will all work as intended.</p>
+
+<pre><code>type Human interface {
+    Talk()
+}
+
+func SpeakTo(h Human) {
+    h.Talk()
+}
+
+func main() {
+    p := Person{Name: &quot;Dave&quot;}
+    c := Citizen{Person: Person{Name: &quot;Steve&quot;}, Country: &quot;America&quot;}
+
+    SpeakTo(&amp;p)
+    SpeakTo(&amp;c)
+}
+</code></pre>
+
+<h3 id="output-6">Output</h3>
+
+<pre><code>&gt;   Hi, my name is Dave
+&gt;   Hi, my name is Steve
+</code></pre>
+
+<p><a href="http://play.golang.org/p/ifcP2mAOnf">http://play.golang.org/p/ifcP2mAOnf</a></p>
+
+<p>There are two critical points to make about subtyping in Go:</p>
+
+<ol>
+<li><p>We can use Anonymous fields to adhere to an interface. We can also
+adhere to many interfaces. By using Anonymous fields along with
+interfaces we are very close to true subtyping.</p></li>
+
+<li><p>Go does provide proper subtyping capabilities, but only in the using
+of a type. Interfaces can be used to ensure that a variety of
+different types can all be accepted as input into a function, or even
+as a return value from a function, but in reality they retain their
+distinct types. This is clearly displayed in the main function where
+we cannot set Name on Citizen directly because Name isn’t actually a
+property of Citizen, it’s a property of Person and consequently not
+yet present during the initialization of a Citizen.</p></li>
+</ol>
+
+<h2 id="go-object-oriented-programming-without-objects-or-inheritance">Go, Object-oriented programming without objects or inheritance</h2>
+
+<p>As we have demonstrated here, the fundamental concepts of object
+orientation are alive and well in Go in spite of some terminology
+differences. The terminology differences are essential as the mechanisms
+used are in fact different from most object oriented languages.</p>
+
+<p>Go utilizes structs as the union of data and logic. Through composition,
+has-a relationships can be established between Structs to minimize code
+repetition while staying clear of the brittle mess that is inheritance.
+Go uses interfaces to establish is-a relationships between types without
+unnecessary and counteractive declarations.</p>
+
+<p>Welcome to the new &lsquo;object&rsquo;-less OO programming model.</p>
+
+<h2 id="discussion">Discussion</h2>
+
+<p>Join the discussion on <a href="https://news.ycombinator.com/item?id=7868485">hacker
+news</a> and <a href="http://www.reddit.com/r/golang/comments/27p2bc/is_go_an_object_oriented_language_spf13com/">Reddit -
+Golang</a></p>
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ul>
+<li><a href="http://nathany.com/good/">http://nathany.com/good/</a></li>
+<li><a href="http://www.artima.com/lejava/articles/designprinciples.html">http://www.artima.com/lejava/articles/designprinciples.html</a></li>
+<li><a href="http://www.goinggo.net/2014/05/methods-interfaces-and-embedded-types.html">http://www.goinggo.net/2014/05/methods-interfaces-and-embedded-types.html</a></li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Mon Jun 9, 2014 </h4>
+          <h5 id="wc"> 2600 Words </h5>
+          <h5 id="readtime"> Read in about 12 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/development">Development</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/golang">golang</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/go">go</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/golang">golang</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/development">development</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/object-oriented">object-oriented</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/go-pointers-vs-references/"><i class="icon-arrow-left"></i> Pointers vs References</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/post/mongodb2-6-drivers-released/">9 MongoDB 2.6 Drivers Released <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="2503">
+<meta itemprop="datePublished" content="2014-06-09">
+<meta itemprop="url" content="http://lacoski.github.io/post/is-go-object-oriented/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

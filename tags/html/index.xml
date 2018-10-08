@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/html/</link>
+    <description>Recent content in Html on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 07 Jun 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Browser as an application platform</title>
+      <link>http://lacoski.github.io/post/the-browser-as-a-application-platform/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/the-browser-as-a-application-platform/</guid>
+      <description>With Google launching their chrome book is significant as it reflects a substantial shift in the world of computing. For the first time ever, the application platform isn’t the operating system, nor is it adobe air, .net or java, it’s the browser. The browser once, a simple tool for fetching and rendering content is now the most important application platform in the world.
+Ultimately the reason we are converging on the browser being the platform is because java failed.</description>
+    </item>
+    
+  </channel>
+</rss>

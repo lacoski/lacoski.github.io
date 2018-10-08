@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shop on Hacking Management</title>
+    <link>http://lacoski.github.io/tags/shop/</link>
+    <description>Recent content in Shop on Hacking Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 26 Aug 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lacoski.github.io/tags/shop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selling on OpenSky</title>
+      <link>http://lacoski.github.io/post/selling-on-opensky/</link>
+      <pubDate>Thu, 26 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lacoski.github.io/post/selling-on-opensky/</guid>
+      <description>As anyone who reads my blog or follows my tweets knows, I’ve been working for a new startup called OpenSky since February 2010. We’ve launched a new ecommerce platform and aim to reinvent ecommerce as people know it online.
+One of the big things we are doing is making it so anyone can sell OpenSky products from anywhere online. In the spirit of eating my own dogfood, I’ve become an OpenSky seller.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="This tutorial given at OSCON 2012  will introduce the features of MongoDB by building a simple location-based application using MongoDB.">
+<meta name="keywords" content="MongoDB, Presentations, mongodb, Ruby, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="This tutorial given at OSCON 2012  will introduce the features of MongoDB by building a simple location-based application using MongoDB."/>
+<meta property="og:title" content="Building your first MongoDB app - OSCON 2012 : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2012-07-24"/>
+<meta property="article:modified_time" content="2012-07-24"/>
+
+
+
+<meta property="article:tag" content="MongoDB">
+<meta property="article:tag" content="Presentations">
+<meta property="article:tag" content="mongodb">
+<meta property="article:tag" content="Ruby">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Building your first MongoDB app - OSCON 2012 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="This tutorial given at OSCON 2012  will introduce the features of MongoDB by building a simple location-based application using MongoDB.">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="http://lacoski.github.io/">
+    <title> Building your first MongoDB app - OSCON 2012 - spf13.com </title>
+    <link rel="canonical" href="http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-spf13-3" id="logo"> </div></a>
+    </figure>
+    <div id="byline">by Steve Francia</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="http://stevefrancia.com">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> share </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=Building%20your%20first%20MongoDB%20app%20-%20OSCON%202012-http%3a%2f%2flacoski.github.io%2fpresentation%2fbuilding-your-first-mongodb-app-oscon-2012%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flacoski.github.io%2fpresentation%2fbuilding-your-first-mongodb-app-oscon-2012%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2flacoski.github.io%2fpresentation%2fbuilding-your-first-mongodb-app-oscon-2012%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flacoski.github.io%2fpresentation%2fbuilding-your-first-mongodb-app-oscon-2012%2f&title=Building%20your%20first%20MongoDB%20app%20-%20OSCON%202012&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2flacoski.github.io%2fpresentation%2fbuilding-your-first-mongodb-app-oscon-2012%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2flacoski.github.io%2fpresentation%2fbuilding-your-first-mongodb-app-oscon-2012%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flacoski.github.io%2fpresentation%2fbuilding-your-first-mongodb-app-oscon-2012%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">sharing is caring</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> follow </span>
+                <div class="dropdown follow">
+                    <ul class="social">
+                        <li> <a href="http://feeds.feedburner.com/spf13" target="_blank" title="Subscribe by RSS" class="rss"><span class="icon icon-feed-2"></span>RSS</a> </li>
+                        <li> <a href="http://www.twitter.com/spf13" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="http://www.facebook.com/stevefrancia" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="http://www.linkedin.com/in/stevefrancia" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://github.com/spf13" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>
+                        <li> <a href="http://gplus.to/spf13" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://slideshare.com/spf13" target="_blank" title="SlideShare" class="slideshare"><span class="icon icon-slideshare"></span>SlideShare</a> </li>
+                    </ul>
+                    <span class="subcount">join 10k+ subscribers &amp; followers</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Building your first MongoDB app - OSCON 2012</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+
+<figure >
+    
+        <img src="/media/MongoDB-at-oscon-2012.png"  />
+    
+    
+</figure>
+
+
+
+<p>This is a 3 hour tutorial I wrote for and gave at OSCON 2012.</p>
+
+<p>Here is the summary:</p>
+
+<p>This tutorial will introduce the features of
+<a href="http://www.mongodb.org/" title="MongoDB">MongoDB</a> by building a simple
+location-based application using MongoDB. The tutorial will cover the
+basics of MongoDB’s document model, query language, map-reduce framework
+and deployment architecture.</p>
+
+<p>The tutorial will be divided into 5 sections:</p>
+
+<ul>
+<li>Data modeling with MongoDB: documents, collections and databases</li>
+<li>Querying your data: simple queries, geospatial queries, and
+text-searching</li>
+<li>Writes and updates: using MongoDB’s atomic update modifiers</li>
+<li>Trending and analytics: Using mapreduce and MongoDB’s aggregation
+framework</li>
+<li>Deploying the sample application</li>
+</ul>
+
+<p>Besides the knowledge to start building their own applications with
+MongoDB, attendees will finish the session with a working application
+they use to check into locations around Portland from any HTML5 enabled
+phone!</p>
+
+<p><strong>TUTORIAL PREREQUISITES</strong><br>
+ Each attendee should have a running version of MongoDB. Preferably the
+latest unstable release 2.1.x, but any install after 2.0 should be fine.
+You can dowload MongoDB
+at <a href="http://www.mongodb.org/downloads">http://www.mongodb.org/downloads</a>.</p>
+
+<p>Instructions for installing MongoDB are
+at <a href="http://docs.mongodb.org/manual/installation/">http://docs.mongodb.org/manual/installation/</a>.</p>
+
+<p>Additionally we will be building an app in Ruby. Ruby 1.9.3+ is required
+for this. The current latest version of ruby is 1.9.3-p194.</p>
+
+<ul>
+<li>For windows download
+the <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a></li>
+<li>For OSX download <a href="http://unfiniti.com/software/mac/jewelrybox/">http://unfiniti.com/software/mac/jewelrybox/</a></li>
+<li>For linux most users should know how to for their own distributions.</li>
+</ul>
+
+<p>We will be using the following GEMs and they <strong>MUST BE</strong> installed ahead
+of time so you can be ahead of the game and safe in the event that the
+Internet isn’t accommodating.</p>
+
+<ul>
+<li>bson (1.6.4)</li>
+<li>bson_ext (1.6.4)</li>
+<li>haml (3.1.4)</li>
+<li>mongo (1.6.4)</li>
+<li>rack (1.4.1)</li>
+<li>rack-protection (1.2.0)</li>
+<li>rack shotgun (0.9)</li>
+<li>sinatra (1.3.2)</li>
+<li>tilt (1.3.3)</li>
+</ul>
+
+<p>Prior ruby experience isn’t required for this. We will NOT be using
+rails for this app.</p>
+
+<div class="embed slideshare">
+<iframe src="http://www.slideshare.net/slideshow/embed_code/13658354?rel=0" width="599" height="487" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+</div>
+
+
+<p><strong><a href="http://www.slideshare.net/spf13/oscon-2012" title="OSCON 2012 MongoDB Tutorial">OSCON 2012 MongoDB
+Tutorial</a></strong>
+from <strong><a href="http://www.slideshare.net/spf13">Steve Francia</a></strong></p>
+
+<h2 id="related-articles">Related articles</h2>
+
+<ul>
+<li><a href="http://spf13.com/post/big-data-for-the-rest-of-us-at-nyc-strata-2012/">Big Data for the rest of us at NYC Strata
+2012</a></li>
+<li><a href="http://spf13.com/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/">How I gave the most viewed presentation in the history of
+OSCON</a></li>
+<li><a href="http://emptysquare.net/blog/optimizing-mongodb-compound-indexes/">Optimizing MongoDB Compound
+Indexes</a></li>
+<li><a href="http://christiankvalheim.com/post/29753345741/new-features-in-the-driver-for-mongodb-2-2">New features in the driver for MongoDB
+2.2</a></li>
+</ul>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Tue Jul 24, 2012 </h4>
+          <h5 id="wc"> 400 Words </h5>
+          <h5 id="readtime"> Read in about 2 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="http://lacoski.github.io//topics/mongodb">MongoDB</a> </li>
+          
+            <li><a href="http://lacoski.github.io//topics/presentations">Presentations</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="http://lacoski.github.io//tags/mongodb">mongodb</a> </li>
+          
+            <li> <a href="http://lacoski.github.io//tags/ruby">Ruby</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="http://lacoski.github.io/post/adding-photoshopcs5-support-to-picasa/"><i class="icon-arrow-left"></i> Add PhotoshopCS5 support to Picasa</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/">Replication, Durability, and Disaster Recovery <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>About the Author:</h4> 
+
+            <p>
+            Steve Francia is an American Software Engineer, Speaker & Author
+            based in NYC. He has the unique distinction of having held
+            leadership roles in five of the largest open source projects. 
+            </p>
+
+            <p>
+            He currently works at <a href="http://google.com">Google</a> on the leadership team of <a href="http://golang.org">the Go
+                language</a> where  he is responsible for the strategy and product of
+            the Go project and it's over 1M users. He also currently serves as
+            a Director of the <a href="http://drupal.org">Drupal Association</a>.
+            </p>
+            
+            <p>
+            He previously held executive roles at <a href="http://docker.com">Docker</a> and <a
+            href="http://mongodb.com">MongoDB</a> where he
+            led engineering, product and open source.
+            </p>
+            
+            <p> 
+            He is the creator of <a href="http://gohugo.io">Hugo</a>, <a
+                href="http://github.com/spf13/cobra">Cobra</a>, <a
+                href="http://github.com/spf13/viper">Viper</a>, <a
+            href="http://vim.spf13.com">spf13-vim</a> and many <a
+            href="http://github.com/spf13">additional open source projects</a>.
+            </p>
+            
+            <p>
+            He is a published author, speaker,
+            developer, and father of 4. Outside of technology Steve likes
+            skateboarding, punk rock, and dystopian films.
+            </p>
+
+
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="324">
+<meta itemprop="datePublished" content="2012-07-24">
+<meta itemprop="url" content="http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+
