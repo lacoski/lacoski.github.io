@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssh on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/ssh/</link>
+    <link>https://lacoski.github.io/tags/ssh/</link>
     <description>Recent content in Ssh on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Sat, 19 Dec 2009 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Secure Automated, Key Based SSH</title>
-      <link>http://lacoski.github.io/post/secure-automated-key-based-ssh/</link>
+      <link>https://lacoski.github.io/post/secure-automated-key-based-ssh/</link>
       <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/secure-automated-key-based-ssh/</guid>
+      <guid>https://lacoski.github.io/post/secure-automated-key-based-ssh/</guid>
       <description>SSH is great and secure… Unless you need to automate it. Then it sucks because your only options are to create a passwordless key, or login add your key to ssh-agent, stay logged in forever. Here’s a quick guide to having the best of both worlds. A Secure SSH Connection that can be used in automated scripts. ( with the single catch, that upon reboot you need to re-enter your key’s password ) Create and Distribute your Key</description>
     </item>
     
     <item>
       <title>Setting up Subversion with multiple access methods</title>
-      <link>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
+      <link>https://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
       <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
+      <guid>https://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
       <description>One thing that makes subversion such a powerful revision system is it’s ability to permit multiple methods of access. Https, WebDAV, SSH and svnserve. In spite of svn’s ability to support multiple access methods, doing so simultaniously can be quite challenging. Typically one will run into permission issues as the http(s) access will all be written to the filesystem as the user running the webserver. The SSH access will all write to the filesystem under each users given account.</description>
     </item>
     

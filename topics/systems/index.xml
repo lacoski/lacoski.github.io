@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Systems on Hacking Management</title>
-    <link>http://lacoski.github.io/topics/systems/</link>
+    <link>https://lacoski.github.io/topics/systems/</link>
     <description>Recent content in Systems on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Mon, 29 Oct 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/topics/systems/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/topics/systems/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
-      <link>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <link>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
       <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
     </item>
     
     <item>
       <title>Backup, Replication and Disaster Recovery</title>
-      <link>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</link>
+      <link>https://lacoski.github.io/post/backups-replication-and-disaster-recovery/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/post/backups-replication-and-disaster-recovery/</guid>
       <description>One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
 The principles explained apply equally well in RDBMSs, MongoDB and other databases.
 Potential scenarios to protect against  Drive failure Machine failure Switch failure Power circuit failure Data center failure Intrusion Fat fingers Programmer error  Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>
@@ -34,198 +34,198 @@ Potential scenarios to protect against  Drive failure Machine failure Switch fai
     
     <item>
       <title>Where have all the good databases gone?</title>
-      <link>http://lacoski.github.io/post/where-have-all-the-good-databases-gone/</link>
+      <link>https://lacoski.github.io/post/where-have-all-the-good-databases-gone/</link>
       <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/where-have-all-the-good-databases-gone/</guid>
+      <guid>https://lacoski.github.io/post/where-have-all-the-good-databases-gone/</guid>
       <description>Perhaps you’ll recognize these words, “About five years ago I started to notice an odd thing. The products that the database vendors were building had less and less to do with what the customers wanted. … So, what is this growing disconnect?” Those words were written in 2004 by Adam Bosworth, a veteren of Microsoft, Google and BEA. In the 7 years since things have only gotten worse. Open source products came to maturity (if you can call it that), but none improved on any of the challenges Bosworth outlines.</description>
     </item>
     
     <item>
       <title>Easy bash scripting with shflags</title>
-      <link>http://lacoski.github.io/post/easy-bash-scripting-with-shflags/</link>
+      <link>https://lacoski.github.io/post/easy-bash-scripting-with-shflags/</link>
       <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/easy-bash-scripting-with-shflags/</guid>
+      <guid>https://lacoski.github.io/post/easy-bash-scripting-with-shflags/</guid>
       <description>One of the most frustrating things about bash scripts is how challenging it is to create unix style executables. You know, the ones where you can pass in -h or –help and see the set of options for the program. Up until now this has been a very manual process in bash, but no longer. Enter the shflags project from Kate Ward where a bash library takes care of all the nasty work and producing an elegant way to add option (or argument) support to your scripts.</description>
     </item>
     
     <item>
       <title>Unix Jobs Management</title>
-      <link>http://lacoski.github.io/post/unix-jobs-management/</link>
+      <link>https://lacoski.github.io/post/unix-jobs-management/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/unix-jobs-management/</guid>
+      <guid>https://lacoski.github.io/post/unix-jobs-management/</guid>
       <description>Every self respecting linux, mac os X or *nix user should have a solid handle on managing jobs in unix. The following will explain how to run tasks in the background, bring tasks to the foreground, background already running tasks and keeping a task running while logged out.
 Run a task in the background All you need to to is follow a command with the ‘&amp;amp;’ character. Pretty simple.</description>
     </item>
     
     <item>
       <title>Human readable du sorted by size</title>
-      <link>http://lacoski.github.io/post/human-readable-du-sorted-by-size/</link>
+      <link>https://lacoski.github.io/post/human-readable-du-sorted-by-size/</link>
       <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/human-readable-du-sorted-by-size/</guid>
+      <guid>https://lacoski.github.io/post/human-readable-du-sorted-by-size/</guid>
       <description>du is the *nix command for disk usage&amp;rdquo;). It tells you how much space everything in the given directory is taking up. GNU du introduced a handy option -h making it human readable, or showing sizes using K, M, G rather than bytes. Unfortunately this makes it not sortable numerically. Here’s how to sort du by size and keep it as human readable.
 Insert the following function into your .</description>
     </item>
     
     <item>
       <title>Benchmarking Cloudfront (and S3)</title>
-      <link>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
+      <link>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
       <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
+      <guid>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
       <description>Amazon has done it again bringing another computing service to the masses. This time it’s the Content Delivery Network or CDN. Cloudfront is a direct competitor to other popular CDNs such as Akamai. While Akamai requires a fairly substantial amount of traffic to become a customer, Cloudfront doesn’t. It follows all of Amazons, pay for what you use mentality. This means that everyone can benefit from incorporating Cloudfront into their blog, site, store, etc.</description>
     </item>
     
     <item>
       <title>Using the right keys</title>
-      <link>http://lacoski.github.io/post/using-the-right-keys/</link>
+      <link>https://lacoski.github.io/post/using-the-right-keys/</link>
       <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/using-the-right-keys/</guid>
+      <guid>https://lacoski.github.io/post/using-the-right-keys/</guid>
       <description>HeyThereSpaceman    Today I was visiting a friends office and like many offices in NYC they have a shared bathroom in the hall for the entire floor. In this building it had five buttons on the door that when pressed in the correct order unlocked the door. A simple password.
 In our office we have a similarly shared bathroom, but instead of a password, we have a physical key required to unlock the door.</description>
     </item>
     
     <item>
       <title>REST vs SOAP, the difference between soap and rest</title>
-      <link>http://lacoski.github.io/post/soap-vs-rest/</link>
+      <link>https://lacoski.github.io/post/soap-vs-rest/</link>
       <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/soap-vs-rest/</guid>
+      <guid>https://lacoski.github.io/post/soap-vs-rest/</guid>
       <description>Someone asked me a question today “Why would anyone choose SOAP (Simple Object Access Protocol) instead of REST (Representational State Transfer)?” My response: “The general rule of thumb I’ve always heard is ‘Unless you have a definitive reason to use SOAP use REST’”. He asked “what’s one reason?” I thought about it for a minute and honestly answered that I haven’t ever come across a reason. My background is building great internet companies.</description>
     </item>
     
     <item>
       <title>7 security practices you need to follow</title>
-      <link>http://lacoski.github.io/post/7-security-practices-you-need-to-follow/</link>
+      <link>https://lacoski.github.io/post/7-security-practices-you-need-to-follow/</link>
       <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/7-security-practices-you-need-to-follow/</guid>
+      <guid>https://lacoski.github.io/post/7-security-practices-you-need-to-follow/</guid>
       <description>Some of this may seem like a broken record, yet every single time you hear about a bank losing millions of customer data, or a company having a security breach they consistently have failed to implement and enforce the most basic security practices. Here are 7 simple security practices that you cannot afford to not follow.
 1. Secure pass phrases Throw away the notion of a password. Pass phrases consisting of multiple words and symbols are considerably more secure and easy to remember.</description>
     </item>
     
     <item>
       <title>Secure Automated, Key Based SSH</title>
-      <link>http://lacoski.github.io/post/secure-automated-key-based-ssh/</link>
+      <link>https://lacoski.github.io/post/secure-automated-key-based-ssh/</link>
       <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/secure-automated-key-based-ssh/</guid>
+      <guid>https://lacoski.github.io/post/secure-automated-key-based-ssh/</guid>
       <description>SSH is great and secure… Unless you need to automate it. Then it sucks because your only options are to create a passwordless key, or login add your key to ssh-agent, stay logged in forever. Here’s a quick guide to having the best of both worlds. A Secure SSH Connection that can be used in automated scripts. ( with the single catch, that upon reboot you need to re-enter your key’s password ) Create and Distribute your Key</description>
     </item>
     
     <item>
       <title>Installing Git on a Shared Host</title>
-      <link>http://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
+      <link>https://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
       <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
+      <guid>https://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
       <description>Git is a fantastic tool and is very useful for deployment. If you can’t install git system wide or don’t want to mess with installing it on the entire system here is an easy way to install it for a single user. This also works well on Mac OS X where installing git is more challenging than necessary. Script included
 I used this script to install git on 1and1.</description>
     </item>
     
     <item>
       <title>Mastering the Command Line</title>
-      <link>http://lacoski.github.io/post/mastering-the-command-line/</link>
+      <link>https://lacoski.github.io/post/mastering-the-command-line/</link>
       <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/mastering-the-command-line/</guid>
+      <guid>https://lacoski.github.io/post/mastering-the-command-line/</guid>
       <description>If you use *nix, no doubt you’ve spent some time on the command line. Here are a few of the most helpful tricks you can use in the bash shell to really optimize your time, impress your friends, and make everyone else feel inferior… not to mention become more productive. People familar with the command line can usually work considerably faster (for most tasks) than you can through a gui.</description>
     </item>
     
     <item>
       <title>Windows 7 launch notes</title>
-      <link>http://lacoski.github.io/post/windows-7-launch-notes/</link>
+      <link>https://lacoski.github.io/post/windows-7-launch-notes/</link>
       <pubDate>Tue, 20 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/windows-7-launch-notes/</guid>
+      <guid>https://lacoski.github.io/post/windows-7-launch-notes/</guid>
       <description>I was fortunate to be able to attend the Microsoft Launch Developer Preview meeting in NYC. Microsoft is holding these all over the country to prepare IT and developers for the upcoming launch. Overall it was a good meeting and Microsoft is delivering a great product. More importantly they have a really good chance of overcoming the bad taste of vista and emerge as a innovation leader. These are my notes taken during the meeting with some of my insights.</description>
     </item>
     
     <item>
       <title>Using Nginx as a Load Balancer</title>
-      <link>http://lacoski.github.io/post/using-nginx-as-a-load-balancer/</link>
+      <link>https://lacoski.github.io/post/using-nginx-as-a-load-balancer/</link>
       <pubDate>Thu, 24 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/using-nginx-as-a-load-balancer/</guid>
+      <guid>https://lacoski.github.io/post/using-nginx-as-a-load-balancer/</guid>
       <description>Nginx is a relatively new web server that has a light footprint and relatively easy configuration. The following configuration demonstrates how to properly use nginx as a load balancer in front of two web servers.
 pid /var/run/nginx.pid; events { worker_connections 1024; } http { include mime.types; default_type application/octet-stream; sendfile on; keepalive_timeout 75; proxy_buffering off; log_not_found off; error_log /dev/null; access_log off; proxy_connect_timeout 20; client_header_timeout 60; client_body_timeout 60; send_timeout 60; server { listen 127.</description>
     </item>
     
     <item>
       <title>Choosing a Hosting Partner</title>
-      <link>http://lacoski.github.io/post/choosing-a-hosting-partner/</link>
+      <link>https://lacoski.github.io/post/choosing-a-hosting-partner/</link>
       <pubDate>Tue, 25 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/choosing-a-hosting-partner/</guid>
+      <guid>https://lacoski.github.io/post/choosing-a-hosting-partner/</guid>
       <description>Image via Wikipedia   No question about it, choosing a good hosting partner is one of the most important decisions a CTO / CIO can make, especially in a .com company. I recently had to choose a hosting partner for the new portero.com. Since the space changes so rapidly the last provider you used may no longer be the best fit for you now. Here’s 10 criteria you need to evaluate when analyzing a hosting partner.</description>
     </item>
     
     <item>
       <title>Setting up Subversion with multiple access methods</title>
-      <link>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
+      <link>https://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
       <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
+      <guid>https://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
       <description>One thing that makes subversion such a powerful revision system is it’s ability to permit multiple methods of access. Https, WebDAV, SSH and svnserve. In spite of svn’s ability to support multiple access methods, doing so simultaniously can be quite challenging. Typically one will run into permission issues as the http(s) access will all be written to the filesystem as the user running the webserver. The SSH access will all write to the filesystem under each users given account.</description>
     </item>
     
     <item>
       <title>Scaling Web Sites (LAMP) : Top Resources</title>
-      <link>http://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</link>
+      <link>https://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</link>
       <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</guid>
+      <guid>https://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</guid>
       <description>Image via Wikipedia   Luckily it’s 2009 and there have been a bunch of successful websites that have had to deal with large scalability challenges. Many have been kind enough to share their knowledge with the world. Here is a list of the best books, articles, presentations and practices from the likes of Twitter, Facebook, Flickr and more.
 Books Building Scalable Web Sites Building, scaling, and optimizing the next generation of web applications by Cal Henderson</description>
     </item>
     
     <item>
       <title>Backup Your Files</title>
-      <link>http://lacoski.github.io/post/backup-your-files/</link>
+      <link>https://lacoski.github.io/post/backup-your-files/</link>
       <pubDate>Mon, 29 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/backup-your-files/</guid>
+      <guid>https://lacoski.github.io/post/backup-your-files/</guid>
       <description>One of the worst experiences you can have as a computer operator is to realize you (or something else) just did something and wiped out your files. The purpose of this article is to show you how to automatically backup your files often and automatically. I use this setup to backup my documents every hour (I save more often then that). This gives me hourly versions of all my files I am working on.</description>
     </item>
     
     <item>
       <title>Backing up MySQL</title>
-      <link>http://lacoski.github.io/post/backing-up-mysql/</link>
+      <link>https://lacoski.github.io/post/backing-up-mysql/</link>
       <pubDate>Fri, 12 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/backing-up-mysql/</guid>
+      <guid>https://lacoski.github.io/post/backing-up-mysql/</guid>
       <description>Image via Wikipedia   I don’t know very many people that haven’t been devastated by the loss of data… Yet I am baffled that millions of professional IT workers still ignore backing up their data. Since computers are great at doing repetitive things like backups.. why not spend 20 minutes setting up your machine to backup your files for you. This guide will be specific to mysql to create a local copy of the backup.</description>
     </item>
     
     <item>
       <title>Using SVK to Increase Productivity</title>
-      <link>http://lacoski.github.io/post/using-svk-to-increase-productivity/</link>
+      <link>https://lacoski.github.io/post/using-svk-to-increase-productivity/</link>
       <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/using-svk-to-increase-productivity/</guid>
+      <guid>https://lacoski.github.io/post/using-svk-to-increase-productivity/</guid>
       <description>SVK is a client for SVN built using perl. It makes a number of improvements over the standard svn client, while retaining much of the same feel. It works with the standard Subversion server and works perfectly in an environment with some users using svn and some using svk on the client side. It provides a number of sizable advantages over the standard svn client and is a must have for any development project.</description>
     </item>
     
     <item>
       <title>Implementing a Corporate Wiki</title>
-      <link>http://lacoski.github.io/post/implementing-a-corporate-wiki/</link>
+      <link>https://lacoski.github.io/post/implementing-a-corporate-wiki/</link>
       <pubDate>Fri, 25 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/implementing-a-corporate-wiki/</guid>
+      <guid>https://lacoski.github.io/post/implementing-a-corporate-wiki/</guid>
       <description>It seems all of a sudden, the two buzz words in the corporate IT world are wiki and blog. Corporate wikis are emerging as cheap, intelligent, flexible systems for shared-document collaboration and content management. Because they are browser based, wikis are quite easy to implement and deploy.
 The wiki works well in the corporate world as it solves two problematic areas, the need for internal collaboration and document management.</description>
     </item>
     
     <item>
       <title>Be more productive using GNU Screen</title>
-      <link>http://lacoski.github.io/post/be-more-productive-using-gnu-screen/</link>
+      <link>https://lacoski.github.io/post/be-more-productive-using-gnu-screen/</link>
       <pubDate>Thu, 03 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/be-more-productive-using-gnu-screen/</guid>
+      <guid>https://lacoski.github.io/post/be-more-productive-using-gnu-screen/</guid>
       <description>GNU Screen  Image via Wikipedia   Despite living in the age of multicore processors, GUI everything and mountains of ram, I continually find myself more productive with a terminal open. Especially when that terminal is running GNU Screen.
 About GNU Screen GNU Screen is a free terminal multiplexer developed by the GNU Project. It allows a user to access multiple separate terminal sessions inside a single terminal window or remote terminal session.</description>
     </item>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/google/</link>
+    <link>https://lacoski.github.io/tags/google/</link>
     <description>Recent content in Google on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Fri, 09 Oct 2009 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Death of Search</title>
-      <link>http://lacoski.github.io/post/the-death-of-search/</link>
+      <link>https://lacoski.github.io/post/the-death-of-search/</link>
       <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/the-death-of-search/</guid>
+      <guid>https://lacoski.github.io/post/the-death-of-search/</guid>
       <description>Social media will be the next innovation in the most unlikely of places, search ( leveraging the community to scale infinitely ). It’s not that people will all together stop searching, but the approach that they take to finding information will become increasingly social (rather than algorithmic) in nature.
 For the last decade, search always seems on the cusp of “intelligent” results. Each new engine promises to be able to overcome “search overload” as Microsoft puts is.</description>
     </item>

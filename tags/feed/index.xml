@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Feed on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/feed/</link>
+    <link>https://lacoski.github.io/tags/feed/</link>
     <description>Recent content in Feed on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Mon, 12 Oct 2009 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/feed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/feed/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Migrating to Feedburner</title>
-      <link>http://lacoski.github.io/post/migrating-to-feedburner/</link>
+      <link>https://lacoski.github.io/post/migrating-to-feedburner/</link>
       <pubDate>Mon, 12 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/migrating-to-feedburner/</guid>
+      <guid>https://lacoski.github.io/post/migrating-to-feedburner/</guid>
       <description>I’ve made the decision to take control of my feeds. I want to know how many users are reading my blog via syndication so I’ve decided to move to feedburner. The migration will be seamless for all readers. Additionally I’ll be able to provide syndication via email as well.
 How to Migrate from Drupal to FeedBurner These directions are written with Drupal in mind, though the approach used would work for pretty much any system.</description>
     </item>

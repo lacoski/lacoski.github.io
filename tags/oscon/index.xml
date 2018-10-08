@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oscon on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/oscon/</link>
+    <link>https://lacoski.github.io/tags/oscon/</link>
     <description>Recent content in Oscon on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Mon, 17 Sep 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/oscon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/oscon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Giving the most viewed presentation on slideshare ever at OSCON</title>
-      <link>http://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
+      <link>https://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
       <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
+      <guid>https://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
       <description>Steve Francia at OSCON   At OSCON 2012 in Portland I gave a presentation on building your first MongoDB application. Over 150 people were in the audience, a pretty significant number of this type of hands on tutorial. Certainly worth the weeks of preparation that went into developing it. While at OSCON I put the slides online at SlideShare where during the four day conference the amassed over 20k views and within a couple weeks over 30k views.</description>
     </item>
     
     <item>
       <title>How to deliver a great conference tutorial</title>
-      <link>http://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</link>
+      <link>https://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</link>
       <pubDate>Wed, 05 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</guid>
+      <guid>https://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</guid>
       <description>OSCON 2012   I recently returned from OSCON where I was able to give one of the more popular presentations at the conference. I presented on the morning of the first day and throughout the entire week people kept coming up to me telling me how much they enjoyed my tutorial and how bored they were at the sessions they attended since. Here are the secrets of how I gave such a compelling presentation.</description>
     </item>
     

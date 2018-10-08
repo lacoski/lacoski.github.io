@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scalability on Hacking Management</title>
-    <link>http://lacoski.github.io/topics/scalability/</link>
+    <link>https://lacoski.github.io/topics/scalability/</link>
     <description>Recent content in Scalability on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Mon, 29 Oct 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/topics/scalability/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/topics/scalability/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
-      <link>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <link>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
       <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
     </item>
     
     <item>
       <title>Giving the most viewed presentation on slideshare ever at OSCON</title>
-      <link>http://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
+      <link>https://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
       <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
+      <guid>https://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
       <description>Steve Francia at OSCON   At OSCON 2012 in Portland I gave a presentation on building your first MongoDB application. Over 150 people were in the audience, a pretty significant number of this type of hands on tutorial. Certainly worth the weeks of preparation that went into developing it. While at OSCON I put the slides online at SlideShare where during the four day conference the amassed over 20k views and within a couple weeks over 30k views.</description>
     </item>
     
     <item>
       <title>NoSQL databases and Managing Big Data</title>
-      <link>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</link>
+      <link>https://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</link>
       <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</guid>
+      <guid>https://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</guid>
       <description>I had the unique opportunity to present at the annual technology forum Insight Venture Partners holds for their portfolio companies. Over 100 CTOs gathered in NYC to hear from great presenters from companies like 10gen, Tumblr, Shutterstock and Buddy Media.
 I’ve included a slightly longer version of the presentation given which includes a few slides that I cut out for brevity to fit in the allocated time while still allowing time for questions.</description>
     </item>
     
     <item>
       <title>Hybrid Cloud Computing</title>
-      <link>http://lacoski.github.io/post/hybrid-cloud-computing/</link>
+      <link>https://lacoski.github.io/post/hybrid-cloud-computing/</link>
       <pubDate>Fri, 30 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/hybrid-cloud-computing/</guid>
+      <guid>https://lacoski.github.io/post/hybrid-cloud-computing/</guid>
       <description>Traditionally ecommerce companies have had no place in the cloud. The lack of established standards, multi-tenancy nature and need to be PCI compliant have been three large barriers to entry for any organization exploring this possibility. Recently many e-commerce companies (including OpenSky) have begun to implement a hybrid approach to infrastructure mixing traditional data centers with cloud offerings to achieve a best of both worlds solution.
 Here is how I approached this when I was at OpenSky.</description>
     </item>
     
     <item>
       <title>Where have all the good databases gone?</title>
-      <link>http://lacoski.github.io/post/where-have-all-the-good-databases-gone/</link>
+      <link>https://lacoski.github.io/post/where-have-all-the-good-databases-gone/</link>
       <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/where-have-all-the-good-databases-gone/</guid>
+      <guid>https://lacoski.github.io/post/where-have-all-the-good-databases-gone/</guid>
       <description>Perhaps you’ll recognize these words, “About five years ago I started to notice an odd thing. The products that the database vendors were building had less and less to do with what the customers wanted. … So, what is this growing disconnect?” Those words were written in 2004 by Adam Bosworth, a veteren of Microsoft, Google and BEA. In the 7 years since things have only gotten worse. Open source products came to maturity (if you can call it that), but none improved on any of the challenges Bosworth outlines.</description>
     </item>
     
     <item>
       <title>NoSQL Databases</title>
-      <link>http://lacoski.github.io/post/nosql-databases/</link>
+      <link>https://lacoski.github.io/post/nosql-databases/</link>
       <pubDate>Thu, 08 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/nosql-databases/</guid>
+      <guid>https://lacoski.github.io/post/nosql-databases/</guid>
       <description>langalex    Amazon, Digg, Facebook, LinkedIn, Twitter all started on sql databases (all but Amazon on MySQL) and have transitioned to incorporated nosql databases into their infrastructure, though many utilize both relational databases as well as non-relational ones.
 I’ve compiled a few resources to help bring you up to speed on nosql databases.
 Major sites using NoSQL  Amazon : (Dynamo) http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html LinkedIn : (Voldemort) http://blog.</description>
@@ -72,19 +72,19 @@ Major sites using NoSQL  Amazon : (Dynamo) http://www.allthingsdistributed.com/
     
     <item>
       <title>Benchmarking Cloudfront (and S3)</title>
-      <link>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
+      <link>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
       <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
+      <guid>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
       <description>Amazon has done it again bringing another computing service to the masses. This time it’s the Content Delivery Network or CDN. Cloudfront is a direct competitor to other popular CDNs such as Akamai. While Akamai requires a fairly substantial amount of traffic to become a customer, Cloudfront doesn’t. It follows all of Amazons, pay for what you use mentality. This means that everyone can benefit from incorporating Cloudfront into their blog, site, store, etc.</description>
     </item>
     
     <item>
       <title>Scaling Web Sites (LAMP) : Top Resources</title>
-      <link>http://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</link>
+      <link>https://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</link>
       <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</guid>
+      <guid>https://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</guid>
       <description>Image via Wikipedia   Luckily it’s 2009 and there have been a bunch of successful websites that have had to deal with large scalability challenges. Many have been kind enough to share their knowledge with the world. Here is a list of the best books, articles, presentations and practices from the likes of Twitter, Facebook, Flickr and more.
 Books Building Scalable Web Sites Building, scaling, and optimizing the next generation of web applications by Cal Henderson</description>
     </item>

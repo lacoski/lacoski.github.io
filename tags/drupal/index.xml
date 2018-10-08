@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drupal on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/drupal/</link>
+    <link>https://lacoski.github.io/tags/drupal/</link>
     <description>Recent content in Drupal on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Wed, 14 Mar 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting started with Drupal and MongoDB</title>
-      <link>http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</link>
+      <link>https://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</link>
       <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</guid>
+      <guid>https://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</guid>
       <description>MongoDB is the most full featured scalable database taking the tech world by storm. Drupal is the standard in content management powering magazines, blogs online newspapers and much more. It’s only natural that they would get together to provide a fast dynamic scalable CMS system. Whenever a Drupal site needs to scale dynamic content they turn to MongoDB to be able to deliver. The Examiner.com was the pioneer in this approach and many Drupal sites have followed suit.</description>
     </item>
     
     <item>
       <title>Moving to WordPress</title>
-      <link>http://lacoski.github.io/post/moving-to-wordpress/</link>
+      <link>https://lacoski.github.io/post/moving-to-wordpress/</link>
       <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/moving-to-wordpress/</guid>
+      <guid>https://lacoski.github.io/post/moving-to-wordpress/</guid>
       <description>I’ve used Drupal to power my blog since I started it over 2 years ago. It has been a bitter sweet relationship, but in general I’ve been pleased. In those two years, WordPress as a product has rocketed past Drupal, and feels much more mature. While Drupal 7 should level the field a bit, it’s a ways away and WordPress 3.0 is already here.</description>
     </item>
     
     <item>
       <title>Top Sites Running Drupal</title>
-      <link>http://lacoski.github.io/post/top-sites-running-drupal/</link>
+      <link>https://lacoski.github.io/post/top-sites-running-drupal/</link>
       <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/top-sites-running-drupal/</guid>
+      <guid>https://lacoski.github.io/post/top-sites-running-drupal/</guid>
       <description>Image via Wikipedia
 Drupal is a very powerful Content Management Solution. Many other organizations both large and small have found it to be a perfect platform for managing their website including some Fortune 100 companies. I decided to compile a list of some of the more notable organizations running drupal. This list is not exhaustive, but intended to demonstrate top site powered by drupal. If you know other top sites also powered by drupal, please list them in the comments below.</description>
     </item>
     
     <item>
       <title>Getting Started With Drupal</title>
-      <link>http://lacoski.github.io/post/getting-started-with-drupal/</link>
+      <link>https://lacoski.github.io/post/getting-started-with-drupal/</link>
       <pubDate>Mon, 14 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/getting-started-with-drupal/</guid>
+      <guid>https://lacoski.github.io/post/getting-started-with-drupal/</guid>
       <description>Drupal is a very powerful content management solution. It powered an earlier version of this website as well as zoopframework.com. Drupal is a relatively easy to use system, but there are a few key concepts that you really need to understand in getting started. I often find that webcasts are fantastic resources for instruction. I recently helped a non-techie friend setup a drupal site and was surprised at how many (really bad) drupal videos existed online.</description>
     </item>
     
     <item>
       <title>Migrating to Feedburner</title>
-      <link>http://lacoski.github.io/post/migrating-to-feedburner/</link>
+      <link>https://lacoski.github.io/post/migrating-to-feedburner/</link>
       <pubDate>Mon, 12 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/migrating-to-feedburner/</guid>
+      <guid>https://lacoski.github.io/post/migrating-to-feedburner/</guid>
       <description>I’ve made the decision to take control of my feeds. I want to know how many users are reading my blog via syndication so I’ve decided to move to feedburner. The migration will be seamless for all readers. Additionally I’ll be able to provide syndication via email as well.
 How to Migrate from Drupal to FeedBurner These directions are written with Drupal in mind, though the approach used would work for pretty much any system.</description>
     </item>

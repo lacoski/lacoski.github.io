@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/development/</link>
+    <link>https://lacoski.github.io/tags/development/</link>
     <description>Recent content in Development on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 17 Aug 2017 10:09:53 -0400</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>State Of The Gopher Nation - Aug 17</title>
-      <link>http://lacoski.github.io/presentation/stateofthegophernation-aug17/</link>
+      <link>https://lacoski.github.io/presentation/stateofthegophernation-aug17/</link>
       <pubDate>Thu, 17 Aug 2017 10:09:53 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/stateofthegophernation-aug17/</guid>
+      <guid>https://lacoski.github.io/presentation/stateofthegophernation-aug17/</guid>
       <description>I am at GolangUK in London, having just finished giving the opening keynote.
 I was a bit more nervous than usual, in part, due to the length of time since my last talk, and in part I was representing the entire Go project for the first time in a keynote.
 This talk is an overview of the entire Go project. It covers &amp;ldquo;what we&amp;rsquo;ve done&amp;rdquo;, &amp;ldquo;why we did it&amp;rdquo; and &amp;ldquo;where we are going&amp;rdquo; as a project.</description>
@@ -25,10 +25,10 @@ This talk is an overview of the entire Go project. It covers &amp;ldquo;what we&
     
     <item>
       <title>Hugo goes global</title>
-      <link>http://lacoski.github.io/post/hugo-goes-global/</link>
+      <link>https://lacoski.github.io/post/hugo-goes-global/</link>
       <pubDate>Fri, 07 Oct 2016 10:56:02 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/hugo-goes-global/</guid>
+      <guid>https://lacoski.github.io/post/hugo-goes-global/</guid>
       <description>&lt;p&gt;Hugo is going Global! Hugo 0.17, released today, is our best and fastest
 release ever! &lt;strong&gt;Hugo 0.17 is nearly twice as fast as Hugo 0.16&lt;/strong&gt; and adds
 &lt;strong&gt;full support for multilingual websites&lt;/strong&gt; with i18n support throughout all
@@ -39,10 +39,10 @@ of Hugo.&lt;/p&gt;
     
     <item>
       <title>I’m joining the Go team at Google</title>
-      <link>http://lacoski.github.io/post/joining-go-team-at-google/</link>
+      <link>https://lacoski.github.io/post/joining-go-team-at-google/</link>
       <pubDate>Thu, 15 Sep 2016 12:15:03 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/joining-go-team-at-google/</guid>
+      <guid>https://lacoski.github.io/post/joining-go-team-at-google/</guid>
       <description>&lt;p&gt;I am honored to share that I have joined Google as a member of the Go team and will be primarily based in NYC.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -50,10 +50,10 @@ of Hugo.&lt;/p&gt;
     
     <item>
       <title>7 common mistakes in Go (2015)</title>
-      <link>http://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</link>
+      <link>https://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</link>
       <pubDate>Wed, 27 May 2015 12:28:12 -0700</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</guid>
+      <guid>https://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</guid>
       <description>Given at GopherFest 2015. This is an updated version of the talk I gave in NYC Nov 14 at GothamGo.
 “We need to think about failure differently. Most people think mistakes are a necessary evil. Mistakes aren&amp;rsquo;t a necessary evil, they aren&amp;rsquo;t evil at all. They are an inevitable consequence of doing something new and as such should be seen as valuable. “ - Ed Catmull
 As Go is a &amp;ldquo;new&amp;rdquo; programming language we are all experimenting and learning how to write better Go.</description>
@@ -61,38 +61,38 @@ As Go is a &amp;ldquo;new&amp;rdquo; programming language we are all experimenti
     
     <item>
       <title>What Every Open Source Project Needs</title>
-      <link>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</link>
+      <link>https://lacoski.github.io/presentation/what-every-open-source-project-needs/</link>
       <pubDate>Fri, 20 Mar 2015 18:00:02 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</guid>
+      <guid>https://lacoski.github.io/presentation/what-every-open-source-project-needs/</guid>
       <description>In the last few years open source has transformed the software industry. From Android to Wikipedia, open source is everywhere, but how does one succeed in it? While open source projects come in all shapes and sizes and all forms of governance, no matter what kind of project you’re a part of, there are a set of fundamentals that lead to success. I’d like to share some of the lessons I’ve learned from running two of the largest commercial open source projects, Docker &amp;amp; MongoDB , as well as some very successful community based projects (Hugo, spf13-vim, Cobra, Viper, Zoop).</description>
     </item>
     
     <item>
       <title>How To Be A Good Open Source Community Member</title>
-      <link>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</link>
+      <link>https://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</link>
       <pubDate>Tue, 17 Mar 2015 15:24:07 -0500</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</guid>
+      <guid>https://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</guid>
       <description>A friend of mine who is a very talented writer recently became intrigued with open source and asked me to help her to understand how to be a good open source community member.
 Open source is one of the most unusual things in the world. Is there any other profession where highly skilled professionals donate their free time to give their work away for free? Many spend long hours at their day jobs, just to spend their nights and weekends doing the same thing.</description>
     </item>
     
     <item>
       <title>7 Common mistakes in Go and when to avoid them</title>
-      <link>http://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</link>
+      <link>https://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</link>
       <pubDate>Tue, 18 Nov 2014 14:06:00 -0500</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</guid>
+      <guid>https://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</guid>
       <description>Not a generic list of programming mistakes, these are the lessons I wish I learned earlier while developing Go. I&amp;rsquo;ve spent the past two years developing some of the most popular libraries and applications written in Go. I&amp;rsquo;ve also made a lot of mistakes along the way. Recognizing that &amp;ldquo;The only real mistake is the one from which we learn nothing. -John Powell&amp;rdquo;, I would like to share with you the mistakes that I have made over my journey with Go and when you can avoid them.</description>
     </item>
     
     <item>
       <title>Hugo Summer 2014 Update</title>
-      <link>http://lacoski.github.io/post/hugo-summer2014-update/</link>
+      <link>https://lacoski.github.io/post/hugo-summer2014-update/</link>
       <pubDate>Thu, 02 Oct 2014 13:28:42 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/hugo-summer2014-update/</guid>
+      <guid>https://lacoski.github.io/post/hugo-summer2014-update/</guid>
       <description>Hugo, the fast and flexible static site generator, is really coming of age. I wanted to give a quick update about the progress Hugo has been making over the past couple months.
 New Website Hugo can now be found at http://gohugo.io. Update your bookmarks.
 New Team Members I want to formally welcome our newest team members.
@@ -101,30 +101,30 @@ Tatsushi Demachi has been making excellent contributions hugo, particularly with
     
     <item>
       <title>Evangelism is NOT Sales</title>
-      <link>http://lacoski.github.io/post/evangelism-is-not-sales/</link>
+      <link>https://lacoski.github.io/post/evangelism-is-not-sales/</link>
       <pubDate>Wed, 24 Sep 2014 13:17:48 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/evangelism-is-not-sales/</guid>
+      <guid>https://lacoski.github.io/post/evangelism-is-not-sales/</guid>
       <description>I recently had a discussion with a CFO of a technology company. We were meeting because he is trying to better understand the role technical evangelism could play within his company. Ten minutes into our conversation he said, &amp;ldquo;so evangelism is pretty much rogue sales&amp;rdquo;. Internally I cringed. I politely corrected him that the two could not be further apart.
 Allow me to be a bit philosophical or rather, etymological here.</description>
     </item>
     
     <item>
       <title>Go for Object Oriented Programmers</title>
-      <link>http://lacoski.github.io/presentation/go-for-object-oriented-programmers/</link>
+      <link>https://lacoski.github.io/presentation/go-for-object-oriented-programmers/</link>
       <pubDate>Thu, 31 Jul 2014 04:20:08 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/go-for-object-oriented-programmers/</guid>
+      <guid>https://lacoski.github.io/presentation/go-for-object-oriented-programmers/</guid>
       <description>This presentation was given at OSCON 2014.
   Object Oriented (OO) programming has dominated software engineering for the last two decades. The paradigm built on powerful concepts such as Encapsulation, Inheritance, and Polymoprhism has been internalized by the majority of software engineers. Although Go is not OO in the strict sense, we can continue to leverage the skills we’ve honed as OO engineers to come up with simple and solid designs.</description>
     </item>
     
     <item>
       <title>Using MongoDB with Go and mgo</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-go/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-go/</link>
       <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-go/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-go/</guid>
       <description>This presentation was given at OSCON 2014.
   This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp;amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.
 As an emerging language Go is able to start fresh without years of relational database dependencies. Application and library developers are able to build applications using the excellent Mgo MongoDB driver and the reliable go sql package for relational database.</description>
@@ -132,10 +132,10 @@ As an emerging language Go is able to start fresh without years of relational da
     
     <item>
       <title>Getting Started with Go</title>
-      <link>http://lacoski.github.io/presentation/first-go-app/</link>
+      <link>https://lacoski.github.io/presentation/first-go-app/</link>
       <pubDate>Sun, 20 Jul 2014 08:51:33 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/first-go-app/</guid>
+      <guid>https://lacoski.github.io/presentation/first-go-app/</guid>
       <description>This presentation was given as a Workshop at OSCON 2014.
   Description New to Go? This tutorial will give developers an introduction and practical experience in building applications with the Go language. Gopher Steve Francia, Author of Hugo, Cobra, and many other popular Go packages breaks it down step by step as you build your own full featured Go application.
 Starting with an introduction to the Go language. He then reviews the fantastic go tools available.</description>
@@ -143,60 +143,60 @@ Starting with an introduction to the Go language. He then reviews the fantastic 
     
     <item>
       <title>Pointers vs References</title>
-      <link>http://lacoski.github.io/post/go-pointers-vs-references/</link>
+      <link>https://lacoski.github.io/post/go-pointers-vs-references/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-pointers-vs-references/</guid>
+      <guid>https://lacoski.github.io/post/go-pointers-vs-references/</guid>
       <description>Some languages including C, C++ support pointers. Other languages including C++, Java, Python, Ruby, Perl and PHP all support references. On the surface both references and pointers are very similar, both are used to have one variable provide access to another. With both providing a lot of the same capabilities, it’s often unclear what is different between these different mechanisms. In this article I will illustrate the difference between pointers and references.</description>
     </item>
     
     <item>
       <title>Is Go an Object Oriented language?</title>
-      <link>http://lacoski.github.io/post/is-go-object-oriented/</link>
+      <link>https://lacoski.github.io/post/is-go-object-oriented/</link>
       <pubDate>Mon, 09 Jun 2014 01:18:04 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/is-go-object-oriented/</guid>
+      <guid>https://lacoski.github.io/post/is-go-object-oriented/</guid>
       <description>To truly understand what it means to be ‘object-oriented’ you need to look back at the origination of the concept. The first object oriented language, simula, emerged in the 1960s. It introduced objects, classes, inheritance and subclasses, virtual methods, coroutines, and a lot more. Perhaps most importantly, it introduced a paradigm shift of thinking of data and logic as completely independent.
 While you many not be familiar with Simula, you are no doubt familiar with languages that refer to it as their inspiration including Java, C++, C# &amp;amp; Smalltalk, which in turn have been the inspiration for Objective C, Python, Ruby, Javascript, Scala, PHP, Perl&amp;hellip; a veritable list of nearly all popular languages in use today.</description>
     </item>
     
     <item>
       <title>9 MongoDB 2.6 Drivers Released</title>
-      <link>http://lacoski.github.io/post/mongodb2-6-drivers-released/</link>
+      <link>https://lacoski.github.io/post/mongodb2-6-drivers-released/</link>
       <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/mongodb2-6-drivers-released/</guid>
+      <guid>https://lacoski.github.io/post/mongodb2-6-drivers-released/</guid>
       <description>I’m pleased to announce the coordinated release of drivers in 9 languages in preparation for the release of MongoDB 2.6. This is the largest driver release in the history of MongoDB, both in terms of code changes as well as in terms of drivers released. Official Drivers for C, C++, C# (.net), Java, Node.js, PHP, Python, Ruby and Scala were all released with Perl following shortly. In the upcoming weeks community drivers will be updated to take advantage of the new features present in MongoDB 2.</description>
     </item>
     
     <item>
       <title>Cross Compiling with Go</title>
-      <link>http://lacoski.github.io/post/cross-compiling-go/</link>
+      <link>https://lacoski.github.io/post/cross-compiling-go/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/cross-compiling-go/</guid>
+      <guid>https://lacoski.github.io/post/cross-compiling-go/</guid>
       <description>One of the great features of golang is that you can compile executables for many different platforms and architectures from a single machine. It’s really nice to be able to provide executables of Hugo for a bunch of different platforms and architectures without having to have all these different machines in a build cluster.
 As I’ve been working with Hugo, I’ve wanted to make the experience of cross compiling as easy and painless as possible.</description>
     </item>
     
     <item>
       <title>A modern CLI Commander for go</title>
-      <link>http://lacoski.github.io/post/announcing-cobra/</link>
+      <link>https://lacoski.github.io/post/announcing-cobra/</link>
       <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/announcing-cobra/</guid>
+      <guid>https://lacoski.github.io/post/announcing-cobra/</guid>
       <description>While developing Hugo I became disappointed with the interface limitations flags alone provide. A quick look at virtually any command line application (ls, grep, less, etc) reveals that most applications overuse flags to do everything and often allow conflicting flags to be applied.
 Even though hugo is relatively simple, we already had the ability to stack flags that didn&amp;rsquo;t make sense. You can set the port using &amp;ndash;port but this only has an effect if you also specified &amp;ndash;server.</description>
     </item>
     
     <item>
       <title>Refactoring with go fmt</title>
-      <link>http://lacoski.github.io/post/go-fmt/</link>
+      <link>https://lacoski.github.io/post/go-fmt/</link>
       <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-fmt/</guid>
+      <guid>https://lacoski.github.io/post/go-fmt/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been getting into go. I&amp;rsquo;ve built a &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;few
-packages&lt;/a&gt; &lt;a href=&#34;http://lacoski.github.io/post/announcing-cobra&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://spf13.com/project/nitro&#34;&gt;libraries&lt;/a&gt;.&lt;/p&gt;
+packages&lt;/a&gt; &lt;a href=&#34;https://lacoski.github.io/post/announcing-cobra&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://spf13.com/project/nitro&#34;&gt;libraries&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;For this post, let&amp;rsquo;s explore the &amp;lsquo;gofmt&amp;rsquo; or &amp;lsquo;go fmt&amp;rsquo; tool further.&lt;/p&gt;
 
@@ -205,29 +205,29 @@ packages&lt;/a&gt; &lt;a href=&#34;http://lacoski.github.io/post/announcing-cobr
     
     <item>
       <title>Building Modern Web Applications</title>
-      <link>http://lacoski.github.io/presentation/building-modern-web-applications/</link>
+      <link>https://lacoski.github.io/presentation/building-modern-web-applications/</link>
       <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-modern-web-applications/</guid>
+      <guid>https://lacoski.github.io/presentation/building-modern-web-applications/</guid>
       <description>I gave this presentation to a packed house at DevCon5 in NYC July 24th. DevCon5 is a web developers conference and this year it focused on HTML5. This was one of the hardest presentations I&amp;rsquo;ve worked on for the simple fact that the audience had name recognition, but not familiarity with the database industry. Typically I&amp;rsquo;ve leaned on the fact that most participants were familiar with at least one database prior to my presentation, I had no such luxury here.</description>
     </item>
     
     <item>
       <title>MongoDB and PHP Webinar</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-php/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-php/</link>
       <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-php/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-php/</guid>
       <description>This is a 90 minute MongoDB tutorial on using MongoDB in PHP which I gave as a webcast for O&amp;rsquo;Reilly last year.. The tutorial covers everything from Installing MongoDB along with installing and configuring the MongoDB PHP driver. You will learn how to work with MongoDB from within PHP as well as within the MongoDB shell.
 What would happen if you optimized a data store for the operations application developers to actually use?</description>
     </item>
     
     <item>
       <title>Hugo: A fast and flexible static site generator built in GoLang</title>
-      <link>http://lacoski.github.io/project/hugo/</link>
+      <link>https://lacoski.github.io/project/hugo/</link>
       <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/hugo/</guid>
+      <guid>https://lacoski.github.io/project/hugo/</guid>
       <description>Hugo Website   Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
 Hugo makes use of markdown files with front matter for meta data.
 Written in GoLang for speed, Hugo is significantly faster than most other static site generators.
@@ -236,14 +236,14 @@ A typical website of moderate size can be rendered in a fraction of a second.</d
     
     <item>
       <title>Nitro : A quick and simple profiler for golang</title>
-      <link>http://lacoski.github.io/project/nitro/</link>
+      <link>https://lacoski.github.io/project/nitro/</link>
       <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/nitro/</guid>
+      <guid>https://lacoski.github.io/project/nitro/</guid>
       <description>&lt;p&gt;
 &lt;figure class=&#34;third right&#34;&gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -260,10 +260,10 @@ to compare as you revise and improve each part of your application.
     
     <item>
       <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
-      <link>http://lacoski.github.io/project/spf13-vim/</link>
+      <link>https://lacoski.github.io/project/spf13-vim/</link>
       <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/spf13-vim/</guid>
+      <guid>https://lacoski.github.io/project/spf13-vim/</guid>
       <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
 It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
 The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.
@@ -272,48 +272,48 @@ Unlike traditional VIM plugin structure, which similar to UNIX throws all files 
     
     <item>
       <title>PIV : PHP Integration for VIM</title>
-      <link>http://lacoski.github.io/project/piv/</link>
+      <link>https://lacoski.github.io/project/piv/</link>
       <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/piv/</guid>
+      <guid>https://lacoski.github.io/project/piv/</guid>
       <description>This project contains the most feature complete and up to date PHP Integration for Vim. It began as a fork of the largely outdated VIP (formerly PDV), but has morphed into it’s own project.
 It is intended to include the best PHP specific plugins, configurations and resources for editing PHP. Special care has been taken to include the best, keep them up to date and make sure everything plays well together.</description>
     </item>
     
     <item>
       <title>Release early, release often to minimize risk</title>
-      <link>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</link>
+      <link>https://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</link>
       <pubDate>Thu, 05 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</guid>
+      <guid>https://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</guid>
       <description>Release Cycles have been debated for the last 30 years and will certainly be for the next 30. Arguments for longer release cycles with larger releases usually focus on how risky these rapid releases are and the stability and polish these larger releases with their longer cycles bring. These arguments are absolute rubbish. To add to the discussion I’ll put a different emphasis than I’ve heard before. Release early and release often to minimize risk.</description>
     </item>
     
     <item>
       <title>Getting Started with Symfony2</title>
-      <link>http://lacoski.github.io/post/getting-started-with-symfony2/</link>
+      <link>https://lacoski.github.io/post/getting-started-with-symfony2/</link>
       <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/getting-started-with-symfony2/</guid>
+      <guid>https://lacoski.github.io/post/getting-started-with-symfony2/</guid>
       <description>In a follow up to my popular post on Symfony2, the open source PHP framework we use at OpenSky, I’m providing an easy guide to getting started using Symfony2. This isn’t your basic “Hello World”, but a practical guide to beginning a project with Symfony2.
 Requirements To get started with Symfony2 you should have a working install of Git as well as a well made install of PHP version 5.</description>
     </item>
     
     <item>
       <title>On Symfony2</title>
-      <link>http://lacoski.github.io/post/symfony2/</link>
+      <link>https://lacoski.github.io/post/symfony2/</link>
       <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/symfony2/</guid>
+      <guid>https://lacoski.github.io/post/symfony2/</guid>
       <description>Disclaimer I’ve got a couple disclaimers in writing this. 1. I’m one of the primary authors of the Zoop Framework for PHP. It’s pretty much the first web framework for PHP dating back to 2001. In spite of it’s age it’s still quite relevant and in use by thousands worldwide. 2. I run engineering for OpenSky where we elected to build our ecommerce platform on the Symfony2 framework and have since become the 2nd largest contributors to it.</description>
     </item>
     
     <item>
       <title>Software Development&#39;s Magic Triangle</title>
-      <link>http://lacoski.github.io/post/software-developments-magic-triangle/</link>
+      <link>https://lacoski.github.io/post/software-developments-magic-triangle/</link>
       <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/software-developments-magic-triangle/</guid>
+      <guid>https://lacoski.github.io/post/software-developments-magic-triangle/</guid>
       <description>There’s an old adage “Fast, Cheap, Good; Pick Two”. This situation is called a magic triangle. You can have two and only two, if you try for all three you will compromise all three. Fools often try, losing everything.
 In the world of software development, another magic triangle exists. You can pick any two of the three, but not all three, so figure out what’s truly important.
 Fixed Schedules Fixed Features High Quality Unfortunately business owners rarely have visibility into the last one (Quality).</description>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1and1 on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/1and1/</link>
+    <link>https://lacoski.github.io/tags/1and1/</link>
     <description>Recent content in 1and1 on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Tue, 24 Nov 2009 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/1and1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/1and1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing Git on a Shared Host</title>
-      <link>http://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
+      <link>https://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
       <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
+      <guid>https://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
       <description>Git is a fantastic tool and is very useful for deployment. If you can’t install git system wide or don’t want to mess with installing it on the entire system here is an easy way to install it for a single user. This also works well on Mac OS X where installing git is more challenging than necessary. Script included
 I used this script to install git on 1and1.</description>
     </item>

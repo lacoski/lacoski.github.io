@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/golang/</link>
+    <link>https://lacoski.github.io/tags/golang/</link>
     <description>Recent content in Golang on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pointers vs References</title>
-      <link>http://lacoski.github.io/post/go-pointers-vs-references/</link>
+      <link>https://lacoski.github.io/post/go-pointers-vs-references/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-pointers-vs-references/</guid>
+      <guid>https://lacoski.github.io/post/go-pointers-vs-references/</guid>
       <description>Some languages including C, C++ support pointers. Other languages including C++, Java, Python, Ruby, Perl and PHP all support references. On the surface both references and pointers are very similar, both are used to have one variable provide access to another. With both providing a lot of the same capabilities, it’s often unclear what is different between these different mechanisms. In this article I will illustrate the difference between pointers and references.</description>
     </item>
     
     <item>
       <title>Is Go an Object Oriented language?</title>
-      <link>http://lacoski.github.io/post/is-go-object-oriented/</link>
+      <link>https://lacoski.github.io/post/is-go-object-oriented/</link>
       <pubDate>Mon, 09 Jun 2014 01:18:04 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/is-go-object-oriented/</guid>
+      <guid>https://lacoski.github.io/post/is-go-object-oriented/</guid>
       <description>To truly understand what it means to be ‘object-oriented’ you need to look back at the origination of the concept. The first object oriented language, simula, emerged in the 1960s. It introduced objects, classes, inheritance and subclasses, virtual methods, coroutines, and a lot more. Perhaps most importantly, it introduced a paradigm shift of thinking of data and logic as completely independent.
 While you many not be familiar with Simula, you are no doubt familiar with languages that refer to it as their inspiration including Java, C++, C# &amp;amp; Smalltalk, which in turn have been the inspiration for Objective C, Python, Ruby, Javascript, Scala, PHP, Perl&amp;hellip; a veritable list of nearly all popular languages in use today.</description>
     </item>
     
     <item>
       <title>Cross Compiling with Go</title>
-      <link>http://lacoski.github.io/post/cross-compiling-go/</link>
+      <link>https://lacoski.github.io/post/cross-compiling-go/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/cross-compiling-go/</guid>
+      <guid>https://lacoski.github.io/post/cross-compiling-go/</guid>
       <description>One of the great features of golang is that you can compile executables for many different platforms and architectures from a single machine. It’s really nice to be able to provide executables of Hugo for a bunch of different platforms and architectures without having to have all these different machines in a build cluster.
 As I’ve been working with Hugo, I’ve wanted to make the experience of cross compiling as easy and painless as possible.</description>
     </item>
     
     <item>
       <title>A modern CLI Commander for go</title>
-      <link>http://lacoski.github.io/post/announcing-cobra/</link>
+      <link>https://lacoski.github.io/post/announcing-cobra/</link>
       <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/announcing-cobra/</guid>
+      <guid>https://lacoski.github.io/post/announcing-cobra/</guid>
       <description>While developing Hugo I became disappointed with the interface limitations flags alone provide. A quick look at virtually any command line application (ls, grep, less, etc) reveals that most applications overuse flags to do everything and often allow conflicting flags to be applied.
 Even though hugo is relatively simple, we already had the ability to stack flags that didn&amp;rsquo;t make sense. You can set the port using &amp;ndash;port but this only has an effect if you also specified &amp;ndash;server.</description>
     </item>
     
     <item>
       <title>Refactoring with go fmt</title>
-      <link>http://lacoski.github.io/post/go-fmt/</link>
+      <link>https://lacoski.github.io/post/go-fmt/</link>
       <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-fmt/</guid>
+      <guid>https://lacoski.github.io/post/go-fmt/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been getting into go. I&amp;rsquo;ve built a &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;few
-packages&lt;/a&gt; &lt;a href=&#34;http://lacoski.github.io/post/announcing-cobra&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://spf13.com/project/nitro&#34;&gt;libraries&lt;/a&gt;.&lt;/p&gt;
+packages&lt;/a&gt; &lt;a href=&#34;https://lacoski.github.io/post/announcing-cobra&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://spf13.com/project/nitro&#34;&gt;libraries&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;For this post, let&amp;rsquo;s explore the &amp;lsquo;gofmt&amp;rsquo; or &amp;lsquo;go fmt&amp;rsquo; tool further.&lt;/p&gt;
 
@@ -67,10 +67,10 @@ packages&lt;/a&gt; &lt;a href=&#34;http://lacoski.github.io/post/announcing-cobr
     
     <item>
       <title>Hugo: A fast and flexible static site generator built in GoLang</title>
-      <link>http://lacoski.github.io/project/hugo/</link>
+      <link>https://lacoski.github.io/project/hugo/</link>
       <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/hugo/</guid>
+      <guid>https://lacoski.github.io/project/hugo/</guid>
       <description>Hugo Website   Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
 Hugo makes use of markdown files with front matter for meta data.
 Written in GoLang for speed, Hugo is significantly faster than most other static site generators.
@@ -79,14 +79,14 @@ A typical website of moderate size can be rendered in a fraction of a second.</d
     
     <item>
       <title>Nitro : A quick and simple profiler for golang</title>
-      <link>http://lacoski.github.io/project/nitro/</link>
+      <link>https://lacoski.github.io/project/nitro/</link>
       <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/nitro/</guid>
+      <guid>https://lacoski.github.io/project/nitro/</guid>
       <description>&lt;p&gt;
 &lt;figure class=&#34;third right&#34;&gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -103,13 +103,13 @@ to compare as you revise and improve each part of your application.
     
     <item>
       <title>Go Go Hugo blog</title>
-      <link>http://lacoski.github.io/post/go-go-hugo-blog/</link>
+      <link>https://lacoski.github.io/post/go-go-hugo-blog/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-go-hugo-blog/</guid>
+      <guid>https://lacoski.github.io/post/go-go-hugo-blog/</guid>
       <description>&lt;figure &gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
     
     
 &lt;/figure&gt;</description>
@@ -117,10 +117,10 @@ to compare as you revise and improve each part of your application.
     
     <item>
       <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
-      <link>http://lacoski.github.io/project/spf13-vim/</link>
+      <link>https://lacoski.github.io/project/spf13-vim/</link>
       <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/spf13-vim/</guid>
+      <guid>https://lacoski.github.io/project/spf13-vim/</guid>
       <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
 It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
 The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.

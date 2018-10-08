@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacking Management</title>
-    <link>http://lacoski.github.io/</link>
+    <link>https://lacoski.github.io/</link>
     <description>Recent content on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 17 Aug 2017 10:09:53 -0400</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>State Of The Gopher Nation - Aug 17</title>
-      <link>http://lacoski.github.io/presentation/stateofthegophernation-aug17/</link>
+      <link>https://lacoski.github.io/presentation/stateofthegophernation-aug17/</link>
       <pubDate>Thu, 17 Aug 2017 10:09:53 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/stateofthegophernation-aug17/</guid>
+      <guid>https://lacoski.github.io/presentation/stateofthegophernation-aug17/</guid>
       <description>I am at GolangUK in London, having just finished giving the opening keynote.
 I was a bit more nervous than usual, in part, due to the length of time since my last talk, and in part I was representing the entire Go project for the first time in a keynote.
 This talk is an overview of the entire Go project. It covers &amp;ldquo;what we&amp;rsquo;ve done&amp;rdquo;, &amp;ldquo;why we did it&amp;rdquo; and &amp;ldquo;where we are going&amp;rdquo; as a project.</description>
@@ -25,10 +25,10 @@ This talk is an overview of the entire Go project. It covers &amp;ldquo;what we&
     
     <item>
       <title>Hugo goes global</title>
-      <link>http://lacoski.github.io/post/hugo-goes-global/</link>
+      <link>https://lacoski.github.io/post/hugo-goes-global/</link>
       <pubDate>Fri, 07 Oct 2016 10:56:02 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/hugo-goes-global/</guid>
+      <guid>https://lacoski.github.io/post/hugo-goes-global/</guid>
       <description>&lt;p&gt;Hugo is going Global! Hugo 0.17, released today, is our best and fastest
 release ever! &lt;strong&gt;Hugo 0.17 is nearly twice as fast as Hugo 0.16&lt;/strong&gt; and adds
 &lt;strong&gt;full support for multilingual websites&lt;/strong&gt; with i18n support throughout all
@@ -39,10 +39,10 @@ of Hugo.&lt;/p&gt;
     
     <item>
       <title>I’m joining the Go team at Google</title>
-      <link>http://lacoski.github.io/post/joining-go-team-at-google/</link>
+      <link>https://lacoski.github.io/post/joining-go-team-at-google/</link>
       <pubDate>Thu, 15 Sep 2016 12:15:03 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/joining-go-team-at-google/</guid>
+      <guid>https://lacoski.github.io/post/joining-go-team-at-google/</guid>
       <description>&lt;p&gt;I am honored to share that I have joined Google as a member of the Go team and will be primarily based in NYC.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -50,10 +50,10 @@ of Hugo.&lt;/p&gt;
     
     <item>
       <title>the future of the Operating System - LinuxCon 2015 keynote</title>
-      <link>http://lacoski.github.io/presentation/the-future-of-the-os-linuxcon-2015-keynote/</link>
+      <link>https://lacoski.github.io/presentation/the-future-of-the-os-linuxcon-2015-keynote/</link>
       <pubDate>Fri, 05 Jun 2015 10:43:50 +0900</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/the-future-of-the-os-linuxcon-2015-keynote/</guid>
+      <guid>https://lacoski.github.io/presentation/the-future-of-the-os-linuxcon-2015-keynote/</guid>
       <description>Given as a keynote at LinuxCon + CloudOpen Japan 2015.
 Linux has become the foundation for infrastructure everywhere as it defined application portability from the desktop to the phone and from to the data center to the cloud. As applications become increasingly distributed in nature, the Docker platform serves as the cornerstone of Linux’s evolution solidifying the dominance of Linux today and into tomorrow.
   Transcript  The Future of the Operating System What is an Operating System ?</description>
@@ -61,10 +61,10 @@ Linux has become the foundation for infrastructure everywhere as it defined appl
     
     <item>
       <title>7 common mistakes in Go (2015)</title>
-      <link>http://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</link>
+      <link>https://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</link>
       <pubDate>Wed, 27 May 2015 12:28:12 -0700</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</guid>
+      <guid>https://lacoski.github.io/presentation/7-common-mistakes-in-go-2015/</guid>
       <description>Given at GopherFest 2015. This is an updated version of the talk I gave in NYC Nov 14 at GothamGo.
 “We need to think about failure differently. Most people think mistakes are a necessary evil. Mistakes aren&amp;rsquo;t a necessary evil, they aren&amp;rsquo;t evil at all. They are an inevitable consequence of doing something new and as such should be seen as valuable. “ - Ed Catmull
 As Go is a &amp;ldquo;new&amp;rdquo; programming language we are all experimenting and learning how to write better Go.</description>
@@ -72,38 +72,38 @@ As Go is a &amp;ldquo;new&amp;rdquo; programming language we are all experimenti
     
     <item>
       <title>What Every Open Source Project Needs</title>
-      <link>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</link>
+      <link>https://lacoski.github.io/presentation/what-every-open-source-project-needs/</link>
       <pubDate>Fri, 20 Mar 2015 18:00:02 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/what-every-open-source-project-needs/</guid>
+      <guid>https://lacoski.github.io/presentation/what-every-open-source-project-needs/</guid>
       <description>In the last few years open source has transformed the software industry. From Android to Wikipedia, open source is everywhere, but how does one succeed in it? While open source projects come in all shapes and sizes and all forms of governance, no matter what kind of project you’re a part of, there are a set of fundamentals that lead to success. I’d like to share some of the lessons I’ve learned from running two of the largest commercial open source projects, Docker &amp;amp; MongoDB , as well as some very successful community based projects (Hugo, spf13-vim, Cobra, Viper, Zoop).</description>
     </item>
     
     <item>
       <title>How To Be A Good Open Source Community Member</title>
-      <link>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</link>
+      <link>https://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</link>
       <pubDate>Tue, 17 Mar 2015 15:24:07 -0500</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</guid>
+      <guid>https://lacoski.github.io/post/how-to-be-a-good-open-source-community-member/</guid>
       <description>A friend of mine who is a very talented writer recently became intrigued with open source and asked me to help her to understand how to be a good open source community member.
 Open source is one of the most unusual things in the world. Is there any other profession where highly skilled professionals donate their free time to give their work away for free? Many spend long hours at their day jobs, just to spend their nights and weekends doing the same thing.</description>
     </item>
     
     <item>
       <title>7 Common mistakes in Go and when to avoid them</title>
-      <link>http://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</link>
+      <link>https://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</link>
       <pubDate>Tue, 18 Nov 2014 14:06:00 -0500</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</guid>
+      <guid>https://lacoski.github.io/presentation/7-biggest-mistakes-in-go/</guid>
       <description>Not a generic list of programming mistakes, these are the lessons I wish I learned earlier while developing Go. I&amp;rsquo;ve spent the past two years developing some of the most popular libraries and applications written in Go. I&amp;rsquo;ve also made a lot of mistakes along the way. Recognizing that &amp;ldquo;The only real mistake is the one from which we learn nothing. -John Powell&amp;rdquo;, I would like to share with you the mistakes that I have made over my journey with Go and when you can avoid them.</description>
     </item>
     
     <item>
       <title>Hugo Summer 2014 Update</title>
-      <link>http://lacoski.github.io/post/hugo-summer2014-update/</link>
+      <link>https://lacoski.github.io/post/hugo-summer2014-update/</link>
       <pubDate>Thu, 02 Oct 2014 13:28:42 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/hugo-summer2014-update/</guid>
+      <guid>https://lacoski.github.io/post/hugo-summer2014-update/</guid>
       <description>Hugo, the fast and flexible static site generator, is really coming of age. I wanted to give a quick update about the progress Hugo has been making over the past couple months.
 New Website Hugo can now be found at http://gohugo.io. Update your bookmarks.
 New Team Members I want to formally welcome our newest team members.
@@ -112,30 +112,30 @@ Tatsushi Demachi has been making excellent contributions hugo, particularly with
     
     <item>
       <title>Evangelism is NOT Sales</title>
-      <link>http://lacoski.github.io/post/evangelism-is-not-sales/</link>
+      <link>https://lacoski.github.io/post/evangelism-is-not-sales/</link>
       <pubDate>Wed, 24 Sep 2014 13:17:48 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/post/evangelism-is-not-sales/</guid>
+      <guid>https://lacoski.github.io/post/evangelism-is-not-sales/</guid>
       <description>I recently had a discussion with a CFO of a technology company. We were meeting because he is trying to better understand the role technical evangelism could play within his company. Ten minutes into our conversation he said, &amp;ldquo;so evangelism is pretty much rogue sales&amp;rdquo;. Internally I cringed. I politely corrected him that the two could not be further apart.
 Allow me to be a bit philosophical or rather, etymological here.</description>
     </item>
     
     <item>
       <title>Go for Object Oriented Programmers</title>
-      <link>http://lacoski.github.io/presentation/go-for-object-oriented-programmers/</link>
+      <link>https://lacoski.github.io/presentation/go-for-object-oriented-programmers/</link>
       <pubDate>Thu, 31 Jul 2014 04:20:08 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/go-for-object-oriented-programmers/</guid>
+      <guid>https://lacoski.github.io/presentation/go-for-object-oriented-programmers/</guid>
       <description>This presentation was given at OSCON 2014.
   Object Oriented (OO) programming has dominated software engineering for the last two decades. The paradigm built on powerful concepts such as Encapsulation, Inheritance, and Polymoprhism has been internalized by the majority of software engineers. Although Go is not OO in the strict sense, we can continue to leverage the skills we’ve honed as OO engineers to come up with simple and solid designs.</description>
     </item>
     
     <item>
       <title>Using MongoDB with Go and mgo</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-go/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-go/</link>
       <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-go/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-go/</guid>
       <description>This presentation was given at OSCON 2014.
   This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp;amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.
 As an emerging language Go is able to start fresh without years of relational database dependencies. Application and library developers are able to build applications using the excellent Mgo MongoDB driver and the reliable go sql package for relational database.</description>
@@ -143,10 +143,10 @@ As an emerging language Go is able to start fresh without years of relational da
     
     <item>
       <title>Getting Started with Go</title>
-      <link>http://lacoski.github.io/presentation/first-go-app/</link>
+      <link>https://lacoski.github.io/presentation/first-go-app/</link>
       <pubDate>Sun, 20 Jul 2014 08:51:33 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/first-go-app/</guid>
+      <guid>https://lacoski.github.io/presentation/first-go-app/</guid>
       <description>This presentation was given as a Workshop at OSCON 2014.
   Description New to Go? This tutorial will give developers an introduction and practical experience in building applications with the Go language. Gopher Steve Francia, Author of Hugo, Cobra, and many other popular Go packages breaks it down step by step as you build your own full featured Go application.
 Starting with an introduction to the Go language. He then reviews the fantastic go tools available.</description>
@@ -154,70 +154,70 @@ Starting with an introduction to the Go language. He then reviews the fantastic 
     
     <item>
       <title>Pointers vs References</title>
-      <link>http://lacoski.github.io/post/go-pointers-vs-references/</link>
+      <link>https://lacoski.github.io/post/go-pointers-vs-references/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-pointers-vs-references/</guid>
+      <guid>https://lacoski.github.io/post/go-pointers-vs-references/</guid>
       <description>Some languages including C, C++ support pointers. Other languages including C++, Java, Python, Ruby, Perl and PHP all support references. On the surface both references and pointers are very similar, both are used to have one variable provide access to another. With both providing a lot of the same capabilities, it’s often unclear what is different between these different mechanisms. In this article I will illustrate the difference between pointers and references.</description>
     </item>
     
     <item>
       <title>Is Go an Object Oriented language?</title>
-      <link>http://lacoski.github.io/post/is-go-object-oriented/</link>
+      <link>https://lacoski.github.io/post/is-go-object-oriented/</link>
       <pubDate>Mon, 09 Jun 2014 01:18:04 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/is-go-object-oriented/</guid>
+      <guid>https://lacoski.github.io/post/is-go-object-oriented/</guid>
       <description>To truly understand what it means to be ‘object-oriented’ you need to look back at the origination of the concept. The first object oriented language, simula, emerged in the 1960s. It introduced objects, classes, inheritance and subclasses, virtual methods, coroutines, and a lot more. Perhaps most importantly, it introduced a paradigm shift of thinking of data and logic as completely independent.
 While you many not be familiar with Simula, you are no doubt familiar with languages that refer to it as their inspiration including Java, C++, C# &amp;amp; Smalltalk, which in turn have been the inspiration for Objective C, Python, Ruby, Javascript, Scala, PHP, Perl&amp;hellip; a veritable list of nearly all popular languages in use today.</description>
     </item>
     
     <item>
       <title>9 MongoDB 2.6 Drivers Released</title>
-      <link>http://lacoski.github.io/post/mongodb2-6-drivers-released/</link>
+      <link>https://lacoski.github.io/post/mongodb2-6-drivers-released/</link>
       <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/mongodb2-6-drivers-released/</guid>
+      <guid>https://lacoski.github.io/post/mongodb2-6-drivers-released/</guid>
       <description>I’m pleased to announce the coordinated release of drivers in 9 languages in preparation for the release of MongoDB 2.6. This is the largest driver release in the history of MongoDB, both in terms of code changes as well as in terms of drivers released. Official Drivers for C, C++, C# (.net), Java, Node.js, PHP, Python, Ruby and Scala were all released with Perl following shortly. In the upcoming weeks community drivers will be updated to take advantage of the new features present in MongoDB 2.</description>
     </item>
     
     <item>
       <title>Cross Compiling with Go</title>
-      <link>http://lacoski.github.io/post/cross-compiling-go/</link>
+      <link>https://lacoski.github.io/post/cross-compiling-go/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/cross-compiling-go/</guid>
+      <guid>https://lacoski.github.io/post/cross-compiling-go/</guid>
       <description>One of the great features of golang is that you can compile executables for many different platforms and architectures from a single machine. It’s really nice to be able to provide executables of Hugo for a bunch of different platforms and architectures without having to have all these different machines in a build cluster.
 As I’ve been working with Hugo, I’ve wanted to make the experience of cross compiling as easy and painless as possible.</description>
     </item>
     
     <item>
       <title>Why I use spf13-vim</title>
-      <link>http://lacoski.github.io/post/why-i-use-spf13-vim/</link>
+      <link>https://lacoski.github.io/post/why-i-use-spf13-vim/</link>
       <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/why-i-use-spf13-vim/</guid>
+      <guid>https://lacoski.github.io/post/why-i-use-spf13-vim/</guid>
       <description>spf13-vim, a completely cross platform distribution of vim plugins and resources for Vim, GVim and MacVim stays true to it&amp;rsquo;s vim roots while adding modern features including a plugin management system, a curated plugin set with customized configuration, advanced autocomplete, tags, support for dozens of languages and much more.
 I recently read a thread where the author asked for feedback on whether or not to use spf13-vim. Responses varied greatly with some people loving it to others claiming it was bloated and overkill.</description>
     </item>
     
     <item>
       <title>A modern CLI Commander for go</title>
-      <link>http://lacoski.github.io/post/announcing-cobra/</link>
+      <link>https://lacoski.github.io/post/announcing-cobra/</link>
       <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/announcing-cobra/</guid>
+      <guid>https://lacoski.github.io/post/announcing-cobra/</guid>
       <description>While developing Hugo I became disappointed with the interface limitations flags alone provide. A quick look at virtually any command line application (ls, grep, less, etc) reveals that most applications overuse flags to do everything and often allow conflicting flags to be applied.
 Even though hugo is relatively simple, we already had the ability to stack flags that didn&amp;rsquo;t make sense. You can set the port using &amp;ndash;port but this only has an effect if you also specified &amp;ndash;server.</description>
     </item>
     
     <item>
       <title>Refactoring with go fmt</title>
-      <link>http://lacoski.github.io/post/go-fmt/</link>
+      <link>https://lacoski.github.io/post/go-fmt/</link>
       <pubDate>Mon, 07 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-fmt/</guid>
+      <guid>https://lacoski.github.io/post/go-fmt/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve recently been getting into go. I&amp;rsquo;ve built a &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;few
-packages&lt;/a&gt; &lt;a href=&#34;http://lacoski.github.io/post/announcing-cobra&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://spf13.com/project/nitro&#34;&gt;libraries&lt;/a&gt;.&lt;/p&gt;
+packages&lt;/a&gt; &lt;a href=&#34;https://lacoski.github.io/post/announcing-cobra&#34;&gt;and&lt;/a&gt; &lt;a href=&#34;http://spf13.com/project/nitro&#34;&gt;libraries&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;For this post, let&amp;rsquo;s explore the &amp;lsquo;gofmt&amp;rsquo; or &amp;lsquo;go fmt&amp;rsquo; tool further.&lt;/p&gt;
 
@@ -226,38 +226,38 @@ packages&lt;/a&gt; &lt;a href=&#34;http://lacoski.github.io/post/announcing-cobr
     
     <item>
       <title>Build your first MongoDB App in Ruby @ StrangeLoop 2013</title>
-      <link>http://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</link>
+      <link>https://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</link>
       <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</guid>
+      <guid>https://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</guid>
       <description>&lt;p&gt;An updated version of the &lt;a href=&#34;presentation/building-your-first-mongodb-app-oscon-2012/&#34;&gt;very popular workshop I gave at OSCON last year&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Building Modern Web Applications</title>
-      <link>http://lacoski.github.io/presentation/building-modern-web-applications/</link>
+      <link>https://lacoski.github.io/presentation/building-modern-web-applications/</link>
       <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-modern-web-applications/</guid>
+      <guid>https://lacoski.github.io/presentation/building-modern-web-applications/</guid>
       <description>I gave this presentation to a packed house at DevCon5 in NYC July 24th. DevCon5 is a web developers conference and this year it focused on HTML5. This was one of the hardest presentations I&amp;rsquo;ve worked on for the simple fact that the audience had name recognition, but not familiarity with the database industry. Typically I&amp;rsquo;ve leaned on the fact that most participants were familiar with at least one database prior to my presentation, I had no such luxury here.</description>
     </item>
     
     <item>
       <title>MongoDB and PHP Webinar</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-php/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-php/</link>
       <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-php/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-php/</guid>
       <description>This is a 90 minute MongoDB tutorial on using MongoDB in PHP which I gave as a webcast for O&amp;rsquo;Reilly last year.. The tutorial covers everything from Installing MongoDB along with installing and configuring the MongoDB PHP driver. You will learn how to work with MongoDB from within PHP as well as within the MongoDB shell.
 What would happen if you optimized a data store for the operations application developers to actually use?</description>
     </item>
     
     <item>
       <title>Hugo: A fast and flexible static site generator built in GoLang</title>
-      <link>http://lacoski.github.io/project/hugo/</link>
+      <link>https://lacoski.github.io/project/hugo/</link>
       <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/hugo/</guid>
+      <guid>https://lacoski.github.io/project/hugo/</guid>
       <description>Hugo Website   Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
 Hugo makes use of markdown files with front matter for meta data.
 Written in GoLang for speed, Hugo is significantly faster than most other static site generators.
@@ -266,14 +266,14 @@ A typical website of moderate size can be rendered in a fraction of a second.</d
     
     <item>
       <title>Nitro : A quick and simple profiler for golang</title>
-      <link>http://lacoski.github.io/project/nitro/</link>
+      <link>https://lacoski.github.io/project/nitro/</link>
       <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/nitro/</guid>
+      <guid>https://lacoski.github.io/project/nitro/</guid>
       <description>&lt;p&gt;
 &lt;figure class=&#34;third right&#34;&gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -290,13 +290,13 @@ to compare as you revise and improve each part of your application.
     
     <item>
       <title>Go Go Hugo blog</title>
-      <link>http://lacoski.github.io/post/go-go-hugo-blog/</link>
+      <link>https://lacoski.github.io/post/go-go-hugo-blog/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-go-hugo-blog/</guid>
+      <guid>https://lacoski.github.io/post/go-go-hugo-blog/</guid>
       <description>&lt;figure &gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
     
     
 &lt;/figure&gt;</description>
@@ -304,73 +304,73 @@ to compare as you revise and improve each part of your application.
     
     <item>
       <title>MongoDB, Hadoop and humongous data at MongoSV 2012</title>
-      <link>http://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</link>
       <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</guid>
       <description>This presentation given at MongoSV 2012 focuses on data processing when using MongoDB as your primary database including integration with Hadoop &amp;amp; the new MongoDB aggregation framework. Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB.</description>
     </item>
     
     <item>
       <title>MongoDB Driver days hackathon round up</title>
-      <link>http://lacoski.github.io/post/10gen-driver-days-mongodb-hack-a-thon/</link>
+      <link>https://lacoski.github.io/post/10gen-driver-days-mongodb-hack-a-thon/</link>
       <pubDate>Fri, 16 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/10gen-driver-days-mongodb-hack-a-thon/</guid>
+      <guid>https://lacoski.github.io/post/10gen-driver-days-mongodb-hack-a-thon/</guid>
       <description>Two times a year the drivers team at 10gen gathers together for a face to face meeting to spend time together working on issues and setting forth our goals for the upcoming six months. In September 2012 we all converged on New York City for the second ever driver days. This time we split up into teams for a hack-a-thon. As maintainers of drivers &amp;amp; integrations in over a dozen different languages while we are on the same team, it isn’t often that we actually work together on the same codebase.</description>
     </item>
     
     <item>
       <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
-      <link>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <link>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
       <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
     </item>
     
     <item>
       <title>The Biggest Myths Surrounding Disaster Recovery</title>
-      <link>http://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</link>
+      <link>https://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</link>
       <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</guid>
       <description>There are a variety of reasons businesses either do not have a disaster recovery plan or their current plan is substandard. The beliefs of the people in charge of developing these processes (business owners and IT department) play a significant role in how effective the overall strategy will be. This is problematic when the decision-makers have bought into one or more of the common myths surrounding disaster recovery.</description>
     </item>
     
     <item>
       <title>Protecting Intellectual Property on Your Blog</title>
-      <link>http://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</link>
+      <link>https://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</link>
       <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</guid>
+      <guid>https://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</guid>
       <description>The protection of your intellectual property, or any information that you post to your blog, forum or website, can be a tricky subject. While there are those unscrupulous few out there in the cyber world who will purposely copy your words as their own, there are more people that are simply ignorant of the laws, unaware that they are stealing when they copy and reuse your musings. According to a criminal lawyer at an Orlando based firm that we spoke to, there are steps that you can take to make sure that your intellectual property is protected.</description>
     </item>
     
     <item>
       <title>Giving the most viewed presentation on slideshare ever at OSCON</title>
-      <link>http://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
+      <link>https://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</link>
       <pubDate>Mon, 17 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
+      <guid>https://lacoski.github.io/post/how-i-gave-the-most-viewed-presentation-in-the-history-of-oscon/</guid>
       <description>Steve Francia at OSCON   At OSCON 2012 in Portland I gave a presentation on building your first MongoDB application. Over 150 people were in the audience, a pretty significant number of this type of hands on tutorial. Certainly worth the weeks of preparation that went into developing it. While at OSCON I put the slides online at SlideShare where during the four day conference the amassed over 20k views and within a couple weeks over 30k views.</description>
     </item>
     
     <item>
       <title>How to deliver a great conference tutorial</title>
-      <link>http://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</link>
+      <link>https://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</link>
       <pubDate>Wed, 05 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</guid>
+      <guid>https://lacoski.github.io/post/how-to-deliver-great-conference-tutorials/</guid>
       <description>OSCON 2012   I recently returned from OSCON where I was able to give one of the more popular presentations at the conference. I presented on the morning of the first day and throughout the entire week people kept coming up to me telling me how much they enjoyed my tutorial and how bored they were at the sessions they attended since. Here are the secrets of how I gave such a compelling presentation.</description>
     </item>
     
     <item>
       <title>Add PhotoshopCS5 support to Picasa</title>
-      <link>http://lacoski.github.io/post/adding-photoshopcs5-support-to-picasa/</link>
+      <link>https://lacoski.github.io/post/adding-photoshopcs5-support-to-picasa/</link>
       <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/adding-photoshopcs5-support-to-picasa/</guid>
+      <guid>https://lacoski.github.io/post/adding-photoshopcs5-support-to-picasa/</guid>
       <description>If you are like me you use Picasa to manage your photos, but recognize that the editing options are very limited. You can easily add a button in Picasa that will allow you to edit the current picture in photoshop.
 I took an existing button built for PhotoshopCS3 and updated it to work with this more contemporary version. It’s limited to working only on Windows.
 Install Photoshop CS5 Button in Picasa</description>
@@ -378,10 +378,10 @@ Install Photoshop CS5 Button in Picasa</description>
     
     <item>
       <title>Building your first MongoDB app - OSCON 2012</title>
-      <link>http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</link>
+      <link>https://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</link>
       <pubDate>Tue, 24 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</guid>
       <description>This is a 3 hour tutorial I wrote for and gave at OSCON 2012.
 Here is the summary:
 This tutorial will introduce the features of MongoDB by building a simple location-based application using MongoDB. The tutorial will cover the basics of MongoDB’s document model, query language, map-reduce framework and deployment architecture.
@@ -391,10 +391,10 @@ The tutorial will be divided into 5 sections:
     
     <item>
       <title>Replication, Durability, and Disaster Recovery</title>
-      <link>http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</link>
+      <link>https://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</link>
       <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</guid>
       <description>This session introduces the basic components of high availability before going into a deep dive on MongoDB replication. We’ll explore some of the advanced capabilities with MongoDB replication and best practices to ensure data durability and redundancy. We’ll also look at various deployment scenarios and disaster recovery configurations.
   Replication, Durability, and Disaster Recovery
 View more presentations from Steve Francia</description>
@@ -402,10 +402,10 @@ View more presentations from Steve Francia</description>
     
     <item>
       <title>Multi Data Center Strategies and MongoDB</title>
-      <link>http://lacoski.github.io/presentation/multi-data-center-strategies/</link>
+      <link>https://lacoski.github.io/presentation/multi-data-center-strategies/</link>
       <pubDate>Tue, 05 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/multi-data-center-strategies/</guid>
+      <guid>https://lacoski.github.io/presentation/multi-data-center-strategies/</guid>
       <description>Strategies for multi-data center deployment. Diving into the details of deploying of MongoDB across multiple data centers.
 Covers the advantages of a multi data center deployment for read/write locality, the various deployment strategies, and disaster preparedness and recovery.
 In addition, we’ll look at the MongoDB roadmap and planned enhancements around data center awareness.
@@ -414,29 +414,29 @@ This presentation was given at MongoNYC 2012. The animations didn’t survive th
     
     <item>
       <title>Getting Started with MongoDB and PHP</title>
-      <link>http://lacoski.github.io/post/getting-started-with-mongodb-and-php/</link>
+      <link>https://lacoski.github.io/post/getting-started-with-mongodb-and-php/</link>
       <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/getting-started-with-mongodb-and-php/</guid>
+      <guid>https://lacoski.github.io/post/getting-started-with-mongodb-and-php/</guid>
       <description>Nearly 3 years ago I discovered a new database that literally changed my life. I know, that’s a pretty bold claim, but it’s true. While leading the engineering team at OpenSky I faced a problem I was well familiar with. How to build a e-commerce product that: 1. Provided performance and scale 2. Handled many verticals and 3. Provided proper indexing on key attributes. In search for a better solution to this problem I encountered MongoDB.</description>
     </item>
     
     <item>
       <title>NoSQL databases and Managing Big Data</title>
-      <link>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</link>
+      <link>https://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</link>
       <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</guid>
+      <guid>https://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</guid>
       <description>I had the unique opportunity to present at the annual technology forum Insight Venture Partners holds for their portfolio companies. Over 100 CTOs gathered in NYC to hear from great presenters from companies like 10gen, Tumblr, Shutterstock and Buddy Media.
 I’ve included a slightly longer version of the presentation given which includes a few slides that I cut out for brevity to fit in the allocated time while still allowing time for questions.</description>
     </item>
     
     <item>
       <title>MongoDB, Hadoop and Humongous Data</title>
-      <link>http://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</link>
       <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</guid>
       <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using Hadoop’s MapReduce and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With support for Hadoop streaming support goes beyond the native Java enabling map reduce to be run in languages like Python and Ruby.
   MongoDB, Hadoop and Humongous Data
 View more presentations from Steve Francia</description>
@@ -444,20 +444,20 @@ View more presentations from Steve Francia</description>
     
     <item>
       <title>Don&#39;t look now, I&#39;m on DZone</title>
-      <link>http://lacoski.github.io/post/dont-look-now-im-on-dzone/</link>
+      <link>https://lacoski.github.io/post/dont-look-now-im-on-dzone/</link>
       <pubDate>Wed, 18 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/dont-look-now-im-on-dzone/</guid>
+      <guid>https://lacoski.github.io/post/dont-look-now-im-on-dzone/</guid>
       <description>I’m happy to announce that going forward you’ll be able to read my articles on DZone as well as spf13.com. DZone has invited me to join their MVB program. They describe their program as:
  DZone’s Most Valuable Blogger program brings together a group of highly talented bloggers, authors, and technologists actively writing about topics of interest to the developer community. These people are recognized in the industry for their contributions and deep technical knowledge on subjects ranging from software design and architecture to programming on a range of platforms including Java, .</description>
     </item>
     
     <item>
       <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
-      <link>http://lacoski.github.io/project/spf13-vim/</link>
+      <link>https://lacoski.github.io/project/spf13-vim/</link>
       <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/spf13-vim/</guid>
+      <guid>https://lacoski.github.io/project/spf13-vim/</guid>
       <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
 It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
 The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.
@@ -466,56 +466,56 @@ Unlike traditional VIM plugin structure, which similar to UNIX throws all files 
     
     <item>
       <title>New personal site powered by GitHub Pages</title>
-      <link>http://lacoski.github.io/post/new-personal-site-powered-by-github-pages/</link>
+      <link>https://lacoski.github.io/post/new-personal-site-powered-by-github-pages/</link>
       <pubDate>Mon, 09 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/new-personal-site-powered-by-github-pages/</guid>
+      <guid>https://lacoski.github.io/post/new-personal-site-powered-by-github-pages/</guid>
       <description>At 10gen we had new headshots taken recently. I think mine came out great. I took this opporitunity to play with GitHub pages and update http://stevefrancia.com. You should goto http://stevefrancia.com and checkout my new personal page. If you like it, fork it. The entire page is here https://github.com/spf13/spf13.github.com, it being a derivative of https://github.com/weightshift/The-Personal-Page.</description>
     </item>
     
     <item>
       <title>spf13-vim 3.0 release and new website</title>
-      <link>http://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/</link>
+      <link>https://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/</guid>
+      <guid>https://lacoski.github.io/post/spf13-vim-3-0-release-and-new-website/</guid>
       <description>This post is a bit behind the actual releases, but should be announced here nevertheless. Announcing the 3rd major release of spf13-vim. spf13-vim is a distribution of vim plugins and resources for Vim, GVim and MacVim. It is a completely cross platform distribution that stays true to the feel of vim while providing modern features like a plugin management system, autocomplete, tags and tons more. It grew out of my vim configuration which I put on GitHub.</description>
     </item>
     
     <item>
       <title>Getting started with Drupal and MongoDB</title>
-      <link>http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</link>
+      <link>https://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</link>
       <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</guid>
+      <guid>https://lacoski.github.io/post/getting-started-with-drupal-and-mongodb/</guid>
       <description>MongoDB is the most full featured scalable database taking the tech world by storm. Drupal is the standard in content management powering magazines, blogs online newspapers and much more. It’s only natural that they would get together to provide a fast dynamic scalable CMS system. Whenever a Drupal site needs to scale dynamic content they turn to MongoDB to be able to deliver. The Examiner.com was the pioneer in this approach and many Drupal sites have followed suit.</description>
     </item>
     
     <item>
       <title>MongoDB and Hadoop</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-hadoop/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-hadoop/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-hadoop/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-hadoop/</guid>
       <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB. Programmers of all kinds will find a new way to work with ETL using Pig to extract and analyze large datasets and persist the results to MongoDB.</description>
     </item>
     
     <item>
       <title>GitHub Code Viewer 2 for WordPress</title>
-      <link>http://lacoski.github.io/project/github-code-viewer/</link>
+      <link>https://lacoski.github.io/project/github-code-viewer/</link>
       <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/github-code-viewer/</guid>
+      <guid>https://lacoski.github.io/project/github-code-viewer/</guid>
       <description>GitHub Code Viewer 2 automatically pulls a file from github and places into any post using a shortcode [github_cv url=&amp;lsquo;$url&amp;rsquo;] Caches locally (in db), so there isn&amp;rsquo;t a performance hit. Heavily Modified from original plugin by Matt Curry http://www.pseudocoder.com
 Installation  Upload GitHub_Code_Viewer.php to the /wp-content/plugins/ directory Activate the plugin through the &amp;lsquo;Plugins&amp;rsquo; menu in WordPress Use the shortcode [github_cv url=&amp;rsquo;&amp;rsquo;] in your post.  Changelog 2.0  Rewrote as a static class as only one instance is needed.</description>
     </item>
     
     <item>
       <title>MongoDB and PHP, The Book</title>
-      <link>http://lacoski.github.io/post/mongodb-and-php-the-book/</link>
+      <link>https://lacoski.github.io/post/mongodb-and-php-the-book/</link>
       <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/mongodb-and-php-the-book/</guid>
+      <guid>https://lacoski.github.io/post/mongodb-and-php-the-book/</guid>
       <description>I wrote a book. It is published by O’Reilly, and available now on Amazon, O’Reilly Media and a bunch of other sites, available in both print and as an ebook.
 From the introduction:
  What would happen if you optimized a data store for the operations application developers actually use? You’d arrive at MongoDB, the reliable document-oriented database. With this concise guide, you’ll learn how to build elegant database applications with MongoDB and PHP.</description>
@@ -523,30 +523,30 @@ From the introduction:
     
     <item>
       <title>PIV : PHP Integration for VIM</title>
-      <link>http://lacoski.github.io/project/piv/</link>
+      <link>https://lacoski.github.io/project/piv/</link>
       <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/piv/</guid>
+      <guid>https://lacoski.github.io/project/piv/</guid>
       <description>This project contains the most feature complete and up to date PHP Integration for Vim. It began as a fork of the largely outdated VIP (formerly PDV), but has morphed into it’s own project.
 It is intended to include the best PHP specific plugins, configurations and resources for editing PHP. Special care has been taken to include the best, keep them up to date and make sure everything plays well together.</description>
     </item>
     
     <item>
       <title>MongoDB for Genealogy at RootsTech 2012</title>
-      <link>http://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</link>
       <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</guid>
       <description>After an enjoyable time at the SORT conference in 2011 I was invited to come back to SLC to present at the RootsTech Genealogy conference.
 The two hardest data types to model are e-commerce and genealogy. There really just isn’t any good way to do it in a relational database. MongoDB is the answer Genealogy developers have been looking for for a very long time. A flexible schema that allows adhoc searching, horizontal scale and full data integrity.</description>
     </item>
     
     <item>
       <title>Backup, Replication and Disaster Recovery</title>
-      <link>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</link>
+      <link>https://lacoski.github.io/post/backups-replication-and-disaster-recovery/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/post/backups-replication-and-disaster-recovery/</guid>
       <description>One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
 The principles explained apply equally well in RDBMSs, MongoDB and other databases.
 Potential scenarios to protect against  Drive failure Machine failure Switch failure Power circuit failure Data center failure Intrusion Fat fingers Programmer error  Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>
@@ -554,68 +554,68 @@ Potential scenarios to protect against  Drive failure Machine failure Switch fai
     
     <item>
       <title>Hybrid MongoDB / SQL Applications</title>
-      <link>http://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</link>
+      <link>https://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</link>
       <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</guid>
+      <guid>https://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</guid>
       <description>MongoDB is often used alongside a relational database such as Oracle or MySQL. It is often unclear when one should use one or the other, or if a combination is really ideal. During this online presentation, we will discuss the ideal use cases for each, and how they can be used in conjunction. We’ll make sure to touch on several real world examples.
 The full recording can be found at 10gen’s site at http://www.</description>
     </item>
     
     <item>
       <title>Windows Power User Tools</title>
-      <link>http://lacoski.github.io/post/windows-power-user-tools/</link>
+      <link>https://lacoski.github.io/post/windows-power-user-tools/</link>
       <pubDate>Wed, 28 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/windows-power-user-tools/</guid>
+      <guid>https://lacoski.github.io/post/windows-power-user-tools/</guid>
       <description>I’m a huge fan of Windows 7. It’s the first time I’ve ever run a Microsoft OS on my primary (home) machine. I’ve compiled a set of programs that I have found to be invaluable in using Windows for serious development and computing. All are free and clean of any ads or spyware.
 EaseUS® Partition Master 9.1 Home Edition  As Partition Magic alternative, EaseUS Partition Master Home Edition is a ALL-IN-ONE partition solution and disk management freeware.</description>
     </item>
     
     <item>
       <title>Building your First app with MongoDB at MongoSV 2011</title>
-      <link>http://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</link>
+      <link>https://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</link>
       <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</guid>
       <description>10gen had our flagship conference in Silicon Valley. I gave an introductory presentation at the first session on building an application in MongoDB. This talk will introduce the features of MongoDB by walking through how one can building a simple location-based application using MongoDB. It covers the basics of MongoDB’s document model, query language, map-reduce framework and deployment architecture.
 Building your first application w/mongoDB MongoSV2011   View more presentations from Steve Francia</description>
     </item>
     
     <item>
       <title>E-commerce in LA</title>
-      <link>http://lacoski.github.io/presentation/ecommerce-in-la/</link>
+      <link>https://lacoski.github.io/presentation/ecommerce-in-la/</link>
       <pubDate>Thu, 08 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/ecommerce-in-la/</guid>
+      <guid>https://lacoski.github.io/presentation/ecommerce-in-la/</guid>
       <description>This week I joined a few of my co-workers down in LA. We met with a few companies and ran the MongoDB LA Users Group. Notably I met with Magento about the possibility of Magento 2.0 being built on MongoDB. On my final night in LA I presented on MongoDB, E-commerce and Transactions.
 I really enjoyed my time in LA and am looking forward to returning. I was impressed by how many companies are using MongoDB in LA and how great the interaction was at the Meetup.</description>
     </item>
     
     <item>
       <title>MongoDB, PHP and the Cloud - PHP Cloud Summit 2011</title>
-      <link>http://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</link>
       <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</guid>
       <description>I had the opportunity to present at the PHP Cloud Summit 2011 among some great presenters. This was first time speaking at an online conference. Thanks to the diligent efforts from Cal, Keith and Jeremy at PHPArch it was a really successful experience. I actually presented with two Macbooks. One open to IRC where questions were coming in and the other open to the presentation. In spite of it being all online, the audience asked some great questions and it was really fun to interact with them.</description>
     </item>
     
     <item>
       <title>LDS SORT Tech Conference 2011</title>
-      <link>http://lacoski.github.io/post/lds-sort-tech-conference-2011/</link>
+      <link>https://lacoski.github.io/post/lds-sort-tech-conference-2011/</link>
       <pubDate>Fri, 21 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/lds-sort-tech-conference-2011/</guid>
+      <guid>https://lacoski.github.io/post/lds-sort-tech-conference-2011/</guid>
       <description>Last week I had the opportunity to attend the LDS Church’s SORT tech conference. Nearly 1200 people were in attendance. There were 23 concurrent tracks and I was able to present two presentations and be on a panel with other NoSQL solutions including Cassandra, CouchDB, Neo4j, Riak and MarkLogic. The panel went for 90 minutes the first half being an 5 – 10 minute introduction of each technology and the second half being a QA period.</description>
     </item>
     
     <item>
       <title>MongoDB and PHP at ZendCon 2011</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</link>
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</guid>
       <description>Presentation given at PHP’s biggest conference, ZendCon 2011. Covers the basics of using MongoDB with PHP.
   MongoDB and PHP ZendCon 2011
 View more presentations from Steve Francia.</description>
@@ -623,10 +623,10 @@ View more presentations from Steve Francia.</description>
     
     <item>
       <title>MongoDB at SORT Conference 2011</title>
-      <link>http://lacoski.github.io/presentation/mongodb-sort-conference-2011/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-sort-conference-2011/</link>
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-sort-conference-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-sort-conference-2011/</guid>
       <description>This presentation was given at the LDS Tech SORT Conference 2011 in Salt Lake City. The slides are quite comprehensive covering many topics on MongoDB. Rather than a traditional presentation, this was presented as more of a Q &amp;amp; A session. Topics covered include. Introduction to MongoDB, Use Cases, Schema design, High availability (replication) and Horizontal Scaling (sharding).
   MongoDB
 View more presentations from Steve Francia.</description>
@@ -634,20 +634,20 @@ View more presentations from Steve Francia.</description>
     
     <item>
       <title>Hybrid Cloud Computing</title>
-      <link>http://lacoski.github.io/post/hybrid-cloud-computing/</link>
+      <link>https://lacoski.github.io/post/hybrid-cloud-computing/</link>
       <pubDate>Fri, 30 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/hybrid-cloud-computing/</guid>
+      <guid>https://lacoski.github.io/post/hybrid-cloud-computing/</guid>
       <description>Traditionally ecommerce companies have had no place in the cloud. The lack of established standards, multi-tenancy nature and need to be PCI compliant have been three large barriers to entry for any organization exploring this possibility. Recently many e-commerce companies (including OpenSky) have begun to implement a hybrid approach to infrastructure mixing traditional data centers with cloud offerings to achieve a best of both worlds solution.
 Here is how I approached this when I was at OpenSky.</description>
     </item>
     
     <item>
       <title>MongoDB, E-Commerce and Transactions</title>
-      <link>http://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</link>
       <pubDate>Tue, 27 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</guid>
       <description>Last week I had the pleasure of attending MongoUK in London. I had a great time presenting and meeting new friends. I even survived two whiteboard sessions where people were invited to ask any question, any at all, about MongoDB.
 I gave a pretty significatly revised presentation on MongoDB and E-Commerce with emphasis on transactions. If you saw the presentation at MongoNYC this summer, it’s worth a revisit.
  </description>
@@ -655,56 +655,56 @@ I gave a pretty significatly revised presentation on MongoDB and E-Commerce with
     
     <item>
       <title>Where have all the good databases gone?</title>
-      <link>http://lacoski.github.io/post/where-have-all-the-good-databases-gone/</link>
+      <link>https://lacoski.github.io/post/where-have-all-the-good-databases-gone/</link>
       <pubDate>Wed, 13 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/where-have-all-the-good-databases-gone/</guid>
+      <guid>https://lacoski.github.io/post/where-have-all-the-good-databases-gone/</guid>
       <description>Perhaps you’ll recognize these words, “About five years ago I started to notice an odd thing. The products that the database vendors were building had less and less to do with what the customers wanted. … So, what is this growing disconnect?” Those words were written in 2004 by Adam Bosworth, a veteren of Microsoft, Google and BEA. In the 7 years since things have only gotten worse. Open source products came to maturity (if you can call it that), but none improved on any of the challenges Bosworth outlines.</description>
     </item>
     
     <item>
       <title>Easy bash scripting with shflags</title>
-      <link>http://lacoski.github.io/post/easy-bash-scripting-with-shflags/</link>
+      <link>https://lacoski.github.io/post/easy-bash-scripting-with-shflags/</link>
       <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/easy-bash-scripting-with-shflags/</guid>
+      <guid>https://lacoski.github.io/post/easy-bash-scripting-with-shflags/</guid>
       <description>One of the most frustrating things about bash scripts is how challenging it is to create unix style executables. You know, the ones where you can pass in -h or –help and see the set of options for the program. Up until now this has been a very manual process in bash, but no longer. Enter the shflags project from Kate Ward where a bash library takes care of all the nasty work and producing an elegant way to add option (or argument) support to your scripts.</description>
     </item>
     
     <item>
       <title>Competition for the Cloud Heats Up</title>
-      <link>http://lacoski.github.io/post/competition-for-the-cloud-heats-up/</link>
+      <link>https://lacoski.github.io/post/competition-for-the-cloud-heats-up/</link>
       <pubDate>Thu, 30 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/competition-for-the-cloud-heats-up/</guid>
+      <guid>https://lacoski.github.io/post/competition-for-the-cloud-heats-up/</guid>
       <description>karindalziel    Cloud no longer a single vendor game. For years cloud computing has been synonymous with Amazon whose Amazon Web Services really created and defined the space. In the past year other providers have matured and in some areas even surpassing Amazon.
 In a conversation with Scott White, the VP of Sales from Rackspace, he related to me their approach on the cloud and how customers are utilizing their cloud offering.</description>
     </item>
     
     <item>
       <title>Creating a Symfony2 Console Command</title>
-      <link>http://lacoski.github.io/post/creating-a-symfony2-console-command/</link>
+      <link>https://lacoski.github.io/post/creating-a-symfony2-console-command/</link>
       <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/creating-a-symfony2-console-command/</guid>
+      <guid>https://lacoski.github.io/post/creating-a-symfony2-console-command/</guid>
       <description>One of the weaknesses of PHP as a languages has always been it’s ability to write proper command line utilities. Yes PHP is pretty much built to drive the web, and it does that rather well, but there are plenty of reasons to want to be able to write a program that is callable from the command line that interfaces with your web app. Symfony2 does a rather good job at providing a nice toolset to build command line applications in php.</description>
     </item>
     
     <item>
       <title>Pandora&#39;s IPO ... a sign of the times</title>
-      <link>http://lacoski.github.io/post/pandoras-ipo-a-sign-of-the-times/</link>
+      <link>https://lacoski.github.io/post/pandoras-ipo-a-sign-of-the-times/</link>
       <pubDate>Thu, 16 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/pandoras-ipo-a-sign-of-the-times/</guid>
+      <guid>https://lacoski.github.io/post/pandoras-ipo-a-sign-of-the-times/</guid>
       <description>Pandora filed their IPO today. By end of day Pandora was worth 3.2 Billion . The amazing thing about stock is it really has no direct correlation to a companies actual performance, but is rather valued based on perception, hype and desire. All very human emotions, not logic. Apparently all the people who purchased Pandora $P stock today hadn’t read Pandora’s filing with the SEC. I did. Here’s what you need to know.</description>
     </item>
     
     <item>
       <title>Blending Mongo and RDBMS for ecommerce</title>
-      <link>http://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
+      <link>https://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
       <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
+      <guid>https://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
       <description>Justin Hileman and I presented at MongoNYC 2011 to a packed house. Our presentation outlines both why someone would want to use MongoDB for ecommerce and how we overcame some of it’s limitations by incorporating mysql into our infrastructure.
  Presenting at MongoNYC 2011     Blending MongoDB and RDBMS for ecommerce
 View more presentations from Steve Francia.</description>
@@ -712,47 +712,47 @@ View more presentations from Steve Francia.</description>
     
     <item>
       <title>The Browser as an application platform</title>
-      <link>http://lacoski.github.io/post/the-browser-as-a-application-platform/</link>
+      <link>https://lacoski.github.io/post/the-browser-as-a-application-platform/</link>
       <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/the-browser-as-a-application-platform/</guid>
+      <guid>https://lacoski.github.io/post/the-browser-as-a-application-platform/</guid>
       <description>With Google launching their chrome book is significant as it reflects a substantial shift in the world of computing. For the first time ever, the application platform isn’t the operating system, nor is it adobe air, .net or java, it’s the browser. The browser once, a simple tool for fetching and rendering content is now the most important application platform in the world.
 Ultimately the reason we are converging on the browser being the platform is because java failed.</description>
     </item>
     
     <item>
       <title>Creating your own Symfony2 Bundle</title>
-      <link>http://lacoski.github.io/post/creating-your-own-symfony2-bundle/</link>
+      <link>https://lacoski.github.io/post/creating-your-own-symfony2-bundle/</link>
       <pubDate>Tue, 24 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/creating-your-own-symfony2-bundle/</guid>
+      <guid>https://lacoski.github.io/post/creating-your-own-symfony2-bundle/</guid>
       <description>Symfony2 is a great web framework. OpenSky is built on this framework and we are one of the largest contributors to it. The primary building block for Symfony2 is a bundle. Through it’s bundle system Symfony 2.0 achieves a level of modularity I haven’t seen in other web frameworks. A bundle permits a developer to add functionality to the framework and is the best way to develop applications with Symfony2.</description>
     </item>
     
     <item>
       <title>Release early, release often to minimize risk</title>
-      <link>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</link>
+      <link>https://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</link>
       <pubDate>Thu, 05 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</guid>
+      <guid>https://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</guid>
       <description>Release Cycles have been debated for the last 30 years and will certainly be for the next 30. Arguments for longer release cycles with larger releases usually focus on how risky these rapid releases are and the stability and polish these larger releases with their longer cycles bring. These arguments are absolute rubbish. To add to the discussion I’ll put a different emphasis than I’ve heard before. Release early and release often to minimize risk.</description>
     </item>
     
     <item>
       <title>My Favorite Rands Posts</title>
-      <link>http://lacoski.github.io/post/my-favorite-rands-posts/</link>
+      <link>https://lacoski.github.io/post/my-favorite-rands-posts/</link>
       <pubDate>Thu, 28 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/my-favorite-rands-posts/</guid>
+      <guid>https://lacoski.github.io/post/my-favorite-rands-posts/</guid>
       <description>If you don’t know Rands (real name Michael Lopp), you should. His blog is full of excellent content from someone who successfully figured out how to transition from managing bits to Managing Humans (also the title of his first book). Whether you are a developer, a tech manager, or manage something else, you’ll find value in his posts. I’ve been reading his blog for years and it’s influenced my decisions greatly.</description>
     </item>
     
     <item>
       <title>Announcing Projects &amp; Presentations</title>
-      <link>http://lacoski.github.io/post/announcing-projects-presentations/</link>
+      <link>https://lacoski.github.io/post/announcing-projects-presentations/</link>
       <pubDate>Fri, 22 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/announcing-projects-presentations/</guid>
+      <guid>https://lacoski.github.io/post/announcing-projects-presentations/</guid>
       <description>I’ve decided to expand the scope of this site a bit to be more than just a blog. It makes sense, many of my posts are how tos and often for my own projects. Additionally now each project will have a legitimate project “homepage” for things like GitHub where that’s requested.
 So without further ado… Please checkout my Projects and Presentations sections of my website spf13.com.
 For now most of the projects are centered around VIM and PHP and the Presentations around Ecommerce and MongoDB.</description>
@@ -760,49 +760,49 @@ For now most of the projects are centered around VIM and PHP and the Presentatio
     
     <item>
       <title>Augmenting RDBMS with NoSQL for e-commerce</title>
-      <link>http://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</link>
+      <link>https://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</link>
       <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</guid>
+      <guid>https://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</guid>
       <description>Justin Hileman and I gave a presentation on “Augmenting RDBMS with NoSQL for e-commerce” at the PgEast 2011 conference. This presentation is really the sequel (no pun intended) to my presentation, MongoDB &amp;amp; Ecommerce : A Perfect Combination. This presentation takes you through how we created a hybrid solution blending both sql and nosql to achieve an optimal solution.
 Augmenting RDBMS with MongoDB for ecommerce   View more presentations from Steve Francia</description>
     </item>
     
     <item>
       <title>Getting Started with Symfony2</title>
-      <link>http://lacoski.github.io/post/getting-started-with-symfony2/</link>
+      <link>https://lacoski.github.io/post/getting-started-with-symfony2/</link>
       <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/getting-started-with-symfony2/</guid>
+      <guid>https://lacoski.github.io/post/getting-started-with-symfony2/</guid>
       <description>In a follow up to my popular post on Symfony2, the open source PHP framework we use at OpenSky, I’m providing an easy guide to getting started using Symfony2. This isn’t your basic “Hello World”, but a practical guide to beginning a project with Symfony2.
 Requirements To get started with Symfony2 you should have a working install of Git as well as a well made install of PHP version 5.</description>
     </item>
     
     <item>
       <title>On Symfony2</title>
-      <link>http://lacoski.github.io/post/symfony2/</link>
+      <link>https://lacoski.github.io/post/symfony2/</link>
       <pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/symfony2/</guid>
+      <guid>https://lacoski.github.io/post/symfony2/</guid>
       <description>Disclaimer I’ve got a couple disclaimers in writing this. 1. I’m one of the primary authors of the Zoop Framework for PHP. It’s pretty much the first web framework for PHP dating back to 2001. In spite of it’s age it’s still quite relevant and in use by thousands worldwide. 2. I run engineering for OpenSky where we elected to build our ecommerce platform on the Symfony2 framework and have since become the 2nd largest contributors to it.</description>
     </item>
     
     <item>
       <title>The perfect .vimrc vim config file</title>
-      <link>http://lacoski.github.io/post/perfect-vimrc-vim-config-file/</link>
+      <link>https://lacoski.github.io/post/perfect-vimrc-vim-config-file/</link>
       <pubDate>Thu, 27 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/perfect-vimrc-vim-config-file/</guid>
+      <guid>https://lacoski.github.io/post/perfect-vimrc-vim-config-file/</guid>
       <description>I have spent the last few years tweaking and refining my VIM configuration. This is the ultimate VIM configuration .vimrc file. It is well organized and documented. It is on GitHub so you can always grab the latest. It works well alone, but is intended to be paired with the plugins and configuration found in my complete .vim configuration also hosted on GitHub.
 The Perfect .vimrc file Last updated May 26th 2011</description>
     </item>
     
     <item>
       <title>A new page for Google</title>
-      <link>http://lacoski.github.io/post/a-new-page-for-google/</link>
+      <link>https://lacoski.github.io/post/a-new-page-for-google/</link>
       <pubDate>Fri, 21 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/a-new-page-for-google/</guid>
+      <guid>https://lacoski.github.io/post/a-new-page-for-google/</guid>
       <description>With a single tweet Google CEO Eric Schmidt announce a shift at the top of the search giant. The timing of this announcement can’t help but call to question if someone more youthful is needed at the helm to hold off the tidal waves of Apple, Microsoft and Facebook.
 Odd that Google chose twitter and a blog post to convey this instead of more traditional methods.
  “Day-to-day adult supervision no longer needed!</description>
@@ -810,20 +810,20 @@ Odd that Google chose twitter and a blog post to convey this instead of more tra
     
     <item>
       <title>The most productive 20 minutes of my day</title>
-      <link>http://lacoski.github.io/post/the-most-productive-20-minutes-of-my-day/</link>
+      <link>https://lacoski.github.io/post/the-most-productive-20-minutes-of-my-day/</link>
       <pubDate>Fri, 14 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/the-most-productive-20-minutes-of-my-day/</guid>
+      <guid>https://lacoski.github.io/post/the-most-productive-20-minutes-of-my-day/</guid>
       <description>As part of my new years resolution to get in shape and spend less dough I decided that I’d be better of walking from Grand Central to my office on 18th St. I save ~$5 a day not taking the subway and get all the extra benefit of walking the 1.5 miles.
 A few days into this something wonderful and unexpected happened. Instead of spending 20 minutes riding in a cattle car, I was able to take 25 minutes where I was able to think about everything I had to do for the day.</description>
     </item>
     
     <item>
       <title>Software Development&#39;s Magic Triangle</title>
-      <link>http://lacoski.github.io/post/software-developments-magic-triangle/</link>
+      <link>https://lacoski.github.io/post/software-developments-magic-triangle/</link>
       <pubDate>Sat, 18 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/software-developments-magic-triangle/</guid>
+      <guid>https://lacoski.github.io/post/software-developments-magic-triangle/</guid>
       <description>There’s an old adage “Fast, Cheap, Good; Pick Two”. This situation is called a magic triangle. You can have two and only two, if you try for all three you will compromise all three. Fools often try, losing everything.
 In the world of software development, another magic triangle exists. You can pick any two of the three, but not all three, so figure out what’s truly important.
 Fixed Schedules Fixed Features High Quality Unfortunately business owners rarely have visibility into the last one (Quality).</description>
@@ -831,47 +831,47 @@ Fixed Schedules Fixed Features High Quality Unfortunately business owners rarely
     
     <item>
       <title>WP GitHub Code Viewer</title>
-      <link>http://lacoski.github.io/post/wp-github-code-viewer/</link>
+      <link>https://lacoski.github.io/post/wp-github-code-viewer/</link>
       <pubDate>Thu, 09 Dec 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/wp-github-code-viewer/</guid>
+      <guid>https://lacoski.github.io/post/wp-github-code-viewer/</guid>
       <description>GitHub Code Viewer 2 is a plugin for wordpress that will automatically pull a file from github and place into any post using a shortcode [github_cv url=&amp;lsquo;$url&amp;rsquo;]. It caches the code locally (in db), so it’s quite fast and can be even faster when combined with wp_super_cache or w3c_total_cache. It will re-request the code from github every 24 hours (by default, but it’s configurable) so the code in your post will always remain up to date.</description>
     </item>
     
     <item>
       <title>MongoDB &amp; Ecommerce : A Perfect Combination</title>
-      <link>http://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</link>
       <pubDate>Wed, 20 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</guid>
       <description>Last night I gave a presentation on MongoDB &amp;amp; Ecommerce. OpenSky is the first company to use MongoDB in production for ecommerce. I shared why we went this route, and why it’s an obvious and powerful combination. At OpenSky we use MongoDB to develop the next ecommerce platform. OpenSky also uses Symfony 2, Doctrine 2, PHP 5.3, PHPUnit 3.5, jQuery, node.js, Git&amp;rdquo;) (with gitflow) and a touch of Java&amp;rdquo;) and Python&amp;rdquo;).</description>
     </item>
     
     <item>
       <title>16 lessons from 16 years</title>
-      <link>http://lacoski.github.io/post/16-lessons-from-16-years/</link>
+      <link>https://lacoski.github.io/post/16-lessons-from-16-years/</link>
       <pubDate>Fri, 10 Sep 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/16-lessons-from-16-years/</guid>
+      <guid>https://lacoski.github.io/post/16-lessons-from-16-years/</guid>
       <description>I’ve been working in the technology industry for the last 16 years. I’ve learned a lot. I wanted to share the lessons I’ve learned over the past 16 years, I figured one for each year seemed nice. It’s harder to make a short list than a long one and I had to cut out some helpful things, perhaps I’ll follow this up with another one with the things that didn’t make the list.</description>
     </item>
     
     <item>
       <title>Selling on OpenSky</title>
-      <link>http://lacoski.github.io/post/selling-on-opensky/</link>
+      <link>https://lacoski.github.io/post/selling-on-opensky/</link>
       <pubDate>Thu, 26 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/selling-on-opensky/</guid>
+      <guid>https://lacoski.github.io/post/selling-on-opensky/</guid>
       <description>As anyone who reads my blog or follows my tweets knows, I’ve been working for a new startup called OpenSky since February 2010. We’ve launched a new ecommerce platform and aim to reinvent ecommerce as people know it online.
 One of the big things we are doing is making it so anyone can sell OpenSky products from anywhere online. In the spirit of eating my own dogfood, I’ve become an OpenSky seller.</description>
     </item>
     
     <item>
       <title>My take on open source licenses</title>
-      <link>http://lacoski.github.io/post/my-take-on-open-source-licenses/</link>
+      <link>https://lacoski.github.io/post/my-take-on-open-source-licenses/</link>
       <pubDate>Wed, 21 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/my-take-on-open-source-licenses/</guid>
+      <guid>https://lacoski.github.io/post/my-take-on-open-source-licenses/</guid>
       <description>Open Source licensing can be a confusing and daunting task. Most developers simply adopt licenses of other popular projects. I wanted to shed some light on the most popular licenses and provide some guidance on which one should be used and when.
 Disclaimer: I’m not a lawyer, I am not qualified to nor am I imparting sound legal advice.
 BSD &amp;amp; MIT Both licenses are very similar. They are very liberal and allow for sub-licensing meaning that any derived works may be released under a different (commercial or otherwise) license.</description>
@@ -879,19 +879,19 @@ BSD &amp;amp; MIT Both licenses are very similar. They are very liberal and allo
     
     <item>
       <title>Watch what you say</title>
-      <link>http://lacoski.github.io/post/watch-what-you-say/</link>
+      <link>https://lacoski.github.io/post/watch-what-you-say/</link>
       <pubDate>Sun, 11 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/watch-what-you-say/</guid>
+      <guid>https://lacoski.github.io/post/watch-what-you-say/</guid>
       <description>shh.. Gustty    I came across an article today titled “Help! My boss is on twitter“. Allow me to share a secret with you, if you current boss isn’t on twitter yet, I can guarantee that your next one will be. Social media has caught on like wildfire. In all the excitement too often people forget that everything that you say on twitter / facebook and others is being published and recorded.</description>
     </item>
     
     <item>
       <title>Why Projects Fail</title>
-      <link>http://lacoski.github.io/post/why-projects-fail/</link>
+      <link>https://lacoski.github.io/post/why-projects-fail/</link>
       <pubDate>Tue, 06 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/why-projects-fail/</guid>
+      <guid>https://lacoski.github.io/post/why-projects-fail/</guid>
       <description>Regardless of your title or degree of experience, any misstep could result in a failed project. It’s a good habit to review the following two slide shows, if nothing else to provide a good confirmation that you are on the right track.
 Why Projects Fail: Obstacles and Solutions  View more documents from Michael Krigsman.
 Rome Death March Nov2009   View more documents from yourdon.
@@ -900,38 +900,38 @@ Related articles  Why Software Projects Fail (ribomation.</description>
     
     <item>
       <title>Ultimate Vim Config</title>
-      <link>http://lacoski.github.io/post/ultimate-vim-config/</link>
+      <link>https://lacoski.github.io/post/ultimate-vim-config/</link>
       <pubDate>Fri, 25 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/ultimate-vim-config/</guid>
+      <guid>https://lacoski.github.io/post/ultimate-vim-config/</guid>
       <description>I have spent the last few years tweaking and refining my VIM configuration until I had the Ultimate Vim Config. It is well organized and documented taking full advantage of Tpope’s pathogen for a excellent clean and modular configuration. The Ultimate vim config contains the perfect .vimrc file combined with an excellent set of plugins all easily managed thanks to pathogen and git. It is on GitHub so you can always grab the latest.</description>
     </item>
     
     <item>
       <title>Moving to WordPress</title>
-      <link>http://lacoski.github.io/post/moving-to-wordpress/</link>
+      <link>https://lacoski.github.io/post/moving-to-wordpress/</link>
       <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/moving-to-wordpress/</guid>
+      <guid>https://lacoski.github.io/post/moving-to-wordpress/</guid>
       <description>I’ve used Drupal to power my blog since I started it over 2 years ago. It has been a bitter sweet relationship, but in general I’ve been pleased. In those two years, WordPress as a product has rocketed past Drupal, and feels much more mature. While Drupal 7 should level the field a bit, it’s a ways away and WordPress 3.0 is already here.</description>
     </item>
     
     <item>
       <title>The Golden Hammer</title>
-      <link>http://lacoski.github.io/post/the-golden-hammer/</link>
+      <link>https://lacoski.github.io/post/the-golden-hammer/</link>
       <pubDate>Wed, 21 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/the-golden-hammer/</guid>
+      <guid>https://lacoski.github.io/post/the-golden-hammer/</guid>
       <description>kyle may    Every so often a “new” technology catches on. Right now it’s nosql databases. A couple years ago it was Ruby, before that it was java. Each arise because they propose a solution to an existing problem, or in other words a better way of doing something.. something, but not everything.
 Unfortunately knowing when to use the technology requires actual experience with it, which never seems to catch up to the hype engine quickly enough, so consequently the technology transforms into a “golden hammer”.</description>
     </item>
     
     <item>
       <title>NoSQL Databases</title>
-      <link>http://lacoski.github.io/post/nosql-databases/</link>
+      <link>https://lacoski.github.io/post/nosql-databases/</link>
       <pubDate>Thu, 08 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/nosql-databases/</guid>
+      <guid>https://lacoski.github.io/post/nosql-databases/</guid>
       <description>langalex    Amazon, Digg, Facebook, LinkedIn, Twitter all started on sql databases (all but Amazon on MySQL) and have transitioned to incorporated nosql databases into their infrastructure, though many utilize both relational databases as well as non-relational ones.
 I’ve compiled a few resources to help bring you up to speed on nosql databases.
 Major sites using NoSQL  Amazon : (Dynamo) http://www.allthingsdistributed.com/2007/10/amazons_dynamo.html LinkedIn : (Voldemort) http://blog.</description>
@@ -939,134 +939,134 @@ Major sites using NoSQL  Amazon : (Dynamo) http://www.allthingsdistributed.com/
     
     <item>
       <title>Next Gen PHP Frameworks</title>
-      <link>http://lacoski.github.io/post/next-gen-php-frameworks/</link>
+      <link>https://lacoski.github.io/post/next-gen-php-frameworks/</link>
       <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/next-gen-php-frameworks/</guid>
+      <guid>https://lacoski.github.io/post/next-gen-php-frameworks/</guid>
       <description>With the release of PHP 5.3, PHP released the most significant capabilities in years. Specifically the addition of Late Static Bindings, Lambda Functions and Closures, and Namespaces has changed everything. These new features open new doors for solutions previously impossible. As a result in recent months there has been a flood of new frameworks and libraries taking advantage of these new features. Effectively we are approaching the third wave of PHP frameworks.</description>
     </item>
     
     <item>
       <title>Finding the Right People</title>
-      <link>http://lacoski.github.io/post/finding-the-right-people/</link>
+      <link>https://lacoski.github.io/post/finding-the-right-people/</link>
       <pubDate>Mon, 22 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/finding-the-right-people/</guid>
+      <guid>https://lacoski.github.io/post/finding-the-right-people/</guid>
       <description>Since I began at Open Sky a few weeks ago I have been tasked with building out a great team. Over the course of my career I have interviewed hundreds of people (mostly developers) and hired dozens. At OpenSky I was able to find and hire 6 fantastic employees in my first 6 weeks and wanted to share some of the tips and techniques I have learned over the years and found successful.</description>
     </item>
     
     <item>
       <title>Transitions</title>
-      <link>http://lacoski.github.io/post/transitions/</link>
+      <link>https://lacoski.github.io/post/transitions/</link>
       <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/transitions/</guid>
+      <guid>https://lacoski.github.io/post/transitions/</guid>
       <description>I couldn’t be more excited to announce that I have accepted a position at The Open Sky Project. I am leading the architecture, development and technology.
 It’s rare in life that one has the opportunity to do what they love to do and be paid to do it. Even rarer is to do something great with people you love working with. At OpenSky I have found this and more.</description>
     </item>
     
     <item>
       <title>VIM Crash Course</title>
-      <link>http://lacoski.github.io/post/vim-crash-course/</link>
+      <link>https://lacoski.github.io/post/vim-crash-course/</link>
       <pubDate>Wed, 03 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/vim-crash-course/</guid>
+      <guid>https://lacoski.github.io/post/vim-crash-course/</guid>
       <description>Most developers know the basics of VIM, enough to edit a conf file, but most stay there, unaware of the power and beauty of vim. One of my developers has expressed desire to abandon the bloated GUI ways of eclipse and discover VIM. I have been using VIM for such a long time I forgot how difficult that transition is. Here are some resources and approaches to help you learn vim.</description>
     </item>
     
     <item>
       <title>Unix Jobs Management</title>
-      <link>http://lacoski.github.io/post/unix-jobs-management/</link>
+      <link>https://lacoski.github.io/post/unix-jobs-management/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/unix-jobs-management/</guid>
+      <guid>https://lacoski.github.io/post/unix-jobs-management/</guid>
       <description>Every self respecting linux, mac os X or *nix user should have a solid handle on managing jobs in unix. The following will explain how to run tasks in the background, bring tasks to the foreground, background already running tasks and keeping a task running while logged out.
 Run a task in the background All you need to to is follow a command with the ‘&amp;amp;’ character. Pretty simple.</description>
     </item>
     
     <item>
       <title>Human readable du sorted by size</title>
-      <link>http://lacoski.github.io/post/human-readable-du-sorted-by-size/</link>
+      <link>https://lacoski.github.io/post/human-readable-du-sorted-by-size/</link>
       <pubDate>Sat, 23 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/human-readable-du-sorted-by-size/</guid>
+      <guid>https://lacoski.github.io/post/human-readable-du-sorted-by-size/</guid>
       <description>du is the *nix command for disk usage&amp;rdquo;). It tells you how much space everything in the given directory is taking up. GNU du introduced a handy option -h making it human readable, or showing sizes using K, M, G rather than bytes. Unfortunately this makes it not sortable numerically. Here’s how to sort du by size and keep it as human readable.
 Insert the following function into your .</description>
     </item>
     
     <item>
       <title>Benchmarking Cloudfront (and S3)</title>
-      <link>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
+      <link>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
       <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
+      <guid>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
       <description>Amazon has done it again bringing another computing service to the masses. This time it’s the Content Delivery Network or CDN. Cloudfront is a direct competitor to other popular CDNs such as Akamai. While Akamai requires a fairly substantial amount of traffic to become a customer, Cloudfront doesn’t. It follows all of Amazons, pay for what you use mentality. This means that everyone can benefit from incorporating Cloudfront into their blog, site, store, etc.</description>
     </item>
     
     <item>
       <title>Using the right keys</title>
-      <link>http://lacoski.github.io/post/using-the-right-keys/</link>
+      <link>https://lacoski.github.io/post/using-the-right-keys/</link>
       <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/using-the-right-keys/</guid>
+      <guid>https://lacoski.github.io/post/using-the-right-keys/</guid>
       <description>HeyThereSpaceman    Today I was visiting a friends office and like many offices in NYC they have a shared bathroom in the hall for the entire floor. In this building it had five buttons on the door that when pressed in the correct order unlocked the door. A simple password.
 In our office we have a similarly shared bathroom, but instead of a password, we have a physical key required to unlock the door.</description>
     </item>
     
     <item>
       <title>REST vs SOAP, the difference between soap and rest</title>
-      <link>http://lacoski.github.io/post/soap-vs-rest/</link>
+      <link>https://lacoski.github.io/post/soap-vs-rest/</link>
       <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/soap-vs-rest/</guid>
+      <guid>https://lacoski.github.io/post/soap-vs-rest/</guid>
       <description>Someone asked me a question today “Why would anyone choose SOAP (Simple Object Access Protocol) instead of REST (Representational State Transfer)?” My response: “The general rule of thumb I’ve always heard is ‘Unless you have a definitive reason to use SOAP use REST’”. He asked “what’s one reason?” I thought about it for a minute and honestly answered that I haven’t ever come across a reason. My background is building great internet companies.</description>
     </item>
     
     <item>
       <title>My Online Business Card (Vcard)</title>
-      <link>http://lacoski.github.io/post/my-online-business-card-vcard/</link>
+      <link>https://lacoski.github.io/post/my-online-business-card-vcard/</link>
       <pubDate>Tue, 12 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/my-online-business-card-vcard/</guid>
+      <guid>https://lacoski.github.io/post/my-online-business-card-vcard/</guid>
       <description>I wanted to polish up my javascript coding so I decided that the best way to do that was with a project that I’ve been wanted to do for a while anyway, my own identity site, or my online business card, or my online vcard. The idea was inspired by Tim Van Damme’s website.
 To accomplish this I wrote a jquery plugin to handle the navigation, animation etc.. The site itself is rather simple, a single html page and a few images.</description>
     </item>
     
     <item>
       <title>7 security practices you need to follow</title>
-      <link>http://lacoski.github.io/post/7-security-practices-you-need-to-follow/</link>
+      <link>https://lacoski.github.io/post/7-security-practices-you-need-to-follow/</link>
       <pubDate>Tue, 22 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/7-security-practices-you-need-to-follow/</guid>
+      <guid>https://lacoski.github.io/post/7-security-practices-you-need-to-follow/</guid>
       <description>Some of this may seem like a broken record, yet every single time you hear about a bank losing millions of customer data, or a company having a security breach they consistently have failed to implement and enforce the most basic security practices. Here are 7 simple security practices that you cannot afford to not follow.
 1. Secure pass phrases Throw away the notion of a password. Pass phrases consisting of multiple words and symbols are considerably more secure and easy to remember.</description>
     </item>
     
     <item>
       <title>Top Sites Running Drupal</title>
-      <link>http://lacoski.github.io/post/top-sites-running-drupal/</link>
+      <link>https://lacoski.github.io/post/top-sites-running-drupal/</link>
       <pubDate>Mon, 21 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/top-sites-running-drupal/</guid>
+      <guid>https://lacoski.github.io/post/top-sites-running-drupal/</guid>
       <description>Image via Wikipedia
 Drupal is a very powerful Content Management Solution. Many other organizations both large and small have found it to be a perfect platform for managing their website including some Fortune 100 companies. I decided to compile a list of some of the more notable organizations running drupal. This list is not exhaustive, but intended to demonstrate top site powered by drupal. If you know other top sites also powered by drupal, please list them in the comments below.</description>
     </item>
     
     <item>
       <title>Secure Automated, Key Based SSH</title>
-      <link>http://lacoski.github.io/post/secure-automated-key-based-ssh/</link>
+      <link>https://lacoski.github.io/post/secure-automated-key-based-ssh/</link>
       <pubDate>Sat, 19 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/secure-automated-key-based-ssh/</guid>
+      <guid>https://lacoski.github.io/post/secure-automated-key-based-ssh/</guid>
       <description>SSH is great and secure… Unless you need to automate it. Then it sucks because your only options are to create a passwordless key, or login add your key to ssh-agent, stay logged in forever. Here’s a quick guide to having the best of both worlds. A Secure SSH Connection that can be used in automated scripts. ( with the single catch, that upon reboot you need to re-enter your key’s password ) Create and Distribute your Key</description>
     </item>
     
     <item>
       <title>Fascinating interview with Steve Jobs and Bill Gates</title>
-      <link>http://lacoski.github.io/post/fascinating-interview-with-steve-jobs-and-bill-gates/</link>
+      <link>https://lacoski.github.io/post/fascinating-interview-with-steve-jobs-and-bill-gates/</link>
       <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/fascinating-interview-with-steve-jobs-and-bill-gates/</guid>
+      <guid>https://lacoski.github.io/post/fascinating-interview-with-steve-jobs-and-bill-gates/</guid>
       <description>In 2007, All Things Digital held a fascinating interview with both Bill Gates and Steve Jobs.
 The interview runs long and is spread out over multiple clips. I’ve only included the first handful here. Watch the rest on youtube.
 It’s clear that they have a reasonably good relationship and clearly know each other well. They have a genuine and sincere respect for each other. It’s amazing how firm a grasp both have on the industry as a whole.</description>
@@ -1074,371 +1074,371 @@ It’s clear that they have a reasonably good relationship and clearly know each
     
     <item>
       <title>The Importance of Focus</title>
-      <link>http://lacoski.github.io/post/the-importance-of-focus/</link>
+      <link>https://lacoski.github.io/post/the-importance-of-focus/</link>
       <pubDate>Wed, 16 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/the-importance-of-focus/</guid>
+      <guid>https://lacoski.github.io/post/the-importance-of-focus/</guid>
       <description>Imagine if Apple, Disney, Microsoft, etc had chased every oppotunity that they came across. One thing is certain, you wouldn’t recognize their name today. Each of these companies was successful because of extreme focus around a central vision. As Bill Cosby said.. “I don’t know the key to success but the key to failure is to try to please everyone.”
 Bill Gates achieved monumental success with Microsoft, and attributes “focus” as the key to his success.</description>
     </item>
     
     <item>
       <title>Getting Started With Drupal</title>
-      <link>http://lacoski.github.io/post/getting-started-with-drupal/</link>
+      <link>https://lacoski.github.io/post/getting-started-with-drupal/</link>
       <pubDate>Mon, 14 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/getting-started-with-drupal/</guid>
+      <guid>https://lacoski.github.io/post/getting-started-with-drupal/</guid>
       <description>Drupal is a very powerful content management solution. It powered an earlier version of this website as well as zoopframework.com. Drupal is a relatively easy to use system, but there are a few key concepts that you really need to understand in getting started. I often find that webcasts are fantastic resources for instruction. I recently helped a non-techie friend setup a drupal site and was surprised at how many (really bad) drupal videos existed online.</description>
     </item>
     
     <item>
       <title>Vim Plugins: snipMate</title>
-      <link>http://lacoski.github.io/post/vim-plugins-snipmate/</link>
+      <link>https://lacoski.github.io/post/vim-plugins-snipmate/</link>
       <pubDate>Sat, 12 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/vim-plugins-snipmate/</guid>
+      <guid>https://lacoski.github.io/post/vim-plugins-snipmate/</guid>
       <description>Why use it  It’s super easy to use It has tons of snippets It’s pretty well compatible with TextMate snippets for easy portability Dynamic variables, for all the times you use the same string multiple times It’s really easy to define your own snippets It’s better than anything else out there, trust me I’ve tried them all  Sometimes a video works better to explain things.. check out this video   snipMate.</description>
     </item>
     
     <item>
       <title>Checking Vendor References</title>
-      <link>http://lacoski.github.io/post/checking-vendor-references/</link>
+      <link>https://lacoski.github.io/post/checking-vendor-references/</link>
       <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/checking-vendor-references/</guid>
+      <guid>https://lacoski.github.io/post/checking-vendor-references/</guid>
       <description>One task that should be part of every IT managers is performing reference checks on potential vendors. A vendor reference check goes beyond the sales pitch to reveal the true nature of a product or company. If you’re not performing reference checks you are susceptible of falling prey to a slick sales pitch with nothing but trouble behind it.
 Vendors only provide the customers they are certain will give a glowing endorsement.</description>
     </item>
     
     <item>
       <title>A Better Follow Friday</title>
-      <link>http://lacoski.github.io/post/a-better-follow-friday/</link>
+      <link>https://lacoski.github.io/post/a-better-follow-friday/</link>
       <pubDate>Mon, 07 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/a-better-follow-friday/</guid>
+      <guid>https://lacoski.github.io/post/a-better-follow-friday/</guid>
       <description>Follow Friday is a common practice on Twitter where many people spend friday posting things like #FF @aplusk @guykawasaki … This practice is distracting at best and fails to accomplish the single purpose it intends. Follow friday began as way to share lesser known twitter users with your community. A great idea that quickly grew out of control. I propose a better implementation that will not only accomplish the original intent but will do so in a non-distrcting manner by leveraging twitter lists.</description>
     </item>
     
     <item>
       <title>Engaging Employees</title>
-      <link>http://lacoski.github.io/post/engaging-employees/</link>
+      <link>https://lacoski.github.io/post/engaging-employees/</link>
       <pubDate>Wed, 02 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/engaging-employees/</guid>
+      <guid>https://lacoski.github.io/post/engaging-employees/</guid>
       <description>There is one trait that if possessed can virtually ensure success, the ability to nurture a culture of engaged workers.
 Engaged workers do work harder or longer, but that’s not the core benefit, rather an engaged employee will demonstrate commitment, dedication, initiative and will work for the company (rather than for a paycheck). Engaged workers require no supervision and little management. Only when employees are properly engaged can organization move as one towards a unified goal.</description>
     </item>
     
     <item>
       <title>Does Seth Godin Get It?</title>
-      <link>http://lacoski.github.io/post/does-seth-godin-get-it/</link>
+      <link>https://lacoski.github.io/post/does-seth-godin-get-it/</link>
       <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/does-seth-godin-get-it/</guid>
+      <guid>https://lacoski.github.io/post/does-seth-godin-get-it/</guid>
       <description>Earlier this week Seth Godin announced his first presence on twitter with the post Delivering blogs via Twitter..
  You can receive instant daily updates of this blog by following @thisissethsblog. I create the tweets automatically using a service called twitterfeed. It’s free and it works really well. (PS this is my only presence on Twitter… I’m focused on the blog and my books, and alas can’t tweet and do that at the same time).</description>
     </item>
     
     <item>
       <title>Installing Git on a Shared Host</title>
-      <link>http://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
+      <link>https://lacoski.github.io/post/installing-git-on-a-shared-host/</link>
       <pubDate>Tue, 24 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
+      <guid>https://lacoski.github.io/post/installing-git-on-a-shared-host/</guid>
       <description>Git is a fantastic tool and is very useful for deployment. If you can’t install git system wide or don’t want to mess with installing it on the entire system here is an easy way to install it for a single user. This also works well on Mac OS X where installing git is more challenging than necessary. Script included
 I used this script to install git on 1and1.</description>
     </item>
     
     <item>
       <title>Apple&#39;s iconic presentations</title>
-      <link>http://lacoski.github.io/post/apples-iconic-presentations/</link>
+      <link>https://lacoski.github.io/post/apples-iconic-presentations/</link>
       <pubDate>Thu, 12 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/apples-iconic-presentations/</guid>
+      <guid>https://lacoski.github.io/post/apples-iconic-presentations/</guid>
       <description>Image via CrunchBase   Recently a book came out The Presentation Secrets of Steve Jobs: How to be Insanely Great in Front of Any Audience. Jobs has mastered the art of presenting. I thought it would be interesting to look at his presentations over the years. Here are the three biggest announcements Apple has made.. iMac (Jobs first product after returning),iPod, iPhone.
 Look at how his personal style has changed over the years.</description>
     </item>
     
     <item>
       <title>Vim Plugins: NERD Commenter</title>
-      <link>http://lacoski.github.io/post/vim-plugins-nerd-commenter/</link>
+      <link>https://lacoski.github.io/post/vim-plugins-nerd-commenter/</link>
       <pubDate>Mon, 09 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/vim-plugins-nerd-commenter/</guid>
+      <guid>https://lacoski.github.io/post/vim-plugins-nerd-commenter/</guid>
       <description>The NERD Commenter is an indispensable tool when programming in VIM. It understands like a zillion different file types and properly comments each. It can handle single line, multi line, partial line commenting as well as nesting. If you’re programming in VIM you really should be using it.
 It is simple enough to use. Most commands are mapped to ,c[character]. The command you are probably going to use the most is ,c&amp;lt;space&amp;gt; which intelligently toggles a comment on or off.</description>
     </item>
     
     <item>
       <title>Mastering the Command Line</title>
-      <link>http://lacoski.github.io/post/mastering-the-command-line/</link>
+      <link>https://lacoski.github.io/post/mastering-the-command-line/</link>
       <pubDate>Thu, 05 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/mastering-the-command-line/</guid>
+      <guid>https://lacoski.github.io/post/mastering-the-command-line/</guid>
       <description>If you use *nix, no doubt you’ve spent some time on the command line. Here are a few of the most helpful tricks you can use in the bash shell to really optimize your time, impress your friends, and make everyone else feel inferior… not to mention become more productive. People familar with the command line can usually work considerably faster (for most tasks) than you can through a gui.</description>
     </item>
     
     <item>
       <title>Everything is Amazing and Nobody&#39;s Happy</title>
-      <link>http://lacoski.github.io/post/everything-is-amazing-and-nobodys-happy/</link>
+      <link>https://lacoski.github.io/post/everything-is-amazing-and-nobodys-happy/</link>
       <pubDate>Mon, 26 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/everything-is-amazing-and-nobodys-happy/</guid>
+      <guid>https://lacoski.github.io/post/everything-is-amazing-and-nobodys-happy/</guid>
       <description>Image via Wikipedia   This isn’t new, Louis C.K. ranted this on Conan’s show in 2008.. I came across it recently and felt like sharing.
 I don’t really know much about Louis C.K., this is really the first thing I’ve seen of him, but I think he makes some excellent points. Happiness is learning to appreciate what you have. We live in an amazing time exceeding the dreams of our grandparents.</description>
     </item>
     
     <item>
       <title>Conclusion of the Blog-a-thon</title>
-      <link>http://lacoski.github.io/post/conclusion-of-the-blog-a-thon/</link>
+      <link>https://lacoski.github.io/post/conclusion-of-the-blog-a-thon/</link>
       <pubDate>Fri, 23 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/conclusion-of-the-blog-a-thon/</guid>
+      <guid>https://lacoski.github.io/post/conclusion-of-the-blog-a-thon/</guid>
       <description>Today marks the last post of my blog-a-thon. It has been a learning and growing experience. I have blogged more time in the past 4 weeks as I did the prior 52. It was challenging and rewarding.
 I feel I have developed as a blogger and having 3 posts a week has brought the blog to the front of my mind. Not only did I write many articles, but I’ve started a bunch more and have ideas for even more than that.</description>
     </item>
     
     <item>
       <title>Take Time to Help Others</title>
-      <link>http://lacoski.github.io/post/take-time-to-help-others/</link>
+      <link>https://lacoski.github.io/post/take-time-to-help-others/</link>
       <pubDate>Thu, 22 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/take-time-to-help-others/</guid>
+      <guid>https://lacoski.github.io/post/take-time-to-help-others/</guid>
       <description>While it may not seem intuitive taking time out to selflessly help others will help you more than them. This week I haven’t had much time to blog largely because this week many opportunities arose to help others and I took them. Some at work, some outside of work. Helping others will endear them to you. Not only will you ultimately benefit more than what you’ve invested in helping others, but you will also make a real difference in the lives of those whom you work with.</description>
     </item>
     
     <item>
       <title>Windows 7 launch notes</title>
-      <link>http://lacoski.github.io/post/windows-7-launch-notes/</link>
+      <link>https://lacoski.github.io/post/windows-7-launch-notes/</link>
       <pubDate>Tue, 20 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/windows-7-launch-notes/</guid>
+      <guid>https://lacoski.github.io/post/windows-7-launch-notes/</guid>
       <description>I was fortunate to be able to attend the Microsoft Launch Developer Preview meeting in NYC. Microsoft is holding these all over the country to prepare IT and developers for the upcoming launch. Overall it was a good meeting and Microsoft is delivering a great product. More importantly they have a really good chance of overcoming the bad taste of vista and emerge as a innovation leader. These are my notes taken during the meeting with some of my insights.</description>
     </item>
     
     <item>
       <title>54% US Companies Ban Social Media... and That&#39;s Fine</title>
-      <link>http://lacoski.github.io/post/54-us-companies-ban-social-media-and-thats-fine/</link>
+      <link>https://lacoski.github.io/post/54-us-companies-ban-social-media-and-thats-fine/</link>
       <pubDate>Fri, 16 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/54-us-companies-ban-social-media-and-thats-fine/</guid>
+      <guid>https://lacoski.github.io/post/54-us-companies-ban-social-media-and-thats-fine/</guid>
       <description>According to a study commissioned by Robert Half Technology, an IT staffing company, 54 percent of U.S. companies say they’ve banned workers from using social networking sites like Twitter, Facebook, LinkedIn and MySpace while at work. Source: 54% of Companies ban Facebook, Twitter…
 We should be shocked that this number isn’t higher. Let’s look at this realistically. For many professions, networking is crucial to success, but in most professions, it is personal networking, not online that is beneficial.</description>
     </item>
     
     <item>
       <title>Managing Your Social Media Presence</title>
-      <link>http://lacoski.github.io/post/managing-your-social-media-presence/</link>
+      <link>https://lacoski.github.io/post/managing-your-social-media-presence/</link>
       <pubDate>Wed, 14 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/managing-your-social-media-presence/</guid>
+      <guid>https://lacoski.github.io/post/managing-your-social-media-presence/</guid>
       <description>As social media continues to emerge, many professionals are curious on what is the best way to manage these various networks. For posting updates I have found ping.fm an invaluable resource. I use it to manage updates across all my networks including Twitter, Facebook,LinkedIn, Flicker, FriendFeed and more. Here’s the skinny on how I utilize this resource.
 If you’re not familar with ping.fm it enables one to post updates to one or many different websites though email, web, IM, SMS and widgets.</description>
     </item>
     
     <item>
       <title>Migrating to Feedburner</title>
-      <link>http://lacoski.github.io/post/migrating-to-feedburner/</link>
+      <link>https://lacoski.github.io/post/migrating-to-feedburner/</link>
       <pubDate>Mon, 12 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/migrating-to-feedburner/</guid>
+      <guid>https://lacoski.github.io/post/migrating-to-feedburner/</guid>
       <description>I’ve made the decision to take control of my feeds. I want to know how many users are reading my blog via syndication so I’ve decided to move to feedburner. The migration will be seamless for all readers. Additionally I’ll be able to provide syndication via email as well.
 How to Migrate from Drupal to FeedBurner These directions are written with Drupal in mind, though the approach used would work for pretty much any system.</description>
     </item>
     
     <item>
       <title>The Death of Search</title>
-      <link>http://lacoski.github.io/post/the-death-of-search/</link>
+      <link>https://lacoski.github.io/post/the-death-of-search/</link>
       <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/the-death-of-search/</guid>
+      <guid>https://lacoski.github.io/post/the-death-of-search/</guid>
       <description>Social media will be the next innovation in the most unlikely of places, search ( leveraging the community to scale infinitely ). It’s not that people will all together stop searching, but the approach that they take to finding information will become increasingly social (rather than algorithmic) in nature.
 For the last decade, search always seems on the cusp of “intelligent” results. Each new engine promises to be able to overcome “search overload” as Microsoft puts is.</description>
     </item>
     
     <item>
       <title>How I Blog</title>
-      <link>http://lacoski.github.io/post/how-i-blog/</link>
+      <link>https://lacoski.github.io/post/how-i-blog/</link>
       <pubDate>Wed, 07 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-i-blog/</guid>
+      <guid>https://lacoski.github.io/post/how-i-blog/</guid>
       <description>Not surprisingly, given my semi random content, I arrive at my posts a few different ways.
 1. I better write this down or I’ll never remember it These posts are the result of a rather frustrating night of problem solving. After reading tons of documentation and googling around, reading forums and discussing on IRC I finally got it working. Now I better write it down so I know how to do it next time.</description>
     </item>
     
     <item>
       <title>Analyzing and Improving Conversion</title>
-      <link>http://lacoski.github.io/post/analyzing-and-improving-conversion/</link>
+      <link>https://lacoski.github.io/post/analyzing-and-improving-conversion/</link>
       <pubDate>Fri, 02 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/analyzing-and-improving-conversion/</guid>
+      <guid>https://lacoski.github.io/post/analyzing-and-improving-conversion/</guid>
       <description>Image by LollyKnit via Flickr   Conversion is one of those core metrics that every business depends on and strives to improve. Improving your conversion rate (while maintaining a consistent traffic level) is the single most important goal any business should have. Not only will your sales increase without adding additional load but your marketing will be more efficient so you can spend more money driving more sales.</description>
     </item>
     
     <item>
       <title>Ranking Social Media</title>
-      <link>http://lacoski.github.io/post/ranking-social-media/</link>
+      <link>https://lacoski.github.io/post/ranking-social-media/</link>
       <pubDate>Wed, 30 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/ranking-social-media/</guid>
+      <guid>https://lacoski.github.io/post/ranking-social-media/</guid>
       <description>In business it’s common to use sales as a metric to determine success. Songs, albums, books and movies are all ranked on “best seller” charts. While this isn’t a perfect metric, it is largely useful due to the innate control built within. There is friction to a sale in that buying something costs money of which people have a limited supply. This makes it so that someone couldn’t just repeatedly buy their own song, album, book or movie and have a best seller (not to mention they would be losing a ton of money to the distribution and retail channels).</description>
     </item>
     
     <item>
       <title>My Own Private Blogathon</title>
-      <link>http://lacoski.github.io/post/my-own-private-blogathon/</link>
+      <link>https://lacoski.github.io/post/my-own-private-blogathon/</link>
       <pubDate>Mon, 28 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/my-own-private-blogathon/</guid>
+      <guid>https://lacoski.github.io/post/my-own-private-blogathon/</guid>
       <description>Someone once said a goal is a dream until you write it down … in your blog and tell the world about it.
 In an effort to focus on blogging a bit more frequently I have decided to start a blogathon beginning today. I will write a post every Monday, Wednesday and Friday for the next four weeks. I think this rate will permit me to continue to keep quality posts, while increasing the frequency and consequently the quantity.</description>
     </item>
     
     <item>
       <title>Using Nginx as a Load Balancer</title>
-      <link>http://lacoski.github.io/post/using-nginx-as-a-load-balancer/</link>
+      <link>https://lacoski.github.io/post/using-nginx-as-a-load-balancer/</link>
       <pubDate>Thu, 24 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/using-nginx-as-a-load-balancer/</guid>
+      <guid>https://lacoski.github.io/post/using-nginx-as-a-load-balancer/</guid>
       <description>Nginx is a relatively new web server that has a light footprint and relatively easy configuration. The following configuration demonstrates how to properly use nginx as a load balancer in front of two web servers.
 pid /var/run/nginx.pid; events { worker_connections 1024; } http { include mime.types; default_type application/octet-stream; sendfile on; keepalive_timeout 75; proxy_buffering off; log_not_found off; error_log /dev/null; access_log off; proxy_connect_timeout 20; client_header_timeout 60; client_body_timeout 60; send_timeout 60; server { listen 127.</description>
     </item>
     
     <item>
       <title>Featured in CIO Magazine!</title>
-      <link>http://lacoski.github.io/post/featured-in-cio-magazine/</link>
+      <link>https://lacoski.github.io/post/featured-in-cio-magazine/</link>
       <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/featured-in-cio-magazine/</guid>
+      <guid>https://lacoski.github.io/post/featured-in-cio-magazine/</guid>
       <description>Steve Francia in CIO Magazine   I don’t know what could be more shocking that opening this month’s edition of CIO magazine and discovering that my blog, this very blog that you are currently reading is one of two blogs featured this month. I am humbled and honored to be mentioned and included with such great peers. To all my new readers I look forward to connecting with you via Twitter or LinkedIn.</description>
     </item>
     
     <item>
       <title>Choosing a Hosting Partner</title>
-      <link>http://lacoski.github.io/post/choosing-a-hosting-partner/</link>
+      <link>https://lacoski.github.io/post/choosing-a-hosting-partner/</link>
       <pubDate>Tue, 25 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/choosing-a-hosting-partner/</guid>
+      <guid>https://lacoski.github.io/post/choosing-a-hosting-partner/</guid>
       <description>Image via Wikipedia   No question about it, choosing a good hosting partner is one of the most important decisions a CTO / CIO can make, especially in a .com company. I recently had to choose a hosting partner for the new portero.com. Since the space changes so rapidly the last provider you used may no longer be the best fit for you now. Here’s 10 criteria you need to evaluate when analyzing a hosting partner.</description>
     </item>
     
     <item>
       <title>Social Media Recognition</title>
-      <link>http://lacoski.github.io/post/social-media-recognition/</link>
+      <link>https://lacoski.github.io/post/social-media-recognition/</link>
       <pubDate>Fri, 17 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/social-media-recognition/</guid>
+      <guid>https://lacoski.github.io/post/social-media-recognition/</guid>
       <description>Recently I’ve been fortunate to be recognized in a few publications. I extend a warm welcome to all my new friends and followers. I look forward to engaging with you.
  12 CIOs Who Love Social Media Luxury 50 Top Twitter Users CIO Twitter Dashboard    12 CIOs Who Love Social Media-2 by steve.francia, on Flickr   Related Articles  The New CIO: Social Media and the Enterprise(ericbrown.</description>
     </item>
     
     <item>
       <title>New Facebook in Depth Review</title>
-      <link>http://lacoski.github.io/post/new-facebook-in-depth-review/</link>
+      <link>https://lacoski.github.io/post/new-facebook-in-depth-review/</link>
       <pubDate>Wed, 15 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/new-facebook-in-depth-review/</guid>
+      <guid>https://lacoski.github.io/post/new-facebook-in-depth-review/</guid>
       <description>Image via CrunchBase   Facebook just unveiled their biggest change yet. The http://www.new.facebook.com website is a preview of the next design of Facebook. The new design places more emphasis on friends and actions and downplays the applications. There is a lot more than just design going on. They also reveal some new functionality. I will present an in-depth review of what to expect from Facebook complete with screenshots.</description>
     </item>
     
     <item>
       <title>Setting up Subversion with multiple access methods</title>
-      <link>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
+      <link>https://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</link>
       <pubDate>Tue, 05 May 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
+      <guid>https://lacoski.github.io/post/setting-up-subversion-with-multiple-access-methods/</guid>
       <description>One thing that makes subversion such a powerful revision system is it’s ability to permit multiple methods of access. Https, WebDAV, SSH and svnserve. In spite of svn’s ability to support multiple access methods, doing so simultaniously can be quite challenging. Typically one will run into permission issues as the http(s) access will all be written to the filesystem as the user running the webserver. The SSH access will all write to the filesystem under each users given account.</description>
     </item>
     
     <item>
       <title>Scaling Web Sites (LAMP) : Top Resources</title>
-      <link>http://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</link>
+      <link>https://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</link>
       <pubDate>Wed, 15 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</guid>
+      <guid>https://lacoski.github.io/post/scaling-web-sites-lamp-top-resources-2/</guid>
       <description>Image via Wikipedia   Luckily it’s 2009 and there have been a bunch of successful websites that have had to deal with large scalability challenges. Many have been kind enough to share their knowledge with the world. Here is a list of the best books, articles, presentations and practices from the likes of Twitter, Facebook, Flickr and more.
 Books Building Scalable Web Sites Building, scaling, and optimizing the next generation of web applications by Cal Henderson</description>
     </item>
     
     <item>
       <title>How to Fix a Broken Marketplace (eBay)</title>
-      <link>http://lacoski.github.io/post/how-to-fix-a-broken-marketplace-ebay/</link>
+      <link>https://lacoski.github.io/post/how-to-fix-a-broken-marketplace-ebay/</link>
       <pubDate>Tue, 14 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-to-fix-a-broken-marketplace-ebay/</guid>
+      <guid>https://lacoski.github.io/post/how-to-fix-a-broken-marketplace-ebay/</guid>
       <description>Image via Crunchbase   Do you still remember when eBay was a great place to buy and sell things? Today most auctions close without a single bid and very few are purchased at all. Most items are sold by “power sellers” which is really code word for businesses. Heck, most sellers are probably businesses at this point. As eBay discovers it isn’t recession proof and scrambles to become a primarily “buy it now” channel it needs to remember what eBay was.</description>
     </item>
     
     <item>
       <title>Stop Twitter from Becoming the next MySpace</title>
-      <link>http://lacoski.github.io/post/stop-twitter-from-becoming-the-next-myspace/</link>
+      <link>https://lacoski.github.io/post/stop-twitter-from-becoming-the-next-myspace/</link>
       <pubDate>Fri, 03 Apr 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/stop-twitter-from-becoming-the-next-myspace/</guid>
+      <guid>https://lacoski.github.io/post/stop-twitter-from-becoming-the-next-myspace/</guid>
       <description>Image via Crunchbase   6 months ago Twitter was the best place in existence to use and develop great relations with key players in industry, brilliant thinkers and friends. It has since become popular, and like the kids trying to be popular in high school, has become a whore. Not that it was ever exclusive by restrictions, but rather by obscurity. Now twitter is being over run with spammers, marketeers ( is there a difference ), robots, celebrities, fake celebrities, ghost writers and a whole flood of me too people.</description>
     </item>
     
     <item>
       <title>Facebook Meets Twitter &amp; FriendFeed</title>
-      <link>http://lacoski.github.io/post/facebook-meets-twitter-friendfeed/</link>
+      <link>https://lacoski.github.io/post/facebook-meets-twitter-friendfeed/</link>
       <pubDate>Fri, 27 Mar 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/facebook-meets-twitter-friendfeed/</guid>
+      <guid>https://lacoski.github.io/post/facebook-meets-twitter-friendfeed/</guid>
       <description>Image via CrunchBase   For the past few months Facebook has been obsessed with Twitter. It’s easy to see why. Twitter is addicitve. Many twitter users are constantly on twitter. Whenever you goto twitter there is always something new happening. Facebook obviously wants this experience on facebook. Why not copy twitter. I think Facebook could do it and do it better. Last week Facebook unveiled their new home page layout.</description>
     </item>
     
     <item>
       <title>Growing in a Down Economy</title>
-      <link>http://lacoski.github.io/post/growing-in-the-down-economy/</link>
+      <link>https://lacoski.github.io/post/growing-in-the-down-economy/</link>
       <pubDate>Thu, 29 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/growing-in-the-down-economy/</guid>
+      <guid>https://lacoski.github.io/post/growing-in-the-down-economy/</guid>
       <description>Trimming the Fat I am all in favor of trimming the fat. Every company has inefficiencies and employees that aren’t adding value to the company. This exercise of fat trimming should be an ongoing exercise, quarterly. If a company larger than 200 employees is firing 10% or more of their employees they have a serious management issue. No well run company can operate efficiently with 10%+ of “fat”, and no company can expect to grow while letting go 10%+ of their staff.</description>
     </item>
     
     <item>
       <title>Backup Your Files</title>
-      <link>http://lacoski.github.io/post/backup-your-files/</link>
+      <link>https://lacoski.github.io/post/backup-your-files/</link>
       <pubDate>Mon, 29 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/backup-your-files/</guid>
+      <guid>https://lacoski.github.io/post/backup-your-files/</guid>
       <description>One of the worst experiences you can have as a computer operator is to realize you (or something else) just did something and wiped out your files. The purpose of this article is to show you how to automatically backup your files often and automatically. I use this setup to backup my documents every hour (I save more often then that). This gives me hourly versions of all my files I am working on.</description>
     </item>
     
     <item>
       <title>Portero Raises 6.6 Million</title>
-      <link>http://lacoski.github.io/post/portero-raises-6-6-million/</link>
+      <link>https://lacoski.github.io/post/portero-raises-6-6-million/</link>
       <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/portero-raises-6-6-million/</guid>
+      <guid>https://lacoski.github.io/post/portero-raises-6-6-million/</guid>
       <description>I am happy to announce that Portero has raised $6.6 million in funding. The round was led by LFE Capital joined by returning backers including Grosvenor Funds. TechCrunch picked up the announcement early this morning and featured us on their home page. As I have a bit of an insiders view, I felt it was my place to provide a bit of insight into why Portero is such a great company.</description>
     </item>
     
     <item>
       <title>Backing up MySQL</title>
-      <link>http://lacoski.github.io/post/backing-up-mysql/</link>
+      <link>https://lacoski.github.io/post/backing-up-mysql/</link>
       <pubDate>Fri, 12 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/backing-up-mysql/</guid>
+      <guid>https://lacoski.github.io/post/backing-up-mysql/</guid>
       <description>Image via Wikipedia   I don’t know very many people that haven’t been devastated by the loss of data… Yet I am baffled that millions of professional IT workers still ignore backing up their data. Since computers are great at doing repetitive things like backups.. why not spend 20 minutes setting up your machine to backup your files for you. This guide will be specific to mysql to create a local copy of the backup.</description>
     </item>
     
     <item>
       <title>One Hundred Pushups</title>
-      <link>http://lacoski.github.io/post/one-hundred-pushups/</link>
+      <link>https://lacoski.github.io/post/one-hundred-pushups/</link>
       <pubDate>Thu, 11 Dec 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/one-hundred-pushups/</guid>
+      <guid>https://lacoski.github.io/post/one-hundred-pushups/</guid>
       <description>Photographer: Frank C. Müller   A while back a bunch of people were twittering about the 100 pushup challenge. Thanksgiving was the catalyst for me. I began my quest for better health about a week ago.
 The premise of the challenge is quite simple. It is a six week program, that if followed, you can do 100 consecutive good form push ups at the end of the program.</description>
     </item>
     
     <item>
       <title>How RIM handed the mobile market over to Apple</title>
-      <link>http://lacoski.github.io/post/how-rim-handed-the-mobile-market-over-to-apple/</link>
+      <link>https://lacoski.github.io/post/how-rim-handed-the-mobile-market-over-to-apple/</link>
       <pubDate>Fri, 14 Nov 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-rim-handed-the-mobile-market-over-to-apple/</guid>
+      <guid>https://lacoski.github.io/post/how-rim-handed-the-mobile-market-over-to-apple/</guid>
       <description>Image representing iPhone 3G as depicted in Crunchbase   Hint: It has nothing to do with touch screens.
 While RIM scrambles to create the next greatest device, or their “iPhone killer” it needs to recognize that it’s no longer about the device. RIM don’t you remember that touchscreens aren’t new.. Palm had them back in the 90′s … before you crushed them.
 When RIM ruled the world RIM knows what it takes to dethrone the current market leader.</description>
@@ -1446,10 +1446,10 @@ When RIM ruled the world RIM knows what it takes to dethrone the current marke
     
     <item>
       <title>Hire Your Next Consultant Using Twitter</title>
-      <link>http://lacoski.github.io/post/hire-your-next-consultant-using-twitter/</link>
+      <link>https://lacoski.github.io/post/hire-your-next-consultant-using-twitter/</link>
       <pubDate>Tue, 21 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/hire-your-next-consultant-using-twitter/</guid>
+      <guid>https://lacoski.github.io/post/hire-your-next-consultant-using-twitter/</guid>
       <description>At Portero we had an issue with our network.
 I know enough about networking to understand the basics. I actually used to work on the IOS back during the dawn of the internet. Though things have changed since then, the biggest issue is I don’t remember enough to fix network configuration issues on the router level.
 Before I took the post at Portero, we had a company we contracted to configure all of our Cisco equipment.</description>
@@ -1457,76 +1457,76 @@ Before I took the post at Portero, we had a company we contracted to configure a
     
     <item>
       <title>Promotion</title>
-      <link>http://lacoski.github.io/post/promotion/</link>
+      <link>https://lacoski.github.io/post/promotion/</link>
       <pubDate>Tue, 23 Sep 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/promotion/</guid>
+      <guid>https://lacoski.github.io/post/promotion/</guid>
       <description>Permit me to shamelesly announce my promotion to Chief Information Officer at Portero Inc.
 Here is the Press Release on the wire this week. Portero, Inc., is pleased to announce the promotion of Steve P. Francia to the position of Chief Information Officer (CIO), effective immediately. He will continue to report to Michael Sheldon, the company’s chairman and CEO, and will be responsible for operations and technology for the company.</description>
     </item>
     
     <item>
       <title>Why are you still shopping offline?</title>
-      <link>http://lacoski.github.io/post/why-are-you-still-shopping-offline/</link>
+      <link>https://lacoski.github.io/post/why-are-you-still-shopping-offline/</link>
       <pubDate>Mon, 08 Sep 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/why-are-you-still-shopping-offline/</guid>
+      <guid>https://lacoski.github.io/post/why-are-you-still-shopping-offline/</guid>
       <description>Today I visited one of the largest national office supply outlets. I had a specific purpose in mind. I needed to pickup 2 wireless routers and 1 audio cable. What transpired caused me to wonder why anyone does any offline shopping anymore.
 My experience at the store caused me to reflect on the many things we simply put up with at the store which we would never permit online.</description>
     </item>
     
     <item>
       <title>Managing Multiple Firefox Profiles in OS X</title>
-      <link>http://lacoski.github.io/post/managing-multiple-firefox-profiles-in-os-x/</link>
+      <link>https://lacoski.github.io/post/managing-multiple-firefox-profiles-in-os-x/</link>
       <pubDate>Wed, 27 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/managing-multiple-firefox-profiles-in-os-x/</guid>
+      <guid>https://lacoski.github.io/post/managing-multiple-firefox-profiles-in-os-x/</guid>
       <description>Image via Wikipedia   One of the great features of Firefox is the ability to manage multiple profiles. This is a very handy feature with many different uses. Unfortunately, it isn’t easy to do on a mac. I will show you how to setup multiple profiles on a mac that appear and run like normal mac applications so you can click on them and run them from quicksilver.</description>
     </item>
     
     <item>
       <title>Using SVK to Increase Productivity</title>
-      <link>http://lacoski.github.io/post/using-svk-to-increase-productivity/</link>
+      <link>https://lacoski.github.io/post/using-svk-to-increase-productivity/</link>
       <pubDate>Sat, 23 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/using-svk-to-increase-productivity/</guid>
+      <guid>https://lacoski.github.io/post/using-svk-to-increase-productivity/</guid>
       <description>SVK is a client for SVN built using perl. It makes a number of improvements over the standard svn client, while retaining much of the same feel. It works with the standard Subversion server and works perfectly in an environment with some users using svn and some using svk on the client side. It provides a number of sizable advantages over the standard svn client and is a must have for any development project.</description>
     </item>
     
     <item>
       <title>The 15 Best Vim Plugins</title>
-      <link>http://lacoski.github.io/post/the-15-best-vim-plugins/</link>
+      <link>https://lacoski.github.io/post/the-15-best-vim-plugins/</link>
       <pubDate>Wed, 30 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/the-15-best-vim-plugins/</guid>
+      <guid>https://lacoski.github.io/post/the-15-best-vim-plugins/</guid>
       <description>One of the things that makes vim great is that it can be extended through plugins. There are plugins for more than you would expect. I have gathered together the 15 best plugins. I’ve included these plugins as part of my ultimate VIM configuration which has been featured on many sites and is hosted on github. I’ve also begun a series of posts on some of these plugins including snipmate and NerdCommenter.</description>
     </item>
     
     <item>
       <title>Implementing a Corporate Wiki</title>
-      <link>http://lacoski.github.io/post/implementing-a-corporate-wiki/</link>
+      <link>https://lacoski.github.io/post/implementing-a-corporate-wiki/</link>
       <pubDate>Fri, 25 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/implementing-a-corporate-wiki/</guid>
+      <guid>https://lacoski.github.io/post/implementing-a-corporate-wiki/</guid>
       <description>It seems all of a sudden, the two buzz words in the corporate IT world are wiki and blog. Corporate wikis are emerging as cheap, intelligent, flexible systems for shared-document collaboration and content management. Because they are browser based, wikis are quite easy to implement and deploy.
 The wiki works well in the corporate world as it solves two problematic areas, the need for internal collaboration and document management.</description>
     </item>
     
     <item>
       <title>Why are you not on Twitter</title>
-      <link>http://lacoski.github.io/post/why-are-you-not-on-twitter/</link>
+      <link>https://lacoski.github.io/post/why-are-you-not-on-twitter/</link>
       <pubDate>Fri, 11 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/why-are-you-not-on-twitter/</guid>
+      <guid>https://lacoski.github.io/post/why-are-you-not-on-twitter/</guid>
       <description>Image via Wikipedia   Over the last 2 weeks I have found myself asking that question more times than I can remember. When I first heard about microblogging—or Twitter, the primary service that started the microblogging movement—over a year ago I thought it was a stupid fad and wouldn’t last. I mean what value can possibly be passed along in 140 characters or less. 2 weeks ago I was convinced to try Twitter and I am hooked.</description>
     </item>
     
     <item>
       <title>Be more productive using GNU Screen</title>
-      <link>http://lacoski.github.io/post/be-more-productive-using-gnu-screen/</link>
+      <link>https://lacoski.github.io/post/be-more-productive-using-gnu-screen/</link>
       <pubDate>Thu, 03 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/be-more-productive-using-gnu-screen/</guid>
+      <guid>https://lacoski.github.io/post/be-more-productive-using-gnu-screen/</guid>
       <description>GNU Screen  Image via Wikipedia   Despite living in the age of multicore processors, GUI everything and mountains of ram, I continually find myself more productive with a terminal open. Especially when that terminal is running GNU Screen.
 About GNU Screen GNU Screen is a free terminal multiplexer developed by the GNU Project. It allows a user to access multiple separate terminal sessions inside a single terminal window or remote terminal session.</description>
     </item>

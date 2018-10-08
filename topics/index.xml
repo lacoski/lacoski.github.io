@@ -2,211 +2,211 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Hacking Management</title>
-    <link>http://lacoski.github.io/topics/</link>
+    <link>https://lacoski.github.io/topics/</link>
     <description>Recent content in Topics on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Mon, 29 Oct 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Architecture</title>
-      <link>http://lacoski.github.io/topics/architecture/</link>
+      <link>https://lacoski.github.io/topics/architecture/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/architecture/</guid>
+      <guid>https://lacoski.github.io/topics/architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blogging</title>
-      <link>http://lacoski.github.io/topics/blogging/</link>
+      <link>https://lacoski.github.io/topics/blogging/</link>
       <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/blogging/</guid>
+      <guid>https://lacoski.github.io/topics/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Community</title>
-      <link>http://lacoski.github.io/topics/community/</link>
+      <link>https://lacoski.github.io/topics/community/</link>
       <pubDate>Tue, 17 Mar 2015 15:24:07 -0500</pubDate>
       
-      <guid>http://lacoski.github.io/topics/community/</guid>
+      <guid>https://lacoski.github.io/topics/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developer Advocacy</title>
-      <link>http://lacoski.github.io/topics/developer-advocacy/</link>
+      <link>https://lacoski.github.io/topics/developer-advocacy/</link>
       <pubDate>Wed, 24 Sep 2014 13:17:48 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/topics/developer-advocacy/</guid>
+      <guid>https://lacoski.github.io/topics/developer-advocacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>http://lacoski.github.io/topics/development/</link>
+      <link>https://lacoski.github.io/topics/development/</link>
       <pubDate>Thu, 17 Aug 2017 10:09:53 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/topics/development/</guid>
+      <guid>https://lacoski.github.io/topics/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>http://lacoski.github.io/topics/docker/</link>
+      <link>https://lacoski.github.io/topics/docker/</link>
       <pubDate>Fri, 05 Jun 2015 10:43:50 +0900</pubDate>
       
-      <guid>http://lacoski.github.io/topics/docker/</guid>
+      <guid>https://lacoski.github.io/topics/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ecommerce</title>
-      <link>http://lacoski.github.io/topics/ecommerce/</link>
+      <link>https://lacoski.github.io/topics/ecommerce/</link>
       <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/ecommerce/</guid>
+      <guid>https://lacoski.github.io/topics/ecommerce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>http://lacoski.github.io/topics/golang/</link>
+      <link>https://lacoski.github.io/topics/golang/</link>
       <pubDate>Thu, 17 Aug 2017 10:09:53 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/topics/golang/</guid>
+      <guid>https://lacoski.github.io/topics/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Leadership</title>
-      <link>http://lacoski.github.io/topics/leadership/</link>
+      <link>https://lacoski.github.io/topics/leadership/</link>
       <pubDate>Thu, 05 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/leadership/</guid>
+      <guid>https://lacoski.github.io/topics/leadership/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://lacoski.github.io/topics/linux/</link>
+      <link>https://lacoski.github.io/topics/linux/</link>
       <pubDate>Fri, 05 Jun 2015 10:43:50 +0900</pubDate>
       
-      <guid>http://lacoski.github.io/topics/linux/</guid>
+      <guid>https://lacoski.github.io/topics/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mongodb</title>
-      <link>http://lacoski.github.io/topics/mongodb/</link>
+      <link>https://lacoski.github.io/topics/mongodb/</link>
       <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/mongodb/</guid>
+      <guid>https://lacoski.github.io/topics/mongodb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Source</title>
-      <link>http://lacoski.github.io/topics/open-source/</link>
+      <link>https://lacoski.github.io/topics/open-source/</link>
       <pubDate>Fri, 20 Mar 2015 18:00:02 -0400</pubDate>
       
-      <guid>http://lacoski.github.io/topics/open-source/</guid>
+      <guid>https://lacoski.github.io/topics/open-source/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>http://lacoski.github.io/topics/personal/</link>
+      <link>https://lacoski.github.io/topics/personal/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/personal/</guid>
+      <guid>https://lacoski.github.io/topics/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Php</title>
-      <link>http://lacoski.github.io/topics/php/</link>
+      <link>https://lacoski.github.io/topics/php/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/php/</guid>
+      <guid>https://lacoski.github.io/topics/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Presentations</title>
-      <link>http://lacoski.github.io/topics/presentations/</link>
+      <link>https://lacoski.github.io/topics/presentations/</link>
       <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/presentations/</guid>
+      <guid>https://lacoski.github.io/topics/presentations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://lacoski.github.io/topics/python/</link>
+      <link>https://lacoski.github.io/topics/python/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/python/</guid>
+      <guid>https://lacoski.github.io/topics/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby</title>
-      <link>http://lacoski.github.io/topics/ruby/</link>
+      <link>https://lacoski.github.io/topics/ruby/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/ruby/</guid>
+      <guid>https://lacoski.github.io/topics/ruby/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scalability</title>
-      <link>http://lacoski.github.io/topics/scalability/</link>
+      <link>https://lacoski.github.io/topics/scalability/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/scalability/</guid>
+      <guid>https://lacoski.github.io/topics/scalability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Media</title>
-      <link>http://lacoski.github.io/topics/social-media/</link>
+      <link>https://lacoski.github.io/topics/social-media/</link>
       <pubDate>Sun, 11 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/social-media/</guid>
+      <guid>https://lacoski.github.io/topics/social-media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Systems</title>
-      <link>http://lacoski.github.io/topics/systems/</link>
+      <link>https://lacoski.github.io/topics/systems/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/systems/</guid>
+      <guid>https://lacoski.github.io/topics/systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech Industry</title>
-      <link>http://lacoski.github.io/topics/tech-industry/</link>
+      <link>https://lacoski.github.io/topics/tech-industry/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/tech-industry/</guid>
+      <guid>https://lacoski.github.io/topics/tech-industry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://lacoski.github.io/topics/vim/</link>
+      <link>https://lacoski.github.io/topics/vim/</link>
       <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/topics/vim/</guid>
+      <guid>https://lacoski.github.io/topics/vim/</guid>
       <description></description>
     </item>
     

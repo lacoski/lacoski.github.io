@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Hacking Management</title>
-    <link>http://lacoski.github.io/project/</link>
+    <link>https://lacoski.github.io/project/</link>
     <description>Recent content in Projects on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 04 Jul 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo: A fast and flexible static site generator built in GoLang</title>
-      <link>http://lacoski.github.io/project/hugo/</link>
+      <link>https://lacoski.github.io/project/hugo/</link>
       <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/hugo/</guid>
+      <guid>https://lacoski.github.io/project/hugo/</guid>
       <description>Hugo Website   Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
 Hugo makes use of markdown files with front matter for meta data.
 Written in GoLang for speed, Hugo is significantly faster than most other static site generators.
@@ -26,14 +26,14 @@ A typical website of moderate size can be rendered in a fraction of a second.</d
     
     <item>
       <title>Nitro : A quick and simple profiler for golang</title>
-      <link>http://lacoski.github.io/project/nitro/</link>
+      <link>https://lacoski.github.io/project/nitro/</link>
       <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/nitro/</guid>
+      <guid>https://lacoski.github.io/project/nitro/</guid>
       <description>&lt;p&gt;
 &lt;figure class=&#34;third right&#34;&gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/nitro.png&#34; alt=&#34;Nitro&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -50,10 +50,10 @@ to compare as you revise and improve each part of your application.
     
     <item>
       <title>spf13-vim : Steve Francia&#39;s Vim Distribution</title>
-      <link>http://lacoski.github.io/project/spf13-vim/</link>
+      <link>https://lacoski.github.io/project/spf13-vim/</link>
       <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/spf13-vim/</guid>
+      <guid>https://lacoski.github.io/project/spf13-vim/</guid>
       <description>spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and MacVim.
 It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, *nix and Mac.
 The distribution is completely customisable using a ~/.vimrc.local and ~/.vimrc.bundles.local Vim RC files.
@@ -62,20 +62,20 @@ Unlike traditional VIM plugin structure, which similar to UNIX throws all files 
     
     <item>
       <title>GitHub Code Viewer 2 for WordPress</title>
-      <link>http://lacoski.github.io/project/github-code-viewer/</link>
+      <link>https://lacoski.github.io/project/github-code-viewer/</link>
       <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/github-code-viewer/</guid>
+      <guid>https://lacoski.github.io/project/github-code-viewer/</guid>
       <description>GitHub Code Viewer 2 automatically pulls a file from github and places into any post using a shortcode [github_cv url=&amp;lsquo;$url&amp;rsquo;] Caches locally (in db), so there isn&amp;rsquo;t a performance hit. Heavily Modified from original plugin by Matt Curry http://www.pseudocoder.com
 Installation  Upload GitHub_Code_Viewer.php to the /wp-content/plugins/ directory Activate the plugin through the &amp;lsquo;Plugins&amp;rsquo; menu in WordPress Use the shortcode [github_cv url=&amp;rsquo;&amp;rsquo;] in your post.  Changelog 2.0  Rewrote as a static class as only one instance is needed.</description>
     </item>
     
     <item>
       <title>PIV : PHP Integration for VIM</title>
-      <link>http://lacoski.github.io/project/piv/</link>
+      <link>https://lacoski.github.io/project/piv/</link>
       <pubDate>Mon, 13 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/piv/</guid>
+      <guid>https://lacoski.github.io/project/piv/</guid>
       <description>This project contains the most feature complete and up to date PHP Integration for Vim. It began as a fork of the largely outdated VIP (formerly PDV), but has morphed into it’s own project.
 It is intended to include the best PHP specific plugins, configurations and resources for editing PHP. Special care has been taken to include the best, keep them up to date and make sure everything plays well together.</description>
     </item>

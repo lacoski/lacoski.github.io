@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Presentations on Hacking Management</title>
-    <link>http://lacoski.github.io/topics/presentations/</link>
+    <link>https://lacoski.github.io/topics/presentations/</link>
     <description>Recent content in Presentations on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Mon, 23 Sep 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/topics/presentations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/topics/presentations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build your first MongoDB App in Ruby @ StrangeLoop 2013</title>
-      <link>http://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</link>
+      <link>https://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</link>
       <pubDate>Mon, 23 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</guid>
+      <guid>https://lacoski.github.io/presentation/building-your-first-mongodb-app-in-ruby-strangeloop-2013/</guid>
       <description>&lt;p&gt;An updated version of the &lt;a href=&#34;presentation/building-your-first-mongodb-app-oscon-2012/&#34;&gt;very popular workshop I gave at OSCON last year&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MongoDB and PHP Webinar</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-php/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-php/</link>
       <pubDate>Fri, 12 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-php/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-php/</guid>
       <description>This is a 90 minute MongoDB tutorial on using MongoDB in PHP which I gave as a webcast for O&amp;rsquo;Reilly last year.. The tutorial covers everything from Installing MongoDB along with installing and configuring the MongoDB PHP driver. You will learn how to work with MongoDB from within PHP as well as within the MongoDB shell.
 What would happen if you optimized a data store for the operations application developers to actually use?</description>
     </item>
     
     <item>
       <title>MongoDB, Hadoop and humongous data at MongoSV 2012</title>
-      <link>http://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</link>
       <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-hadoop-humongous-data-mongosv-2012/</guid>
       <description>This presentation given at MongoSV 2012 focuses on data processing when using MongoDB as your primary database including integration with Hadoop &amp;amp; the new MongoDB aggregation framework. Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB.</description>
     </item>
     
     <item>
       <title>Not Just Hadoop: NoSQL in the Enterprise at Strata NYC 2012</title>
-      <link>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
+      <link>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</link>
       <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/big-data-for-the-rest-of-us-at-nyc-strata-2012/</guid>
       <description>At the NYC Strata &amp;amp; Hadoop World conference I presented on ‘Not Just Hadoop: NoSQL in the Enterprise’. Robert Lancaster from Orbitz joined me on stage for the final presentation of the Bridge to Big Data track. Mark Madsen did a great job moderating the session and kept the energy high the entire day. Robert shared how Orbitz uses MongoDB with Apache Hadoop to provide real time rates. This is my second time presenting at Strata’s Big Data conference.</description>
     </item>
     
     <item>
       <title>Building your first MongoDB app - OSCON 2012</title>
-      <link>http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</link>
+      <link>https://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</link>
       <pubDate>Tue, 24 Jul 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/building-your-first-mongodb-app-oscon-2012/</guid>
       <description>This is a 3 hour tutorial I wrote for and gave at OSCON 2012.
 Here is the summary:
 This tutorial will introduce the features of MongoDB by building a simple location-based application using MongoDB. The tutorial will cover the basics of MongoDB’s document model, query language, map-reduce framework and deployment architecture.
@@ -64,10 +64,10 @@ The tutorial will be divided into 5 sections:
     
     <item>
       <title>Replication, Durability, and Disaster Recovery</title>
-      <link>http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</link>
+      <link>https://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</link>
       <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</guid>
       <description>This session introduces the basic components of high availability before going into a deep dive on MongoDB replication. We’ll explore some of the advanced capabilities with MongoDB replication and best practices to ensure data durability and redundancy. We’ll also look at various deployment scenarios and disaster recovery configurations.
   Replication, Durability, and Disaster Recovery
 View more presentations from Steve Francia</description>
@@ -75,10 +75,10 @@ View more presentations from Steve Francia</description>
     
     <item>
       <title>Multi Data Center Strategies and MongoDB</title>
-      <link>http://lacoski.github.io/presentation/multi-data-center-strategies/</link>
+      <link>https://lacoski.github.io/presentation/multi-data-center-strategies/</link>
       <pubDate>Tue, 05 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/multi-data-center-strategies/</guid>
+      <guid>https://lacoski.github.io/presentation/multi-data-center-strategies/</guid>
       <description>Strategies for multi-data center deployment. Diving into the details of deploying of MongoDB across multiple data centers.
 Covers the advantages of a multi data center deployment for read/write locality, the various deployment strategies, and disaster preparedness and recovery.
 In addition, we’ll look at the MongoDB roadmap and planned enhancements around data center awareness.
@@ -87,20 +87,20 @@ This presentation was given at MongoNYC 2012. The animations didn’t survive th
     
     <item>
       <title>NoSQL databases and Managing Big Data</title>
-      <link>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</link>
+      <link>https://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</link>
       <pubDate>Tue, 08 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</guid>
+      <guid>https://lacoski.github.io/presentation/nosql-databases-and-managing-big-data/</guid>
       <description>I had the unique opportunity to present at the annual technology forum Insight Venture Partners holds for their portfolio companies. Over 100 CTOs gathered in NYC to hear from great presenters from companies like 10gen, Tumblr, Shutterstock and Buddy Media.
 I’ve included a slightly longer version of the presentation given which includes a few slides that I cut out for brevity to fit in the allocated time while still allowing time for questions.</description>
     </item>
     
     <item>
       <title>MongoDB, Hadoop and Humongous Data</title>
-      <link>http://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</link>
       <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-hadoop-and-humongous-data/</guid>
       <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using Hadoop’s MapReduce and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With support for Hadoop streaming support goes beyond the native Java enabling map reduce to be run in languages like Python and Ruby.
   MongoDB, Hadoop and Humongous Data
 View more presentations from Steve Francia</description>
@@ -108,68 +108,68 @@ View more presentations from Steve Francia</description>
     
     <item>
       <title>MongoDB and Hadoop</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-hadoop/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-hadoop/</link>
       <pubDate>Thu, 01 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-hadoop/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-hadoop/</guid>
       <description>Learn how to integrate MongoDB with Hadoop for large-scale distributed data processing. Using tools like MapReduce, Pig and Streaming you will learn how to do analytics and ETL on large datasets with the ability to load and save data against MongoDB. With Hadoop MapReduce, Java and Scala programmers will find a native solution for using MapReduce to process their data with MongoDB. Programmers of all kinds will find a new way to work with ETL using Pig to extract and analyze large datasets and persist the results to MongoDB.</description>
     </item>
     
     <item>
       <title>MongoDB for Genealogy at RootsTech 2012</title>
-      <link>http://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</link>
       <pubDate>Fri, 03 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-for-genealogy-at-rootstech-2012/</guid>
       <description>After an enjoyable time at the SORT conference in 2011 I was invited to come back to SLC to present at the RootsTech Genealogy conference.
 The two hardest data types to model are e-commerce and genealogy. There really just isn’t any good way to do it in a relational database. MongoDB is the answer Genealogy developers have been looking for for a very long time. A flexible schema that allows adhoc searching, horizontal scale and full data integrity.</description>
     </item>
     
     <item>
       <title>Hybrid MongoDB / SQL Applications</title>
-      <link>http://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</link>
+      <link>https://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</link>
       <pubDate>Fri, 06 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</guid>
+      <guid>https://lacoski.github.io/presentation/hybrid-mongodb-sql-applications/</guid>
       <description>MongoDB is often used alongside a relational database such as Oracle or MySQL. It is often unclear when one should use one or the other, or if a combination is really ideal. During this online presentation, we will discuss the ideal use cases for each, and how they can be used in conjunction. We’ll make sure to touch on several real world examples.
 The full recording can be found at 10gen’s site at http://www.</description>
     </item>
     
     <item>
       <title>Building your First app with MongoDB at MongoSV 2011</title>
-      <link>http://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</link>
+      <link>https://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</link>
       <pubDate>Sat, 10 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/building-your-first-app-with-mongodb-at-mongosv-2011/</guid>
       <description>10gen had our flagship conference in Silicon Valley. I gave an introductory presentation at the first session on building an application in MongoDB. This talk will introduce the features of MongoDB by walking through how one can building a simple location-based application using MongoDB. It covers the basics of MongoDB’s document model, query language, map-reduce framework and deployment architecture.
 Building your first application w/mongoDB MongoSV2011   View more presentations from Steve Francia</description>
     </item>
     
     <item>
       <title>E-commerce in LA</title>
-      <link>http://lacoski.github.io/presentation/ecommerce-in-la/</link>
+      <link>https://lacoski.github.io/presentation/ecommerce-in-la/</link>
       <pubDate>Thu, 08 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/ecommerce-in-la/</guid>
+      <guid>https://lacoski.github.io/presentation/ecommerce-in-la/</guid>
       <description>This week I joined a few of my co-workers down in LA. We met with a few companies and ran the MongoDB LA Users Group. Notably I met with Magento about the possibility of Magento 2.0 being built on MongoDB. On my final night in LA I presented on MongoDB, E-commerce and Transactions.
 I really enjoyed my time in LA and am looking forward to returning. I was impressed by how many companies are using MongoDB in LA and how great the interaction was at the Meetup.</description>
     </item>
     
     <item>
       <title>MongoDB, PHP and the Cloud - PHP Cloud Summit 2011</title>
-      <link>http://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</link>
       <pubDate>Wed, 30 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-php-and-the-cloud-php-cloud-summit-2011/</guid>
       <description>I had the opportunity to present at the PHP Cloud Summit 2011 among some great presenters. This was first time speaking at an online conference. Thanks to the diligent efforts from Cal, Keith and Jeremy at PHPArch it was a really successful experience. I actually presented with two Macbooks. One open to IRC where questions were coming in and the other open to the presentation. In spite of it being all online, the audience asked some great questions and it was really fun to interact with them.</description>
     </item>
     
     <item>
       <title>MongoDB and PHP at ZendCon 2011</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</link>
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-php-at-zendcon-2011/</guid>
       <description>Presentation given at PHP’s biggest conference, ZendCon 2011. Covers the basics of using MongoDB with PHP.
   MongoDB and PHP ZendCon 2011
 View more presentations from Steve Francia.</description>
@@ -177,10 +177,10 @@ View more presentations from Steve Francia.</description>
     
     <item>
       <title>MongoDB at SORT Conference 2011</title>
-      <link>http://lacoski.github.io/presentation/mongodb-sort-conference-2011/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-sort-conference-2011/</link>
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-sort-conference-2011/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-sort-conference-2011/</guid>
       <description>This presentation was given at the LDS Tech SORT Conference 2011 in Salt Lake City. The slides are quite comprehensive covering many topics on MongoDB. Rather than a traditional presentation, this was presented as more of a Q &amp;amp; A session. Topics covered include. Introduction to MongoDB, Use Cases, Schema design, High availability (replication) and Horizontal Scaling (sharding).
   MongoDB
 View more presentations from Steve Francia.</description>
@@ -188,10 +188,10 @@ View more presentations from Steve Francia.</description>
     
     <item>
       <title>MongoDB, E-Commerce and Transactions</title>
-      <link>http://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</link>
       <pubDate>Tue, 27 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-e-commerce-and-transactions/</guid>
       <description>Last week I had the pleasure of attending MongoUK in London. I had a great time presenting and meeting new friends. I even survived two whiteboard sessions where people were invited to ask any question, any at all, about MongoDB.
 I gave a pretty significatly revised presentation on MongoDB and E-Commerce with emphasis on transactions. If you saw the presentation at MongoNYC this summer, it’s worth a revisit.
  </description>
@@ -199,10 +199,10 @@ I gave a pretty significatly revised presentation on MongoDB and E-Commerce with
     
     <item>
       <title>Blending Mongo and RDBMS for ecommerce</title>
-      <link>http://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
+      <link>https://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</link>
       <pubDate>Thu, 09 Jun 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
+      <guid>https://lacoski.github.io/presentation/blending-mongo-and-rdbms-for-ecommerce/</guid>
       <description>Justin Hileman and I presented at MongoNYC 2011 to a packed house. Our presentation outlines both why someone would want to use MongoDB for ecommerce and how we overcame some of it’s limitations by incorporating mysql into our infrastructure.
  Presenting at MongoNYC 2011     Blending MongoDB and RDBMS for ecommerce
 View more presentations from Steve Francia.</description>
@@ -210,20 +210,20 @@ View more presentations from Steve Francia.</description>
     
     <item>
       <title>Augmenting RDBMS with NoSQL for e-commerce</title>
-      <link>http://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</link>
+      <link>https://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</link>
       <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</guid>
+      <guid>https://lacoski.github.io/presentation/augmenting-rdbms-with-nosql-for-e-commerce/</guid>
       <description>Justin Hileman and I gave a presentation on “Augmenting RDBMS with NoSQL for e-commerce” at the PgEast 2011 conference. This presentation is really the sequel (no pun intended) to my presentation, MongoDB &amp;amp; Ecommerce : A Perfect Combination. This presentation takes you through how we created a hybrid solution blending both sql and nosql to achieve an optimal solution.
 Augmenting RDBMS with MongoDB for ecommerce   View more presentations from Steve Francia</description>
     </item>
     
     <item>
       <title>MongoDB &amp; Ecommerce : A Perfect Combination</title>
-      <link>http://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</link>
       <pubDate>Wed, 20 Oct 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-ecommerce-a-perfect-combination/</guid>
       <description>Last night I gave a presentation on MongoDB &amp;amp; Ecommerce. OpenSky is the first company to use MongoDB in production for ecommerce. I shared why we went this route, and why it’s an obvious and powerful combination. At OpenSky we use MongoDB to develop the next ecommerce platform. OpenSky also uses Symfony 2, Doctrine 2, PHP 5.3, PHPUnit 3.5, jQuery, node.js, Git&amp;rdquo;) (with gitflow) and a touch of Java&amp;rdquo;) and Python&amp;rdquo;).</description>
     </item>
     

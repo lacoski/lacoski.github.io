@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mgo on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/mgo/</link>
+    <link>https://lacoski.github.io/tags/mgo/</link>
     <description>Recent content in Mgo on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Wed, 23 Jul 2014 09:48:46 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/mgo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/mgo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using MongoDB with Go and mgo</title>
-      <link>http://lacoski.github.io/presentation/mongodb-and-go/</link>
+      <link>https://lacoski.github.io/presentation/mongodb-and-go/</link>
       <pubDate>Wed, 23 Jul 2014 09:48:46 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/mongodb-and-go/</guid>
+      <guid>https://lacoski.github.io/presentation/mongodb-and-go/</guid>
       <description>This presentation was given at OSCON 2014.
   This presentation will give developers an introduction and practical experience of using MongoDB with the Go language. MongoDB Chief Developer Advocate &amp;amp; Gopher Steve Francia presents plainly what you need to know about using MongoDB with Go.
 As an emerging language Go is able to start fresh without years of relational database dependencies. Application and library developers are able to build applications using the excellent Mgo MongoDB driver and the reliable go sql package for relational database.</description>

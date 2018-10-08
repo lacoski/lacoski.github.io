@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogging on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/blogging/</link>
+    <link>https://lacoski.github.io/tags/blogging/</link>
     <description>Recent content in Blogging on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 04 Jul 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo: A fast and flexible static site generator built in GoLang</title>
-      <link>http://lacoski.github.io/project/hugo/</link>
+      <link>https://lacoski.github.io/project/hugo/</link>
       <pubDate>Thu, 04 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/project/hugo/</guid>
+      <guid>https://lacoski.github.io/project/hugo/</guid>
       <description>Hugo Website   Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability. Hugo takes a directory with content and templates and renders them into a full html website.
 Hugo makes use of markdown files with front matter for meta data.
 Written in GoLang for speed, Hugo is significantly faster than most other static site generators.
@@ -26,13 +26,13 @@ A typical website of moderate size can be rendered in a fraction of a second.</d
     
     <item>
       <title>Go Go Hugo blog</title>
-      <link>http://lacoski.github.io/post/go-go-hugo-blog/</link>
+      <link>https://lacoski.github.io/post/go-go-hugo-blog/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-go-hugo-blog/</guid>
+      <guid>https://lacoski.github.io/post/go-go-hugo-blog/</guid>
       <description>&lt;figure &gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
     
     
 &lt;/figure&gt;</description>
@@ -40,28 +40,28 @@ A typical website of moderate size can be rendered in a fraction of a second.</d
     
     <item>
       <title>Protecting Intellectual Property on Your Blog</title>
-      <link>http://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</link>
+      <link>https://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</link>
       <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</guid>
+      <guid>https://lacoski.github.io/post/protect-intellectual-property-on-your-blog/</guid>
       <description>The protection of your intellectual property, or any information that you post to your blog, forum or website, can be a tricky subject. While there are those unscrupulous few out there in the cyber world who will purposely copy your words as their own, there are more people that are simply ignorant of the laws, unaware that they are stealing when they copy and reuse your musings. According to a criminal lawyer at an Orlando based firm that we spoke to, there are steps that you can take to make sure that your intellectual property is protected.</description>
     </item>
     
     <item>
       <title>Moving to WordPress</title>
-      <link>http://lacoski.github.io/post/moving-to-wordpress/</link>
+      <link>https://lacoski.github.io/post/moving-to-wordpress/</link>
       <pubDate>Wed, 23 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/moving-to-wordpress/</guid>
+      <guid>https://lacoski.github.io/post/moving-to-wordpress/</guid>
       <description>I’ve used Drupal to power my blog since I started it over 2 years ago. It has been a bitter sweet relationship, but in general I’ve been pleased. In those two years, WordPress as a product has rocketed past Drupal, and feels much more mature. While Drupal 7 should level the field a bit, it’s a ways away and WordPress 3.0 is already here.</description>
     </item>
     
     <item>
       <title>How I Blog</title>
-      <link>http://lacoski.github.io/post/how-i-blog/</link>
+      <link>https://lacoski.github.io/post/how-i-blog/</link>
       <pubDate>Wed, 07 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/how-i-blog/</guid>
+      <guid>https://lacoski.github.io/post/how-i-blog/</guid>
       <description>Not surprisingly, given my semi random content, I arrive at my posts a few different ways.
 1. I better write this down or I’ll never remember it These posts are the result of a rather frustrating night of problem solving. After reading tons of documentation and googling around, reading forums and discussing on IRC I finally got it working. Now I better write it down so I know how to do it next time.</description>
     </item>

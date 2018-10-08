@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Disaster Recovery on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/disaster-recovery/</link>
+    <link>https://lacoski.github.io/tags/disaster-recovery/</link>
     <description>Recent content in Disaster Recovery on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 04 Oct 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/disaster-recovery/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/disaster-recovery/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Biggest Myths Surrounding Disaster Recovery</title>
-      <link>http://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</link>
+      <link>https://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</link>
       <pubDate>Thu, 04 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/post/top-4-biggest-myths-surrounding-disaster-recovery/</guid>
       <description>There are a variety of reasons businesses either do not have a disaster recovery plan or their current plan is substandard. The beliefs of the people in charge of developing these processes (business owners and IT department) play a significant role in how effective the overall strategy will be. This is problematic when the decision-makers have bought into one or more of the common myths surrounding disaster recovery.</description>
     </item>
     
     <item>
       <title>Replication, Durability, and Disaster Recovery</title>
-      <link>http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</link>
+      <link>https://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</link>
       <pubDate>Mon, 25 Jun 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/presentation/replication-durability-and-disaster-recovery/</guid>
       <description>This session introduces the basic components of high availability before going into a deep dive on MongoDB replication. We’ll explore some of the advanced capabilities with MongoDB replication and best practices to ensure data durability and redundancy. We’ll also look at various deployment scenarios and disaster recovery configurations.
   Replication, Durability, and Disaster Recovery
 View more presentations from Steve Francia</description>
@@ -34,10 +34,10 @@ View more presentations from Steve Francia</description>
     
     <item>
       <title>Backup, Replication and Disaster Recovery</title>
-      <link>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</link>
+      <link>https://lacoski.github.io/post/backups-replication-and-disaster-recovery/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/backups-replication-and-disaster-recovery/</guid>
+      <guid>https://lacoski.github.io/post/backups-replication-and-disaster-recovery/</guid>
       <description>One of the most common concerns people have is how to ensure that their application is safe, secure and available in the event of an emergency. Often I have found that people are mistakenly believe that they are protected when in fact they often have ignored potential scenarios.
 The principles explained apply equally well in RDBMSs, MongoDB and other databases.
 Potential scenarios to protect against  Drive failure Machine failure Switch failure Power circuit failure Data center failure Intrusion Fat fingers Programmer error  Raid To prevent drive failure use multiple drives in a single machine for high availability.</description>

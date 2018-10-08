@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/software/</link>
+    <link>https://lacoski.github.io/tags/software/</link>
     <description>Recent content in Software on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 05 May 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Release early, release often to minimize risk</title>
-      <link>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</link>
+      <link>https://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</link>
       <pubDate>Thu, 05 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</guid>
+      <guid>https://lacoski.github.io/post/release-early-release-often-to-minimize-risk/</guid>
       <description>Release Cycles have been debated for the last 30 years and will certainly be for the next 30. Arguments for longer release cycles with larger releases usually focus on how risky these rapid releases are and the stability and polish these larger releases with their longer cycles bring. These arguments are absolute rubbish. To add to the discussion I’ll put a different emphasis than I’ve heard before. Release early and release often to minimize risk.</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruby on Hacking Management</title>
-    <link>http://lacoski.github.io/topics/ruby/</link>
+    <link>https://lacoski.github.io/topics/ruby/</link>
     <description>Recent content in Ruby on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/topics/ruby/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/topics/ruby/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pointers vs References</title>
-      <link>http://lacoski.github.io/post/go-pointers-vs-references/</link>
+      <link>https://lacoski.github.io/post/go-pointers-vs-references/</link>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-pointers-vs-references/</guid>
+      <guid>https://lacoski.github.io/post/go-pointers-vs-references/</guid>
       <description>Some languages including C, C++ support pointers. Other languages including C++, Java, Python, Ruby, Perl and PHP all support references. On the surface both references and pointers are very similar, both are used to have one variable provide access to another. With both providing a lot of the same capabilities, it’s often unclear what is different between these different mechanisms. In this article I will illustrate the difference between pointers and references.</description>
     </item>
     

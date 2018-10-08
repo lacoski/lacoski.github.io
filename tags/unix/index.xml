@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unix on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/unix/</link>
+    <link>https://lacoski.github.io/tags/unix/</link>
     <description>Recent content in Unix on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Tue, 02 Feb 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Unix Jobs Management</title>
-      <link>http://lacoski.github.io/post/unix-jobs-management/</link>
+      <link>https://lacoski.github.io/post/unix-jobs-management/</link>
       <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/unix-jobs-management/</guid>
+      <guid>https://lacoski.github.io/post/unix-jobs-management/</guid>
       <description>Every self respecting linux, mac os X or *nix user should have a solid handle on managing jobs in unix. The following will explain how to run tasks in the background, bring tasks to the foreground, background already running tasks and keeping a task running while logged out.
 Run a task in the background All you need to to is follow a command with the ‘&amp;amp;’ character. Pretty simple.</description>
     </item>

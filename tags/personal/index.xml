@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/personal/</link>
+    <link>https://lacoski.github.io/tags/personal/</link>
     <description>Recent content in Personal on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Mon, 17 Jun 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go Go Hugo blog</title>
-      <link>http://lacoski.github.io/post/go-go-hugo-blog/</link>
+      <link>https://lacoski.github.io/post/go-go-hugo-blog/</link>
       <pubDate>Mon, 17 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/go-go-hugo-blog/</guid>
+      <guid>https://lacoski.github.io/post/go-go-hugo-blog/</guid>
       <description>&lt;figure &gt;
     
-        &lt;img src=&#34;http://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
+        &lt;img src=&#34;https://lacoski.github.io/media/spf13-responsive.jpg&#34; alt=&#34;spf13 responsive website&#34; /&gt;
     
     
 &lt;/figure&gt;</description>

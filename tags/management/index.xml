@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Management on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/management/</link>
+    <link>https://lacoski.github.io/tags/management/</link>
     <description>Recent content in Management on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 28 Apr 2011 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Favorite Rands Posts</title>
-      <link>http://lacoski.github.io/post/my-favorite-rands-posts/</link>
+      <link>https://lacoski.github.io/post/my-favorite-rands-posts/</link>
       <pubDate>Thu, 28 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/my-favorite-rands-posts/</guid>
+      <guid>https://lacoski.github.io/post/my-favorite-rands-posts/</guid>
       <description>If you don’t know Rands (real name Michael Lopp), you should. His blog is full of excellent content from someone who successfully figured out how to transition from managing bits to Managing Humans (also the title of his first book). Whether you are a developer, a tech manager, or manage something else, you’ll find value in his posts. I’ve been reading his blog for years and it’s influenced my decisions greatly.</description>
     </item>
     
     <item>
       <title>Why Projects Fail</title>
-      <link>http://lacoski.github.io/post/why-projects-fail/</link>
+      <link>https://lacoski.github.io/post/why-projects-fail/</link>
       <pubDate>Tue, 06 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/why-projects-fail/</guid>
+      <guid>https://lacoski.github.io/post/why-projects-fail/</guid>
       <description>Regardless of your title or degree of experience, any misstep could result in a failed project. It’s a good habit to review the following two slide shows, if nothing else to provide a good confirmation that you are on the right track.
 Why Projects Fail: Obstacles and Solutions  View more documents from Michael Krigsman.
 Rome Death March Nov2009   View more documents from yourdon.
@@ -35,19 +35,19 @@ Related articles  Why Software Projects Fail (ribomation.</description>
     
     <item>
       <title>Finding the Right People</title>
-      <link>http://lacoski.github.io/post/finding-the-right-people/</link>
+      <link>https://lacoski.github.io/post/finding-the-right-people/</link>
       <pubDate>Mon, 22 Mar 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/finding-the-right-people/</guid>
+      <guid>https://lacoski.github.io/post/finding-the-right-people/</guid>
       <description>Since I began at Open Sky a few weeks ago I have been tasked with building out a great team. Over the course of my career I have interviewed hundreds of people (mostly developers) and hired dozens. At OpenSky I was able to find and hire 6 fantastic employees in my first 6 weeks and wanted to share some of the tips and techniques I have learned over the years and found successful.</description>
     </item>
     
     <item>
       <title>Checking Vendor References</title>
-      <link>http://lacoski.github.io/post/checking-vendor-references/</link>
+      <link>https://lacoski.github.io/post/checking-vendor-references/</link>
       <pubDate>Fri, 11 Dec 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/checking-vendor-references/</guid>
+      <guid>https://lacoski.github.io/post/checking-vendor-references/</guid>
       <description>One task that should be part of every IT managers is performing reference checks on potential vendors. A vendor reference check goes beyond the sales pitch to reveal the true nature of a product or company. If you’re not performing reference checks you are susceptible of falling prey to a slick sales pitch with nothing but trouble behind it.
 Vendors only provide the customers they are certain will give a glowing endorsement.</description>
     </item>

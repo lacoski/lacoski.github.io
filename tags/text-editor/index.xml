@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Text Editor on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/text-editor/</link>
+    <link>https://lacoski.github.io/tags/text-editor/</link>
     <description>Recent content in Text Editor on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Fri, 25 Jun 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/text-editor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/text-editor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ultimate Vim Config</title>
-      <link>http://lacoski.github.io/post/ultimate-vim-config/</link>
+      <link>https://lacoski.github.io/post/ultimate-vim-config/</link>
       <pubDate>Fri, 25 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/ultimate-vim-config/</guid>
+      <guid>https://lacoski.github.io/post/ultimate-vim-config/</guid>
       <description>I have spent the last few years tweaking and refining my VIM configuration until I had the Ultimate Vim Config. It is well organized and documented taking full advantage of Tpope’s pathogen for a excellent clean and modular configuration. The Ultimate vim config contains the perfect .vimrc file combined with an excellent set of plugins all easily managed thanks to pathogen and git. It is on GitHub so you can always grab the latest.</description>
     </item>
     

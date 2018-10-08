@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>S3 on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/s3/</link>
+    <link>https://lacoski.github.io/tags/s3/</link>
     <description>Recent content in S3 on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Tue, 19 Jan 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/s3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Benchmarking Cloudfront (and S3)</title>
-      <link>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
+      <link>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</link>
       <pubDate>Tue, 19 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
+      <guid>https://lacoski.github.io/post/benchmarking-cloudfront-and-s3/</guid>
       <description>Amazon has done it again bringing another computing service to the masses. This time it’s the Content Delivery Network or CDN. Cloudfront is a direct competitor to other popular CDNs such as Akamai. While Akamai requires a fairly substantial amount of traffic to become a customer, Cloudfront doesn’t. It follows all of Amazons, pay for what you use mentality. This means that everyone can benefit from incorporating Cloudfront into their blog, site, store, etc.</description>
     </item>
     

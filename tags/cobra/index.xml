@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cobra on Hacking Management</title>
-    <link>http://lacoski.github.io/tags/cobra/</link>
+    <link>https://lacoski.github.io/tags/cobra/</link>
     <description>Recent content in Cobra on Hacking Management</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 07 Nov 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://lacoski.github.io/tags/cobra/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lacoski.github.io/tags/cobra/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A modern CLI Commander for go</title>
-      <link>http://lacoski.github.io/post/announcing-cobra/</link>
+      <link>https://lacoski.github.io/post/announcing-cobra/</link>
       <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://lacoski.github.io/post/announcing-cobra/</guid>
+      <guid>https://lacoski.github.io/post/announcing-cobra/</guid>
       <description>While developing Hugo I became disappointed with the interface limitations flags alone provide. A quick look at virtually any command line application (ls, grep, less, etc) reveals that most applications overuse flags to do everything and often allow conflicting flags to be applied.
 Even though hugo is relatively simple, we already had the ability to stack flags that didn&amp;rsquo;t make sense. You can set the port using &amp;ndash;port but this only has an effect if you also specified &amp;ndash;server.</description>
     </item>
