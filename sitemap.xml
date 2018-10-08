@@ -841,13 +841,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/architecture/</loc>
+    <loc>https://lacoski.github.io/tags/architecture/</loc>
     <lastmod>2012-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/architecture/</loc>
+    <loc>https://lacoski.github.io/topics/architecture/</loc>
     <lastmod>2012-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -925,13 +925,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/blogging/</loc>
+    <loc>https://lacoski.github.io/tags/blogging/</loc>
     <lastmod>2013-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/blogging/</loc>
+    <loc>https://lacoski.github.io/topics/blogging/</loc>
     <lastmod>2013-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1051,13 +1051,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/community/</loc>
+    <loc>https://lacoski.github.io/tags/community/</loc>
     <lastmod>2015-03-17T15:24:07-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/community/</loc>
+    <loc>https://lacoski.github.io/topics/community/</loc>
     <lastmod>2015-03-17T15:24:07-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1189,13 +1189,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/development/</loc>
+    <loc>https://lacoski.github.io/tags/development/</loc>
     <lastmod>2017-08-17T10:09:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/development/</loc>
+    <loc>https://lacoski.github.io/topics/development/</loc>
     <lastmod>2017-08-17T10:09:53-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1243,13 +1243,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/docker/</loc>
+    <loc>https://lacoski.github.io/tags/docker/</loc>
     <lastmod>2015-06-05T10:43:50+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/docker/</loc>
+    <loc>https://lacoski.github.io/topics/docker/</loc>
     <lastmod>2015-06-05T10:43:50+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1309,14 +1309,14 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/ecommerce/</loc>
-    <lastmod>2012-01-06T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/tags/ecommerce/</loc>
+    <lastmod>2011-09-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/ecommerce/</loc>
-    <lastmod>2011-09-27T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/topics/ecommerce/</loc>
+    <lastmod>2012-01-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1471,14 +1471,14 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/golang/</loc>
-    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
+    <loc>https://lacoski.github.io/tags/golang/</loc>
+    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/golang/</loc>
-    <lastmod>2014-07-01T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/topics/golang/</loc>
+    <lastmod>2017-08-17T10:09:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1657,14 +1657,14 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/leadership/</loc>
-    <lastmod>2011-05-05T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/tags/leadership/</loc>
+    <lastmod>2010-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/leadership/</loc>
-    <lastmod>2010-03-22T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/topics/leadership/</loc>
+    <lastmod>2011-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1687,13 +1687,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/linux/</loc>
+    <loc>https://lacoski.github.io/tags/linux/</loc>
     <lastmod>2015-06-05T10:43:50+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/linux/</loc>
+    <loc>https://lacoski.github.io/topics/linux/</loc>
     <lastmod>2015-06-05T10:43:50+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1753,13 +1753,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/mongodb/</loc>
+    <loc>https://lacoski.github.io/tags/mongodb/</loc>
     <lastmod>2014-07-23T09:48:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/mongodb/</loc>
+    <loc>https://lacoski.github.io/topics/mongodb/</loc>
     <lastmod>2014-07-23T09:48:46+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1819,13 +1819,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/open-source/</loc>
+    <loc>https://lacoski.github.io/tags/open-source/</loc>
     <lastmod>2015-03-20T18:00:02-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/open-source/</loc>
+    <loc>https://lacoski.github.io/topics/open-source/</loc>
     <lastmod>2015-03-20T18:00:02-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1885,13 +1885,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/personal/</loc>
+    <loc>https://lacoski.github.io/tags/personal/</loc>
     <lastmod>2013-06-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/personal/</loc>
+    <loc>https://lacoski.github.io/topics/personal/</loc>
     <lastmod>2013-06-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1909,13 +1909,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/php/</loc>
+    <loc>https://lacoski.github.io/tags/php/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/php/</loc>
+    <loc>https://lacoski.github.io/topics/php/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1963,14 +1963,14 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/presentations/</loc>
-    <lastmod>2013-09-23T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/tags/presentations/</loc>
+    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/presentations/</loc>
-    <lastmod>2012-09-17T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/topics/presentations/</loc>
+    <lastmod>2013-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2017,13 +2017,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/python/</loc>
+    <loc>https://lacoski.github.io/tags/python/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/python/</loc>
+    <loc>https://lacoski.github.io/topics/python/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2131,13 +2131,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/ruby/</loc>
+    <loc>https://lacoski.github.io/tags/ruby/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/ruby/</loc>
+    <loc>https://lacoski.github.io/topics/ruby/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2245,13 +2245,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/social-media/</loc>
+    <loc>https://lacoski.github.io/tags/social-media/</loc>
     <lastmod>2010-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/social-media/</loc>
+    <loc>https://lacoski.github.io/topics/social-media/</loc>
     <lastmod>2010-07-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2359,14 +2359,14 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/systems/</loc>
-    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/tags/systems/</loc>
+    <lastmod>2010-02-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/systems/</loc>
-    <lastmod>2010-02-02T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/topics/systems/</loc>
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2473,13 +2473,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/vim/</loc>
+    <loc>https://lacoski.github.io/tags/vim/</loc>
     <lastmod>2014-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/vim/</loc>
+    <loc>https://lacoski.github.io/topics/vim/</loc>
     <lastmod>2014-01-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
