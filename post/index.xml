@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Cài đặt Ceph All In One Luminous - CentOS 7</title>
+      <link>https://lacoski.github.io/install-ceph-aio-luminous/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/install-ceph-aio-luminous/</guid>
+      <description>Cài đặt Ceph All in one Luminous - CentOS 7 Chuẩn bị Về tài nguyên Yêu cầu sử dụng 1 node, chạy CentOS 7 64bit
+CPU 2 core RAM 4 GB Disk sba: os sbd,sdc,sde: 3 disk osd Network ens33: 1 replicate data (192.168.2.100) ens34: 1 access ceph (10.0.3.100)  Cấu hình card mạng # Ceph admin echo &amp;quot;Setup IP ens33&amp;quot; nmcli c modify ens33 ipv4.addresses 192.168.2.100/24 nmcli c modify ens33 ipv4.</description>
+    </item>
+    
+    <item>
       <title>Cấu hình multi settings Django</title>
       <link>https://lacoski.github.io/post/django-multi-settings/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>

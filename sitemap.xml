@@ -3,12 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lacoski.github.io/install-ceph-aio-luminous/</loc>
+    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lacoski.github.io/post/django-multi-settings/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://lacoski.github.io/</loc>
+    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lacoski.github.io/tags/ceph/</loc>
+    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lacoski.github.io/topics/ceph/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

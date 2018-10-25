@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Ceph, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Cài đặt Ceph All In One Luminous - CentOS 7 : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/install-ceph-aio-luminous/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-10-25"/>
+<meta property="article:modified_time" content="2018-10-25"/>
+
+
+
+<meta property="article:tag" content="Ceph">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Cài đặt Ceph All In One Luminous - CentOS 7 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Cài đặt Ceph All In One Luminous - CentOS 7 - spf13.com </title>
+    <link rel="canonical" href="https://lacoski.github.io/install-ceph-aio-luminous/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=C%c3%a0i%20%c4%91%e1%ba%b7t%20Ceph%20All%20In%20One%20Luminous%20-%20CentOS%207-https%3a%2f%2flacoski.github.io%2finstall-ceph-aio-luminous%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2finstall-ceph-aio-luminous%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2finstall-ceph-aio-luminous%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2finstall-ceph-aio-luminous%2f&title=C%c3%a0i%20%c4%91%e1%ba%b7t%20Ceph%20All%20In%20One%20Luminous%20-%20CentOS%207&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2finstall-ceph-aio-luminous%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2finstall-ceph-aio-luminous%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2finstall-ceph-aio-luminous%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Cài đặt Ceph All In One Luminous - CentOS 7</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+<h1 id="cài-đặt-ceph-all-in-one-luminous-centos-7">Cài đặt Ceph All in one Luminous - CentOS 7</h1>
+
+<hr />
+
+<h2 id="chuẩn-bị">Chuẩn bị</h2>
+
+<h3 id="về-tài-nguyên">Về tài nguyên</h3>
+
+<p><strong>Yêu cầu sử dụng 1 node, chạy CentOS 7 64bit</strong></p>
+
+<pre><code>CPU         2 core
+RAM         4 GB
+
+Disk        sba: os
+            sbd,sdc,sde: 3 disk osd
+
+Network     ens33: 1 replicate data (192.168.2.100)
+            ens34: 1 access ceph (10.0.3.100)
+</code></pre>
+
+<h3 id="cấu-hình-card-mạng">Cấu hình card mạng</h3>
+
+<pre><code># Ceph admin
+echo &quot;Setup IP ens33&quot;
+nmcli c modify ens33 ipv4.addresses 192.168.2.100/24
+nmcli c modify ens33 ipv4.gateway 192.168.2.2
+nmcli c modify ens33 ipv4.dns 8.8.8.8
+nmcli c modify ens33 ipv4.method manual
+nmcli con mod ens33 connection.autoconnect yes
+
+echo &quot;Setup IP ens34&quot;
+nmcli c modify ens34 ipv4.addresses 10.0.3.100/24
+nmcli c modify ens34 ipv4.method manual
+nmcli con mod ens34 connection.autoconnect yes
+
+systemctl stop firewalld
+systemctl disable firewalld
+</code></pre>
+
+<h2 id="cài-đặt">Cài đặt</h2>
+
+<h3 id="phần-1-cấu-hình-chuẩn-bị-trên-node">Phần 1 - Cấu hình chuẩn bị trên node</h3>
+
+<blockquote>
+<p>Sử dụng quyền <code>root</code></p>
+
+<h4 id="bước-1-tạo-ceph-user">Bước 1: Tạo Ceph User</h4>
+
+<p>Tạo Ceph user &lsquo;cephuser&rsquo; trên node.</p>
+
+<pre><code>useradd -d /home/cephuser -m cephuser
+passwd cephuser
+</code></pre>
+
+<p>Lưu ý:
+- User này sẽ được sử dụng bởi <code>ceph-deploy</code>. Tức, <code>ceph-deploy</code> sẽ sử dụng user này để triển khai các cấu hình của Ceph
+- Nếu bỏ qua user này <code>ceph-deploy</code> sẽ vẫn chạy, nó sẽ tự động sử dụng biến user môi trường.</p>
+</blockquote>
+
+<p>Cấp quyền root cho user vừa tạo</p>
+
+<pre><code>echo &quot;cephuser ALL = (root) NOPASSWD:ALL&quot; | sudo tee /etc/sudoers.d/cephuser
+chmod 0440 /etc/sudoers.d/cephuser
+sed -i s'/Defaults requiretty/#Defaults requiretty'/g /etc/sudoers
+</code></pre>
+
+<h4 id="bước-2-cấu-hình-ntp">Bước 2: Cấu hình NTP</h4>
+
+<p>Sử dụng NTP đồng bộ thời gian trên tất cả các Node.
+&gt; Ở đây sử dụng NTP pool US.</p>
+
+<pre><code>yum install -y ntp ntpdate ntp-doc
+ntpdate 0.us.pool.ntp.org
+hwclock --systohc
+systemctl enable ntpd.service
+systemctl start ntpd.service
+</code></pre>
+
+<h4 id="bước-3-tùy-chọn-nếu-sử-dụng-vmware-cần-sử-dụng-công-cụ-hỗ-trợ">Bước 3 (Tùy chọn): Nếu sử dụng VMware, cần sử dụng công cụ hỗ trợ</h4>
+
+<pre><code>yum install -y open-vm-tools
+</code></pre>
+
+<h4 id="bước-4-hủy-bỏ-selinux">Bước 4: Hủy bỏ SELinux</h4>
+
+<pre><code>sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+</code></pre>
+
+<h4 id="bước-5-cấu-hình-host-file">Bước 5: Cấu hình Host File</h4>
+
+<pre><code>echo '
+192.168.2.100 cephaio' &gt;&gt; /etc/hosts
+</code></pre>
+
+<blockquote>
+<p>Ping thử tới host, kiếm tra Network</p>
+</blockquote>
+
+<h4 id="bước-6-khởi-động-lại-node">Bước 6: Khởi động lại node</h4>
+
+<pre><code>reboot
+</code></pre>
+
+<h3 id="phần-2-cấu-hình-ssh-server">Phần 2: Cấu hình SSH Server</h3>
+
+<blockquote>
+<p>Truy cập cephaio với quyền <code>root</code></p>
+</blockquote>
+
+<h4 id="bước-1-tạo-ssh-key">Bước 1: Tạo ssh-key</h4>
+
+<pre><code>echo -e &quot;\n&quot; | ssh-keygen -t rsa -N &quot;&quot;
+</code></pre>
+
+<h4 id="bước-2-cấu-hình-ssh-file">Bước 2: Cấu hình ssh file</h4>
+
+<pre><code>echo '
+Host cephaio
+        Hostname cephaio
+        User cephuser' &gt; ~/.ssh/config
+</code></pre>
+
+<p>Thay đổi quyền trên file</p>
+
+<pre><code>chmod 644 ~/.ssh/config
+</code></pre>
+
+<p>Thiết lập keypair</p>
+
+<pre><code>ssh-keyscan cephaio &gt;&gt; ~/.ssh/known_hosts
+ssh-copy-id cephaio
+</code></pre>
+
+<blockquote>
+<p>Yều cầu nhập password lần đầu tiền truy cập</p>
+</blockquote>
+
+<h3 id="phần-3-thiết-lập-ceph-cluster">Phần 3: Thiết lập Ceph Cluster</h3>
+
+<blockquote>
+<p>Sử dụng quyền <code>root</code></p>
+</blockquote>
+
+<h4 id="bước-1-cấu-hình-ceph-repo">Bước 1: Cấu hình Ceph repo</h4>
+
+<pre><code>echo '
+[Ceph]
+name=Ceph packages for $basearch
+baseurl=http://download.ceph.com/rpm-luminous/el7/$basearch
+enabled=1
+gpgcheck=1
+type=rpm-md
+gpgkey=https://download.ceph.com/keys/release.asc
+priority=1
+
+[Ceph-noarch]
+name=Ceph noarch packages
+baseurl=http://download.ceph.com/rpm-luminous/el7/noarch
+enabled=1
+gpgcheck=1
+type=rpm-md
+gpgkey=https://download.ceph.com/keys/release.asc
+priority=1
+
+[ceph-source]
+name=Ceph source packages
+baseurl=http://download.ceph.com/rpm-luminous/el7/SRPMS
+enabled=1
+gpgcheck=1
+type=rpm-md
+gpgkey=https://download.ceph.com/keys/release.asc
+priority=1' &gt; /etc/yum.repos.d/ceph.repo
+
+yum update -y 
+</code></pre>
+
+<h4 id="bước-2-cài-đặt-ceph-deploy">Bước 2: Cài đặt ceph-deploy</h4>
+
+<pre><code>yum install ceph-deploy -y
+yum update ceph-deploy -y 
+</code></pre>
+
+<h4 id="bước-3-tạo-mới-ceph-cluster">Bước 3: Tạo mới Ceph Cluster</h4>
+
+<p>Tạo cluster directory</p>
+
+<pre><code>mkdir cluster
+cd cluster/
+</code></pre>
+
+<p>Tạo mới cấu hình ceph, thiết lập node mon</p>
+
+<pre><code>ceph-deploy new cephaio
+</code></pre>
+
+<p>Cấu hình ceph.conf</p>
+
+<pre><code>echo &quot;public network = 192.168.2.0/24&quot; &gt;&gt; ~/cluster/ceph.conf
+echo &quot;cluster network = 10.0.3.0/24&quot; &gt;&gt; ~/cluster/ceph.conf
+</code></pre>
+
+<h4 id="bước-4-cài-đặt-ceph">Bước 4: Cài đặt Ceph</h4>
+
+<pre><code>ceph-deploy install --release luminous cephaio
+</code></pre>
+
+<p>Khởi tạo tiến trình mon</p>
+
+<pre><code>ceph-deploy mon create-initial
+</code></pre>
+
+<h4 id="bước-5-thiết-lập-osd">Bước 5: Thiết lập OSD</h4>
+
+<blockquote>
+<p>Khởi tạo tiến trình OSD</p>
+</blockquote>
+
+<p>Liệt kê OSD</p>
+
+<pre><code>ceph-deploy disk list cephaio
+</code></pre>
+
+<p>Xóa partition tables trên tất cả node với zap option</p>
+
+<pre><code>ceph-deploy disk zap cephaio /dev/sdb
+ceph-deploy disk zap cephaio /dev/sdc
+ceph-deploy disk zap cephaio /dev/sdd
+</code></pre>
+
+<p>Tạo mới OSD</p>
+
+<pre><code>ceph-deploy osd create cephaio --data /dev/sdb
+ceph-deploy osd create cephaio --data /dev/sdc
+ceph-deploy osd create cephaio --data /dev/sdd
+</code></pre>
+
+<p>Kiểm tra tại OSD node</p>
+
+<pre><code>[root@cephaio cluster]# lsblk
+NAME                                                                                                  MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+fd0                                                                                                     2:0    1    4K  0 disk 
+sda                                                                                                     8:0    0   50G  0 disk 
+├─sda1                                                                                                  8:1    0  500M  0 part /boot
+└─sda2                                                                                                  8:2    0 49.5G  0 part 
+  ├─centos-root                                                                                       253:0    0 45.6G  0 lvm  /
+  └─centos-swap                                                                                       253:1    0  3.9G  0 lvm  [SWAP]
+sdb                                                                                                     8:16   0   20G  0 disk 
+└─ceph--0589e5fc--c1e8--4b7c--b373--eee113f49a4e-osd--block--530493fe--a8d3--4f92--bd20--1a0723e913ab 253:2    0   20G  0 lvm  
+sdc                                                                                                     8:32   0   20G  0 disk 
+└─ceph--2444521c--2a9c--4bb6--90e8--f124428859b3-osd--block--2c088db4--5529--43b9--928c--b19c810cac15 253:3    0   20G  0 lvm  
+sdd                                                                                                     8:48   0   20G  0 disk 
+└─ceph--586dc0b9--fe6f--46ab--93bb--18293b57b2a3-osd--block--f8f227f0--f488--41f9--837e--bd6c562d65af 253:4    0   20G  0 lvm  
+sr0                                                                                                    11:0    1  636M  0 rom  
+
+</code></pre>
+
+<p>Khởi tạo quyền admin ceph cho node <code>cephaio</code> (Để node có quyền quản trị Ceph)</p>
+
+<pre><code>ceph-deploy admin cephaio
+</code></pre>
+
+<p>Thiết lập quyền truy cập file</p>
+
+<pre><code>sudo chmod 644 /etc/ceph/ceph.client.admin.keyring
+</code></pre>
+
+<p>Khởi tạo tiến trình ceph mgr (Không khởi tạo có thể gây lỗi ceph)</p>
+
+<pre><code>ceph-deploy mgr create cephaio:ceph-mgr-1
+</code></pre>
+
+<h3 id="phần-4-kiểm-tra-trạng-thái-ceph">Phần 4: Kiểm tra trạng thái Ceph</h3>
+
+<h4 id="kiểm-tra-cluster-health">Kiểm tra cluster health</h4>
+
+<pre><code>[root@cephaio cluster]# sudo ceph health
+HEALTH_OK
+</code></pre>
+
+<h4 id="kiểm-tra-cluster-status">Kiểm tra cluster status</h4>
+
+<pre><code>[root@cephaio cluster]# sudo ceph -s
+  cluster:
+    id:     a0a1f71e-3acd-4035-904d-be26171e1e96
+    health: HEALTH_OK
+ 
+  services:
+    mon: 1 daemons, quorum cephaio
+    mgr: ceph-mgr-1(active)
+    osd: 3 osds: 3 up, 3 in
+ 
+  data:
+    pools:   0 pools, 0 pgs
+    objects: 0 objects, 0 bytes
+    usage:   3077 MB used, 58350 MB / 61428 MB avail
+    pgs:     
+
+</code></pre>
+
+<h3 id="phần-5-chỉnh-sửa-crush-map">Phần 5: Chỉnh sửa Crush map</h3>
+
+<blockquote>
+<p>Truy cập với quyền <code>root</code>
+Lưu ý:
+- Khi cài đặt Ceph All In One, cần phải bổ sung cấu hình sau để lab các tính năng khác</p>
+</blockquote>
+
+<p>Truy cập Cluster config, lấy crush map hiện tại</p>
+
+<pre><code>cd cluster/
+ceph osd getcrushmap -o map.bin
+crushtool -d map.bin -o map.txt
+</code></pre>
+
+<p>Chỉnh sửa crush map</p>
+
+<pre><code>sed -i 's/step chooseleaf firstn 0 type host/step chooseleaf firstn 0 type osd/g' ~/cluster/map.txt
+</code></pre>
+
+<pre><code>crushtool -c map.txt -o map-new.bin
+ceph osd setcrushmap -i map-new.bin
+</code></pre>
+
+<h3 id="phần-6-khởi-tạo-ceph-dashboard">Phần 6: Khởi tạo Ceph Dashboard</h3>
+
+<blockquote>
+<p>Sử dụng cho mục đính giám sát Ceph</p>
+
+<h4 id="liệt-kê-các-module-hiện-có">Liệt kê các module hiện có</h4>
+
+<pre><code>[root@cephaio cluster]# ceph mgr dump
+{
+    &quot;epoch&quot;: 29,
+    &quot;active_gid&quot;: 4118,
+    &quot;active_name&quot;: &quot;ceph-mgr-1&quot;,
+    &quot;active_addr&quot;: &quot;192.168.2.100:6806/12549&quot;,
+    &quot;available&quot;: true,
+    &quot;standbys&quot;: [],
+    &quot;modules&quot;: [
+        &quot;balancer&quot;,
+        &quot;restful&quot;,
+        &quot;status&quot;
+    ],
+    &quot;available_modules&quot;: [
+        &quot;balancer&quot;,
+        &quot;dashboard&quot;, # Enable dashboard
+        &quot;influx&quot;,
+        &quot;localpool&quot;,
+        &quot;prometheus&quot;,
+        &quot;restful&quot;,
+        &quot;selftest&quot;,
+        &quot;status&quot;,
+        &quot;zabbix&quot;
+    ],
+    &quot;services&quot;: {}
+}
+</code></pre>
+
+<h4 id="kích-hoạt-module-dashboard">Kích hoạt module dashboard</h4>
+
+<pre><code>ceph mgr module enable dashboard
+</code></pre>
+
+<h4 id="kiểm-tra-lại">Kiểm tra lại</h4>
+
+<pre><code>[root@cephaio cluster]# ceph mgr dump
+{
+    &quot;epoch&quot;: 33,
+    &quot;active_gid&quot;: 4123,
+    &quot;active_name&quot;: &quot;ceph-mgr-1&quot;,
+    &quot;active_addr&quot;: &quot;192.168.2.100:6806/12549&quot;,
+    &quot;available&quot;: true,
+    &quot;standbys&quot;: [],
+    &quot;modules&quot;: [
+        &quot;balancer&quot;,
+        &quot;dashboard&quot;,
+        &quot;restful&quot;,
+        &quot;status&quot;
+    ],
+    &quot;available_modules&quot;: [
+        &quot;balancer&quot;,
+        &quot;dashboard&quot;,
+        &quot;influx&quot;,
+        &quot;localpool&quot;,
+        &quot;prometheus&quot;,
+        &quot;restful&quot;,
+        &quot;selftest&quot;,
+        &quot;status&quot;,
+        &quot;zabbix&quot;
+    ],
+    &quot;services&quot;: {
+        &quot;dashboard&quot;: &quot;http://cephaio:7000/&quot;
+    }
+}
+</code></pre>
+</blockquote>
+
+<h4 id="truy-cập-giao-diện">Truy cập giao diện</h4>
+
+<pre><code>http://&lt;ip&gt;:7000/
+</code></pre>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Thu Oct 25, 2018 </h4>
+          <h5 id="wc"> 1000 Words </h5>
+          <h5 id="readtime"> Read in about 5 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/ceph">Ceph</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/ceph">Ceph</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/post/django-multi-settings/">Cấu hình multi settings Django <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="990">
+<meta itemprop="datePublished" content="2018-10-25">
+<meta itemprop="url" content="https://lacoski.github.io/install-ceph-aio-luminous/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+
