@@ -2,40 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ceph on Blog của Nguyễn Bá Thành</title>
-    <link>https://lacoski.github.io/tags/ceph/</link>
+    <link>http://thanhnb.devopsviet.com/tags/ceph/</link>
     <description>Recent content in Ceph on Blog của Nguyễn Bá Thành</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>Copyright (c) 2018 - 2018, lacoski; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://lacoski.github.io/tags/ceph/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://thanhnb.devopsviet.com/tags/ceph/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Các giải pháp Ceph</title>
-      <link>https://lacoski.github.io/ceph-solution/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <title>Phần 4 - Nội tại Ceph</title>
+      <link>http://thanhnb.devopsviet.com/ceph-internal/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lacoski.github.io/ceph-solution/</guid>
+      <guid>http://thanhnb.devopsviet.com/ceph-internal/</guid>
+      <description>Object Object bao gồm thành phần dữ liệu và các metadata liên quan, 1 thuộc tính định danh (globally unique identifier) đối tượng. Định danh riêng bảo đảm object sẽ độc nhất trong storage cluster. Khác file-based storage bị gói hạn size. Object có thể có size to và có thể thay đôi metadata. Dữ liệu được lưu với nhiều metadata, các thông tin này mổ tả dữ liệu lưu trữ.</description>
+    </item>
+    
+    <item>
+      <title>Phần 3 - Kiến trúc Ceph</title>
+      <link>http://thanhnb.devopsviet.com/ceph-achitechture/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://thanhnb.devopsviet.com/ceph-achitechture/</guid>
+      <description>Kiển trúc, thành phần Ceph Ceph storage cluster xây dựng từ một vài tiến trình phần mềm. Mỗi tiến trình đều có vài trò riêng trong tính năng của Ceph và có những giá trị đặc biệt tương ứng. Đây là yếu tố góp phần giảm giá thành khi so sánh Ceph với các hệ thống tương tự.
+Lưu trữ phân phối dữ liệu đáng tin cây (RADOS) Yếu tố nền tảng tạo nên Ceph storage cluster.</description>
+    </item>
+    
+    <item>
+      <title>Phần 2 - Các giải pháp Ceph</title>
+      <link>http://thanhnb.devopsviet.com/ceph-solution/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://thanhnb.devopsviet.com/ceph-solution/</guid>
       <description>Giải pháp lưu trữ khối - Ceph block storage Lưu trữ khối là phương thức truyền thống được sử dụng trong mạng lưu trữ (SAN). Tại đây, dữ liệu lưu trữ dưới dạng các ổ ảo nằm trên các khối, được trừ tượng hóa tại các node. Với giải pháp khối, các ổ đĩa ảo sẽ được map tới hệ điều hành, được kiểm soát bới filesystem layout. Để tạo ra giải pháp toàn diện, Ceph giới thiệu giao thức RBD - Ceph Block Device, giải pháp này cung cấp các ổ đĩa ảo tương tự với SAN.</description>
     </item>
     
     <item>
-      <title>Tổng quan về Ceph</title>
-      <link>https://lacoski.github.io/ceph-overview/</link>
+      <title>Phần 1 - Tổng quan về Ceph</title>
+      <link>http://thanhnb.devopsviet.com/ceph-overview/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lacoski.github.io/ceph-overview/</guid>
+      <guid>http://thanhnb.devopsviet.com/ceph-overview/</guid>
       <description>Giới thiệu Ceph là dự án mã nguồn mở, cung cấp giải pháp lưu trữ dữ liệu. Ceph cung cấp giải pháp lưu trữ phân tán mạnh mẽ, đáp ứng các yêu cầu về khả năng mở rộng, hiệu năng, khả năng chịu lỗi cao. Xuất phát từ mục tiêu ban đầu, Ceph được thiết kết với khả năng mở rộng không giới hạn, hỗ trợ lưu trữ tới mức exabyte, cùng với khả năng tương thích cao với các phần cứng có sẵn.</description>
     </item>
     
     <item>
       <title>Cài đặt Ceph All In One Luminous - CentOS 7</title>
-      <link>https://lacoski.github.io/install-ceph-aio-luminous/</link>
+      <link>http://thanhnb.devopsviet.com/install-ceph-aio-luminous/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lacoski.github.io/install-ceph-aio-luminous/</guid>
+      <guid>http://thanhnb.devopsviet.com/install-ceph-aio-luminous/</guid>
       <description>Chuẩn bị Về tài nguyên Yêu cầu sử dụng 1 node, chạy CentOS 7 64bit
 CPU 2 core RAM 4 GB Disk sba: os sbd,sdc,sde: 3 disk osd Network ens33: 1 replicate data (192.168.2.100) ens34: 1 access ceph (10.0.3.100)  Cấu hình card mạng # Ceph admin echo &amp;quot;Setup IP ens33&amp;quot; nmcli c modify ens33 ipv4.addresses 192.168.2.100/24 nmcli c modify ens33 ipv4.gateway 192.168.2.2 nmcli c modify ens33 ipv4.dns 8.8.8.8 nmcli c modify ens33 ipv4.</description>
     </item>

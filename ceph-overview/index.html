@@ -15,13 +15,13 @@
  
 <meta property="og:type" content="article"/>
 <meta property="og:description" content=""/>
-<meta property="og:title" content="Tổng quan về Ceph : spf13.com"/>
+<meta property="og:title" content="Phần 1 - Tổng quan về Ceph : spf13.com"/>
 <meta property="og:site_name" content="spf13 is Steve Francia"/>
 <meta property="og:image" content="" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="" />
 <meta property="og:image:height" content="" />
-<meta property="og:url" content="https://lacoski.github.io/ceph-overview/">
+<meta property="og:url" content="http://thanhnb.devopsviet.com/ceph-overview/">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2018-12-01"/>
 <meta property="article:modified_time" content="2018-12-01"/>
@@ -36,7 +36,7 @@
 <meta name="twitter:card" content="summary">
 
 <meta name="twitter:site" content="@spf13">
-<meta name="twitter:title" content="Tổng quan về Ceph : spf13.com">
+<meta name="twitter:title" content="Phần 1 - Tổng quan về Ceph : spf13.com">
 <meta name="twitter:creator" content="@spf13">
 <meta name="twitter:description" content="">
 <meta name="twitter:image:src" content="">
@@ -44,9 +44,9 @@
 
 
 
-    <base href="https://lacoski.github.io/">
-    <title> Tổng quan về Ceph - spf13.com </title>
-    <link rel="canonical" href="https://lacoski.github.io/ceph-overview/">
+    <base href="http://thanhnb.devopsviet.com/">
+    <title> Phần 1 - Tổng quan về Ceph - spf13.com </title>
+    <link rel="canonical" href="http://thanhnb.devopsviet.com/ceph-overview/">
     
 
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
@@ -98,13 +98,13 @@
                 <span class="title"> Chia sẻ </span>
                 <div class="dropdown share">
                     <ul class="social">
-                      <li> <a href="https://twitter.com/intent/tweet?status=T%e1%bb%95ng%20quan%20v%e1%bb%81%20Ceph-https%3a%2f%2flacoski.github.io%2fceph-overview%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
-                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2fceph-overview%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
-                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2fceph-overview%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
-                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2fceph-overview%2f&title=T%e1%bb%95ng%20quan%20v%e1%bb%81%20Ceph&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
-                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2fceph-overview%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
-                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2fceph-overview%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
-                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2fceph-overview%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                      <li> <a href="https://twitter.com/intent/tweet?status=Ph%e1%ba%a7n%201%20-%20T%e1%bb%95ng%20quan%20v%e1%bb%81%20Ceph-http%3a%2f%2fthanhnb.devopsviet.com%2fceph-overview%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fthanhnb.devopsviet.com%2fceph-overview%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2fthanhnb.devopsviet.com%2fceph-overview%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fthanhnb.devopsviet.com%2fceph-overview%2f&title=Ph%e1%ba%a7n%201%20-%20T%e1%bb%95ng%20quan%20v%e1%bb%81%20Ceph&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2fthanhnb.devopsviet.com%2fceph-overview%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2fthanhnb.devopsviet.com%2fceph-overview%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fthanhnb.devopsviet.com%2fceph-overview%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
                     </ul>
                     <span class="subcount">Chia sẻ bài viết</span>
                 </div>
@@ -128,7 +128,7 @@
 
 
 <section id="main">
-  <h1 itemprop="name" id="title">Tổng quan về Ceph</h1>
+  <h1 itemprop="name" id="title">Phần 1 - Tổng quan về Ceph</h1>
   <div>
         <article itemprop="articleBody" id="content">
            
@@ -197,21 +197,21 @@ Bên cạnh phương pháp nhân bản, Ceph cung cấp &ldquo;erasure-coding te
         </section>
         <ul id="categories">
           
-            <li><a href="https://lacoski.github.io//topics/ceph">Ceph</a> </li>
+            <li><a href="http://thanhnb.devopsviet.com//topics/ceph">Ceph</a> </li>
           
         </ul>
         <ul id="tags">
           
-            <li> <a href="https://lacoski.github.io//tags/ceph">Ceph</a> </li>
+            <li> <a href="http://thanhnb.devopsviet.com//tags/ceph">Ceph</a> </li>
           
         </ul>
     </div>
 
     <div>
         <section id="prev">
-            &nbsp;<a class="previous" href="https://lacoski.github.io/ceph-solution/"><i class="icon-arrow-left"></i> Các giải pháp Ceph</a><br>
+            &nbsp;<a class="previous" href="http://thanhnb.devopsviet.com/ceph-solution/"><i class="icon-arrow-left"></i> Phần 2 - Các giải pháp Ceph</a><br>
         </section><section id="next">
-            &nbsp;<a class="next" href="https://lacoski.github.io/install-ceph-aio-luminous/">Cài đặt Ceph All In One Luminous - CentOS 7 <i class="icon-arrow-right"></i></a>
+            &nbsp;<a class="next" href="http://thanhnb.devopsviet.com/install-ceph-aio-luminous/">Cài đặt Ceph All In One Luminous - CentOS 7 <i class="icon-arrow-right"></i></a>
         </section>
     </div>
 
@@ -234,15 +234,14 @@ Bên cạnh phương pháp nhân bản, Ceph cung cấp &ldquo;erasure-coding te
 
 <meta itemprop="wordCount" content="1784">
 <meta itemprop="datePublished" content="2018-12-01">
-<meta itemprop="url" content="https://lacoski.github.io/ceph-overview/">
+<meta itemprop="url" content="http://thanhnb.devopsviet.com/ceph-overview/">
 
 
 
 <footer>
   <div>
     <p>
-    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">Steve Francia.</span></span>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
     <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
     please attribute properly and link back. <br>
     Powered by <a href="http://gohugo.io">Hugo</a>.
