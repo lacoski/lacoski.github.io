@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Django on Blog của Nguyễn Bá Thành</title>
-    <link>http://thanhnb.devopsviet.com/topics/django/</link>
+    <link>https://thanhnb.devopsviet.com/topics/django/</link>
     <description>Recent content in Django on Blog của Nguyễn Bá Thành</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2018 - 2018, lacoski; all rights reserved.</copyright>
     <lastBuildDate>Thu, 25 Oct 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://thanhnb.devopsviet.com/topics/django/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thanhnb.devopsviet.com/topics/django/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cấu hình multi settings Django</title>
-      <link>http://thanhnb.devopsviet.com/post/django-multi-settings/</link>
+      <link>https://thanhnb.devopsviet.com/post/django-multi-settings/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://thanhnb.devopsviet.com/post/django-multi-settings/</guid>
+      <guid>https://thanhnb.devopsviet.com/post/django-multi-settings/</guid>
       <description>Cấu trúc cũ của project: project/ |-- project/ | |-- __init__.py | |-- settings.py | |-- urls.py | +-- wsgi.py +-- manage.py  Cấu trúc multi setting django Chỉnh sửa cấu trúc thư mục project/ |-- project/ | |-- __init__.py | |-- settings/ &amp;lt;-- | | |-- __init__.py &amp;lt;-- Khởi tạo thư mục | | +-- base.py &amp;lt;-- Khởi tại file base settings | |-- urls.py | +-- wsgi.py +-- manage.</description>
     </item>
     
