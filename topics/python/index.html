@@ -133,7 +133,7 @@
       <div class="post-meta">Thu, Oct 25, 2018 -  Read in 3 Min </div>
     </header>
 
-    Cách sử dụng nhiều môi trường khác nhau trên Django Cấu trúc cũ của project: project/ |-- project/ | |-- __init__.py | |-- settings.py | |-- urls.py | +-- wsgi.py +-- manage.py  Cấu trúc multi setting django Chỉnh sửa cấu trúc thư mục project/ |-- project/ | |-- __init__.py | |-- settings/ &lt;-- | | |-- __init__.py &lt;-- Khởi tạo thư mục | | +-- base.py &lt;-- Khởi tại file base settings | |-- urls.
+    Cấu trúc cũ của project: project/ |-- project/ | |-- __init__.py | |-- settings.py | |-- urls.py | +-- wsgi.py +-- manage.py  Cấu trúc multi setting django Chỉnh sửa cấu trúc thư mục project/ |-- project/ | |-- __init__.py | |-- settings/ &lt;-- | | |-- __init__.py &lt;-- Khởi tạo thư mục | | +-- base.py &lt;-- Khởi tại file base settings | |-- urls.py | +-- wsgi.py +-- manage.
     <footer>
         <a href='https://lacoski.github.io/post/django-multi-settings/'><nobr>Read more →</nobr></a>
     </footer>

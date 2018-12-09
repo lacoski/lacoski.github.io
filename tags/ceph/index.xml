@@ -18,8 +18,17 @@
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/install-ceph-aio-luminous/</guid>
-      <description>Cài đặt Ceph All in one Luminous - CentOS 7 Chuẩn bị Về tài nguyên Yêu cầu sử dụng 1 node, chạy CentOS 7 64bit
-CPU 2 core RAM 4 GB Disk sba: os sbd,sdc,sde: 3 disk osd Network ens33: 1 replicate data (192.168.2.100) ens34: 1 access ceph (10.0.3.100)  Cấu hình card mạng # Ceph admin echo &amp;quot;Setup IP ens33&amp;quot; nmcli c modify ens33 ipv4.addresses 192.168.2.100/24 nmcli c modify ens33 ipv4.</description>
+      <description>Chuẩn bị Về tài nguyên Yêu cầu sử dụng 1 node, chạy CentOS 7 64bit
+CPU 2 core RAM 4 GB Disk sba: os sbd,sdc,sde: 3 disk osd Network ens33: 1 replicate data (192.168.2.100) ens34: 1 access ceph (10.0.3.100)  Cấu hình card mạng # Ceph admin echo &amp;quot;Setup IP ens33&amp;quot; nmcli c modify ens33 ipv4.addresses 192.168.2.100/24 nmcli c modify ens33 ipv4.gateway 192.168.2.2 nmcli c modify ens33 ipv4.dns 8.8.8.8 nmcli c modify ens33 ipv4.</description>
+    </item>
+    
+    <item>
+      <title>Tổng quan về Ceph</title>
+      <link>https://lacoski.github.io/ceph-overview/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/ceph-overview/</guid>
+      <description>Giới thiệu Ceph là dự án mã nguồn mở, cung cấp giải pháp lưu trữ dữ liệu. Ceph cung cấp giải pháp lưu trữ phân tán mạnh mẽ, đáp ứng các yêu cầu về khả năng mở rộng, hiệu năng, khả năng chịu lỗi cao. Xuất phát từ mục tiêu ban đầu, Ceph được thiết kết với khả năng mở rộng không giới hạn, hỗ trợ lưu trữ tới mức exabyte, cùng với khả năng tương thích cao với các phần cứng có sẵn.</description>
     </item>
     
   </channel>
