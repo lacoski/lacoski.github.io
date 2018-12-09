@@ -13,18 +13,7 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/ceph-overview/</loc>
-    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lacoski.github.io/</loc>
-    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lacoski.github.io/topics/ceph/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -36,13 +25,19 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/django/</loc>
+    <loc>https://lacoski.github.io/topics/ceph/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lacoski.github.io/tags/django/</loc>
+    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lacoski.github.io/topics/django/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
