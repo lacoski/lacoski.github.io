@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lacoski.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Các giải pháp Ceph</title>
+      <link>https://lacoski.github.io/ceph-solution/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/ceph-solution/</guid>
+      <description>Giải pháp lưu trữ khối - Ceph block storage Lưu trữ khối là phương thức truyền thống được sử dụng trong mạng lưu trữ (SAN). Tại đây, dữ liệu lưu trữ dưới dạng các ổ ảo nằm trên các khối, được trừ tượng hóa tại các node. Với giải pháp khối, các ổ đĩa ảo sẽ được map tới hệ điều hành, được kiểm soát bới filesystem layout. Để tạo ra giải pháp toàn diện, Ceph giới thiệu giao thức RBD - Ceph Block Device, giải pháp này cung cấp các ổ đĩa ảo tương tự với SAN.</description>
+    </item>
+    
+    <item>
+      <title>Tổng quan về Ceph</title>
+      <link>https://lacoski.github.io/ceph-overview/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/ceph-overview/</guid>
+      <description>Giới thiệu Ceph là dự án mã nguồn mở, cung cấp giải pháp lưu trữ dữ liệu. Ceph cung cấp giải pháp lưu trữ phân tán mạnh mẽ, đáp ứng các yêu cầu về khả năng mở rộng, hiệu năng, khả năng chịu lỗi cao. Xuất phát từ mục tiêu ban đầu, Ceph được thiết kết với khả năng mở rộng không giới hạn, hỗ trợ lưu trữ tới mức exabyte, cùng với khả năng tương thích cao với các phần cứng có sẵn.</description>
+    </item>
     
     <item>
       <title>Cài đặt Ceph All In One Luminous - CentOS 7</title>
@@ -29,6 +47,15 @@ CPU 2 core RAM 4 GB Disk sba: os sbd,sdc,sde: 3 disk osd Network ens33: 1 replic
       
       <guid>https://lacoski.github.io/post/django-multi-settings/</guid>
       <description>Cấu trúc cũ của project: project/ |-- project/ | |-- __init__.py | |-- settings.py | |-- urls.py | +-- wsgi.py +-- manage.py  Cấu trúc multi setting django Chỉnh sửa cấu trúc thư mục project/ |-- project/ | |-- __init__.py | |-- settings/ &amp;lt;-- | | |-- __init__.py &amp;lt;-- Khởi tạo thư mục | | +-- base.py &amp;lt;-- Khởi tại file base settings | |-- urls.py | +-- wsgi.py +-- manage.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lacoski.github.io/post/ceph-achitechture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/post/ceph-achitechture/</guid>
+      <description></description>
     </item>
     
   </channel>

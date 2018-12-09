@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2008 - 2018, Steve Francia; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lacoski.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Ceph</title>
       <link>https://lacoski.github.io/topics/ceph/</link>
-      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/topics/ceph/</guid>
       <description></description>

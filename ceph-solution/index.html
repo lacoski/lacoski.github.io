@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Ceph, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Các giải pháp Ceph : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/ceph-solution/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-12-01"/>
+<meta property="article:modified_time" content="2018-12-01"/>
+
+
+
+<meta property="article:tag" content="Ceph">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Các giải pháp Ceph : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Các giải pháp Ceph - spf13.com </title>
+    <link rel="canonical" href="https://lacoski.github.io/ceph-solution/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=C%c3%a1c%20gi%e1%ba%a3i%20ph%c3%a1p%20Ceph-https%3a%2f%2flacoski.github.io%2fceph-solution%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2fceph-solution%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2fceph-solution%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2fceph-solution%2f&title=C%c3%a1c%20gi%e1%ba%a3i%20ph%c3%a1p%20Ceph&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2fceph-solution%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2fceph-solution%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2fceph-solution%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Các giải pháp Ceph</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+<h2 id="giải-pháp-lưu-trữ-khối-ceph-block-storage">Giải pháp lưu trữ khối - Ceph block storage</h2>
+
+<p>Lưu trữ khối là phương thức truyền thống được sử dụng trong mạng lưu trữ (SAN). Tại đây, dữ liệu lưu trữ dưới dạng các ổ ảo nằm trên các khối, được trừ tượng hóa tại các node. Với giải pháp khối, các ổ đĩa ảo sẽ được map tới hệ điều hành, được kiểm soát bới filesystem layout. Để tạo ra giải pháp toàn diện, Ceph giới thiệu giao thức RBD - Ceph Block Device, giải pháp này cung cấp các ổ đĩa ảo tương tự với SAN.
+RBD cung cấp sự bảo đảm, tính phân phối, hiệu năng cao trên block storage disk trên mỗi client. Với bản chất các RBD block chia thành nhiều object, phân tán trên toàn Ceph Cluster, cung cấp tính bảo đảm, hiệu năng cao. RBD hỗ trợ mức Linux kernel, và được tích hợp sẵn vơi Linux kernel, cung cấp các tính năng snapshot tốc độ cao, nhẹ, copy-on-write cloning, và nhiều phương pháp nữa v.v. Hỗ trợ in-memory caching, nâng cao hiệu năng. Ceph RBD hỗ trợ image size tới 16EB. Image có thể là cung cấp dưới dạng ổ đĩa ảo, máy ảo, v.v. Các công nghệ KVM, Zen hỗ trợ đầy đủ RBD, xử lý, lưu trữ trên các VM. Ceph block hỗ trợ đầy đủ các nền tảng ảo hóa mới OpenStack, CloudStack, v.v.</p>
+
+<p><img src="/media/ceph-block-storage.png" alt="" /></p>
+
+<h2 id="hệ-thống-tệp-mới-ceph-filesystem">Hệ thống tệp mới - Ceph filesystem</h2>
+
+<p>Hệ thống tệp của Ceph (Ceph filesystem hay CephFS) là hệ thống tệp tương thích mức POSIX, sử dụng để lưu trữ dữ liệu người dùng. CephFS hỗ trợ tốt Linux kernel driver, khiến CephFS tương thích tốt với các nền tảng Linux OS. CephFS lưu dữ liệu và các metadata riêng biệt, cung cấp hiệu năng, tính bảo đảm cho các ứng dụng nằm trên nó. Trong Ceph cluster, Cephfslib (libcephfs) chạy trên Rados library (librados) – giao thức thuộc Ceph storage - file, block, and object storage. Để sử dụng CephFS, cần ít nhất một Ceph metadata server (MDS) để chạy trong cụm. Tuy nhiên, việc sử dụng duy nhất một MDS server nó sẽ ảnh hưởng tính chịu lỗi Ceph.
+Sau khi cấu hình MDS, client có thể sử dụng CephFS theo nhiều cách. Để mount Cephfs, client cần sử dụng Linux kernel hoặc ceph-fuse (filesystem in user space) drivers cung cấp bởi cộng đồng Ceph.
+Bên cạnh đó, Client có thể sử dụng phần mềm thứ 3 như Ganesha for NFS and Samba for SMB/CIFS. Phần mềm cho phép tương tác với &ldquo;libcephfs&rdquo;, bảo đảm lưu trữ dữ liệu người dùng phân tán trong Ceph storage cluster. CephFS có thể sử dụng cho Apache Hadoop File System (HDFS). CephFS sử dụng thư viên libcephfs để lưu trữ dữ liệu tại Ceph Cluster. Thành phần libcephfs và librados rất linh hoạt và ta có thể xây dựng phiên bản tùy chỉnh, tương tác với nó, xây dựng phương pháp tổ chức dữ liệu bên dưới Ceph Storage Cluster.</p>
+
+<p><img src="/media/ceph-file-system.png" alt="" /></p>
+
+<h2 id="giải-pháp-lưu-trữ-đối-tượng-ceph-object-storage">Giải pháp lưu trữ đối tượng - Ceph object storage</h2>
+
+<p>Phương pháp lưu trữ dữ liệu dưới dạng object thay vì trên các file, block truyền thống. Lưu trữ dạng đối tượng được coi là giải pháp lưu trữ cho nên công nghiệp lưu trữ. Vì các tổ chức mong muốn giải pháp lưu trữ toàn diện cho lượng dữ liệu khổng lồ. Từ đó Ceph xây dựng giải pháp thực sự dựa trên nền tảng lưu trữ đối tượng. Ceph phân phối tổ chức dữ liệu hoàn toàn bằng các đối tượng, cung cấp giao diện truy cập thông qua Ceph Object gateway, được biết là RADOS gateway (radosgw).
+RADOS gateway (radosgw) sử dụng librgw (the RADOS gateway library) và librados, cho phép ứng dụng thiết lập kết nối với Ceph object storage. Ceph cung cấp giải pháp lưu trữ ổn định, và có thể truy cập thông qua RESTful API. The RADOS gateway cung cấp RESTful interface để sử dụng cho application lưu trữ dữ liệu trên Ceph storage cluster.</p>
+
+<p>Giao diện cung cấp bởi RADOS gồm:
+- Swift compatibility: Chuẩn giao tiếp object storage của OpenStack (Swift API)
+- S3 compatibility: Chuẩn giao tiếp object storage (Amazon S3 API)
+- Admin API: Giao thức quản trị  (management API, native API), có thể sử dụng trực tiếp tại ứng dụng, từ đó lấy quyển truy cập vào Storage System thực hiện công tác quản trị (management purposes)</p>
+
+<p>Để truy cập Ceph Object Storage System, ta có thể sử dụng RADOS gateway layer. librados software libraries cho phép user app truy cập trực tiếp đến Ceph bằng các ngôn ngữ C, C++, Java, Python, and PHP. Đồng thời, Ceph Object Storage có khả năng cung cấp khả năng lưu trữ trên nhiều site, cung cấp giải pháp khi gặp sự cố. Việc cấu hình Object Storage có thể thực hiện bởi Rados hoặc federated gateways</p>
+
+<p><img src="/media/ceph-object-storage.png" alt="" /></p>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Sat Dec 1, 2018 </h4>
+          <h5 id="wc"> 900 Words </h5>
+          <h5 id="readtime"> Read in about 4 Min </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/ceph">Ceph</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/ceph">Ceph</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/ceph-overview/">Tổng quan về Ceph <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="819">
+<meta itemprop="datePublished" content="2018-12-01">
+<meta itemprop="url" content="https://lacoski.github.io/ceph-solution/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2013-18 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Steve Francia.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+
