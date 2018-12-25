@@ -88,12 +88,32 @@ Cloud Computing là mô hình cho phép truy cập qua mạng để lựa chọn
     </item>
     
     <item>
+      <title>Hướng dẫn cài đặt Gitlab</title>
+      <link>https://lacoski.github.io/gitlab/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/gitlab/</guid>
+      <description>&lt;p&gt;Tổng quan và hướng dẫn cài đặt gitlab
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Cài đặt Ceph All In One Luminous - CentOS 7</title>
       <link>https://lacoski.github.io/install-ceph-aio-luminous/</link>
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/install-ceph-aio-luminous/</guid>
       <description>&lt;p&gt;Hướng dẫn cài đặt Ceph Luminous
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cài đặt Nextcloud 13 trên CentOS 7</title>
+      <link>https://lacoski.github.io/install-next-cloud/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/install-next-cloud/</guid>
+      <description>&lt;p&gt;Hướng dẫn cài đặt Nextcloud 13 trên CentOS 7
 &lt;/p&gt;</description>
     </item>
     

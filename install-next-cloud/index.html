@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Ceph, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Cài đặt Nextcloud 13 trên CentOS 7 : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/install-next-cloud/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-10-25"/>
+<meta property="article:modified_time" content="2018-10-25"/>
+
+
+
+<meta property="article:tag" content="Ceph">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Cài đặt Nextcloud 13 trên CentOS 7 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Cài đặt Nextcloud 13 trên CentOS 7 - lacoski.github.io </title>
+    <link rel="canonical" href="https://lacoski.github.io/install-next-cloud/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=C%c3%a0i%20%c4%91%e1%ba%b7t%20Nextcloud%2013%20tr%c3%aan%20CentOS%207-https%3a%2f%2flacoski.github.io%2finstall-next-cloud%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2finstall-next-cloud%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2finstall-next-cloud%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2finstall-next-cloud%2f&title=C%c3%a0i%20%c4%91%e1%ba%b7t%20Nextcloud%2013%20tr%c3%aan%20CentOS%207&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2finstall-next-cloud%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2finstall-next-cloud%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2finstall-next-cloud%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Cài đặt Nextcloud 13 trên CentOS 7</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>Hướng dẫn cài đặt Nextcloud 13 trên CentOS 7
+</p>
+
+<h2 id="chuẩn-bị">Chuẩn bị</h2>
+
+<p>Chuẩn bị 1 node, chạy CentOS 7 với cấu hình</p>
+
+<pre><code>CPU:       2 core
+RAM:       2 gb
+HDD:       50 gb
+Network:   ens33 - 192.168.2.143 (NAT Card)
+</code></pre>
+
+<h2 id="cài-đặt">Cài đặt</h2>
+
+<h3 id="phần-1-cài-đặt-php-7-2-x">Phần 1: Cài đặt Php 7.2.x</h3>
+
+<h4 id="bước-1-cài-đặt-repo-epel-và-remo-trong-centos-7">Bước 1: Cài đặt repo EPEL và REMO trong CentOS 7</h4>
+
+<pre><code>yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y
+
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
+</code></pre>
+
+<h4 id="bước-2-cài-đặt-yum-utils">Bước 2: Cài đặt yum-utils</h4>
+
+<pre><code>yum install yum-utils -y
+</code></pre>
+
+<p>Sử dụng yum-config-manager (có được sau khi càu yum-utils), lựa chọn phiên bản Remi php 7.2 (phiên bản sau khi cài 7.2.2)</p>
+
+<pre><code>yum-config-manager --enable remi-php72   [Install PHP 7.2]
+</code></pre>
+
+<h4 id="bước-3-cài-đặt-php-7-và-các-package-hỗ-trợ">Bước 3: Cài đặt php 7 và các package hỗ trợ</h4>
+
+<pre><code>yum install php php-mbstring php-pdo php-json php-pear php-mbstring php-dom php-xml php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+</code></pre>
+
+<p>Kiểm tra phiên bản sau khi cài</p>
+
+<pre><code>php -v
+</code></pre>
+
+<p><img src="https://github.com/lacoski/khoa-luan/raw/master/Nextcloud/PIC/nc-lab-install-1.PNG" alt="" /></p>
+
+<h3 id="phần-2-cài-đặt-thiết-lập-maria-db">Phần 2: Cài đặt thiết lập Maria DB</h3>
+
+<h4 id="bước-1-cài-đặt-maria-db">Bước 1: Cài đặt Maria DB</h4>
+
+<pre><code>yum install mariadb-server
+</code></pre>
+
+<p>Chạy Database</p>
+
+<pre><code>systemctl start mariadb
+systemctl enable mariadb
+</code></pre>
+
+<h4 id="bước-2-thiết-lập-root-passwd">Bước 2: Thiết lập root passwd</h4>
+
+<pre><code>mysql_secure_installation
+</code></pre>
+
+<pre><code>Cài đặt root passwd (đọc theo hướng dẫn), nên lưu passwd dùng cho các phần sau
+</code></pre>
+
+<h4 id="bước-3-cấu-hình-mariadb">Bước 3: Cấu hình Mariadb</h4>
+
+<p>Truy cập Mariadb</p>
+
+<pre><code>mysql -u root -p
+</code></pre>
+
+<p>Tại màn hình CMD:</p>
+
+<pre><code>CREATE DATABASE nextcloud;
+CREATE USER 'nc_user'@'localhost' IDENTIFIED BY 'NHẬP_PASS_TẬI_ĐÂY';
+GRANT ALL PRIVILEGES ON nextcloud.* TO 'nc_user'@'localhost';
+FLUSH PRIVILEGES;
+</code></pre>
+
+<pre><code>Lưu passwd của db vừa tạo, sử dụng cho phần Sau
+</code></pre>
+
+<h3 id="phần-3-cài-đặt-nextcloud">Phần 3: Cài đặt nextcloud</h3>
+
+<h4 id="bước-1-truy-cập-cấu-hình-apache-để-chạy-nextcloud">Bước 1: Truy cập cấu hình apache để chạy nextcloud</h4>
+
+<pre><code>cd /var/www/html
+
+wget https://download.nextcloud.com/server/releases/nextcloud-13.0.0.zip
+
+unzip nextcloud-13.0.0.zip
+mkdir nextcloud/data
+chown -R apache:apache nextcloud
+</code></pre>
+
+<h4 id="bước-2-cấu-hình-apache-config">Bước 2: Cấu hình Apache config</h4>
+
+<pre><code>vim /etc/httpd/conf.d/nextcloud.conf
+
+# content
+Alias /nextcloud &quot;/var/www/html/nextcloud/&quot;
+
+&lt;Directory /var/www/html/nextcloud/&gt;
+  Options +FollowSymlinks
+  AllowOverride All
+
+ &lt;IfModule mod_dav.c&gt;
+  Dav off
+ &lt;/IfModule&gt;
+
+ SetEnv HOME /var/www/html/nextcloud
+ SetEnv HTTP_HOME /var/www/html/nextcloud
+
+&lt;/Directory&gt;
+</code></pre>
+
+<h3 id="phần-4-cầu-hình-apache-và-selinux-firewalld">Phần 4: Cầu hình apache và SELinux, Firewalld</h3>
+
+<h4 id="bước-1-cấu-hình-selinux">Bước 1: Cấu hình SELinux</h4>
+
+<p>Tắt SELinux</p>
+
+<pre><code>sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+</code></pre>
+
+<h4 id="bước-2-cấu-hình-apache-service">Bước 2: Cấu hình Apache service</h4>
+
+<p>Chạy Apache service</p>
+
+<pre><code>systemctl start httpd
+systemctl enable httpd
+</code></pre>
+
+<h4 id="bước-3-cấu-hình-firewalld">Bước 3: Cấu hình Firewalld</h4>
+
+<p><strong>Tùy chọn 1:</strong></p>
+
+<p>Tắt firewall</p>
+
+<pre><code>systemctl stop firewalld
+systemctl disable firewalld
+</code></pre>
+
+<p><strong>Tùy chọn 2:</strong></p>
+
+<p>Cấu hình mở port Http và Https</p>
+
+<pre><code>firewall-cmd --add-service http --permanent
+firewall-cmd --add-service https --permanent
+firewall-cmd --reload
+</code></pre>
+
+<h3 id="phần-5-thiết-lập-nextcloud">Phần 5: Thiết lập Nextcloud</h3>
+
+<h4 id="thiết-lập-nextcloud-web">Thiết lập Nextcloud web</h4>
+
+<pre><code>Truy cập  &quot;http://192.168.2.143/nextcloud/&quot;
+</code></pre>
+
+<p><strong>Giao diện cấu hình</strong></p>
+
+<p><img src="https://github.com/lacoski/khoa-luan/raw/master/Nextcloud/PIC/nc-lab-install-2.jpg" alt="" /></p>
+
+<p><strong>Sau khi cầu hình thành công</strong></p>
+
+<p><img src="https://github.com/lacoski/khoa-luan/raw/master/Nextcloud/PIC/nc-lab-install-3.jpg" alt="" /></p>
+
+<h2 id="nguồn">Nguồn</h2>
+
+<p><a href="https://www.marksei.com/install-nextcloud-12-centos-7/">https://www.marksei.com/install-nextcloud-12-centos-7/</a></p>
+
+<p><a href="https://www.tecmint.com/install-php-7-in-centos-7/">https://www.tecmint.com/install-php-7-in-centos-7/</a></p>
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Thu Oct 25, 2018 </h4>
+          <h5 id="wc"> 400 Từ </h5>
+          <h5 id="readtime"> Đọc trong 2 phút </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/ceph">Ceph</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/ceph">Ceph</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="https://lacoski.github.io/install-ceph-aio-luminous/"><i class="icon-arrow-left"></i> Cài đặt Ceph All In One Luminous - CentOS 7</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/post/django-multi-settings/">Cấu hình multi settings Django <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="384">
+<meta itemprop="datePublished" content="2018-10-25">
+<meta itemprop="url" content="https://lacoski.github.io/install-next-cloud/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

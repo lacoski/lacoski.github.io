@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Gitlab, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Hướng dẫn cài đặt Gitlab : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/gitlab/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-10-26"/>
+<meta property="article:modified_time" content="2018-10-26"/>
+
+
+
+<meta property="article:tag" content="Gitlab">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Hướng dẫn cài đặt Gitlab : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Hướng dẫn cài đặt Gitlab - lacoski.github.io </title>
+    <link rel="canonical" href="https://lacoski.github.io/gitlab/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=H%c6%b0%e1%bb%9bng%20d%e1%ba%abn%20c%c3%a0i%20%c4%91%e1%ba%b7t%20Gitlab-https%3a%2f%2flacoski.github.io%2fgitlab%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2fgitlab%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2fgitlab%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2fgitlab%2f&title=H%c6%b0%e1%bb%9bng%20d%e1%ba%abn%20c%c3%a0i%20%c4%91%e1%ba%b7t%20Gitlab&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2fgitlab%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2fgitlab%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2fgitlab%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Hướng dẫn cài đặt Gitlab</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>Tổng quan và hướng dẫn cài đặt gitlab
+</p>
+
+<h2 id="1-gitlab-là-gì">1. GitLab là gì?</h2>
+
+<p><code>GitLab</code> khá nổi tiếng và là một mã nguồn mở của máy chủ Git được thực hiện bởi hơn 50.000 tổ chức. Trong vài năm gần đây Gitlab đã phát triển mạnh mẽ với sự hỗ trợ của cộng đồng mạng, hàng nghìn người sử dụng trên một máy chủ duy nhất hoặc một số máy chủ hoạt động tương tự. Nếu bạn cần thiết lập một máy chủ Git, thì GitLab cung cấp cho bạn một giải pháp hoàn hảo.</p>
+
+<p><code>Gitlab</code> là một hệ thống <code>self-hosted</code> để quản lý mã nguồn của bạn. Bản đầu tiên được phát hành vào tháng <sup>10</sup>&frasl;<sub>2011</sub> và được cập nhật vào ngày 22 hàng tháng. Gitlab được phát hành theo tiêu chuẩn của MIT.</p>
+
+<p>Gitlab được thành lập bởi Dmitriy Zaporozhets năm 2013. Dự án bao gồm hai nhóm chính: một bên là “open source core team” và một bên là &ldquo;GitLab B.V. team&rdquo; (chi nhánh của công ty Gitlab).</p>
+
+<p>GitLab được sử dụng để lư trữ trên Github, nhưng với sự nỗ lực của Dmitriy Zaporozhets suốt một năm làm việc tại GitLab, kể từ tháng <sup>1</sup>&frasl;<sub>2014</sub> mã nguồn được lưu trữ trên sever chính của gitlab là gitlab.com. Các nhánh của GitLab được lưu trữ trên github, sẽ hoạt động như một source, nơi bạn có thể pull, push và merge các yêu cầu.</p>
+
+<h2 id="2-đặc-điểm-của-gitlab">2. Đặc điểm của GitLab</h2>
+
+<p>GitLab hỗ trợ ba phiên bản:</p>
+
+<ul>
+<li><code>Gitlab community editon (CE)</code> - Gitlab phiên bản cộng đồng: là phiên bản mã nguồn mở. Được cung cấp qua Git từ kho lưu trữ chứa gitlab. Phiên bản mới nhất của gitlab được các nhà phát triển release tại các nhánh stable và nhánh master.</li>
+<li><code>Gitlad enterprise edition (EE)</code> - Gitlab phiên bản doanh nghiệp: là phiên bản có sẵn không lâu sau khi phát hành bản CE, được cung cấp từ kho lưu trữ của gitlab.com. Một doanh nghiệp đăng lý GitLab được sự support của GitLad BV những khó khăn khi cài đặt.</li>
+<li><code>Gitlab continuous intergration (CI)</code>: là một giải pháp tích hợp được thực hiện bởi nhóm phát triển Gitlab</li>
+</ul>
+
+<h2 id="3-sơ-đồ-kiến-trúc">3.   Sơ đồ kiến trúc:</h2>
+
+<p><img src="https://github.com/lacoski/git-labs/raw/master/images/gitlab-overview-1.png" alt="" /></p>
+
+<h2 id="hướng-dẫn-cài-đặt">Hướng dẫn cài đặt</h2>
+
+<h3 id="phần-1-cài-đặt-gitlab">Phần 1: Cài đặt Gitlab</h3>
+
+<h4 id="bước-1-cấu-hình-firewalld">Bước 1: Cấu hình firewalld</h4>
+
+<p>Trên CentOS, mở port HTTP và SSH vào system firewalld</p>
+
+<pre><code>sudo yum install -y curl policycoreutils-python openssh-server
+sudo systemctl enable sshd
+sudo systemctl start sshd
+sudo firewall-cmd --permanent --add-service=http
+sudo systemctl reload firewalld
+</code></pre>
+
+<h4 id="bước-2-cấu-hình-postfix">Bước 2: Cấu hình Postfix</h4>
+
+<p>Cài đặt Postfix để gửi thông báo qua Emails. Nếu sử dụng giải pháp khác cho vấn đề gửi Email, bỏ qua bước này.</p>
+
+<pre><code>sudo yum install postfix
+sudo systemctl enable postfix
+sudo systemctl start postfix
+</code></pre>
+
+<h4 id="bước-3-cài-đặt-gitlab">Bước 3: Cài đặt Gitlab</h4>
+
+<p>Add gói GitLab repo và cài đặt gói</p>
+
+<pre><code># Bản EE
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+
+# Bản CE
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+</code></pre>
+
+<p>Cấu hình URL cho thực thi GitLab</p>
+
+<pre><code># Bản EE
+sudo EXTERNAL_URL=&quot;http://gitlab.local.com&quot; yum install -y gitlab-ee
+
+# Bản CE
+sudo EXTERNAL_URL=&quot;http://gitlab.local.com&quot; yum install -y gitlab-ce
+</code></pre>
+
+<h4 id="bước-4-truy-cập-giao-diện-chính">Bước 4: Truy cập giao diện chính</h4>
+
+<p>Truy cập thông qua URL (Khi setup domain)</p>
+
+<pre><code>http://gitlab.local.com
+</code></pre>
+
+<p>Truy cập thông qua IP</p>
+
+<pre><code>http://IP
+</code></pre>
+
+<pre><code>Tại lần đầu tiên truy cập vào GitLab, ta sẽ phải cấu hình user “root” của hệ thống. Đây là user quản trị toàn bộ hệ thống GitLab.
+
+User: root
+
+Pass: &lt;set khi truy cập lần đâu&gt;
+</code></pre>
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Fri Oct 26, 2018 </h4>
+          <h5 id="wc"> 600 Từ </h5>
+          <h5 id="readtime"> Đọc trong 3 phút </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/gitlab">Gitlab</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/gitlab">Gitlab</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;<a class="previous" href="https://lacoski.github.io/ceph-overview/"><i class="icon-arrow-left"></i> Phần 1 - Tổng quan về Ceph</a><br>
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/install-ceph-aio-luminous/">Cài đặt Ceph All In One Luminous - CentOS 7 <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="567">
+<meta itemprop="datePublished" content="2018-10-26">
+<meta itemprop="url" content="https://lacoski.github.io/gitlab/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

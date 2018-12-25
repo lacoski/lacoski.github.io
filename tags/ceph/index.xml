@@ -65,5 +65,15 @@
 &lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Cài đặt Nextcloud 13 trên CentOS 7</title>
+      <link>https://lacoski.github.io/install-next-cloud/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/install-next-cloud/</guid>
+      <description>&lt;p&gt;Hướng dẫn cài đặt Nextcloud 13 trên CentOS 7
+&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
