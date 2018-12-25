@@ -30,5 +30,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Rabbitmq</title>
+      <link>https://lacoski.github.io/tags/rabbitmq/</link>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

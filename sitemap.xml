@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lacoski.github.io/rabbitmq-overview/</loc>
+    <lastmod>2018-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lacoski.github.io/ceph-internal/</loc>
     <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url>
@@ -34,7 +39,7 @@
   
   <url>
     <loc>https://lacoski.github.io/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,13 +69,25 @@
   
   <url>
     <loc>https://lacoski.github.io/post/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lacoski.github.io/topics/python/</loc>
     <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lacoski.github.io/tags/rabbitmq/</loc>
+    <lastmod>2018-12-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lacoski.github.io/topics/rabbitmq/</loc>
+    <lastmod>2018-12-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

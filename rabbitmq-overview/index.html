@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="RabbitMQ, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Tổng quan vể RabbitMQ : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/rabbitmq-overview/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-12-09"/>
+<meta property="article:modified_time" content="2018-12-09"/>
+
+
+
+<meta property="article:tag" content="RabbitMQ">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Tổng quan vể RabbitMQ : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Tổng quan vể RabbitMQ - lacoski.github.io </title>
+    <link rel="canonical" href="https://lacoski.github.io/rabbitmq-overview/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=T%e1%bb%95ng%20quan%20v%e1%bb%83%20RabbitMQ-https%3a%2f%2flacoski.github.io%2frabbitmq-overview%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2frabbitmq-overview%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2frabbitmq-overview%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2frabbitmq-overview%2f&title=T%e1%bb%95ng%20quan%20v%e1%bb%83%20RabbitMQ&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2frabbitmq-overview%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2frabbitmq-overview%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2frabbitmq-overview%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Tổng quan vể RabbitMQ</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>Tổng quan về RabbitMQ, Messaging System, AMQP, &hellip;</p>
+
+<p></p>
+
+<h2 id="hệ-thống-tin-nhắn-messaging-system">Hệ thống tin nhắn - Messaging System</h2>
+
+<p>Trong hệ thống lớn, chứa nhiều thành phần việc bảo trì, phát triển các tính năng trở nên khó khăn bởi tính bền chặt (Tight Coupling). Giải pháp cho vấn đề là sử dụng Hệ thống tin nhắn - Messaging System.</p>
+
+<p>Mục đích chính của hệ thống tin nhắn là loại bỏ tính bền chặt giữa các thành phần. Khi đó, các thành phần sẽ không nói chuyện với nhau trực tiếp, chúng sẽ giao tiếp thông qua thành phần trung gian có tên gọi là &ldquo;Message Broker&rdquo;. Bên cạnh đó, Hệ thống tin nhắn còn là giải pháp cho các vấn đề về xử lý tiến trình đồng bộ, bất đồng bộ, hỗ trợ các giải pháp cần bằng tải, tăng cao khả năng mở rộng các thành phần.</p>
+
+<p><img src="/media/enterprise-messaging-system.jpg" alt="" /></p>
+
+<h2 id="các-thuật-ngữ-quan-trọng">Các thuật ngữ quan trọng</h2>
+
+<h3 id="message-tin-nhắn">Message - Tin nhắn</h3>
+
+<p>Đây là đối tượng trung tâm trong hệ thống tin nhắn. Chúng có thể có nhiều định dạng khác nhau (XML, JSON, Binary data ..)</p>
+
+<h3 id="message-broker-đường-ống-tin-nhắn">Message broker - Đường ống tin nhắn</h3>
+
+<p>Đối tượng trung gian giữa Producer và Consumer, vai trò quản trị, định tuyến các tin nhắn. Thành phần này chịu trách nhiệm bảo đảm tin nhắn sẽ được gửi tới đích mong muốn, hỗ trợ nhận tin nhắn từ nhiều nguồn (Producer) và gửi tin nhắn tới nhiều đích (Consumer). Mục tiêu chính của thành phần là giảm sự ràng buộc giữa các thành phần trong hệ thống, tại đó message broker như trung tâm, chuyển giao, phân phát các tin nhắn.</p>
+
+<p><img src="/media/broker.gif" alt="" /></p>
+
+<h3 id="message-queue-hàng-đợi-tin-nhắn">Message Queue - Hàng đợi tin nhắn</h3>
+
+<p>Message Queue tương tự như cấu trúc dữ liệu Queue. Chúng là giải pháp cho các tiến trình đồng bộ, bất đồng bộ trong nhưng ứng dụng lớn.</p>
+
+<p><img src="/media/message-queue.png" alt="" /></p>
+
+<h3 id="message-producer">Message Producer</h3>
+
+<p>Là nơi sản sinh, tạo ra các sự kiện</p>
+
+<h3 id="message-consumer">Message Consumer</h3>
+
+<p>Là nơi nhận các sự kiện, điểm cuối của các tin nhắn. Hỗ trợ xử lý các sự kiện bất đồng bộ hoặc đồng bộ.</p>
+
+<h2 id="rabbitmq">RabbitMQ</h2>
+
+<p>RabbitMQ là một message broker (message-oriented middleware) sử dụng giao thức AMQP - Advanced Message Queue Protocol (Đây là giao thức phổ biến, thực tế rabbitmq hỗ trợ nhiều giao thức). RabbitMQ được lập trình bằng ngôn ngữ Erlang. RabbitMQ cung cấp cho lập trình viên một phương tiện trung gian để giao tiếp giữa nhiều thành phần trong một hệ thống lớn ( VD: Openstack RabbitMQ ). RabbitMQ sẽ nhận message đến từ các thành phần khác nhau trong hệ thống, lưu trữ chúng an toàn trước khi đẩy đến đích.</p>
+
+<p><img src="/media/rabbitmq.png" alt="" /></p>
+
+<h2 id="giao-thức-amqp">Giao thức AMQP</h2>
+
+<p>Advanced Message Queue Protocol - Giao thức Message Queue nâng cao. Mục đích của giao thức là chuẩn hóa việc gửi tin nhắn giữa các hệ thống, tổ chức</p>
+
+<h2 id="kiến-trúc-amq">Kiến trúc AMQ</h2>
+
+<p>Bao gồm 4 thành phần:</p>
+
+<ul>
+<li><p>Message Flow: Luồng xử lý message</p></li>
+
+<li><p>Exchange: Nơi tiếp nhận message (từ publisher), định tuyến tới các Message Queue</p></li>
+
+<li><p>Message Queue: Nơi lưu trữ các message, chuyển giao message tới consumers</p></li>
+
+<li><p>Binding: Định nghĩa quan hệ giữa Exchange và Message Queue, mô tả cách định tuyến message tới chính xác Message Queue</p></li>
+</ul>
+
+<h3 id="message-flow">Message flow</h3>
+
+<p>Message flow bắt đầu khi Producer tạo message, gửi tin nhắn tới exchange. Sau đó exchange định tuyến tới Message Queue bằng Bindings. Cuối cùng Consumer nhậnđược message.</p>
+
+<p>Tại đó:</p>
+
+<ul>
+<li><p>Message: Tạo ra bởi Publisher, sử dụng giao thức AMQP Client, Message chứa thông tin (Content, Properties, Routing Information)</p></li>
+
+<li><p>Exchange: Nhận Message được gửi từ Producer, định tuyến tới Queue mong muốn (định tuyến dựa trên thông tin Queue), Message có thể được gửi tới 1 hoặc nhiều queue dựa theo binding</p></li>
+
+<li><p>Message Queue: Nhận Message, đặt vào hàng chờ. Tới thời điểm, Message Queue sẽ gửi message tới consumer. Nếu quá trình truyền có vấn đề, MQ sẽ lưu thông tin vào disk or ram, lưu trữ phục vụ mục đích tái gửi.</p></li>
+
+<li><p>Consumer: Nơi message được gửi tới.</p></li>
+</ul>
+
+<h3 id="exchange-ex">Exchange (EX)</h3>
+
+<p>Thành phần chịu trách nhiệm định tuyến message tới đích mong muốn, 0 hoặc 1 hoặc nhiều queue</p>
+
+<p>Các thuộc tính quan trọng trong exchange:</p>
+
+<ul>
+<li><p>Tên định danh: Exchange có định danh độc nhất</p></li>
+
+<li><p>Tính bền vững (Durable): Nếu thiết lập, EX lưu giữ hàng đợi tin nhắn (tạm thời hoặc luôn luôn)</p></li>
+
+<li><p>Tính làm sạch (Auto-delete): Nếu thiết lập, EX tự xóa khi hoàn thành tác vụ</p></li>
+</ul>
+
+<h3 id="message-queue-mq">Message queue (MQ)</h3>
+
+<p>Nơi lưu giữ Message (lưu theo cơ chế FIFO). Khác với kiểu dữ liệu Queue, Message Queue có thể được sử dụng với nhiều consumer và publisher.</p>
+
+<p>Các thuộc tính quan trọng:</p>
+
+<ul>
+<li><p>Tên định danh: Message queues có định danh độc nhất (có thể được random)</p></li>
+
+<li><p>Tính bền vững (Durable): lưu giữ hàng đợi tin nhắn (tạm thời hoặc luôn luôn)</p></li>
+
+<li><p>Tính chuyển dụng (Exclusive): Nếu thiết lập, MQ sẽ tự động xóa khi ngắt kết nối</p></li>
+
+<li><p>Tính làm sạch (Auto-delete): Nếu thiết lập, MQ tự xóa khi consumer hủy liên kết</p></li>
+</ul>
+
+<h3 id="binding">Binding</h3>
+
+<p>Thông số, chỉ số hỗ trợ EX định tuyến message giữ các queue.
+Các thống số, chỉ số được gọi là routing key
+AMQ hỗ trợ nhiều loại routing key phục vụ các bài toán khác nhau</p>
+
+<h2 id="các-loại-exchange-cơ-bản">Các loại exchange cơ bản</h2>
+
+<p>Bao gồm:</p>
+
+<ul>
+<li><p>Direct Exchange</p></li>
+
+<li><p>Fanout Exchange</p></li>
+
+<li><p>Topic Exchange</p></li>
+
+<li><p>Headers Exchange</p></li>
+</ul>
+
+<h3 id="direct-exchange">Direct Exchange</h3>
+
+<p><img src="/media/DirectExchange.png" alt="" /></p>
+
+<p>Định tuyến message tới một queue phù hợp bằng <code>routing key</code>. Khi đó <code>routing key</code> có định danh giống với queue chỉ định. Message sẽ được gửi tới queue duy nhất theo khóa định danh</p>
+
+<h3 id="fanout-exchange">Fanout Exchange</h3>
+
+<p><img src="/media/FanoutExchange.png" alt="" /></p>
+
+<p>Định tuyến message tới tất cả các queue có sẵn.</p>
+
+<h3 id="topic-exchange">Topic Exchange</h3>
+
+<p><img src="/media/TopicExchange.png" alt="" /></p>
+
+<p>Định tuyến message tới nhiều queue phù hợp bằng <code>routing key</code>. Khi đó <code>routing key</code> có định danh giống 0 hoặc 1 hoặc nhiều queue. Khớp <code>routing key</code> bằng phương pháp regex.</p>
+
+<h3 id="headers-exchange">Headers Exchange</h3>
+
+<p><img src="/media/HeadersExchange.png" alt="" /></p>
+
+<h2 id="nguồn">Nguồn</h2>
+
+<p><a href="https://kipalog.com/posts/Tim-hieu-RabbitMQ---Phan-1">https://kipalog.com/posts/Tim-hieu-RabbitMQ---Phan-1</a></p>
+
+<p><a href="https://www.mastercode.vn/blog/web-development/rabbitmq-la-gi-chia-khoa-giup-cac-he-thong-khac-nhau-ket-noi-va-mo-rong.99">https://www.mastercode.vn/blog/web-development/rabbitmq-la-gi-chia-khoa-giup-cac-he-thong-khac-nhau-ket-noi-va-mo-rong.99</a></p>
+
+<p><a href="https://lostechies.com/derekgreer/2012/03/28/rabbitmq-for-windows-exchange-types/">https://lostechies.com/derekgreer/2012/03/28/rabbitmq-for-windows-exchange-types/</a></p>
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Sun Dec 9, 2018 </h4>
+          <h5 id="wc"> 1000 Từ </h5>
+          <h5 id="readtime"> Đọc trong 5 phút </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/rabbitmq">RabbitMQ</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/rabbitmq">RabbitMQ</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/ceph-internal/">Phần 4 - Nội tại Ceph <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="966">
+<meta itemprop="datePublished" content="2018-12-09">
+<meta itemprop="url" content="https://lacoski.github.io/rabbitmq-overview/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

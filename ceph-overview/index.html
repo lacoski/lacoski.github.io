@@ -45,7 +45,7 @@
 
 
     <base href="https://lacoski.github.io/">
-    <title> Phần 1 - Tổng quan về Ceph - spf13.com </title>
+    <title> Phần 1 - Tổng quan về Ceph - lacoski.github.io </title>
     <link rel="canonical" href="https://lacoski.github.io/ceph-overview/">
     
 
@@ -131,7 +131,9 @@
   <h1 itemprop="name" id="title">Phần 1 - Tổng quan về Ceph</h1>
   <div>
         <article itemprop="articleBody" id="content">
-           
+           <p>Ceph là dự án mã nguồn mở, cung cấp giải pháp lưu trữ dữ liệu. Ceph cung cấp giải pháp lưu trữ phân tán mạnh mẽ, đáp ứng các yêu cầu về khả năng mở rộng, hiệu năng, khả năng chịu lỗi cao.</p>
+
+<p></p>
 
 <h2 id="giới-thiệu">Giới thiệu</h2>
 
@@ -180,7 +182,6 @@ Ceph không xây dựng giải pháp theo phương pháp truyền thống, nó s
 Việc sử dụng RAID cũng kéo theo các thiết bị phần cứng đắt tiền – RAID card. Chúng có thể phát sinh lỗi khi không thể lưu trữ thêm dữ liệu, bên cạnh đó là giới hạn phần cứng không thể thêm dung lượng kể cả khi đầu tư thêm chi phí. RAID tồn tại giới hạn về giải pháp: Raid 5 có thể chịu lỗi 1 ổ, Raid 6 2 ổ, nếu số ổ lỗi nhiều hơn, việc phục hồi dữ liệu sẽ trở nên rất khó khăn hoặc không thể khôi phục. Đồng thời, RAID chỉ có thể bảo vệ lỗi trên các ổ đĩa, còn các lỗi về mạng, phần cứng, hệ điều hành … chúng không thể giải quyết được.
 Ceph là giải pháp cho những vấn đề trên. Về tính đảm bảo, Ceph nhân bản dựa trên thuật toán, không phụ thuộc vào RAID. Ceph xây dựng giải pháp dựa trên phần mềm (software-defined storage), vì vậy ta sẽ không cần sử dụng các thiết bị chuyên dụng. Đồng thời Ceph nhân bản dữ liệu dựa trên cấu hình, vì thế người quản trị sẽ dễ dàng định nghĩa số lượng bản sao, tối ưu phần cứng, dễ dàng quản lý dữ liệu. Ceph còn có khả năng chịu lỗi nhiều hơn 2 ổ cứng với tốc độ khôi phục đáng ngạc nhiên (nhanh hơn rất rất nhiều khi so sánh với RAID). Đồng thời Ceph có thể lưu trữ khối lượng dữ liệu rất lớn dựa vào thuật toán CRUSH, vào quản trị thông qua Cluster Map.
 Bên cạnh phương pháp nhân bản, Ceph cung cấp &ldquo;erasure-coding technique&rdquo;. Kỹ thuật này yêu cầu ít không gian lưu trữ hơn khi so sánh với replicated pool. Khi xử lý, dữ liệu sẽ được khôi phục và tái tạo bằng erasure-code calculation. Ta có thể sử dụng đồng thời 2 phương pháp trong giải pháp Ceph storage.</p>
-
         </article>
   </div>
 </section>
@@ -192,8 +193,8 @@ Bên cạnh phương pháp nhân bản, Ceph cung cấp &ldquo;erasure-coding te
     <div>
         <section id="datecount">
           <h4 id="date"> Sat Dec 1, 2018 </h4>
-          <h5 id="wc"> 1800 Words </h5>
-          <h5 id="readtime"> Read in about 9 Min </h5>
+          <h5 id="wc"> 1900 Từ </h5>
+          <h5 id="readtime"> Đọc trong 9 phút </h5>
         </section>
         <ul id="categories">
           
@@ -232,7 +233,7 @@ Bên cạnh phương pháp nhân bản, Ceph cung cấp &ldquo;erasure-coding te
 
 </aside>
 
-<meta itemprop="wordCount" content="1784">
+<meta itemprop="wordCount" content="1827">
 <meta itemprop="datePublished" content="2018-12-01">
 <meta itemprop="url" content="https://lacoski.github.io/ceph-overview/">
 

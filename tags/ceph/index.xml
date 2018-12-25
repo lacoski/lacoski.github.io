@@ -18,7 +18,9 @@
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/ceph-internal/</guid>
-      <description>Object Object bao gồm thành phần dữ liệu và các metadata liên quan, 1 thuộc tính định danh (globally unique identifier) đối tượng. Định danh riêng bảo đảm object sẽ độc nhất trong storage cluster. Khác file-based storage bị gói hạn size. Object có thể có size to và có thể thay đôi metadata. Dữ liệu được lưu với nhiều metadata, các thông tin này mổ tả dữ liệu lưu trữ.</description>
+      <description>&lt;p&gt;Kỹ thuật lưu trữ truyền thống sau khi lưu trữ dữ liệu sẽ sử dung các metadata để quản trị. Metadata là các thông tin liên quan đến dữ liệu, định danh về nơi dữ liệu được lưu thực tế.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,8 +29,8 @@
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/ceph-achitechture/</guid>
-      <description>Kiển trúc, thành phần Ceph Ceph storage cluster xây dựng từ một vài tiến trình phần mềm. Mỗi tiến trình đều có vài trò riêng trong tính năng của Ceph và có những giá trị đặc biệt tương ứng. Đây là yếu tố góp phần giảm giá thành khi so sánh Ceph với các hệ thống tương tự.
-Lưu trữ phân phối dữ liệu đáng tin cây (RADOS) Yếu tố nền tảng tạo nên Ceph storage cluster.</description>
+      <description>&lt;p&gt;Ceph storage cluster được xây dựng từ các tiến trình. Mỗi tiến trình đều có vai trò, giá trị khác nhau.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,7 +39,9 @@ Lưu trữ phân phối dữ liệu đáng tin cây (RADOS) Yếu tố nền t�
       <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/ceph-solution/</guid>
-      <description>Giải pháp lưu trữ khối - Ceph block storage Lưu trữ khối là phương thức truyền thống được sử dụng trong mạng lưu trữ (SAN). Tại đây, dữ liệu lưu trữ dưới dạng các ổ ảo nằm trên các khối, được trừ tượng hóa tại các node. Với giải pháp khối, các ổ đĩa ảo sẽ được map tới hệ điều hành, được kiểm soát bới filesystem layout. Để tạo ra giải pháp toàn diện, Ceph giới thiệu giao thức RBD - Ceph Block Device, giải pháp này cung cấp các ổ đĩa ảo tương tự với SAN.</description>
+      <description>&lt;p&gt;Các giải pháp của Ceph bao gồm: &amp;ldquo;Ceph Block Storage&amp;rdquo;, &amp;ldquo;Ceph Filesystem&amp;rdquo;, &amp;ldquo;Ceph Object Storage&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,7 +50,9 @@ Lưu trữ phân phối dữ liệu đáng tin cây (RADOS) Yếu tố nền t�
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/ceph-overview/</guid>
-      <description>Giới thiệu Ceph là dự án mã nguồn mở, cung cấp giải pháp lưu trữ dữ liệu. Ceph cung cấp giải pháp lưu trữ phân tán mạnh mẽ, đáp ứng các yêu cầu về khả năng mở rộng, hiệu năng, khả năng chịu lỗi cao. Xuất phát từ mục tiêu ban đầu, Ceph được thiết kết với khả năng mở rộng không giới hạn, hỗ trợ lưu trữ tới mức exabyte, cùng với khả năng tương thích cao với các phần cứng có sẵn.</description>
+      <description>&lt;p&gt;Ceph là dự án mã nguồn mở, cung cấp giải pháp lưu trữ dữ liệu. Ceph cung cấp giải pháp lưu trữ phân tán mạnh mẽ, đáp ứng các yêu cầu về khả năng mở rộng, hiệu năng, khả năng chịu lỗi cao.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,8 +61,8 @@ Lưu trữ phân phối dữ liệu đáng tin cây (RADOS) Yếu tố nền t�
       <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lacoski.github.io/install-ceph-aio-luminous/</guid>
-      <description>Chuẩn bị Về tài nguyên Yêu cầu sử dụng 1 node, chạy CentOS 7 64bit
-CPU 2 core RAM 4 GB Disk sba: os sbd,sdc,sde: 3 disk osd Network ens33: 1 replicate data (192.168.2.100) ens34: 1 access ceph (10.0.3.100)  Cấu hình card mạng # Ceph admin echo &amp;quot;Setup IP ens33&amp;quot; nmcli c modify ens33 ipv4.addresses 192.168.2.100/24 nmcli c modify ens33 ipv4.gateway 192.168.2.2 nmcli c modify ens33 ipv4.dns 8.8.8.8 nmcli c modify ens33 ipv4.</description>
+      <description>&lt;p&gt;Hướng dẫn cài đặt Ceph Luminous
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -45,7 +45,7 @@
 
 
     <base href="https://lacoski.github.io/">
-    <title> Phần 4 - Nội tại Ceph - spf13.com </title>
+    <title> Phần 4 - Nội tại Ceph - lacoski.github.io </title>
     <link rel="canonical" href="https://lacoski.github.io/ceph-internal/">
     
 
@@ -131,7 +131,9 @@
   <h1 itemprop="name" id="title">Phần 4 - Nội tại Ceph</h1>
   <div>
         <article itemprop="articleBody" id="content">
-           
+           <p>Kỹ thuật lưu trữ truyền thống sau khi lưu trữ dữ liệu sẽ sử dung các metadata để quản trị. Metadata là các thông tin liên quan đến dữ liệu, định danh về nơi dữ liệu được lưu thực tế.</p>
+
+<p></p>
 
 <h2 id="object">Object</h2>
 
@@ -227,7 +229,6 @@ Khi 1 OSD lỗi, 7*3 OSD sẽ diễn ra hoạt động backup =&gt; Dung lượn
 <p>Ceph pool cung cấp khả năng quản lý storage với pool. Ceph pool là logical partition để lưu các object. Mỗi pool trong Ceph lưu một số lượng nhất định PGs, quản trị object và được map tới các OSD trên khắp cluster. Vì thế mỗi single pool được phân phối khắp cluster node.
 Quản trị dữ liệu trong Ceph
 Dữ liệu bên trong cluster được quản trị dựa trên rất nhiều thành phần. Sự kết hợp các thành phần mang đến cho Ceph tính bảo đảm, tin cậy, mạnh mẽ. Quá trình quản trị dữ liệu bắt đầu từ khi client ghi dữ liệu xuống Ceph pool. Dữ liệu đầu tiên sẽ ghi tới primary OSD sau đó tới các OSD thứ cấp theo cấu hình mức nhân bản tùy chỉnh.</p>
-
         </article>
   </div>
 </section>
@@ -239,8 +240,8 @@ Dữ liệu bên trong cluster được quản trị dựa trên rất nhiều t
     <div>
         <section id="datecount">
           <h4 id="date"> Tue Dec 4, 2018 </h4>
-          <h5 id="wc"> 2300 Words </h5>
-          <h5 id="readtime"> Read in about 11 Min </h5>
+          <h5 id="wc"> 2400 Từ </h5>
+          <h5 id="readtime"> Đọc trong 11 phút </h5>
         </section>
         <ul id="categories">
           
@@ -256,7 +257,7 @@ Dữ liệu bên trong cluster được quản trị dựa trên rất nhiều t
 
     <div>
         <section id="prev">
-            &nbsp;
+            &nbsp;<a class="previous" href="https://lacoski.github.io/rabbitmq-overview/"><i class="icon-arrow-left"></i> Tổng quan vể RabbitMQ</a><br>
         </section><section id="next">
             &nbsp;<a class="next" href="https://lacoski.github.io/ceph-achitechture/">Phần 3 - Kiến trúc Ceph <i class="icon-arrow-right"></i></a>
         </section>
@@ -279,7 +280,7 @@ Dữ liệu bên trong cluster được quản trị dựa trên rất nhiều t
 
 </aside>
 
-<meta itemprop="wordCount" content="2275">
+<meta itemprop="wordCount" content="2315">
 <meta itemprop="datePublished" content="2018-12-04">
 <meta itemprop="url" content="https://lacoski.github.io/ceph-internal/">
 
