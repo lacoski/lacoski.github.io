@@ -160,6 +160,14 @@
 
 <h2 id="hướng-dẫn-cài-đặt">Hướng dẫn cài đặt</h2>
 
+<h3 id="chuẩn-bị">Chuẩn bị</h3>
+
+<pre><code>CPU: 2 core
+RAM: 2GB
+HDD: 100GB
+Ip tĩnh: 192.168.1.100
+</code></pre>
+
 <h3 id="phần-1-cài-đặt-gitlab">Phần 1: Cài đặt Gitlab</h3>
 
 <h4 id="bước-1-cấu-hình-firewalld">Bước 1: Cấu hình firewalld</h4>
@@ -196,10 +204,10 @@ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/scrip
 <p>Cấu hình URL cho thực thi GitLab</p>
 
 <pre><code># Bản EE
-sudo EXTERNAL_URL=&quot;http://gitlab.local.com&quot; yum install -y gitlab-ee
+sudo EXTERNAL_URL=&quot;http://192.168.1.100&quot; yum install -y gitlab-ee
 
 # Bản CE
-sudo EXTERNAL_URL=&quot;http://gitlab.local.com&quot; yum install -y gitlab-ce
+sudo EXTERNAL_URL=&quot;http://192.168.1.100&quot; yum install -y gitlab-ce
 </code></pre>
 
 <h4 id="bước-4-truy-cập-giao-diện-chính">Bước 4: Truy cập giao diện chính</h4>
@@ -271,7 +279,7 @@ Pass: &lt;set khi truy cập lần đâu&gt;
 
 </aside>
 
-<meta itemprop="wordCount" content="567">
+<meta itemprop="wordCount" content="579">
 <meta itemprop="datePublished" content="2018-10-26">
 <meta itemprop="url" content="https://lacoski.github.io/gitlab/">
 
