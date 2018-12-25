@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Openstack, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Cách sử dụng OpenStack API : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/openstack-api/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-12-11"/>
+<meta property="article:modified_time" content="2018-12-11"/>
+
+
+
+<meta property="article:tag" content="Openstack">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Cách sử dụng OpenStack API : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Cách sử dụng OpenStack API - lacoski.github.io </title>
+    <link rel="canonical" href="https://lacoski.github.io/openstack-api/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=C%c3%a1ch%20s%e1%bb%ad%20d%e1%bb%a5ng%20OpenStack%20API-https%3a%2f%2flacoski.github.io%2fopenstack-api%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2fopenstack-api%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2fopenstack-api%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2fopenstack-api%2f&title=C%c3%a1ch%20s%e1%bb%ad%20d%e1%bb%a5ng%20OpenStack%20API&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2fopenstack-api%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2fopenstack-api%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2fopenstack-api%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Cách sử dụng OpenStack API</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>Sử dụng OpenStack API cho phép người dùng tạo server, image, gán metadata cho instance, tạo storage container, object, v.v. Nói chung sẽ cho phép người dùng thao tác với OpenStack cloud.</p>
+
+<p></p>
+
+<h2 id="tổng-quan">Tổng quan</h2>
+
+<h3 id="api-là-gì">API là gì</h3>
+
+<p>Một giao diện lập trình ứng dụng (tiếng Anh Application Programming Interface, viết tắt API) là một giao diện mà một hệ thống máy tính hay ứng dụng cung cấp để cho phép các yêu cầu dịch vụ có thể được tạo ra từ các chương trình máy tính khác, và/hoặc cho phép dữ liệu có thể được trao đổi qua lại giữa chúng.</p>
+
+<p>Chẳng hạn, một chương trình máy tính có thể (và thường là phải) dùng các hàm API của hệ điều hành để xin cấp phát bộ nhớ và truy xuất tập tin. Nhiều loại hệ thống và ứng dụng hiện thực API, như các hệ thống đồ họa, cơ sở dữ liệu, mạng, dịch vụ web, và ngay cả một số trò chơi máy tính. Đây là phần mềm hệ thống cung cấp đầy đủ các chức năng và các tài nguyên mà các lập trình viên có thể rút ra từ đó để tạo nên các tính năng giao tiếp người- máy như: các trình đơn kéo xuống, tên lệnh, hộp hội thoại, lệnh bàn phím và các cửa sổ. Một trình ứng dụng có thể sử dụng nó để yêu cầu và thi hành các dịch vụ cấp thấp do hệ điều hành của máy tính thực hiện. Hệ giao tiếp lập trình ứng dụng giúp ích rất nhiều cho người sử dụng vì nó cho phép tiết kiệm được nhiều thời gian tìm hiểu các chương trình mới, do đó khích lệ mọi người dùng nhiều ứng dụng hơn.</p>
+
+<h3 id="restful-api-là-gì">RESTful API Là Gì</h3>
+
+<p>RESTful API là một tiêu chuẩn dùng trong việc thiết kế các thiết kế API cho các ứng dụng web để quản lý các resource. RESTful là một trong những kiểu thiết kế API được sử dụng phổ biến nhất ngày nay.</p>
+
+<p>Trọng tâm của REST quy định cách sử dụng các HTTP method (như GET, POST, PUT, DELETE&hellip;) và cách định dạng các URL cho ứng dụng web để quản các resource. Ví dụ với một trang blog để quản lý các bài viết chúng ta có các URL đi với HTTP method như sau:</p>
+
+<ul>
+<li><p>URL tạo bài viết: <code>http://my-blog.xyz/posts</code>. Tương ứng với HTTP method là POST</p></li>
+
+<li><p>URL đọc bài viết với ID là 123: <code>http://my-blog.xyz/posts/123</code>. Tương ứng với HTTP method là GET</p></li>
+
+<li><p>URL cập nhật bài viết với ID là 123: <code>http://my-blog.xyz/posts/123</code>. Tương ứng với HTTP method là PUT</p></li>
+
+<li><p>URL xoá bài viết với ID là 123: <code>http://my-blog.xyz/posts/123</code>. Tương ứng với HTTP method là DELETE</p></li>
+</ul>
+
+<p>Với các ứng dụng web được thiết kế sử dụng RESTful, lập trình viên có thể dễ dàng biết được URL và HTTP method để quản lý một resource. Bạn cũng cần lưu ý bản thân RESTful không quy định logic code ứng dụng và RESTful cũng không giới hạn bởi ngôn ngữ lập trình ứng dụng. Bất kỳ ngôn ngữ lập trình (hoặc framework) nào cũng có thể áp dụng RESTful trong việc thiết kế API cho ứng dụng web.</p>
+
+<h2 id="api-trong-openstack">API trong Openstack</h2>
+
+<h3 id="cơ-bản">Cơ bản</h3>
+
+<p>Sử dụng OpenStack API cho phép người dùng tạo server, image, gán metadata cho instance, tạo storage container, object, v.v. Nói chung sẽ cho phép người dùng thao tác với OpenStack cloud.</p>
+
+<h3 id="để-thao-tác-với-api-openstack-các-phương-thực-cơ-bản">Để thao tác với API OpenStack, các phương thực cơ bản</h3>
+
+<ul>
+<li><p>CURL:</p>
+
+<ul>
+<li><p>Công cụ dòng lệnh cho phép tương tác với các giao thức FTP, FTPS, HTTP, HTTPS, IMAP, SMTP, v.v.</p></li>
+
+<li><p>Không có giao diện, chạy trên dòng lệnh, nhanh gọn.</p></li>
+</ul></li>
+
+<li><p>Openstack command-line client:</p>
+
+<ul>
+<li>Mỗi Project trong OpenStack cho phép người dùng tương tác với chính nó thông qua cli. Bản chất các CLI sử dụng API OPS.</li>
+</ul></li>
+
+<li><p>REST client:</p>
+
+<ul>
+<li>Giao diện độ họa, cho phép người sử dụng làm việc nhanh chóng với API.</li>
+</ul></li>
+
+<li><p>Openstack Python Software Development Kit (SDK):</p>
+
+<ul>
+<li><p>Viết trên Python scripts, cho phép user làm việc với tài nguyên OpenStack.</p></li>
+
+<li><p>SDK sử dụng python để làm việc với các API OpenStack.</p></li>
+
+<li><p>OpenStack CLI được xây dựng trên Python SDK.</p></li>
+</ul></li>
+</ul>
+
+<h2 id="cách-sử-dụng-api">Cách sử dụng API</h2>
+
+<h3 id="chuẩn-bị-môi-trường">Chuẩn bị môi trường</h3>
+
+<p>Có thể sử dụng Extension App của Chrome như:</p>
+
+<ul>
+<li>Restlet Client
+Link: <a href="https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm">https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm</a></li>
+</ul>
+
+<p>Download app trên Windown</p>
+
+<ul>
+<li>Postman
+Link: <a href="https://www.getpostman.com/">https://www.getpostman.com/</a></li>
+</ul>
+
+<pre><code>Trong bài viết sẽ sử dụng Postman để làm việc với OPS API 
+</code></pre>
+
+<h3 id="lưu-ý-trước-khi-lab">Lưu ý trước khi lab:</h3>
+
+<p>Lưu ý: Trong OpenStack có khái niệm <code>scope</code> hay còn gọi là phạm vi ủy quyền</p>
+
+<ul>
+<li>Token sẽ thể hiện quyền khác nhau với các scope khác nhau. Ví dụ như tập quyền trên các project, domain, chứng thực trong 1 thời điểm khác nhau.</li>
+<li>Bản chất mỗi token được cấp sẽ có quyền khác nhau khi làm việc với các project khác nhau</li>
+</ul>
+
+<p>Unscoped token:</p>
+
+<ul>
+<li>Token không có quyền sử dụng bất kỳ catalog, role, project, hoặc domain. Sử dụng token này đơn giản để chứng thực danh tính tại KeyStone tại 1 số thời điểm.</li>
+</ul>
+
+<pre><code>Xem thêm vd docs bên dưới
+</code></pre>
+
+<p>Project-scoped token:</p>
+
+<ul>
+<li>Cho phép thực hiện hành động trên 1 số môi trường cụ thể,</li>
+<li>Nó bào gồm service log, tập role, chi tiết về project có quyền tương tác</li>
+</ul>
+
+<pre><code>Xem thêm vd lab bên dưới
+</code></pre>
+
+<p>Domain-scoped token:</p>
+
+<ul>
+<li>Token cho quyền thực hiện hành động trên domain chỉ định.</li>
+<li>Mỗi domain thường bao gồm nhiều project và user</li>
+</ul>
+
+<h1 id="sử-dụng-api-openstack">Sử dụng API OPENSTACK</h1>
+
+<p>Danh sách API OPS:</p>
+
+<p><a href="http://172.16.4.200/dashboard/project/api_access/">http://172.16.4.200/dashboard/project/api_access/</a></p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-2.PNG" alt="" /></p>
+
+<h2 id="phần-1-làm-việc-với-identity-api-v3-service">Phần 1: Làm việc với Identity API v3 service</h2>
+
+<pre><code>Tìm hiểu thêm cơ chế làm việc với KeyStone theo docs 
+</code></pre>
+
+<h3 id="cơ-bản-về-dịch-vụ-identity">Cơ bản về dịch vụ Identity</h3>
+
+<p>Dịch vụ Identity service sử dụng để sinh token. Token tượng trưng cho chứng thực định danh user, tổ chức, quyền hạn trên các project, domain và hệ thống</p>
+
+<p>Có 2 phương thức chứng thực:</p>
+
+<ul>
+<li>Password</li>
+<li>Token</li>
+</ul>
+
+<p>Trong các token sẽ chứa:
+- Credential (Thông tin xác thực)
+- Authorization scope (Phạm vi quyền hạn)</p>
+
+<p>Token trả lại bao gồm:</p>
+
+<ul>
+<li>Token IDs và giá trị X-Subject-Token tại header response</li>
+</ul>
+
+<p>Sau khi có token ta có thể:</p>
+
+<ul>
+<li>Tạo các REST API tới các dịch vụ OpenStack khác.</li>
+<li>Cần khai báo giá trị <code>X-Auth-Token</code> tại request header</li>
+<li>Validate token, liệt kê danh sách các domain, project, role, endpoint token cho phép truy cập</li>
+<li>Thu hồi token</li>
+</ul>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-1.PNG" alt="" /></p>
+
+<h3 id="chứng-thực-password-dạng-unscoped-authorization">Chứng thực password dạng unscoped authorization</h3>
+
+<pre><code>POST: /v3/auth/tokens
+</code></pre>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>Token dạng unscoped, tức Token không có quyền sử dụng bất kỳ catalog, role, project, hoặc domain. Sử dụng token này đơn giản để chứng thực danh tính tại KeyStone tại 1 số thời điểm.</li>
+<li>Phương thức chứng thực dạng password, user cần khai báo id or name, password</li>
+</ul>
+
+<p>Body request raw dạng json</p>
+
+<pre><code>{
+    &quot;auth&quot;: {
+        &quot;identity&quot;: {
+            &quot;methods&quot;: [
+                &quot;password&quot;
+            ],
+            &quot;password&quot;: {
+                &quot;user&quot;: {
+                    &quot;name&quot;: &quot;admin&quot;,
+                    &quot;domain&quot;: {
+                        &quot;name&quot;: &quot;Default&quot;
+                    },
+                    &quot;password&quot;: &quot;devstacker&quot;
+                }
+            }
+        }
+    }
+}
+</code></pre>
+
+<p>VD:</p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-3.PNG" alt="" /></p>
+
+<p>KQ:</p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-4.PNG" alt="" /></p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-5.PNG" alt="" /></p>
+
+<h3 id="chứng-thực-password-dạng-scoped-authorization">Chứng thực password dạng scoped authorization</h3>
+
+<pre><code>POST: /v3/auth/tokens
+</code></pre>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>Phương thức chứng thực cho phép truy cập các project, domain, system</li>
+<li>Request body cần bao gồm pasword, thêm các thông tin về project, domain, system</li>
+</ul>
+
+<p>Các loại chứng thực cơ bản:</p>
+
+<ul>
+<li>Chứng thực system scoped</li>
+</ul>
+
+<pre><code> {
+    &quot;auth&quot;: {
+        &quot;identity&quot;: {
+            &quot;methods&quot;: [
+                &quot;password&quot;
+            ],
+            &quot;password&quot;: {
+                &quot;user&quot;: {
+                    &quot;id&quot;: &quot;ee4dfb6e5540447cb3741905149d9b6e&quot;,
+                    &quot;password&quot;: &quot;devstacker&quot;
+                }
+            }
+        },
+        &quot;scope&quot;: {
+            &quot;system&quot;: {
+                &quot;all&quot;: true
+            }
+        }
+    }
+ }
+</code></pre>
+
+<ul>
+<li><p>Chứng thực Domain-Scoped</p>
+
+<pre><code>{
+&quot;auth&quot;: {
+    &quot;identity&quot;: {
+        &quot;methods&quot;: [
+            &quot;password&quot;
+        ],
+        &quot;password&quot;: {
+            &quot;user&quot;: {
+                &quot;id&quot;: &quot;ee4dfb6e5540447cb3741905149d9b6e&quot;,
+                &quot;password&quot;: &quot;devstacker&quot;
+            }
+        }
+    },
+    &quot;scope&quot;: {
+        &quot;domain&quot;: {
+            &quot;id&quot;: &quot;default&quot;
+        }
+    }
+}
+}
+</code></pre></li>
+
+<li><p>Chứng thực Project-Scoped</p>
+
+<pre><code>{
+&quot;auth&quot;: {
+    &quot;identity&quot;: {
+        &quot;methods&quot;: [
+            &quot;password&quot;
+        ],
+        &quot;password&quot;: {
+            &quot;user&quot;: {
+                &quot;id&quot;: &quot;ee4dfb6e5540447cb3741905149d9b6e&quot;,
+                &quot;password&quot;: &quot;devstacker&quot;
+            }
+        }
+    },
+    &quot;scope&quot;: {
+        &quot;project&quot;: {
+            &quot;id&quot;: &quot;a6944d763bf64ee6a275f1263fae0352&quot;
+        }
+    }
+}
+}
+</code></pre></li>
+</ul>
+
+<p>VD:
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-6.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-7.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-8.PNG" alt="" /></p>
+
+<h3 id="chứng-thực-token-dạng-unscoped-authorization">Chứng thực token dạng unscoped authorization</h3>
+
+<pre><code>POST: /v3/auth/tokens
+</code></pre>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>Token dạng unscoped, tức Token không có quyền sử dụng bất kỳ catalog, role, project, hoặc domain. Sử dụng token này đơn giản để chứng thực danh tính tại KeyStone tại 1 số thời điểm.</li>
+<li>Phương thức chứng thực dạng password, user cần khai báo id or name, password</li>
+</ul>
+
+<p>Body request</p>
+
+<pre><code>{
+&quot;auth&quot;: {
+    &quot;identity&quot;: {
+        &quot;methods&quot;: [
+            &quot;token&quot;
+        ],
+        &quot;token&quot;: {
+            &quot;id&quot;: &quot;'$OS_TOKEN'&quot;
+        }
+    }
+}
+}
+</code></pre>
+
+<p>VD:</p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-9.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-10.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-11.PNG" alt="" /></p>
+
+<h3 id="chứng-thực-token-dạng-scoped-authorization">Chứng thực token dạng scoped authorization</h3>
+
+<pre><code>POST: /v3/auth/tokens
+</code></pre>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>Phương thức chứng thực cho phép truy cập các project, domain, system</li>
+
+<li><p>Request body cần bao gồm pasword, thêm các thông tin về project, domain, system</p></li>
+
+<li><p>Chứng thực dạng System-Scoped</p>
+
+<pre><code>{
+&quot;auth&quot;: {
+    &quot;identity&quot;: {
+        &quot;methods&quot;: [
+            &quot;token&quot;
+        ],
+        &quot;token&quot;: {
+            &quot;id&quot;: &quot;'$OS_TOKEN'&quot;
+        }
+    },
+    &quot;scope&quot;: {
+        &quot;system&quot;: {
+            &quot;all&quot;: true
+        }
+    }
+}
+}
+</code></pre></li>
+
+<li><p>Chứng thực dạng Domain-Scoped</p>
+
+<pre><code>{
+&quot;auth&quot;: {
+    &quot;identity&quot;: {
+        &quot;methods&quot;: [
+            &quot;token&quot;
+        ],
+        &quot;token&quot;: {
+            &quot;id&quot;: &quot;'$OS_TOKEN'&quot;
+        }
+    },
+    &quot;scope&quot;: {
+        &quot;domain&quot;: {
+            &quot;id&quot;: &quot;default&quot;
+        }
+    }
+}
+}
+</code></pre></li>
+
+<li><p>Chứng thực dạng Project-Scoped</p>
+
+<pre><code>{
+&quot;auth&quot;: {
+    &quot;identity&quot;: {
+        &quot;methods&quot;: [
+            &quot;token&quot;
+        ],
+        &quot;token&quot;: {
+            &quot;id&quot;: &quot;'$OS_TOKEN'&quot;
+        }
+    },
+    &quot;scope&quot;: {
+        &quot;project&quot;: {
+            &quot;domain&quot;: {
+                &quot;id&quot;: &quot;default&quot;
+            },
+            &quot;name&quot;: &quot;admin&quot;
+        }
+    }
+}
+}
+</code></pre></li>
+</ul>
+
+<p>VD:</p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-12.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-13.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-14.PNG" alt="" /></p>
+
+<h3 id="chứng-thực-token-và-show-thông-tin-token">Chứng thực token và show thông tin token</h3>
+
+<pre><code>GET: /v3/auth/tokens
+</code></pre>
+
+<p>Trả lại thông tin các token</p>
+
+<p>Lưu ý: Cần 2 tham số</p>
+
+<ul>
+<li>Cần tham số X-Auth-Token: Token hiện tại</li>
+<li>Cần tham số X-Subject-Token: Token cần chứng thực</li>
+</ul>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-15.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-16.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-17.PNG" alt="" /></p>
+
+<h3 id="kiểm-tra-token">Kiểm tra token</h3>
+
+<pre><code>HEAD /v3/auth/tokens
+</code></pre>
+
+<p>Kiểm tra token giống chứng thực nhưng không có kết quả trả về.</p>
+
+<p>Yêu cầu 2 tham số:</p>
+
+<ul>
+<li>Cần tham số X-Auth-Token: Token hiện tại</li>
+<li>Cần tham số X-Subject-Token: Token cần kiểm tra</li>
+</ul>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-18.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-19.PNG" alt="" /></p>
+
+<h3 id="thu-hồi-token">Thu hồi token</h3>
+
+<pre><code>DELETE: /v3/auth/tokens
+</code></pre>
+
+<p>Giống chứng thực, nhưng mục đích là thu hồi token</p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-20.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-21.PNG" alt="" /></p>
+
+<h3 id="lấy-catalog-service-được-sử-dụng">Lấy catalog service được sử dụng</h3>
+
+<pre><code>GET: /v3/auth/catalog
+</code></pre>
+
+<pre><code>Lưu ý sử dụng token dạng scoped như project scoped
+</code></pre>
+
+<p>VD:
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-22.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-23.PNG" alt="" /></p>
+
+<h3 id="lấy-project-có-thể-sử-dụng">Lấy project có thể sử dụng</h3>
+
+<pre><code>GET: /v3/auth/projects
+</code></pre>
+
+<pre><code>Lưu ý sử dụng token dạng scoped như project scoped
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-24.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-25.PNG" alt="" /></p>
+
+<h3 id="lưu-ý">Lưu ý</h3>
+
+<pre><code>Sau khi có token (X-Auth-Token) trong header request, user có thể tương tác với các project, service khác trong ops theo scoped user
+</code></pre>
+
+<h3 id="liệt-các-các-service-có-thể-sử-dụng">Liệt các các service có thể sử dụng</h3>
+
+<pre><code>GET: /v3/services
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-26.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-27.PNG" alt="" /></p>
+
+<h2 id="phần-2-làm-với-image-service">Phần 2: Làm với image service</h2>
+
+<pre><code>Làm việc với project glance
+</code></pre>
+
+<pre><code>Yêu cầu đã chứng thực scoped token với quyền trên system, hoặc project. X-Auth-Token trên header
+</code></pre>
+
+<h3 id="liệt-kê-danh-sách-các-image">Liệt kê danh sách các image</h3>
+
+<pre><code>GET: /v2/images
+</code></pre>
+
+<pre><code>Yêu cầu X-Auth-Token tại header
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-28.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-29.PNG" alt="" /></p>
+
+<h3 id="xem-thông-tin-chi-tiết-image">Xem thông tin chi tiết image</h3>
+
+<pre><code>GET: /v2/images/{image_id}
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-30.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-31.PNG" alt="" /></p>
+
+<h3 id="delete-image">Delete Image</h3>
+
+<pre><code>DELETE: /v2/images/{image_id}
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-32.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-33.PNG" alt="" /></p>
+
+<h3 id="cách-tạo-image-bằng-api-ops">Cách tạo Image bằng API OPS</h3>
+
+<p>Cần 2 bước để tạo Image:</p>
+
+<ul>
+<li>Tạo Image trống chưa có file data (Sau khi tạo status dạng queue)</li>
+<li>Upload file data (Sau khi upload image status chuyển sang dạng active)</li>
+</ul>
+
+<pre><code>POST: /v2/images
+</code></pre>
+
+<p>Tạo khung image:</p>
+
+<ul>
+<li>Cần X-Auth-Token tại header</li>
+<li>Trong body request cần tham số
+
+<ul>
+<li>&ldquo;container_format&rdquo;</li>
+<li>&ldquo;disk_format&rdquo;</li>
+<li>&ldquo;name&rdquo;</li>
+</ul></li>
+</ul>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-34.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-35.PNG" alt="" /></p>
+
+<pre><code>PUT: /v2/images/{image_id}/file
+</code></pre>
+
+<p>Upload image:</p>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-36.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-37.PNG" alt="" /></p>
+
+<h2 id="phần-3-làm-với-network-api">Phần 3: Làm với network api</h2>
+
+<pre><code>Làm việc với project neutron
+</code></pre>
+
+<pre><code>Yêu cầu đã chứng thực scoped token với quyền trên system, hoặc project. X-Auth-Token trên header
+</code></pre>
+
+<h3 id="lấy-danh-sách-network">Lấy danh sách network</h3>
+
+<pre><code>GET: /v2.0/networks
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-38.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-39.PNG" alt="" /></p>
+
+<h3 id="xem-chi-tiết-network">Xem chi tiết network</h3>
+
+<pre><code>GET: /v2.0/networks/{network_id}
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-40.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-41.PNG" alt="" /></p>
+
+<h3 id="xóa-network">Xóa network</h3>
+
+<pre><code>DELETE: /v2.0/networks/{network_id}
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-42.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-43.PNG" alt="" /></p>
+
+<h3 id="tạo-network">Tạo network</h3>
+
+<pre><code>POST: /v2.0/networks
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-44.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-45.PNG" alt="" /></p>
+
+<h3 id="lấy-danh-sách-subnet">Lấy danh sách subnet</h3>
+
+<pre><code>GET: /v2.0/subnets
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-46.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-47.PNG" alt="" /></p>
+
+<h3 id="xem-chi-tiết-subnet">Xem chi tiết subnet</h3>
+
+<pre><code>GET: /v2.0/subnets/{subnet_id}
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-48.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-49.PNG" alt="" /></p>
+
+<h3 id="tạo-subnet-mới">Tạo subnet mới</h3>
+
+<pre><code>POST: /v2.0/subnets
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-50.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-51.PNG" alt="" /></p>
+
+<h3 id="xóa-subnet">Xóa subnet</h3>
+
+<pre><code>DELETE: /v2.0/subnets/{subnet_id}
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-52.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-53.PNG" alt="" /></p>
+
+<h2 id="phần-4-làm-việc-với-compute-api">Phần 4: Làm việc với compute API</h2>
+
+<pre><code>Làm việc với project nova
+</code></pre>
+
+<pre><code>Yêu cầu đã chứng thực scoped token với quyền trên system, hoặc project. X-Auth-Token trên header
+</code></pre>
+
+<h3 id="liệt-kê-list-flavor">Liệt kê list flavor</h3>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-58.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-59.PNG" alt="" /></p>
+
+<h3 id="liệt-kê-các-vm-đang-chạy">Liệt kê các VM đang chạy</h3>
+
+<pre><code>GET: /servers
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-54.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-55.PNG" alt="" /></p>
+
+<h3 id="tạo-server">Tạo server</h3>
+
+<pre><code>POST: /servers
+</code></pre>
+
+<p>Body Json</p>
+
+<pre><code>{
+    &quot;server&quot;: {
+        &quot;name&quot;: &quot;create-vm&quot;,
+        &quot;imageRef&quot;: &quot;&lt;id&gt;&quot;,
+        &quot;flavorRef&quot;: &quot;&lt;id&gt;&quot;,
+        &quot;networks&quot; : [{
+            &quot;uuid&quot; : &quot;&lt;id&gt;&quot;            
+        }],
+    }
+}
+</code></pre>
+
+<p><img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-56.PNG" alt="" />
+<img src="https://github.com/lacoski/OpenStack-Note/raw/master/docs/ops-api/images/api-ops-57.PNG" alt="" /></p>
+
+<pre><code>Tìm hiểu thêm theo API DOCS: https://developer.openstack.org/api-ref/compute/#create-server
+</code></pre>
+
+<h1 id="nguồn">Nguồn</h1>
+
+<p><a href="https://github.com/hocchudong/API-Openstack">https://github.com/hocchudong/API-Openstack</a></p>
+
+<p><a href="https://www.codehub.vn/RESTful-API-Cho-Nguoi-Bat-Dau">https://www.codehub.vn/RESTful-API-Cho-Nguoi-Bat-Dau</a></p>
+
+<p><a href="https://developer.openstack.org/api-guide/quick-start/">https://developer.openstack.org/api-guide/quick-start/</a></p>
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Tue Dec 11, 2018 </h4>
+          <h5 id="wc"> 2000 Từ </h5>
+          <h5 id="readtime"> Đọc trong 9 phút </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/openstack">Openstack</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/openstack">Openstack</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/openstack-overview/">Tổng quan vể Openstack <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="1911">
+<meta itemprop="datePublished" content="2018-12-11">
+<meta itemprop="url" content="https://lacoski.github.io/openstack-api/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

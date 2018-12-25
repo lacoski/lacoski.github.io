@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lacoski.github.io/openstack-api/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lacoski.github.io/openstack-overview/</loc>
     <lastmod>2018-12-10T00:00:00+00:00</lastmod>
   </url>
@@ -44,13 +49,7 @@
   
   <url>
     <loc>https://lacoski.github.io/</loc>
-    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lacoski.github.io/tags/ceph/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -61,8 +60,8 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/django/</loc>
-    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/tags/ceph/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,20 +72,26 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/openstack/</loc>
-    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+    <loc>https://lacoski.github.io/tags/django/</loc>
+    <lastmod>2018-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lacoski.github.io/topics/openstack/</loc>
-    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lacoski.github.io/tags/openstack/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lacoski.github.io/post/</loc>
-    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,13 +102,13 @@
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/tags/rabbitmq/</loc>
+    <loc>https://lacoski.github.io/topics/rabbitmq/</loc>
     <lastmod>2018-12-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lacoski.github.io/topics/rabbitmq/</loc>
+    <loc>https://lacoski.github.io/tags/rabbitmq/</loc>
     <lastmod>2018-12-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
