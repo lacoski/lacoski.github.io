@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Openstack, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Tổng quan vể Openstack : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/openstack-overview/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2018-12-10"/>
+<meta property="article:modified_time" content="2018-12-10"/>
+
+
+
+<meta property="article:tag" content="Openstack">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Tổng quan vể Openstack : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Tổng quan vể Openstack - lacoski.github.io </title>
+    <link rel="canonical" href="https://lacoski.github.io/openstack-overview/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=T%e1%bb%95ng%20quan%20v%e1%bb%83%20Openstack-https%3a%2f%2flacoski.github.io%2fopenstack-overview%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2fopenstack-overview%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2fopenstack-overview%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2fopenstack-overview%2f&title=T%e1%bb%95ng%20quan%20v%e1%bb%83%20Openstack&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2fopenstack-overview%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2fopenstack-overview%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2fopenstack-overview%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Tổng quan vể Openstack</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           
+
+<h2 id="về-cloud-computing">Về Cloud Computing</h2>
+
+<p>Định nghĩa lược dịch từ NIST:</p>
+
+<p>Cloud Computing là mô hình cho phép truy cập qua mạng để lựa chọn và sử dụng tài nguyên  có thể được tính toán (ví dụ: mạng, máy chủ, lưu trữ, ứng dụng và dịch vụ) theo nhu cầu một cách thuận tiện và nhanh chóng; đồng thời cho phép kết thúc sử dụng dịch vụ, giải phóng tài nguyên dễ dàng, giảm thiểu các giao tiếp với nhà cung cấp”</p>
+
+<h2 id="các-đặc-tính-của-cloud-computing">Các đặc tính của Cloud Computing</h2>
+
+<p>Mô hình 5 - 4 - 3: 5 đặc tính, 4 mô hình dịch vụ và 3 mô hình triển khai.</p>
+
+<h3 id="5-đặc-điểm">5 đặc điểm:</h3>
+
+<ul>
+<li><p>Khả năng thu hồi và cấp phát tài nguyên (Rapid elasticity)</p></li>
+
+<li><p>Truy nhập qua các chuẩn mạng (Broad network access)</p></li>
+
+<li><p>Dịch vụ sử dụng đo đếm được (Measured service,) hay là chi trả theo mức độ sử dụng pay as you go.</p></li>
+
+<li><p>Khả năng tự phục vụ (On-demand self-service).</p></li>
+
+<li><p>Chia sẻ tài nguyên (Resource pooling).</p></li>
+</ul>
+
+<h3 id="4-mô-hình-dịch-vụ-mô-hình-sản-phẩm">4 mô hình dịch vụ (mô hình sản phẩm):</h3>
+
+<ul>
+<li><p>Public Cloud: Đám mây công cộng (là các dịch vụ trên nền tảng Cloud Computing để cho các cá nhân và tổ chức thuê, họ dùng chung tài nguyên).</p></li>
+
+<li><p>Private Cloud: Đám mây riêng (dùng trong một doanh nghiệp và không chia sẻ với người dùng ngoài doanh nghiệp đó)</p></li>
+
+<li><p>Community Cloud: Đám mây cộng đồng (là các dịch vụ trên nền tảng Cloud computing do các công ty cùng hợp tác xây dựng và cung cấp các dịch vụ cho cộng đồng)
+.</p></li>
+
+<li><p>Hybrid Cloud : Là mô hình kết hợp (lai) giữa các mô hình Public Cloud và Private Cloud</p></li>
+</ul>
+
+<h3 id="3-mô-hình-triển-khai-tức-là-triển-khai-cloud-computing-để-cung-cấp">3 mô hình triển khai: tức là triển khai Cloud Computing để cung cấp:</h3>
+
+<ul>
+<li><p>Hạ tầng như một dịch vụ (Infrastructure as a Service)</p></li>
+
+<li><p>Nền tảng như một dịch vụ (Platform as a Service)</p></li>
+
+<li><p>Phần mềm như một dịch vụ (Software as a Service)</p></li>
+</ul>
+
+<h2 id="về-openstack">Về OpenStack</h2>
+
+<p>OpenStack là một phần mềm mã nguồn mở, dùng để triển khai Cloud Computing, bao gồm private cloud và public cloud (nhiều tài liệu giới thiệu là Cloud Operating System). <code>Open source software for building private and public clouds</code></p>
+
+<pre><code>Tên các phiên bản được bắt đầu theo thứ tự A, B, C, D …trong bảng chữ cái.
+</code></pre>
+
+<h3 id="thành-phần-cơ-bản">Thành phần cơ bản</h3>
+
+<ul>
+<li><p>OpenStack compute (code-name Nova): là module quản lý và cung cấp máy ảo. Tên phát triển của nó Nova. Nó hỗ trợ nhiều hypervisors gồm KVM, QEMU, LXC, XenServer&hellip; Compute là một công cụ mạnh mẽ mà có thể điều khiển toàn bộ các công việc: networking, CPU, storage, memory, tạo, điều khiển và xóa bỏ máy ảo, security, access control. Bạn có thể điều khiển tất cả bằng lệnh hoặc từ giao diện dashboard trên web.</p></li>
+
+<li><p>OpenStack Glance (code-name Glance): là OpenStack Image Service, quản lý các disk image ảo. Glance hỗ trợ các ảnh Raw, Hyper-V (VHD), VirtualBox (VDI), Qemu (qcow2) và VMWare (VMDK, OVF). Bạn có thể thực hiện: cập nhật thêm các virtual disk images, cấu hình các public và private image và điều khiển việc truy cập vào chúng, và tất nhiên là có thể tạo và xóa chúng.</p></li>
+
+<li><p>OpenStack Object Storage (code-name Swift): dùng để quản lý lưu trữ. Nó là một hệ thống lưu trữ phân tán cho quản lý tất cả các dạng của lưu trữ như: archives, user data, virtual machine image … Có nhiều lớp redundancy và sự nhân bản được thực hiện tự động, do đó khi có node bị lỗi thì cũng không làm mất dữ liệu, và việc phục hồi được thực hiện tự động.</p></li>
+
+<li><p>Identity Server(code-name Keystone): quản lý xác thực cho user và projects.</p></li>
+
+<li><p>OpenStack Netwok (code-name Neutron): là thành phần quản lý network cho các máy ảo. Cung cấp chức năng network as a service. Đây là hệ thống có các tính chất pluggable, scalable và API-driven.</p></li>
+
+<li><p>OpenStack dashboard (code-name Horizon): cung cấp cho người quản trị cũng như người dùng giao diện đồ họa để truy cập, cung cấp và tự động tài nguyên cloud. Việc thiết kế có thể mở rộng giúp dễ dàng thêm vào các sản phẩm cũng như dịch vụ ngoài như billing, monitoring và các công cụ giám sát khác.</p></li>
+</ul>
+
+<pre><code>
+Project core của OpenStack:
+- Cinder, nova, neutron, cinder, keystone, glance
+</code></pre>
+
+<h3 id="ý-nghĩa-project">Ý nghĩa Project:</h3>
+
+<h4 id="dashboard-horizon">Dashboard (Horizon):</h4>
+
+<ul>
+<li><p>Ứng dụng web chạy nên apache</p></li>
+
+<li><p>Cung cấp giao diên cho Administrator quản trị dịch vụ OpenStack</p></li>
+
+<li><p>Tương thích với EC2 API của amazon</p></li>
+</ul>
+
+<h4 id="compute-nova">Compute (Nova)</h4>
+
+<ul>
+<li><p>Thành phần quản lý máy ảo (Virtual Compute Instance)</p></li>
+
+<li><p>Tương thích EC2 Amazone</p></li>
+
+<li><p>Gọi bằng OpenStack API hoặc EC2 API</p></li>
+
+<li><p>Hỗ trợ nhiều công nghệ ảo hóa: Xen, KVM, QEMU, vSphere, Hyper-V</p></li>
+</ul>
+
+<h4 id="image-service-glance">Image service (Glance)</h4>
+
+<ul>
+<li><p>Dịch vụ lưu trữ trên ổ đĩa ảo (Virtual Disk Image - VDI)</p></li>
+
+<li><p>Hỗ trợ nhiều định dạng</p></li>
+
+<li><p>3 tính năng chính:</p>
+
+<ul>
+<li><p>Quản trị template có sẵn, cho phép tạo image nhanh chóng</p></li>
+
+<li><p>Tạo VM từ VDI có sẵn</p></li>
+
+<li><p>Lưu VM nhanh = tính năng snapshots</p></li>
+</ul></li>
+</ul>
+
+<h4 id="networking-neutron">Networking (Neutron)</h4>
+
+<ul>
+<li><p>Cung cấp dịch vụ mạng (Network as a service) cho các thành phần OpenStack</p></li>
+
+<li><p>Sử dụng kiến trúc &ldquo;plug-in&rdquo;: Các plug-in được thực thi trên nhiều kiến trúc khác nhau (NVP, Open vSwitch, Linux bridge, Cisco)</p></li>
+
+<li><p>Cho phép tùy biến, mở rộng</p></li>
+
+<li><p>Cho phép tạo private network</p></li>
+
+<li><p>Có các tính năng tạo vSwitch, Firewall, DHCP, VPN, Load balancing</p></li>
+</ul>
+
+<h4 id="storage-swift">Storage (Swift)</h4>
+
+<ul>
+<li><p>Cung cấp dịch vụ lưu trữ giống S3 Amazon</p></li>
+
+<li><p>Có khả năng mở rộng, lưu trữ phân tán, có backup</p></li>
+
+<li><p>Tương thích S3 API</p></li>
+</ul>
+
+<h4 id="storage-cinder">Storage (Cinder)</h4>
+
+<ul>
+<li><p>Cung cấp Thiết bị lưu trữ ảo cho VM OpenStack</p></li>
+
+<li><p>Tương tự dịch vụ EBS Amazon</p></li>
+
+<li><p>Có khả năng mở rộng phân tán</p></li>
+</ul>
+
+<h4 id="phân-biệt-swift-image-cinder">Phân biệt Swift, Image, Cinder</h4>
+
+<ul>
+<li><p>Cinder cung cấp block storage, từ đó có thể mount các volume tới các thực thi (VM)</p></li>
+
+<li><p>Glance cung cấp dịch vụ cho lưu trữ, tìm lại các OS image</p></li>
+
+<li><p>Swift cung cấp object storage (lưu trữ dạng đối tượng).</p></li>
+</ul>
+
+<p>Nguồn tìm hiểu thêm</p>
+
+<p><a href="https://docs.openstack.org/project-deploy-guide/openstack-ansible/newton/overview-storage-arch.html">https://docs.openstack.org/project-deploy-guide/openstack-ansible/newton/overview-storage-arch.html</a></p>
+
+<h4 id="identity-service-keystone">Identity service (Keystone)</h4>
+
+<ul>
+<li><p>Dịch vụ xác thực người dùng</p></li>
+
+<li><p>Hỗ trợ nhiều kiểu xác thực</p></li>
+
+<li><p>Phần quyền dựa trên tính năng role-base access control (RBAC)</p></li>
+</ul>
+
+<h4 id="telemetry-service-ceilometer">Telemetry service (Ceilometer)</h4>
+
+<ul>
+<li><p>Dịch vụ giám sát thông kê</p></li>
+
+<li><p>Thu thập thông tin về quá trình sử dụng để tính toán hóa đơn, xác định mức độ sử dụng hệ thống</p></li>
+</ul>
+
+<h4 id="orchestration-service-heat">Orchestration Service (Heat)</h4>
+
+<ul>
+<li><p>Cung cấp các template cho ứng dụng phổ biến</p></li>
+
+<li><p>Template cung cấp các thành phần compute, storage, networking đáp ứng các ứng dụng</p></li>
+
+<li><p>Kết hợp với Ceilometer để tính toán tài nguyên sử dụng hợp lý</p></li>
+
+<li><p>Tương thích AWS CloudFormation APIs.</p></li>
+</ul>
+
+<h2 id="nguồn">Nguồn</h2>
+
+<p><a href="https://vietstack.wordpress.com/2014/02/15/openstack-la-gi-va-de-lam-gi/">https://vietstack.wordpress.com/2014/02/15/openstack-la-gi-va-de-lam-gi/</a></p>
+
+<p><a href="https://viblo.asia/p/tim-hieu-ve-dien-toan-dam-may-voi-openstack-ZabG9zZ5vzY6">https://viblo.asia/p/tim-hieu-ve-dien-toan-dam-may-voi-openstack-ZabG9zZ5vzY6</a></p>
+
+<p><a href="https://www.slideshare.net/lanhuonga3/tm-hiu-v-openstack">https://www.slideshare.net/lanhuonga3/tm-hiu-v-openstack</a></p>
+
+<p><a href="https://github.com/thaonguyenvan/meditech-thuctap/blob/master/ThaoNV/Tim%20hieu%20OpenStack/docs/general/tim-hieu-chung-OpenStack.md">https://github.com/thaonguyenvan/meditech-thuctap/blob/master/ThaoNV/Tim%20hieu%20OpenStack/docs/general/tim-hieu-chung-OpenStack.md</a></p>
+
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Mon Dec 10, 2018 </h4>
+          <h5 id="wc"> 1100 Từ </h5>
+          <h5 id="readtime"> Đọc trong 6 phút </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/openstack">Openstack</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/openstack">Openstack</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/rabbitmq-overview/">Tổng quan về RabbitMQ <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="1094">
+<meta itemprop="datePublished" content="2018-12-10">
+<meta itemprop="url" content="https://lacoski.github.io/openstack-overview/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+

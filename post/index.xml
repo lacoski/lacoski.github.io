@@ -7,13 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2018 - 2018, lacoski; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 09 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lacoski.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tổng quan vể RabbitMQ</title>
+      <title>Tổng quan vể Openstack</title>
+      <link>https://lacoski.github.io/openstack-overview/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/openstack-overview/</guid>
+      <description>Về Cloud Computing Định nghĩa lược dịch từ NIST:
+Cloud Computing là mô hình cho phép truy cập qua mạng để lựa chọn và sử dụng tài nguyên có thể được tính toán (ví dụ: mạng, máy chủ, lưu trữ, ứng dụng và dịch vụ) theo nhu cầu một cách thuận tiện và nhanh chóng; đồng thời cho phép kết thúc sử dụng dịch vụ, giải phóng tài nguyên dễ dàng, giảm thiểu các giao tiếp với nhà cung cấp”</description>
+    </item>
+    
+    <item>
+      <title>Tổng quan về RabbitMQ</title>
       <link>https://lacoski.github.io/rabbitmq-overview/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
       

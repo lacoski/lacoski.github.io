@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openstack on Blog của Nguyễn Bá Thành</title>
+    <link>https://lacoski.github.io/tags/openstack/</link>
+    <description>Recent content in Openstack on Blog của Nguyễn Bá Thành</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2018 - 2018, lacoski; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lacoski.github.io/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tổng quan vể Openstack</title>
+      <link>https://lacoski.github.io/openstack-overview/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/openstack-overview/</guid>
+      <description>Về Cloud Computing Định nghĩa lược dịch từ NIST:
+Cloud Computing là mô hình cho phép truy cập qua mạng để lựa chọn và sử dụng tài nguyên có thể được tính toán (ví dụ: mạng, máy chủ, lưu trữ, ứng dụng và dịch vụ) theo nhu cầu một cách thuận tiện và nhanh chóng; đồng thời cho phép kết thúc sử dụng dịch vụ, giải phóng tài nguyên dễ dàng, giảm thiểu các giao tiếp với nhà cung cấp”</description>
+    </item>
+    
+  </channel>
+</rss>
