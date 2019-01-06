@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2018 - 2018, lacoski; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lacoski.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tổng quan về Cloud init và các giao đoạn thực thi</title>
+      <link>https://lacoski.github.io/cloudinit-overview/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lacoski.github.io/cloudinit-overview/</guid>
+      <description>&lt;p&gt;Cloud init được sử dụng nhằm custom lại Linux VM trong lần boot đầu tiên&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Cách sử dụng OpenStack API</title>

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Openstack, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Tổng quan về Cloud init và các giao đoạn thực thi : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/cloudinit-overview/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2019-01-01"/>
+<meta property="article:modified_time" content="2019-01-01"/>
+
+
+
+<meta property="article:tag" content="Openstack">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Tổng quan về Cloud init và các giao đoạn thực thi : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Tổng quan về Cloud init và các giao đoạn thực thi - lacoski.github.io </title>
+    <link rel="canonical" href="https://lacoski.github.io/cloudinit-overview/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=T%e1%bb%95ng%20quan%20v%e1%bb%81%20Cloud%20init%20v%c3%a0%20c%c3%a1c%20giao%20%c4%91o%e1%ba%a1n%20th%e1%bb%b1c%20thi-https%3a%2f%2flacoski.github.io%2fcloudinit-overview%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2fcloudinit-overview%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2fcloudinit-overview%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2fcloudinit-overview%2f&title=T%e1%bb%95ng%20quan%20v%e1%bb%81%20Cloud%20init%20v%c3%a0%20c%c3%a1c%20giao%20%c4%91o%e1%ba%a1n%20th%e1%bb%b1c%20thi&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2fcloudinit-overview%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2fcloudinit-overview%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2fcloudinit-overview%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Tổng quan về Cloud init và các giao đoạn thực thi</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>Cloud init được sử dụng nhằm custom lại Linux VM trong lần boot đầu tiên</p>
+
+<p></p>
+
+<h2 id="tổng-quan">Tổng quan</h2>
+
+<p>Cloud init được sử dụng nhằm custom lại Linux VM trong lần boot đầu tiên</p>
+
+<p>Cloud init hỗ trợ:</p>
+
+<ul>
+<li>Thiết lập gói cơ bản</li>
+<li>Cấu hình hostname</li>
+<li>Sinh SSH private key</li>
+<li>Tự động bổ sung SSH Key vào tài khoản người dùng (<code>.ssh/authorized_keys</code>)</li>
+<li>Cấu hình mount tự động</li>
+<li>Cấu hình network</li>
+<li>v.v</li>
+</ul>
+
+<h2 id="các-giao-đoạn-thực-thi">Các giao đoạn thực thi</h2>
+
+<h2 id="gồm-5-giai-đoạn">Gồm 5 giai đoạn</h2>
+
+<ul>
+<li>Generator</li>
+<li>Local</li>
+<li>Network</li>
+<li>Config</li>
+<li>Final</li>
+</ul>
+
+<h2 id="1-generator">1 - Generator</h2>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>Qúa trình khởi tạo tiến trình cloud init.</li>
+<li>Xảy ra khi hệ thống đang boot. Quyết định có chạy dịch vụ <code>cloud-init.target</code>. Mặc định sẽ kích hoạt dịch vụ cloud init.</li>
+</ul>
+
+<h2 id="2-local">2 - Local</h2>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>Tiến trình: cloud-init-local.service</li>
+<li>Chạy khi mount đường dẫn &lsquo;/&rsquo;</li>
+<li>blocks: Sớm nhất khi boot, cần block network được bật</li>
+</ul>
+
+<p>Mục đích:</p>
+
+<ul>
+<li>Chứa các &lsquo;local&rsquo; data source</li>
+<li>Thực hiện cấu hình network hệ thống</li>
+</ul>
+
+<p>Bổ sung:</p>
+
+<ul>
+<li>Trong nhiều trường hợp, qúa trình có thể bao gồm nhiều bước hơn bao gồm tìm kiếm data sources, quyết định network cần cấu hình.</li>
+<li>Khi instance được boot lần đầu, cấu hình network config sẽ được sinh. Bao gồm làm sạch các quá trình trước đó.</li>
+<li>Giai đoạn này sẽ block quá trình bật các card mạng, apply các cấu hình</li>
+</ul>
+
+<p>LOG</p>
+
+<pre><code class="language-bash">cloud-init[503]: Cloud-init v. 0.7.9 running 'init-local' at Fri, 30 Nov 2018 02:59:49 +0000. Up 182.97 seconds.
+...
+Started Initial cloud-init job (pre-networking)
+...
+
+</code></pre>
+
+<h2 id="3-network">3 - Network</h2>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>systemd service: cloud-init.service</li>
+<li>runs: Thực thi sau giai đoạn <code>local</code> và các cấu hình networking được bật.</li>
+<li>blocks: Sớm nhất khi boots</li>
+<li>modules: cloud_init_modules in /etc/cloud/cloud.cfg</li>
+<li>Yêu cầu các cấu hình network sẵn sàng, nó sẽ xử lý bất kỳ user-data này tìm thấy.</li>
+</ul>
+
+<p>Mục đích</p>
+
+<ul>
+<li>Nó sẽ giải nén các module, get các dữ liệu về.</li>
+<li>Giai đoạn này sẽ chạy các module như <code>bootcmd</code>.</li>
+</ul>
+
+<p>Module cho giai đoạn 3</p>
+
+<pre><code class="language-bash">cloud_init_modules:
+ - migrator
+ - bootcmd
+ - write-files
+ - growpart
+ - resizefs
+ - set_hostname
+ - update_hostname
+ - update_etc_hosts
+ - rsyslog
+ - users-groups
+ - ssh
+</code></pre>
+
+<p>LOG</p>
+
+<pre><code>[  293.175946] cloud-init[764]: Cloud-init v. 0.7.9 running 'init' at Fri, 30 Nov 2018 03:01:36 +0000. Up 289.92 seconds.
+[  296.331534] cloud-init[764]: ci-info: ++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++
+[  296.346940] cloud-init[764]: ci-info: +--------+------+--------------+---------------+-------+-------------------+
+[  296.471475] cloud-init[764]: ci-info: | Device |  Up  |   Address    |      Mask     | Scope |     Hw-Address    |
+[  296.609673] cloud-init[764]: ci-info: +--------+------+--------------+---------------+-------+-------------------+
+[  296.775927] cloud-init[764]: ci-info: |  lo:   | True |  127.0.0.1   |   255.0.0.0   |   .   |         .         |
+[  296.816735] cloud-init[764]: ci-info: |  lo:   | True |      .       |       .       |   d   |         .         |
+[  297.066467] cloud-init[764]: ci-info: | eth0:  | True | 10.10.11.192 | 255.255.255.0 |   .   | fa:16:3e:5d:3b:bf |
+[  297.270441] cloud-init[764]: ci-info: | eth0:  | True |      .       |       .       |   d   | fa:16:3e:5d:3b:bf |
+[  297.502432] cloud-init[764]: ci-info: +--------+------+--------------+---------------+-------+-------------------+
+[  297.611670] cloud-init[764]: ci-info: ++++++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++++++
+[  297.744581] cloud-init[764]: ci-info: +-------+-----------------+--------------+-----------------+-----------+-------+
+[  297.884410] cloud-init[764]: ci-info: | Route |   Destination   |   Gateway    |     Genmask     | Interface | Flags |
+[  298.008536] cloud-init[764]: ci-info: +-------+-----------------+--------------+-----------------+-----------+-------+
+[  298.155523] cloud-init[764]: ci-info: |   0   |     0.0.0.0     |  10.10.11.1  |     0.0.0.0     |    eth0   |   UG  |
+[  298.327227] cloud-init[764]: ci-info: |   1   |    10.10.11.0   |   0.0.0.0    |  255.255.255.0  |    eth0   |   U   |
+[  298.412998] cloud-init[764]: ci-info: |   2   | 169.254.169.254 | 10.10.11.195 | 255.255.255.255 |    eth0   |  UGH  |
+[  298.476501] cloud-init[764]: ci-info: +-------+-----------------+--------------+-----------------+-----------+-------+
+</code></pre>
+
+<h2 id="4-config">4 - Config</h2>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>systemd service: cloud-config.service</li>
+<li>runs: After network stage.</li>
+<li>blocks: None.</li>
+<li>modules: cloud_config_modules in /etc/cloud/cloud.cfg</li>
+</ul>
+
+<p>Mục đích:</p>
+
+<ul>
+<li>Giai đoạn chỉ chạy các module config. Các module không thể chạy trong giai đoạn khởi động.</li>
+</ul>
+
+<pre><code>
+cloud_config_modules:
+
+ - mounts
+ - locale
+ - set-passwords
+ - rh_subscription
+ - yum-add-repo
+ - package-update-upgrade-install
+ - timezone
+ - puppet
+ - chef
+ - salt-minion
+ - mcollective
+ - disable-ec2-metadata
+ - runcmd
+</code></pre>
+
+<p>LOG</p>
+
+<pre><code class="language-bash">...
+admin login: [  396.253652] cloud-init[990]: Cloud-init v. 0.7.9 running 'modules:config' at Fri, 30 Nov 2018 03:03:13 +0000. Up 386.17 seconds.
+...
+</code></pre>
+
+<h2 id="5-final">5 - Final</h2>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li>systemd service: cloud-final.service</li>
+<li>runs: As final part of boot (traditional “rc.local”)</li>
+<li>blocks: None.</li>
+<li>modules: cloud_final_modules in /etc/cloud/cloud.cfg</li>
+</ul>
+
+<p>Mục đích:</p>
+
+<ul>
+<li>Chạy sau cùng trong quá trình boot. Thực hiện các tệp lệnh cơ bản người dùng. Như <code>package installations</code>, <code>configuration management plugins (puppet, chef, alt-minion)</code>, <code>user-scripts (including runcmd)</code>.</li>
+</ul>
+
+<p>Module</p>
+
+<pre><code>cloud_final_modules:
+ - rightscale_userdata
+ - scripts-per-once
+ - scripts-per-boot
+ - scripts-per-instance
+ - scripts-user
+ - ssh-authkey-fingerprints
+ - keys-to-console
+ - phone-home
+ - final-message
+ - power-state-change
+</code></pre>
+
+<p>LOG</p>
+
+<pre><code class="language-bash">[  439.819951] cloud-init[1178]: Cloud-init v. 0.7.9 running 'modules:final' at Fri, 30 Nov 2018 03:04:01 +0000. Up 434.84 seconds.
+ci-info: no authorized ssh keys fingerprints found for user root.
+[  440.595534] cloud-init[1178]: ci-info: no authorized ssh keys fingerprints found for user root.
+ec2: 
+ec2: #############################################################
+ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+ec2: 256 SHA256:9qp3+tYThbsWI+HikJomKaxZk6moSyitFWwR+JrS1KI no comment (ECDSA)
+ec2: 256 SHA256:zfI5ybwOjURVMBC7vZfoitcA3JlXN+V9Y0nmD142s0c no comment (ED25519)
+ec2: 2048 SHA256:1IUKHnHwJFV761UaxPh0KPjJtUABubU3NAViXGDATfc no comment (RSA)
+ec2: -----END SSH HOST KEY FINGERPRINTS-----
+ec2: #############################################################
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOfwoVUOazc34REpOjQ3L+bUUGIMsodZfenVu6Vm5owTBwaGjTYSvmrwKJN1BN6R79CIWb9XGbEmMIjbVS6sJp8= 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFA+r8LmcwulMNZ8TjVdyGLUl9oPg5GVi+5AVcxpSq4s 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2ZKt6h2jC1oQc0P2oWYIlBqFKv2cwTvG6kcfdgz83ygSHE/kEir7gZeM6WJ/2F804JWtdVYr95x5MAjK5rgPTv2b7Hl9FBjT5MTsxRDHrNI+Pog1U9CMrKFyDbmm0JAWttzCDG8s1I9/1CQx31GyZXKnLwv8U3CDRo3bTXG8C9//GhRySlIFVl7VeExHaueo0H02uVknRZcXbgA4ZYibryyBtPg2nw/B6db0P6eOSmrybqpJynkbtCajgsSWP2NbIRmQmzFgCwJUsrUBiH6u3UGiveFQg0xwxP+Uwzg1jxM72eqcxAsCeSRaNsNcV0K1e/CG7NExsn2/NKIqdCkz/ 
+-----END SSH HOST KEY KEYS-----
+[  442.791014] cloud-init[1178]: Cloud-init v. 0.7.9 finished at Fri, 30 Nov 2018 03:04:09 +0000. Datasource DataSourceOpenStack [net,ver=2].  Up 442.49 seconds
+</code></pre>
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Tue Jan 1, 2019 </h4>
+          <h5 id="wc"> 900 Từ </h5>
+          <h5 id="readtime"> Đọc trong 4 phút </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/openstack">Openstack</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/openstack">Openstack</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/openstack-api/">Cách sử dụng OpenStack API <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="834">
+<meta itemprop="datePublished" content="2019-01-01">
+<meta itemprop="url" content="https://lacoski.github.io/cloudinit-overview/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+
