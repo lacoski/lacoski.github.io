@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="keywords" content="Mysql, ">
+
+ 
+<meta property="og:type" content="article"/>
+<meta property="og:description" content=""/>
+<meta property="og:title" content="Cấu hình Galera MariaDB CentOS 7 : spf13.com"/>
+<meta property="og:site_name" content="spf13 is Steve Francia"/>
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://lacoski.github.io/install-mariadb-galera-3-node/">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2019-01-05"/>
+<meta property="article:modified_time" content="2019-01-05"/>
+
+
+
+<meta property="article:tag" content="Mysql">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@spf13">
+<meta name="twitter:title" content="Cấu hình Galera MariaDB CentOS 7 : spf13.com">
+<meta name="twitter:creator" content="@spf13">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="spf13.com">
+
+
+
+    <base href="https://lacoski.github.io/">
+    <title> Cấu hình Galera MariaDB CentOS 7 - lacoski.github.io </title>
+    <link rel="canonical" href="https://lacoski.github.io/install-mariadb-galera-3-node/">
+    
+
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/static/css/style.css">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink">
+        <img src="https://www.qburst.com/images/responsive/service/devops.png" style="width:100px;height:100px;">
+      </a>
+    </figure>
+    <div id="byline">by Nguyễn Bá Thành</div>
+    <nav id="nav">
+            <ul id="mainnav">
+            <li>
+                <a href="/post/">
+                <span class="icon"> <i aria-hidden="true" class="icon-quill"></i></span>
+                <span> blog </span>
+            </a>
+            </li>
+            <li>
+            <a href="/project/">
+                <span class="icon"> <i aria-hidden="true" class="icon-console"></i></span>
+                <span> code </span>
+            </a>
+            </li>
+            <li>
+            <a href="/presentation/">
+                <span class="icon"> <i aria-hidden="true" class="icon-stats"></i></span>
+                <span> talks </span>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/luis.lacoski">
+                <span class="icon"> <i aria-hidden="true" class="icon-13"></i></span>
+                <span> me </span>
+            </a>
+            </li>
+        </ul>
+
+            <ul id="social">
+            <li id="share">
+                <span class="icon icon-bubbles"> </span>
+                <span class="title"> Chia sẻ </span>
+                <div class="dropdown share">
+                    <ul class="social">
+                      <li> <a href="https://twitter.com/intent/tweet?status=C%e1%ba%a5u%20h%c3%acnh%20Galera%20MariaDB%20CentOS%207-https%3a%2f%2flacoski.github.io%2finstall-mariadb-galera-3-node%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2flacoski.github.io%2finstall-mariadb-galera-3-node%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=https%3a%2f%2flacoski.github.io%2finstall-mariadb-galera-3-node%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2flacoski.github.io%2finstall-mariadb-galera-3-node%2f&title=C%e1%ba%a5u%20h%c3%acnh%20Galera%20MariaDB%20CentOS%207&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=https%3a%2f%2flacoski.github.io%2finstall-mariadb-galera-3-node%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=https%3a%2f%2flacoski.github.io%2finstall-mariadb-galera-3-node%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                        <li> <a href="http://www.stumbleupon.com/submit?url=https%3a%2f%2flacoski.github.io%2finstall-mariadb-galera-3-node%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="icon icon-stumbleupon"></span>StumbleUpon</a> </li>
+                    </ul>
+                    <span class="subcount">Chia sẻ bài viết</span>
+                </div>
+            </li>
+            <li id="follow">
+                <span class="icon icon-rocket"> </span>
+                <span class="title"> Theo dõi </span>
+                <div class="dropdown follow">
+                    <ul class="social">                        
+                        <li> <a href="https://www.facebook.com/luis.lacoski" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>                        
+                        <li> <a href="https://github.com/lacoski" target="_blank" title="GitHub" class="github"><span class="icon icon-github"></span>GitHub</a> </li>                        
+                    </ul>
+                    <span class="subcount">Liên hệ</span>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+
+<section id="main">
+  <h1 itemprop="name" id="title">Cấu hình Galera MariaDB CentOS 7</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           <p>Hướng dẫn cài đặt triển khai MariaDB Galera 3 node
+</p>
+
+<h2 id="mô-hình">Mô hình</h2>
+
+<p><img src="/media/galera-3-node.PNG" alt="" /></p>
+
+<h2 id="chuẩn-bị">Chuẩn bị</h2>
+
+<h3 id="tại-node-1">Tại Node 1</h3>
+
+<ul>
+<li><p>Cấu hình Hostname</p>
+
+<pre><code>hostnamectl set-hostname node1
+</code></pre></li>
+
+<li><p>Cấu hình network</p>
+
+<pre><code>echo &quot;Setup IP ens160&quot;
+nmcli c modify ens160 ipv4.addresses 10.10.10.86/24
+nmcli c modify ens160 ipv4.gateway 10.10.10.1
+nmcli c modify ens160 ipv4.dns 8.8.8.8
+nmcli c modify ens160 ipv4.method manual
+nmcli con mod ens160 connection.autoconnect yes
+
+echo &quot;Setup IP ens192&quot;
+nmcli c modify ens192 ipv4.addresses 10.10.11.86/24
+nmcli c modify ens192 ipv4.method manual
+nmcli con mod ens192 connection.autoconnect yes
+</code></pre></li>
+
+<li><p>Tắt Firewall, SELinux, Khởi động lại</p>
+
+<pre><code>sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+systemctl stop firewalld
+systemctl disable firewalld
+init 6
+</code></pre></li>
+
+<li><p>Cấu hình host</p>
+
+<pre><code>echo &quot;10.10.11.86 node1&quot; &gt;&gt; /etc/hosts
+echo &quot;10.10.11.87 node2&quot; &gt;&gt; /etc/hosts
+echo &quot;10.10.11.88 node3&quot; &gt;&gt; /etc/hosts
+</code></pre></li>
+</ul>
+
+<h3 id="tại-node-2">Tại Node 2</h3>
+
+<ul>
+<li><p>Cấu hình Hostname</p>
+
+<pre><code>hostnamectl set-hostname node2
+</code></pre></li>
+
+<li><p>Cấu hình network</p>
+
+<pre><code>echo &quot;Setup IP ens160&quot;
+nmcli c modify ens160 ipv4.addresses 10.10.10.87/24
+nmcli c modify ens160 ipv4.gateway 10.10.10.1
+nmcli c modify ens160 ipv4.dns 8.8.8.8
+nmcli c modify ens160 ipv4.method manual
+nmcli con mod ens160 connection.autoconnect yes
+
+echo &quot;Setup IP ens192&quot;
+nmcli c modify ens192 ipv4.addresses 10.10.11.87/24
+nmcli c modify ens192 ipv4.method manual
+nmcli con mod ens192 connection.autoconnect yes
+</code></pre></li>
+
+<li><p>Tắt Firewall, SELinux, Khởi động lại</p>
+
+<pre><code>sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+systemctl stop firewalld
+systemctl disable firewalld
+init 6
+</code></pre></li>
+
+<li><p>Cấu hình host</p>
+
+<pre><code>echo &quot;10.10.11.86 node1&quot; &gt;&gt; /etc/hosts
+echo &quot;10.10.11.87 node2&quot; &gt;&gt; /etc/hosts
+echo &quot;10.10.11.88 node3&quot; &gt;&gt; /etc/hosts
+</code></pre></li>
+</ul>
+
+<h3 id="tại-node-3">Tại Node 3</h3>
+
+<ul>
+<li><p>Cấu hình Hostname</p>
+
+<pre><code>hostnamectl set-hostname node3
+</code></pre></li>
+
+<li><p>Cấu hình network</p>
+
+<pre><code>echo &quot;Setup IP ens160&quot;
+nmcli c modify ens160 ipv4.addresses 10.10.10.88/24
+nmcli c modify ens160 ipv4.gateway 10.10.10.1
+nmcli c modify ens160 ipv4.dns 8.8.8.8
+nmcli c modify ens160 ipv4.method manual
+nmcli con mod ens160 connection.autoconnect yes
+
+echo &quot;Setup IP ens192&quot;
+nmcli c modify ens192 ipv4.addresses 10.10.11.88/24
+nmcli c modify ens192 ipv4.method manual
+nmcli con mod ens192 connection.autoconnect yes
+</code></pre></li>
+
+<li><p>Tắt Firewall, SELinux, Khởi động lại</p>
+
+<pre><code>sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+systemctl stop firewalld
+systemctl disable firewalld
+init 6
+</code></pre></li>
+
+<li><p>Cấu hình host</p>
+
+<pre><code>echo &quot;10.10.11.86 node1&quot; &gt;&gt; /etc/hosts
+echo &quot;10.10.11.87 node2&quot; &gt;&gt; /etc/hosts
+echo &quot;10.10.11.88 node3&quot; &gt;&gt; /etc/hosts
+</code></pre></li>
+</ul>
+
+<h2 id="cài-đặt-mariadb-10-2">Cài đặt MariaDB (10.2)</h2>
+
+<pre><code>Thực hiện trên tất cả các node
+</code></pre>
+
+<ul>
+<li><p>Khai báo repo</p>
+
+<pre><code>echo '[mariadb]
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.2/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1' &gt;&gt; /etc/yum.repos.d/MariaDB.repo
+yum -y update
+</code></pre></li>
+
+<li><p>Cài đặt MariaDB</p>
+
+<pre><code>yum install -y mariadb mariadb-server
+</code></pre></li>
+
+<li><p>Cài đặt galera và gói hỗ trợ</p>
+
+<pre><code>yum install -y galera rsync
+</code></pre></li>
+
+<li><p>Tắt Mariadb</p>
+
+<pre><code>systemctl stop mariadb
+</code></pre></li>
+</ul>
+
+<p>Lưu ý:
+- Không bật dịch vụ mariadb sau khi cài (Liên quan tới cấu hình Galera Mariadb)</p>
+
+<h2 id="cấu-hình-galera-cluster">Cấu hình Galera Cluster</h2>
+
+<h3 id="tại-node1">Tại <code>node1</code></h3>
+
+<ul>
+<li><p>Chỉnh sửa cấu hình</p>
+
+<pre><code>cp /etc/my.cnf.d/server.cnf /etc/my.cnf.d/server.cnf.bak
+
+echo '[server]
+[mysqld]
+[galera]
+wsrep_on=ON
+wsrep_provider=/usr/lib64/galera/libgalera_smm.so
+#add your node ips here
+wsrep_cluster_address=&quot;gcomm://10.10.11.86,10.10.11.87,10.10.11.88&quot;
+binlog_format=row
+default_storage_engine=InnoDB
+innodb_autoinc_lock_mode=2
+#Cluster name
+wsrep_cluster_name=&quot;portal_cluster&quot;
+# Allow server to accept connections on all interfaces.
+bind-address=0.0.0.0
+# this server ip, change for each server
+wsrep_node_address=&quot;10.10.11.86&quot;
+# this server name, change for each server
+wsrep_node_name=&quot;node1&quot;
+wsrep_sst_method=rsync
+[embedded]
+[mariadb]
+[mariadb-10.2]' &gt; /etc/my.cnf.d/server.cnf
+</code></pre></li>
+</ul>
+
+<p>Lưu ý:</p>
+
+<ul>
+<li><code>wsrep_cluster_address</code>: Danh sách IP nằm trong cluster</li>
+<li><code>wsrep_cluster_name</code>: Tên cluster</li>
+<li><code>wsrep_node_address</code>: Ip của node chứa cấu hình</li>
+<li><code>wsrep_node_name</code>: Tên node (Theo hostname)</li>
+<li>Không được bật mariadb (Quan trọng, nếu không sẽ dẫn tới lỗi)</li>
+</ul>
+
+<h3 id="tại-node2">Tại <code>node2</code></h3>
+
+<ul>
+<li><p>Chỉnh sửa cấu hình</p>
+
+<pre><code>cp /etc/my.cnf.d/server.cnf /etc/my.cnf.d/server.cnf.bak
+
+echo '[server]
+[mysqld]
+[galera]
+wsrep_on=ON
+wsrep_provider=/usr/lib64/galera/libgalera_smm.so
+#add your node ips here
+wsrep_cluster_address=&quot;gcomm://10.10.11.86,10.10.11.87,10.10.11.88&quot;
+binlog_format=row
+default_storage_engine=InnoDB
+innodb_autoinc_lock_mode=2
+#Cluster name
+wsrep_cluster_name=&quot;portal_cluster&quot;
+# Allow server to accept connections on all interfaces.
+bind-address=0.0.0.0
+# this server ip, change for each server
+wsrep_node_address=&quot;10.10.11.87&quot;
+# this server name, change for each server
+wsrep_node_name=&quot;node2&quot;
+wsrep_sst_method=rsync
+[embedded]
+[mariadb]
+[mariadb-10.2]' &gt; /etc/my.cnf.d/server.cnf
+</code></pre></li>
+</ul>
+
+<h3 id="tại-node-3-1">Tại <code>node 3</code></h3>
+
+<ul>
+<li><p>Chỉnh sửa cấu hình</p>
+
+<pre><code>cp /etc/my.cnf.d/server.cnf /etc/my.cnf.d/server.cnf.bak
+
+echo '[server]
+[mysqld]
+[galera]
+wsrep_on=ON
+wsrep_provider=/usr/lib64/galera/libgalera_smm.so
+#add your node ips here
+wsrep_cluster_address=&quot;gcomm://10.10.11.86,10.10.11.87,10.10.11.88&quot;
+binlog_format=row
+default_storage_engine=InnoDB
+innodb_autoinc_lock_mode=2
+#Cluster name
+wsrep_cluster_name=&quot;portal_cluster&quot;
+# Allow server to accept connections on all interfaces.
+bind-address=0.0.0.0
+# this server ip, change for each server
+wsrep_node_address=&quot;10.10.11.88&quot;
+# this server name, change for each server
+wsrep_node_name=&quot;node3&quot;
+wsrep_sst_method=rsync
+[embedded]
+[mariadb]
+[mariadb-10.2]' &gt; /etc/my.cnf.d/server.cnf
+</code></pre></li>
+</ul>
+
+<h3 id="khởi-động-dịch-vụ">Khởi động dịch vụ</h3>
+
+<ul>
+<li><p>Tại <code>node1</code>, khởi tạo cluster</p>
+
+<pre><code>galera_new_cluster
+systemctl start mariadb
+systemctl enable mariadb
+</code></pre></li>
+
+<li><p>Tại <code>node2, node3</code>, chạy dịch vụ mariadb</p>
+
+<pre><code>systemctl start mariadb
+systemctl enable mariadb
+</code></pre></li>
+</ul>
+
+<h3 id="kiểm-tra-tại-node1">Kiểm tra tại <code>node1</code></h3>
+
+<pre><code>[root@node1 ~]# mysql -u root -e &quot;SHOW STATUS LIKE 'wsrep_cluster_size'&quot;
++--------------------+-------+
+| Variable_name      | Value |
++--------------------+-------+
+| wsrep_cluster_size | 3     |
++--------------------+-------+
+</code></pre>
+
+<ul>
+<li>Thành công</li>
+</ul>
+
+<h1 id="ý-nghĩa-các-cấu-hình">Ý nghĩa các cấu hình</h1>
+
+<p><a href="http://galeracluster.com/documentation-webpages/mysqlwsrepoptions.html">http://galeracluster.com/documentation-webpages/mysqlwsrepoptions.html</a></p>
+        </article>
+  </div>
+</section>
+
+
+
+<aside id="meta">
+
+    <div>
+        <section id="datecount">
+          <h4 id="date"> Sat Jan 5, 2019 </h4>
+          <h5 id="wc"> 700 Từ </h5>
+          <h5 id="readtime"> Đọc trong 4 phút </h5>
+        </section>
+        <ul id="categories">
+          
+            <li><a href="https://lacoski.github.io//topics/mysql">Mysql</a> </li>
+          
+        </ul>
+        <ul id="tags">
+          
+            <li> <a href="https://lacoski.github.io//tags/mysql">Mysql</a> </li>
+          
+        </ul>
+    </div>
+
+    <div>
+        <section id="prev">
+            &nbsp;
+        </section><section id="next">
+            &nbsp;<a class="next" href="https://lacoski.github.io/cloudinit-overview/">Tổng quan về Cloud init và các giao đoạn thực thi <i class="icon-arrow-right"></i></a>
+        </section>
+    </div>
+
+    <div> <section id="author"> <h4>Về tác giả:</h4> 
+
+            <p>
+                Mình là Nguyễn Bá Thành, hiện là sinh viên Trường Đại Học Thăng Long, khóa K27, chuyên ngành Mạng và truyền thông.
+
+                Năm 2 đã từng thực tập vị trí Lập Trình Viên ASP.NET MVC 5 Backend khoảng 8 tháng tại công ty ICOMM.
+                
+                Tới cuối năm 3 mình chuyển sang tìm hiểu về Linux và Network, và may mắn tới hè được nhận vào phòng hệ thống công ty TECAPRO.
+                
+                Tới cuối năm 4, mình muốn tập trung hơn vào storage nên chuyển sang team HOCCHUDONG và loanh quanh tới hiện tại.
+                
+                Tới nay, mình cũng đã sắp ra trường và chuẩn bị thất học :D.
+            </p>
+        </section> </div>
+
+</aside>
+
+<meta itemprop="wordCount" content="698">
+<meta itemprop="datePublished" content="2019-01-05">
+<meta itemprop="url" content="https://lacoski.github.io/install-mariadb-galera-3-node/">
+
+
+
+<footer>
+  <div>
+    <p>
+    &copy; 2018-18 <span itemprop="name">lacoski.</span></span>
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons Attribution">Some rights reserved</a>;
+    please attribute properly and link back. <br>
+    Powered by <a href="http://gohugo.io">Hugo</a>.
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+</script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-7131036-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
+
